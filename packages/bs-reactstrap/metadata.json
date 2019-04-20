@@ -1,0 +1,76 @@
+{
+  "_id": "bs-reactstrap@0.1.2",
+  "_rev": "5-8447d111329fbbd7186322046b7fd3ea",
+  "time": {
+    "0.0.1": "2018-03-26T07:51:58.218Z",
+    "created": "2018-04-19T17:43:35.899Z",
+    "0.1.0": "2018-04-19T17:43:36.022Z",
+    "modified": "2018-05-11T09:05:47.006Z",
+    "0.1.1": "2018-04-23T07:10:27.353Z",
+    "0.1.2": "2018-05-11T09:05:44.100Z"
+  },
+  "name": "bs-reactstrap",
+  "dist-tags": {
+    "latest": "0.1.2"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2"
+  ],
+  "maintainers": [
+    "rustykey <iam@stfoo.ru>"
+  ],
+  "description": "Bucklescript bindings for Reactstrap",
+  "homepage": "https://github.com/ahrefs/bs-reactstrap#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ahrefs/bs-reactstrap.git"
+  },
+  "author": "Rusty Key <iam@stfoo.ru>",
+  "bugs": {
+    "url": "https://github.com/ahrefs/bs-reactstrap/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "keywords": [
+    "bucklescript",
+    "reactstrap",
+    "bootstrap",
+    "binding"
+  ],
+  "_attachments": {},
+  "_etag": "W/\"264c722ed86b77cd7f63cc7dfb589b4a\"",
+  "_lastModified": "Sat, 26 May 2018 19:04:47 GMT",
+  "version": "0.1.2",
+  "devDependencies": {
+    "bs-platform": "^3.0.0"
+  },
+  "dependencies": {
+    "reactstrap": "^5.0.0",
+    "reason-react": "^0.3.4"
+  },
+  "scripts": {
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "exit 0"
+  },
+  "gitHead": "90d1dd0d7dada7388d1700cf0a9c0fe486811aac",
+  "_npmVersion": "5.6.0",
+  "_nodeVersion": "8.9.4",
+  "_npmUser": "rustykey <iam@stfoo.ru>",
+  "dist": {
+    "integrity": "sha512-qF0ZyqHFn0iuBOsGXFJPcSTeJokMcHsCLz9ceYzaEf8BJUf57A88FSukWQ1IPDp8cV23+8sP0kCMzvzJApNqUA==",
+    "shasum": "fd8b5afb898882fe3db32eba84a0a431d6fb8a0e",
+    "tarball": "https://registry.npmjs.org/bs-reactstrap/-/bs-reactstrap-0.1.2.tgz",
+    "fileCount": 75,
+    "unpackedSize": 50707,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa9VzoCRA9TVsSAnZWagAAMhgP/jJL9ZSfDJJWDKT7Ts3Y\n+h3n8hU/E5yX+oActng9Zj52oaOTUu6yuv6IIo2ugqyGpbAOygIGh30Ayhze\nCZSPCayE8O2dUCTtVZiGsCmADhfd/6yWAtdOsR9pFQD3e3paq59YxfcFE/28\ncZsZIAsaziZdhoDZhlNoJfVqJald2cmRzyokA4K9fNer0YyeXVNOn4sGGeYA\nOv6aoFJh01uKVKV3avMA6oidqb+Sa/HshxUAxDKDai+u2lNu+3bghfH13lMD\nrUaAOJurITsFp/+aLc2ARTwRvc18AlXYBIy3oNAXgxspvgDYtAOy2qXtOBMY\nJhPiw8RD8LS/pvneujdmH+FusdCUT1hs/mZ8WvqUCYjUBlw25xOu6ACNaIsT\ne0zAqavQdzqFklfwyCYl0LyA3gE3Golmoc63iC/DGPkE/000wJR4krQ1AqBn\nYPDRipT/7JvqrsSpXdzyCMbbjaFJlXvIHpp1zN8xQwDOFU5EPXhuy+F/Ijme\na0hJJrdPIFCq2MnI/ITNgdQSHju3zdZLbnYsfhmr9dLGmHYfFJm2Za/XSaQ4\nbMV+yow5QH9gngRIcod9DbLplNsABeuDmSFCA0YmHByJFEnFkS4lf/3ZTstb\npn+aPOVqhFYgaxXOI2sx19yt2Qh5ecXMZ7WnGkwZtmbY1GStxDPKDJfEqwkq\nAHIn\r\n=0thA\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-reactstrap_0.1.2_1526029544027_0.5548338751944673"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "_id": "bs-downshift@1.0.1",
+  "_rev": "5-cc31aac59a302d0717ac5b1a08c80aaa",
+  "name": "bs-downshift",
+  "description": "BuckleScript bindings for Downshift",
+  "dist-tags": {
+    "latest": "1.0.1"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.2.0",
+    "1.0.0",
+    "1.0.1"
+  ],
+  "maintainers": [
+    "emmenko <emmenko@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-01-01T10:58:27.359Z",
+    "created": "2018-01-03T10:11:28.668Z",
+    "0.1.0": "2018-01-03T10:11:28.668Z",
+    "0.1.1": "2018-02-19T07:51:10.165Z",
+    "0.2.0": "2018-02-20T08:24:43.078Z",
+    "1.0.0": "2018-05-04T13:55:24.090Z",
+    "1.0.1": "2018-11-27T14:59:29.598Z"
+  },
+  "homepage": "https://github.com/reasonml-community/bs-downshift#readme",
+  "keywords": [
+    "BuckleScript",
+    "Downshift",
+    "React",
+    "Reason"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reasonml-community/bs-downshift.git"
+  },
+  "author": "Nicola Molinari <me@emmenko.org> (http://emmenko.org)",
+  "bugs": {
+    "url": "https://github.com/reasonml-community/bs-downshift/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_etag": "W/\"7162582b239c89c2de5a0b84e56989d6\"",
+  "_lastModified": "Tue, 01 Jan 2019 10:58:28 GMT",
+  "version": "1.0.1",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "downshift": "1.25.0"
+  },
+  "peerDependencies": {
+    "bs-platform": "^3.0.0"
+  },
+  "devDependencies": {
+    "bs-platform": "^3.0.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "reason-react": "^0.4.1"
+  },
+  "licenseText": "MIT License\n\nCopyright (c) 2018, Nicola Molinari\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+  "dist": {
+    "shasum": "7502316ab0d7fced2ee5a50dd7bd613f9e84a12f",
+    "integrity": "sha512-2lNLSfDNt0NWOw4yiRoiJUZgRUhg3+YIjElcDg0j+sNZrkORm8LZb6oeuB1duU2BB5Jr8T2uDCzOE1b/1vy26Q==",
+    "tarball": "https://registry.npmjs.org/bs-downshift/-/bs-downshift-1.0.1.tgz",
+    "fileCount": 11,
+    "unpackedSize": 20805,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb/VvSCRA9TVsSAnZWagAA7IQP/0XbyqNWktCDe0I+QBjj\nYwWPDoH/yKD/DLWWAksxGw9vLYUHPhbsln7RSSK/9EiI3N2cxsu2IZnbJ2+H\njek72QZ9YjJFz1AbaxX3HlhyC1R4pwejTu4b+FGEiC06tP4436OUGPjCc6GG\nExTQMqzUZxeRc3RVm3JXJyS35BRzb6IQqgZGooEtZ1qqWq1+35ZlEFF+upNU\nOh+JB+jRrxd23ScBqXqaev24BeW81HCXeaQ9zk1KMYatYHYA7QXOZcYMHm02\nQBlUHmtqBwV4uyWVkW9zuXl9YrT2q3HLySVMrHFOe5gFvyRH1FImUM4JoriA\nDNXR+Q9xcHclXVb4mcODNbLihnHo7s93hvq3ZdECQS9PL/XWkB63pQMO6Xht\n58cDuyEHTC+rrrICEsAJOtnpDSknvhOldg8zJcZP9G52RdrR3gQCHlwdW8c9\nWGpsWjVPUPB5s6wLhz8veMqHSPn4GhlbMpDl+XUGTmFX9LthMqByajZwmPxL\nmjTCkDdnr7NuRY2pqka0nrlC/dc3JMGTzTGwtqgsA1AaWhEJ/7rCnDjzQZh3\nmwPXW/6WaStBoeVirZr5t73rZTpngPwmrbxRVwAPLeSE2Su4KCDg5ifUdtmw\nCkzeqIw+FOjLkeh3DNoktwS/emBD2eDgabGP/ezJbK9JhH71PbIl0x59Nvw9\n3m8o\r\n=fXVg\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "_npmUser": "emmenko <emmenko@gmail.com>",
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-downshift_1.0.1_1543330769507_0.3434811201415868"
+  },
+  "_hasShrinkwrap": false
+}

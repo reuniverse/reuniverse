@@ -1,0 +1,60 @@
+{
+  "_id": "bs-vscode@0.1.0",
+  "_rev": "1-32ac2da8ad866ec51c311398fc3db85d",
+  "name": "bs-vscode",
+  "description": "Visual Studio Code extension API bindings for BuckleScript",
+  "dist-tags": {
+    "latest": "0.1.0"
+  },
+  "versions": [
+    "0.1.0"
+  ],
+  "maintainers": [
+    "glennsl <gsl-npm@slotte.net>"
+  ],
+  "time": {
+    "modified": "2017-08-23T07:54:18.591Z",
+    "created": "2017-08-23T07:54:18.591Z",
+    "0.1.0": "2017-08-23T07:54:18.591Z"
+  },
+  "homepage": "https://github.com/glennsl/bs-vscode#readme",
+  "keywords": [
+    "vscode",
+    "bucklescript",
+    "extension",
+    "bindings"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glennsl/bs-vscode.git"
+  },
+  "author": "glennsl",
+  "bugs": {
+    "url": "https://github.com/glennsl/bs-vscode/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"e015f3fee3a6c15d0105c5a02b3afc31\"",
+  "_lastModified": "Sat, 26 May 2018 19:04:56 GMT",
+  "version": "0.1.0",
+  "devDependencies": {
+    "bs-platform": "^1.7.1"
+  },
+  "gitHead": "86618423aaf456a867348551fb906f0d06304a10",
+  "scripts": {},
+  "_shasum": "00cce7731de8620247f790e7453ba63d6dae8493",
+  "_from": ".",
+  "_npmVersion": "3.10.8",
+  "_nodeVersion": "6.5.0",
+  "_npmUser": "glennsl <gsl-npm@slotte.net>",
+  "dist": {
+    "shasum": "00cce7731de8620247f790e7453ba63d6dae8493",
+    "tarball": "https://registry.npmjs.org/bs-vscode/-/bs-vscode-0.1.0.tgz"
+  },
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-vscode-0.1.0.tgz_1503474857689_0.970154392067343"
+  },
+  "directories": {}
+}

@@ -1,0 +1,75 @@
+{
+  "_id": "bs-ocaml-protoc@1.0.2",
+  "_rev": "3-0b9ebf069b1a11b2b1935497abdbfed5",
+  "name": "bs-ocaml-protoc",
+  "description": "A Protocol Buffers compiler for OCaml",
+  "dist-tags": {
+    "latest": "1.0.2"
+  },
+  "versions": [
+    "0.0.1",
+    "1.0.1",
+    "1.0.2"
+  ],
+  "maintainers": [
+    "mransan <maxime.ransan@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-04-11T04:07:51.679Z",
+    "created": "2017-03-15T16:27:59.729Z",
+    "0.0.1": "2017-03-15T16:27:59.729Z",
+    "1.0.1": "2017-03-15T16:40:43.102Z",
+    "1.0.2": "2017-04-11T04:07:51.679Z"
+  },
+  "homepage": "https://github.com/mransan/ocaml-protoc",
+  "keywords": [
+    "protobuf",
+    "serialization",
+    "syntax",
+    "bucklescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mransan/ocaml-protoc.git"
+  },
+  "author": "Maxime Ransan <maxime.ransan@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/mransan/ocaml-protoc/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"4ac517752e5f37b0f8539bdfd4f5300d\"",
+  "_lastModified": "Sat, 26 May 2018 19:04:30 GMT",
+  "version": "1.0.2",
+  "dependencies": {
+    "bs-ppx_deriving_protobuf": "^2.5.0"
+  },
+  "devDependencies": {
+    "bs-platform": "^1.6.0",
+    "bs-ocaml-protoc-json": "^0.1.x"
+  },
+  "peerDependencies": {
+    "bs-platform": "^1.6.0"
+  },
+  "scripts": {
+    "build": "npm run gen && bsb -make-world",
+    "gen": "./ocaml-protoc -bs -ml_out src/tests/bs src/tests/bs/bs_unittest.proto",
+    "test": "npm run build && node lib/js/src/tests/bs/"
+  },
+  "gitHead": "6801221065ff5703c18ee2dff33481f38c1dc99f",
+  "_shasum": "4ca9f0ebd2399561630fb85df60063a619fa5683",
+  "_from": ".",
+  "_npmVersion": "4.1.2",
+  "_nodeVersion": "7.7.1",
+  "_npmUser": "mransan <maxime.ransan@gmail.com>",
+  "dist": {
+    "shasum": "4ca9f0ebd2399561630fb85df60063a619fa5683",
+    "tarball": "https://registry.npmjs.org/bs-ocaml-protoc/-/bs-ocaml-protoc-1.0.2.tgz"
+  },
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/bs-ocaml-protoc-1.0.2.tgz_1491883670883_0.7993262484669685"
+  },
+  "directories": {}
+}

@@ -1,0 +1,64 @@
+{
+  "_id": "bs-firebase@0.1.0",
+  "_rev": "1-feddbabe913ed02ec2d75b206ed9acc4",
+  "name": "bs-firebase",
+  "description": "``` npm run build ```",
+  "dist-tags": {
+    "latest": "0.1.0"
+  },
+  "versions": [
+    "0.1.0"
+  ],
+  "maintainers": [
+    "arnar <arnar.th92@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-10-26T19:25:09.307Z",
+    "created": "2017-10-26T19:25:09.307Z",
+    "0.1.0": "2017-10-26T19:25:09.307Z"
+  },
+  "homepage": "https://github.com/viskahq/bs-firebase#readme",
+  "keywords": [
+    "BuckleScript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/viskahq/bs-firebase.git"
+  },
+  "bugs": {
+    "url": "https://github.com/viskahq/bs-firebase/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"658a7fb17b8a166cae27b5c302462407\"",
+  "_lastModified": "Sat, 26 May 2018 19:04:21 GMT",
+  "version": "0.1.0",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w"
+  },
+  "peerDependencies": {
+    "bs-platform": "^1.10.3",
+    "bs-webapi": "git+https://github.com/viskahq/bs-webapi-incubator.git"
+  },
+  "dependencies": {
+    "firebase": "^4.4.0"
+  },
+  "author": "",
+  "gitHead": "daf55b8c514024bdb777d92fb7bad385bb8833c6",
+  "_npmVersion": "5.4.2",
+  "_nodeVersion": "8.8.0",
+  "_npmUser": "arnar <arnar.th92@gmail.com>",
+  "dist": {
+    "integrity": "sha512-SCfMCNjAOzAmAqOK9LclwZ6VJyq8xXTPsdtp9tiIVyOIDpr+K5xjOBuqkaBTRWvOQ/sZ8PadCY8FNDkHIa/TAw==",
+    "shasum": "9414618d9802238104fb547a4fc842f238d4ec9b",
+    "tarball": "https://registry.npmjs.org/bs-firebase/-/bs-firebase-0.1.0.tgz"
+  },
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-firebase-0.1.0.tgz_1509045909242_0.49683644715696573"
+  },
+  "directories": {}
+}

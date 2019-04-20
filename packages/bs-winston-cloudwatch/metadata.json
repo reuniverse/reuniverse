@@ -1,0 +1,84 @@
+{
+  "_id": "bs-winston-cloudwatch@0.3.0",
+  "_rev": "3-e78a7a7f4233fc1ef0c1614ae3cac47c",
+  "name": "bs-winston-cloudwatch",
+  "dist-tags": {
+    "latest": "0.3.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.2.0",
+    "0.3.0"
+  ],
+  "time": {
+    "created": "2018-12-27T00:32:32.286Z",
+    "0.1.0": "2018-12-27T00:32:32.482Z",
+    "modified": "2019-02-15T12:15:49.594Z",
+    "0.1.1": "2019-01-07T10:49:22.378Z",
+    "0.2.0": "2019-01-10T14:31:47.012Z",
+    "0.3.0": "2019-02-15T12:15:47.062Z"
+  },
+  "maintainers": [
+    "seppjus1 <jussi.seppala@veikkaus.fi>"
+  ],
+  "description": "Winston Cloudwatch Transport for ReasonML",
+  "homepage": "https://github.com/veikkaus/bs-winston-cloudwatch#readme",
+  "keywords": [
+    "BuckleScript",
+    "reasonml",
+    "reason",
+    "winston",
+    "cloudwatch",
+    "aws"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veikkaus/bs-winston-cloudwatch.git"
+  },
+  "author": "Kundi team - Veikkaus",
+  "bugs": {
+    "url": "https://github.com/veikkaus/bs-winston-cloudwatch/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_etag": "W/\"08a5bec588ee017cdef2422275c5e9c6\"",
+  "_lastModified": "Fri, 15 Feb 2019 12:15:50 GMT",
+  "version": "0.3.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "npm run clean && npm run build && mocha"
+  },
+  "dependencies": {
+    "winston-cloudwatch": "2.0.3"
+  },
+  "peerDependencies": {
+    "bs-platform": ">= 4.0.8",
+    "bs-winston": "^0.4.0"
+  },
+  "devDependencies": {
+    "bs-mocha": "0.4.0",
+    "bs-platform": "4.0.14",
+    "bs-winston": "0.4.0"
+  },
+  "gitHead": "32854ed568fd2d74b9b49516f0ab5100c6de6c04",
+  "_npmVersion": "5.6.0",
+  "_nodeVersion": "8.10.0",
+  "_npmUser": "seppjus1 <jussi.seppala@veikkaus.fi>",
+  "dist": {
+    "integrity": "sha512-G2vDU271InyfzdVq+GfsyGOgqC0Zb/XYbvm6u5etiRON0uelI+0XYPMM+uJN4ZsJT9kAN8BEE+zcB7FpjSiNQw==",
+    "shasum": "158793d49eb61e90ff21095e77f6163a438f82ae",
+    "tarball": "https://registry.npmjs.org/bs-winston-cloudwatch/-/bs-winston-cloudwatch-0.3.0.tgz",
+    "fileCount": 7,
+    "unpackedSize": 5816,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcZq1zCRA9TVsSAnZWagAAGQMP/0piblzQuCSGwsBqFrc5\nY5kYU+eKQR5i9YfjE2hdL4qPJYoLgQVItEDGTmbYSh21BNA7IkZTYlVVbBZC\nhwXZTZWFwFSiTrHhOTJcfcM7KY7iuZaSQZSh3LaJXPjNagHPo/xS0SLPOooK\nerBAoMJhaA10uB4gdGydjDFd8nYNMZosUr05RBPpkr6vsf2OeAIso506G3G5\nWydhsOqjlwo6Bey8WikCdxDetfO9pvXm3WKBkjbqfOvRTQe8BtNJDowzCRcQ\nw7tSvVtvI9lwCw5DV1KVm9l+w7k8zmyGaUQokSvhBPagDIPedzGucrcYEXfI\nzFAGMq7AEUyIngog8B3Tc3+d4UjmRaG3Leam+lwgZ2b7fenLb122ja6FflwY\nyy0SVpIhIrrvIBLL0iLg3rabn5UknJIwYO74J5xhlqelsA/q0QwyTi+hcvzu\n5SJzASRk26zMPG4x3wIkugXUkEneXPBHHz791G2OcFF/TX5NBcugCw3XAdMQ\nFStF8i28ESCP912qGvKNvv2zus6oeYu8cJfh4ydpKpmx7LCSbY2O1sU1Nyx3\n2jxndch1cy5FAjoTom9TQ3ys55jgdqyHvSd3YxnHE8zlXfwKgElHiuM3W8Yo\nXIBe3z4ua0ERmiYjOc8roXKZTaHUsjkc0Het2VURtta+dew3EEAcAg+6etz6\n3X1s\r\n=HmSx\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-winston-cloudwatch_0.3.0_1550232946972_0.5917474454590925"
+  },
+  "_hasShrinkwrap": false
+}

@@ -1,0 +1,157 @@
+{
+  "_id": "bs-mysql2@8.2.1",
+  "_rev": "34-a3ce8de7aab0fe8fbf222483f342c3a5",
+  "name": "bs-mysql2",
+  "description": "ReasonML bindings to the mysql2 library.",
+  "dist-tags": {
+    "latest": "8.2.1"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.1.3",
+    "0.1.4",
+    "0.2.0",
+    "0.3.0",
+    "0.3.1",
+    "0.3.2",
+    "0.3.3",
+    "0.4.0",
+    "0.5.0",
+    "0.5.1",
+    "0.6.0",
+    "2.0.0",
+    "2.1.0",
+    "2.1.1",
+    "2.1.3",
+    "2.2.0",
+    "3.0.0",
+    "3.0.1",
+    "3.0.2",
+    "3.1.0",
+    "4.0.0",
+    "5.0.0",
+    "5.0.1",
+    "6.0.0",
+    "6.1.0",
+    "7.0.0",
+    "7.0.1",
+    "8.0.0",
+    "8.1.0",
+    "8.2.0",
+    "8.2.1"
+  ],
+  "maintainers": [
+    "scull7 <scull7@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-01-01T10:58:56.679Z",
+    "created": "2018-01-28T05:28:25.436Z",
+    "0.1.0": "2018-01-28T05:28:25.436Z",
+    "0.1.1": "2018-01-28T05:49:48.000Z",
+    "0.1.2": "2018-01-28T08:23:44.776Z",
+    "0.1.3": "2018-01-28T08:27:33.253Z",
+    "0.1.4": "2018-01-28T08:33:47.600Z",
+    "0.2.0": "2018-01-28T10:13:48.708Z",
+    "0.3.0": "2018-01-28T12:18:59.673Z",
+    "0.3.1": "2018-01-28T19:13:31.552Z",
+    "0.3.2": "2018-01-28T19:17:06.374Z",
+    "0.3.3": "2018-01-28T22:01:10.038Z",
+    "0.4.0": "2018-02-01T09:06:44.421Z",
+    "0.5.0": "2018-02-01T17:24:51.787Z",
+    "0.5.1": "2018-02-04T20:10:33.671Z",
+    "0.6.0": "2018-02-04T23:06:28.918Z",
+    "2.0.0": "2018-03-09T20:09:16.247Z",
+    "2.1.0": "2018-03-10T17:27:25.516Z",
+    "2.1.1": "2018-03-10T23:58:44.463Z",
+    "2.1.3": "2018-03-11T00:08:17.619Z",
+    "2.2.0": "2018-03-11T03:14:35.548Z",
+    "3.0.0": "2018-03-11T03:50:22.066Z",
+    "3.0.1": "2018-03-11T03:51:47.290Z",
+    "3.0.2": "2018-03-20T16:58:40.404Z",
+    "3.1.0": "2018-04-02T08:33:37.031Z",
+    "4.0.0": "2018-05-30T02:57:28.902Z",
+    "5.0.0": "2018-07-09T01:23:23.238Z",
+    "5.0.1": "2018-07-09T01:24:32.962Z",
+    "6.0.0": "2018-07-10T16:59:32.819Z",
+    "6.1.0": "2018-07-11T19:52:25.621Z",
+    "7.0.0": "2018-07-13T19:08:53.887Z",
+    "7.0.1": "2018-07-25T02:19:49.989Z",
+    "8.0.0": "2018-09-25T01:49:25.752Z",
+    "8.1.0": "2018-09-25T18:34:38.981Z",
+    "8.2.0": "2018-09-28T20:59:02.778Z",
+    "8.2.1": "2018-09-29T00:09:05.760Z"
+  },
+  "keywords": [
+    "BuckleScript",
+    "reason",
+    "reasonml",
+    "mysql",
+    "databases",
+    "node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:scull7/bs-mysql2.git"
+  },
+  "author": "Nathan Sculli <scull7@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/scull7/bs-mysql2/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/scull7/bs-mysql2",
+  "_etag": "W/\"cfd88b2bd36c802e32425d19b58e3854\"",
+  "_lastModified": "Tue, 01 Jan 2019 10:58:57 GMT",
+  "version": "8.2.1",
+  "scripts": {
+    "examples:simple": "node examples/simple.bs.js",
+    "examples:promise": "node examples/promise.bs.js",
+    "examples:prepared-statements": "node examples/prepared_statements.bs.js",
+    "examples:with-params": "node examples/with_params.bs.js",
+    "build": "bsb -make-world",
+    "clean": "bsb -clean-world",
+    "coverage": "nyc report --temp-directory=coverage --reporter=text-lcov | coveralls",
+    "format": "yarn bsrefmt --in-place",
+    "precommit": "lint-staged",
+    "start": "bsb -make-world -w",
+    "test": "jest --coverage",
+    "watch:jest": "jest --coverage --watchAll"
+  },
+  "lint-staged": {
+    "*.{re,rei}": [
+      "yarn format",
+      "git add"
+    ]
+  },
+  "main": "src/mysql.bs.js",
+  "dependencies": {
+    "@glennsl/bs-json": "^2.0.0",
+    "mysql2": "^1.5.3"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.2",
+    "bs-platform": "^4.0.1",
+    "coveralls": "^3.0.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.1.0",
+    "nyc": "^11.8.0"
+  },
+  "licenseText": "MIT License\n\nCopyright (c) 2018 Nathan Sculli\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+  "dist": {
+    "shasum": "674cd229bab55b50d55f63d55a092721de222e1d",
+    "tarball": "https://registry.npmjs.org/bs-mysql2/-/bs-mysql2-8.2.1.tgz",
+    "integrity": "sha512-ZFk65CaG0ChNgLuijLo/a30bDq1blDiyWaKU2dPtjCCFJL6C8zT9bWG02EEpDBhd3eY4sp0xbm1wA9hXbFFAbg==",
+    "fileCount": 30,
+    "unpackedSize": 42648,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbrsKiCRA9TVsSAnZWagAAqcMP/0PlG31KI82V3NzwwWYN\nj9hGpGoDHmE6ff5HQZTa2gB3Bjc9N/kQG851wD7abWvV5FKIwlnWY9X6jPF6\nKzMH3hFNvowYVMf/9WSinrS8fnZ38r5NxXXotuJefrQoI2c9qN5pKHk27sRS\nBxfM4+IGxV9QROu3l4jnHPgDkIWynPI6WdRazjgnke0+/Ao34+eFtpjlyiB3\nlN+fpoMEedNTcbjh6FcCV55Kt9HPtDgxmeSJ5F41Y0CsuTLafEu0Yxa/JjZk\ncszlFSFM4bJ/+APULJyjvtOYvnooSFQuRNBwBCehYuXmN3htCZpai471t9Sa\n/cSBgij3BRj4RTXxKfeFg+8OB6QGiMs61YBJrZzIrdzFmv2IRtHeKReqg9Vb\n/iUvenF+kVCaLlwFPvGf3wXA+/FpoqfqxrhJmMHPadETsWSJ/hLuuGweSJnE\np7nJ7trQOvoOXdsSM7yvg/CAdZxlP/WnLfyutZmFaeUKco2mci0hlxICkm6+\n03pWT4fOQQ1UA1kRBOQsU+PoBnz8TmOU9ooaMNx8zAP3UeYT35jgbgFWg4O6\nKsh2ahsm5214TxyhrlqaHawB4ykZaFf4Rum2qAneqegpEpRI+5f2K/a7+NvN\npN4k416xRTgTLzhKDC4dutQ1ncHPE1cOQjfS7hG/kXti7I9sN77pOOMJMlUY\nEbSA\r\n=R3zS\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "_npmUser": "scull7 <scull7@gmail.com>",
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-mysql2_8.2.1_1538179745499_0.49092591514792217"
+  },
+  "_hasShrinkwrap": false
+}

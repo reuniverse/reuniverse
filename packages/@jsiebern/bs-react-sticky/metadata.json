@@ -1,0 +1,66 @@
+{
+  "_id": "@jsiebern/bs-react-sticky@1.0.0",
+  "_rev": "1-56f6c200dbdf977daf30e3175cbd6877",
+  "name": "@jsiebern/bs-react-sticky",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": [
+    "1.0.0"
+  ],
+  "time": {
+    "created": "2018-05-07T13:35:11.631Z",
+    "1.0.0": "2018-05-07T13:35:11.729Z",
+    "modified": "2018-05-07T13:35:15.837Z"
+  },
+  "maintainers": [
+    "jsiebern <jsiebern88@gmail.com>"
+  ],
+  "description": "Reason bindings for the react-sticky package",
+  "homepage": "https://github.com/jsiebern/bs-react-sticky",
+  "keywords": [
+    "bucklescript",
+    "reason",
+    "material-ui"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsiebern/bs-react-sticky.git"
+  },
+  "author": "Jonathan Siebern <jsiebern88@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/jsiebern/bs-react-sticky/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"d161e1aedecde7ec40ac031b43e79dd9\"",
+  "_lastModified": "Mon, 07 May 2018 13:35:16 GMT",
+  "version": "1.0.0",
+  "main": "src/ReactSticky.re",
+  "private": false,
+  "peerDependencies": {
+    "react-sticky": "^6.0.2",
+    "reason-react": "^0.4.1"
+  },
+  "devDependencies": {
+    "bs-platform": "^3.0.0",
+    "reason-react": "^0.4.1"
+  },
+  "scripts": {
+    "build": "bsb -make-world"
+  },
+  "dist": {
+    "shasum": "7a4f34a9aa2d85a56b331d798d64a8987ca80e4d",
+    "tarball": "https://registry.npmjs.org/@jsiebern/bs-react-sticky/-/bs-react-sticky-1.0.0.tgz",
+    "fileCount": 6,
+    "unpackedSize": 4044,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa8FYQCRA9TVsSAnZWagAAfWgP/iHc94pTa7Ng+/xK7gjG\nwLhkgOyiH3OgMzFZQzxKy7gkbSJKQlZc2DDRQB/LMI6lnFiemkC4jP1G3VL3\ngpv0jdkmiAlSfXfGMR+HeSX3K0rL/+ltW2iTC0hT02KHzaDS2k+E7C3HUxSo\nAWVeiQkioDu8Dw9As1g9PYsnkp9G+HlYRAiuf5FFMcc5e+9BzGzv65vkK5G2\nCQhh3xZyGYKg/fen1bJhZx1vSyt9Y0u3yz9G0fWSDdhtKA116UwFeACmMzU+\nMEao49CLVCw4SPuVjqJfPwTxv24HfcRmd2VEKO76Dn2b8ddMelZ+rPbDT9U1\np7ClRDKMwpT70I70VoZl1xvRgnv9+AjkRM5u5IgMuKp781RiaGONzCjTVeSb\n+lyjaw1y1Rpw5UDFqqVkfTEGWVKFnOeLAAOIvFzkP5E95tqDck8py7o5H7kc\nbiz/qZeDenetMKaBfIr0sWK9OJc7FXtEJMVzW0hvOwGWiXA/1T/Uowof8oZq\nSwQ5oDWiT49776B82DkWftyZzE+Cerh40JJV+zKh8fRtzkJrlo5uzI8OfxVp\nctQEgBbeKHN6LT5KUodZ6LWa30W4C6eNRuMd3vXOSb2usTQVVQ+ZT2YwWaZe\noe2CGTa3/6osJ8W6ba8UpWXTyRlyWyxbx/yL0BP/FyhxMB/IHsSlNtDak27v\nK1aM\r\n=SJgl\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "_npmUser": "jsiebern <jsiebern88@gmail.com>",
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-react-sticky_1.0.0_1525700111677_0.7175569417587708"
+  }
+}

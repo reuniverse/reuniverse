@@ -1,0 +1,78 @@
+{
+  "_id": "@ahrefs/bs-dotenv@1.0.3",
+  "_rev": "8-a7ade1aee355472f05bb37404e21fb98",
+  "time": {
+    "1.0.0": "2018-02-21T04:19:26.171Z",
+    "created": "2018-02-21T04:41:02.316Z",
+    "1.0.1": "2018-02-21T04:41:02.453Z",
+    "modified": "2018-03-28T13:28:27.872Z",
+    "1.0.2": "2018-02-27T02:28:30.263Z",
+    "1.0.3": "2018-03-26T00:58:44.837Z"
+  },
+  "name": "@ahrefs/bs-dotenv",
+  "dist-tags": {
+    "latest": "1.0.3"
+  },
+  "versions": [
+    "1.0.1",
+    "1.0.2",
+    "1.0.3"
+  ],
+  "maintainers": [
+    "khady <louis@louisroche.net>",
+    "rustykey <iam@stfoo.ru>"
+  ],
+  "description": "bucklescript bindings to dotenv",
+  "homepage": "https://github.com/ahrefs/bs-dotenv#readme",
+  "keywords": [
+    "dotenv",
+    "bucklescript",
+    "bsb",
+    "reason",
+    "reasonml",
+    "ocaml",
+    "bs-dotenv",
+    "bs-platform"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahrefs/bs-dotenv.git"
+  },
+  "author": "Louis Roché <louis.roche@ahrefs.com>",
+  "bugs": {
+    "url": "https://github.com/ahrefs/bs-dotenv/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"10c23a9cbb550195758494302ec4a56b\"",
+  "_lastModified": "Wed, 28 Mar 2018 13:28:29 GMT",
+  "version": "1.0.3",
+  "main": "src/dotenv.bs.js",
+  "scripts": {
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "peerDependencies": {
+    "bs-platform": "^2.2.3",
+    "dotenv": "^5.0.1"
+  },
+  "devDependencies": {
+    "bs-platform": "^2.2.3",
+    "dotenv": "^5.0.1"
+  },
+  "licenseText": "MIT License\n\nCopyright (c) 2017\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+  "dist": {
+    "shasum": "3a904ac064289dca205bd33d2a01d1e26db0cbaa",
+    "tarball": "https://registry.npmjs.org/@ahrefs/bs-dotenv/-/bs-dotenv-1.0.3.tgz",
+    "fileCount": 9,
+    "unpackedSize": 4459
+  },
+  "_npmUser": "khady <louis@louisroche.net>",
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-dotenv_1.0.3_1522025924776_0.8165014351327751"
+  }
+}

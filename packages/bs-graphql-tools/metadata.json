@@ -1,0 +1,64 @@
+{
+  "_id": "bs-graphql-tools@0.3.1",
+  "_rev": "4-b5e963a2754aeaf2c142a5e6265f1d72",
+  "name": "bs-graphql-tools",
+  "description": "BuckleScript binding for graphql-tools",
+  "dist-tags": {
+    "latest": "0.3.1"
+  },
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.3.0",
+    "0.3.1"
+  ],
+  "maintainers": [
+    "rricard <ricard.robin@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-08-20T17:01:56.727Z",
+    "created": "2017-08-19T22:01:05.613Z",
+    "0.1.0": "2017-08-19T22:01:05.613Z",
+    "0.2.0": "2017-08-20T13:18:49.312Z",
+    "0.3.0": "2017-08-20T13:26:00.623Z",
+    "0.3.1": "2017-08-20T17:01:56.727Z"
+  },
+  "keywords": [
+    "BuckleScript",
+    "GraphQL",
+    "Apollo"
+  ],
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"e4da8d86e1bc2dad63e014624da22307\"",
+  "_lastModified": "Sat, 26 May 2018 19:04:22 GMT",
+  "version": "0.3.1",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "pretest": "npm run build",
+    "test": "jest"
+  },
+  "dependencies": {
+    "bs-graphql": "^0.3.1",
+    "graphql-tools": "^1.2.1"
+  },
+  "devDependencies": {
+    "bs-jest": "^0.1.0"
+  },
+  "_npmVersion": "5.3.0",
+  "_nodeVersion": "8.1.2",
+  "_npmUser": "rricard <ricard.robin@gmail.com>",
+  "dist": {
+    "integrity": "sha512-ZxvaSX++ueUtnvQvK0rvwYtxRtNq01GWnq5bBGzXGhBo6WpNKTZ06h4x1dn8kvX3tuu+Lx7O3EmNseq3paLZSQ==",
+    "shasum": "deb71079ad737919e87441d5601d082d5b0fe47b",
+    "tarball": "https://registry.npmjs.org/bs-graphql-tools/-/bs-graphql-tools-0.3.1.tgz"
+  },
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-graphql-tools-0.3.1.tgz_1503248515803_0.3135677764657885"
+  },
+  "directories": {}
+}

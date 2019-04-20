@@ -1,0 +1,71 @@
+{
+  "_id": "json-r@2.3.1",
+  "_rev": "5-8c8c266d52eb5b6abac47cc37c3ffb86",
+  "name": "json-r",
+  "description": "Deprecated. Use <https://github.com/cxa/bs-json-keypather> instead.",
+  "dist-tags": {
+    "latest": "2.3.1"
+  },
+  "versions": [
+    "2.1.0",
+    "2.2.0",
+    "2.3.0",
+    "2.3.1"
+  ],
+  "maintainers": [
+    "cxa <xianan.chen@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-03-20T08:52:17.337Z",
+    "created": "2017-07-29T18:38:10.272Z",
+    "2.1.0": "2017-07-29T18:38:10.272Z",
+    "2.2.0": "2017-08-03T07:01:20.741Z",
+    "2.3.0": "2017-08-03T17:41:58.925Z",
+    "2.3.1": "2018-03-20T08:49:02.551Z"
+  },
+  "homepage": "https://github.com/cxa/JsonR",
+  "keywords": [
+    "bucklescript",
+    "json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cxa/JsonR.git"
+  },
+  "author": "CHEN Xianan <xianan.chen@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/cxa/JsonR/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"18f9070a47a1aed98cf3856f54cbe2bc\"",
+  "_lastModified": "Sun, 27 May 2018 05:40:10 GMT",
+  "version": "2.3.1",
+  "main": "src/jsonR.re",
+  "scripts": {
+    "dev": "bsb -make-world -w",
+    "test": "bsb -make-world && jest"
+  },
+  "devDependencies": {
+    "bs-jest": "^0.1.0",
+    "bs-platform": "^1.8.2"
+  },
+  "gitHead": "33b046dca51696e279812cf25527e078c51eb535",
+  "_npmVersion": "5.6.0",
+  "_nodeVersion": "9.8.0",
+  "_npmUser": "cxa <xianan.chen@gmail.com>",
+  "dist": {
+    "integrity": "sha512-tygp0PWwzvf7eKtacqX2pR7dH03YlUeNPN1/14a6LUtMfUaTVI0H7EiGIsEpJtNIoehsdWV2QjzNEGWP/+Sztg==",
+    "shasum": "bafbc8e4550b17dbba35a9564c45f25aba1c64dd",
+    "tarball": "https://registry.npmjs.org/json-r/-/json-r-2.3.1.tgz",
+    "fileCount": 7,
+    "unpackedSize": 11024
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/json-r_2.3.1_1521535742495_0.7525539312460725"
+  },
+  "deprecated": "use @cxa/@cxa/bs-json-keypather instead"
+}

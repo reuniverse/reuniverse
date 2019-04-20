@@ -1,0 +1,82 @@
+{
+  "_id": "@ryb73/bs-scrypt@0.0.5",
+  "_rev": "4-dbde7d49323516ad9b68a170c1da66b8",
+  "name": "@ryb73/bs-scrypt",
+  "dist-tags": {
+    "latest": "0.0.5"
+  },
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5"
+  ],
+  "time": {
+    "created": "2019-01-22T03:40:30.707Z",
+    "0.0.1": "2019-01-22T03:40:31.000Z",
+    "modified": "2019-04-04T03:35:34.671Z",
+    "0.0.2": "2019-01-24T01:28:41.866Z",
+    "0.0.3": "2019-01-25T02:13:20.643Z",
+    "0.0.4": "2019-02-15T03:43:52.521Z",
+    "0.0.5": "2019-04-04T03:35:32.159Z"
+  },
+  "maintainers": [
+    "ryb73 <rpbiwer@gmail.com>"
+  ],
+  "description": "BuckleScript bindings for https://www.npmjs.com/package/scrypt",
+  "homepage": "https://github.com/ryb73/bs-scrypt#readme",
+  "keywords": [
+    "bucklescript",
+    "reason",
+    "reasonml",
+    "scrypt"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ryb73/bs-scrypt.git"
+  },
+  "author": "Ryan Biwer",
+  "bugs": {
+    "url": "https://github.com/ryb73/bs-scrypt/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_etag": "W/\"84b201947461a52093fb8f2da0d2e69b\"",
+  "_lastModified": "Thu, 04 Apr 2019 03:35:35 GMT",
+  "version": "0.0.5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run clean && bsb -make-world",
+    "watch": "npm run clean && bsb -make-world -w",
+    "clean": "rm -rf lib && bsb -clean-world",
+    "postinstall": "[ ! -f package-links.json ] || ppl link-file"
+  },
+  "_": [],
+  "peerDependencies": {
+    "bs-platform": "^4.0.18"
+  },
+  "dependencies": {
+    "@ryb73/bs-node": "0.0.2",
+    "scrypt": "^6.0.3"
+  },
+  "gitHead": "36fbe8d8652c728f7756bcb87b67325abbf6f60b",
+  "_npmVersion": "6.5.0",
+  "_nodeVersion": "11.9.0",
+  "_npmUser": "ryb73 <rpbiwer@gmail.com>",
+  "dist": {
+    "integrity": "sha512-1egSTb2H2MsJtImUSGuz6XTP2yqmZciMBAA0N/5mxN725dDYmE4zVnExpz+Ahab0FlYAdDp6D1k0QYjrK84AwA==",
+    "shasum": "2951798d691004f9214e679f0c41351cfe85bca4",
+    "tarball": "https://registry.npmjs.org/@ryb73/bs-scrypt/-/bs-scrypt-0.0.5.tgz",
+    "fileCount": 7,
+    "unpackedSize": 4786,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcpXuECRA9TVsSAnZWagAA2oUP/1F36NZBShCeVcsFO1hx\nClue0JbFeDPr9Xz7Kn1kagNvCUome8w2ZJQXOjHIdZ4H1SoZPOplYF/S/E2X\nJNyyNTGL8FG52qZmizf7J00zuzLZUyWciUAC1jR+4b35HALwUj7U8zqYxQQu\nMs92pKx8cIWroxwkOgURoeae2GmEFJ1pCsZ5meY3+wpkDdxzWzSVCEdOfAas\n+I+/rFbbQ+rfqq1F6IQp6c0Jvnj4nXAq6SJ+O1JUZXAPNvmqCKwZ7iB8C9ud\nr8GqShGwg1g7DE2oQH+YwxU9oK6fe018XwBKA+u45G68u3vgWG71u4LlPY9t\n/4k2ZlvGSYHvrTK6QL956ErFZpMAXKWqcXzYzqid79TaOUBsWYvO0Hgim5Vt\nSVGWBc/z8lNX7QWC+cYNN83MFTs1W46MES8enmHW9QY7QSFlJ5gbkEU9VpB+\nfMX22wpgTMOPknq1tQmFPqF1+EXQSrYydLUlEMdDOykhXveXXrpWzYPENOJq\nC5lMK0hqfuCWxxsXhhAoBq4YLOUU38Zv7VhIYMeX7ySTcc6YY/RwkbhZLleo\nFcZupnFa/GhqP0rm51RC5keTQO4aO03KAAzkRg6q+Tg8HH41ow57XeqmsjIS\nr8shBdJz2u1bW6fj5TcQOJdCJiQkSWHuVtCf002q/qFRTK6RuQ7JJzQLifmR\nh+JG\r\n=MaKO\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-scrypt_0.0.5_1554348932008_0.531336618385208"
+  },
+  "_hasShrinkwrap": false
+}

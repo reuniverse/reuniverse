@@ -1,0 +1,107 @@
+{
+  "_id": "bs-react-intl@0.8.0",
+  "_rev": "15-0bd1f298da1b0633506aeb72706094e7",
+  "name": "bs-react-intl",
+  "description": "BuckleScript bindings to react-intl",
+  "dist-tags": {
+    "latest": "0.8.0"
+  },
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.1.0",
+    "0.2.0",
+    "0.2.1",
+    "0.3.0",
+    "0.4.0",
+    "0.5.0",
+    "0.6.0",
+    "0.7.0",
+    "0.8.0"
+  ],
+  "maintainers": [
+    "alex.fedoseev <alex.fedoseev@gmail.com>",
+    "cknittel <christoph@knittel.cc>"
+  ],
+  "time": {
+    "modified": "2019-04-09T00:44:17.967Z",
+    "created": "2017-11-23T03:44:01.141Z",
+    "0.0.1": "2017-11-23T03:44:01.141Z",
+    "0.0.2": "2018-02-10T17:20:37.192Z",
+    "0.0.3": "2018-02-10T17:38:02.955Z",
+    "0.0.4": "2018-02-17T12:51:53.876Z",
+    "0.0.5": "2018-02-26T18:35:35.086Z",
+    "0.1.0": "2018-03-04T09:08:40.628Z",
+    "0.2.0": "2018-03-17T09:27:45.504Z",
+    "0.2.1": "2018-03-20T13:17:59.654Z",
+    "0.3.0": "2018-03-30T14:14:53.221Z",
+    "0.4.0": "2018-05-02T08:04:04.550Z",
+    "0.5.0": "2018-09-14T05:07:02.249Z",
+    "0.6.0": "2018-09-15T04:37:51.272Z",
+    "0.7.0": "2018-11-14T16:07:00.279Z",
+    "0.8.0": "2019-04-09T00:44:14.484Z"
+  },
+  "keywords": [
+    "react",
+    "react-intl",
+    "reason",
+    "reasonml",
+    "ocaml",
+    "bucklescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexfedoseev/bs-react-intl.git"
+  },
+  "author": "Alex Fedoseev <alex.fedoseev@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_etag": "W/\"9e01c8b435ec89537a8c7b5d49b9429d\"",
+  "_lastModified": "Tue, 09 Apr 2019 00:44:19 GMT",
+  "version": "0.8.0",
+  "main": "src/ReactIntl.bs.js",
+  "scripts": {
+    "start": "parcel examples/index.html",
+    "build": "bsb -clean-world -make-world",
+    "clean": "bsb -clean-world",
+    "extract": "node examples/TranslationsExtractor.bs.js",
+    "preextract": "yarn run build",
+    "format": "bsrefmt --in-place **/*.re",
+    "test": "exit 0",
+    "preversion": "yarn run clean"
+  },
+  "peerDependencies": {
+    "bs-platform": "^5.0.0",
+    "react-intl": "^2.7.1",
+    "reason-react": "^0.5.3"
+  },
+  "devDependencies": {
+    "bs-platform": "5.0.0",
+    "bs-react-intl-extractor-bin": "0.7.0",
+    "bsb-js": "^1.1.7",
+    "parcel-bundler": "1.12.3",
+    "prop-types": "15.7.2",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-intl": "2.8.0",
+    "reason-react": "0.6.0"
+  },
+  "dist": {
+    "shasum": "b24eae952d97fb293ea018eff35958d5a5a24a90",
+    "integrity": "sha512-QPa8zp7aOXF+7v0zMTdZLPqdR9nux46yRb5xaMsDutZLPLxpPuvjkv18gUhLNkMi37aEHfl3MF1TCTyVCCkC3A==",
+    "tarball": "https://registry.npmjs.org/bs-react-intl/-/bs-react-intl-0.8.0.tgz",
+    "fileCount": 7,
+    "unpackedSize": 25660,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcq+rfCRA9TVsSAnZWagAAlj4P/AxbLuXdOW8PYi/kBd4j\niL+tTIGuolPxP2j2dbJcd1VtgLwbKzd3O70C3jDP2IopTrcxCwGzYBlsistZ\nhqtX5eB3cCKsG3SoFZ49tuUnnwPqyFDeBCQvPmPQwHXLzvRAtiGDEnZf800E\nUDzFIwFIddM9lsIGhRngc+VPXxu0ABUbkV9xo945k9dHXTLoOOKn6aD6SACQ\nF1EcTZhXmgjJ9Y76nEz837pD4i2pJ1jVnEhwNzV4TmLuCJeFGQEnpYGLkj4Q\nmKt+fTlcWauq3lj1ZnPakWT0KSi+qBnlfKBRkEkBP232oaMd2LFjaanQeHMX\ngyayb+1D3ofT6hjEHJG0i64fVZIAW+whZtSV35e4G0kTkQzm2r2W76Dy+naG\nE0IFgDdNsO79BTDd3l/vrMdI9GEj0sI0vGWgzO48+ZP9vO6wGDPVn/v3gdMg\nzScxywTVHlajXNNyPCGoT90hI1QYYAwEjfuLenq4hFnjkF97s2Tjf+DJkTZt\n+ZbkzdC4UPtd56bIlsM2PutNpePW2/oMXUDLXrF4/E5KBe4hTUhHKGdZ2ice\nt+k+FpedO7GDQMHGI4KY3oj/RrnD/BDDrRD/g+arQQnKQ4gk3CbSM9wh5zAO\n75yT8vjvrABehkz8dFRe39OsTBidR5JYupv8lAjKxaH6r4DxdmrnLaDao/gw\njybG\r\n=FMI5\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "_npmUser": "alex.fedoseev <alex.fedoseev@gmail.com>",
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-react-intl_0.8.0_1554770654291_0.5319415786799786"
+  },
+  "_hasShrinkwrap": false
+}

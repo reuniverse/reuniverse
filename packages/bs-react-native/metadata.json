@@ -1,0 +1,102 @@
+{
+  "_id": "bs-react-native@0.11.0",
+  "_rev": "17-7ab1f8dbe51e471eb7a1d336367d5532",
+  "name": "bs-react-native",
+  "dist-tags": {
+    "latest": "0.11.0",
+    "next": "0.10.0-rc.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.2.1",
+    "0.3.0",
+    "0.4.0",
+    "0.5.0",
+    "0.6.0-beta.1",
+    "0.6.0",
+    "0.7.0-beta1",
+    "0.7.0",
+    "0.8.0",
+    "0.9.0",
+    "0.10.0-rc.0",
+    "0.10.0",
+    "0.11.0"
+  ],
+  "maintainers": [
+    "arnar <arnar.th92@gmail.com>",
+    "chenglou <chenglou92@gmail.com>",
+    "saschatimme <sascha.timme@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-04-15T21:46:20.058Z",
+    "created": "2017-08-04T08:07:05.490Z",
+    "0.1.0": "2017-08-04T08:07:05.490Z",
+    "0.2.0": "2017-09-03T08:36:04.146Z",
+    "0.2.1": "2017-09-26T06:25:10.570Z",
+    "0.3.0": "2017-10-28T06:30:36.899Z",
+    "0.4.0": "2017-12-12T22:07:46.421Z",
+    "0.5.0": "2017-12-15T19:42:32.564Z",
+    "0.6.0-beta.1": "2018-03-04T13:16:47.354Z",
+    "0.6.0": "2018-03-21T22:43:18.393Z",
+    "0.7.0-beta1": "2018-04-30T16:31:44.902Z",
+    "0.7.0": "2018-05-09T10:17:07.576Z",
+    "0.8.0": "2018-05-22T10:31:35.360Z",
+    "0.9.0": "2018-08-21T12:02:18.925Z",
+    "0.10.0-rc.0": "2018-09-17T16:52:00.479Z",
+    "0.10.0": "2018-10-02T14:11:27.576Z",
+    "0.11.0": "2019-04-15T21:46:17.539Z"
+  },
+  "keywords": [
+    "reason",
+    "reasonml",
+    "bucklescript",
+    "react-native"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reasonml-community/bs-react-native.git"
+  },
+  "license": "MIT",
+  "readmeFilename": "",
+  "homepage": "https://github.com/reasonml-community/bs-react-native#readme",
+  "bugs": {
+    "url": "https://github.com/reasonml-community/bs-react-native/issues"
+  },
+  "_etag": "W/\"7ac7dd911302d9fd7b49f7b80eb479db\"",
+  "_lastModified": "Mon, 15 Apr 2019 21:46:21 GMT",
+  "version": "0.11.0",
+  "scripts": {
+    "re:clean": "bsb -clean-world",
+    "re:start": "bsb -make-world -w",
+    "re:build": "bsb -make-world",
+    "re:clean-build": "yarn re:clean && yarn re:build",
+    "clean": "yarn re:clean",
+    "test": "yarn re:clean-build"
+  },
+  "devDependencies": {
+    "bs-platform": "^4.0.18",
+    "reason-react": "^0.6.0"
+  },
+  "peerDependencies": {
+    "react-native": "^0.53.3",
+    "reason-react": "^0.6.0"
+  },
+  "_nodeVersion": "10.15.1",
+  "_npmVersion": "6.9.0",
+  "dist": {
+    "integrity": "sha512-6uaM2yXEI99VyyGw7cO+27jWjjdMQH0DYATZ3LnEAr4Ra5qFvGDikAQoriuHJg/jzaHkCQxwc2JrqsVKRJIY6g==",
+    "shasum": "e681d5ce8c925ce635bc301bf5dfdf7d8319d1c8",
+    "tarball": "https://registry.npmjs.org/bs-react-native/-/bs-react-native-0.11.0.tgz",
+    "fileCount": 793,
+    "unpackedSize": 5748405,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJctPuqCRA9TVsSAnZWagAA/70QAJZ6zkjbupfRuDKebmH1\nit2xsblzy873g+pW5XCkXpuQl0C+TlTOvg5Kwhnq6jX2q5rr/CGOtf+D4fW0\ng3vJdYR3X5r/46oawscrEAAOsZJnIiTQanPVfui8IRZftzfT8iDy8kKNRXYX\nBEtsHFUokngL1kkSYn+XBVaIApUoO2aLsO6gYwFkK3FTbwGfDSqRvZl+EHFo\nsEreQsEtVG+3sfqCNlV/uKXcGANB9atAedrB/4qjyXzV3bJM/JxLpE0hx+U2\nSq/5fCjfqefh5m0KhWuuhlEJdHof/Mj7gy3NZz1DdciFi6Kbf71zev2Ajezl\nqp8zv9kKzRcBXtlS5BsyObSYvKJ/wU4AtYeXA1MnGZwkOaWEqEJxWiCNpy+1\netDTe9ZcvkankQgrjI5R5beOAkbEY4ACQdxH1lW91D7EU6G4hGYaXbtWBqJx\nCqXIfI/w2k5crbqOVipcmlnv5lP2Zj8RC+sSIb25mbHOlFkDRU0LpvfdVqAZ\nEiqy5Kdcm4uwuv5iC0crER5M7uAUQjp2Pgc1XV+T5anICCr+WGz8JxYhOB/4\njGF8hD+gX8GwuTABIjnlUjLWYkABfGT1eEJXlxUypUgequvufP10CzUnZGKX\nIhJ0xL1CMb3INbVonysdji7Q1ev2CJiKLJTm/MtwAbEvq3kNyOFouvL4GYkW\nqttX\r\n=09ri\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "_npmUser": "moox <npm@moox.io>",
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-react-native_0.11.0_1555364777346_0.757403958375809"
+  },
+  "_hasShrinkwrap": false
+}

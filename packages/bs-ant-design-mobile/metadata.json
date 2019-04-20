@@ -1,0 +1,81 @@
+{
+  "_id": "bs-ant-design-mobile@1.0.4",
+  "_rev": "4-3dff588a2903ec764cc8f38615369f96",
+  "name": "bs-ant-design-mobile",
+  "dist-tags": {
+    "latest": "1.0.4"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4"
+  ],
+  "time": {
+    "created": "2018-10-15T17:03:57.346Z",
+    "1.0.0": "2018-10-15T17:03:57.542Z",
+    "modified": "2018-11-14T04:12:08.451Z",
+    "1.0.1": "2018-10-15T21:23:46.922Z",
+    "1.0.2": "2018-10-15T21:53:12.470Z",
+    "1.0.3": "2018-10-18T01:10:19.812Z",
+    "1.0.4": "2018-11-14T04:12:05.860Z"
+  },
+  "maintainers": [
+    "enalmada <enalmada@gmail.com>"
+  ],
+  "description": "Bucklescript bindings for Ant Design Mobile",
+  "homepage": "https://github.com/Enalmada/bs-ant-design-mobile#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enalmada/bs-ant-design-mobile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Enalmada/bs-ant-design-mobile/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_etag": "W/\"44d34166a7217c3989399890b21dcbf7\"",
+  "_lastModified": "Wed, 14 Nov 2018 04:12:10 GMT",
+  "version": "1.0.4",
+  "scripts": {
+    "changelog": "auto-changelog --template keepachangelog",
+    "bsb": "node ./node_modules/bs-platform/lib/bsb -clean-world -make-world"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "bs-platform": "^4.0.6",
+    "cheerio": "^1.0.0-rc.2",
+    "got": "^9.2.2",
+    "lodash": "^4.17.11",
+    "reason-react": ">=0.5.3",
+    "antd-mobile": "^2.2.5"
+  },
+  "peerDependencies": {
+    "bs-platform": "^4.0.5",
+    "reason-react": ">=0.5.3",
+    "antd-mobile": ">=2.2.5"
+  },
+  "dependencies": {
+    "bs-moment": "^0.3.1",
+    "re-classnames": "^3.0.0"
+  },
+  "gitHead": "e0dae2e386ba0ae5a4f1078653bf7701b39a58dd",
+  "_npmVersion": "6.4.1",
+  "_nodeVersion": "10.13.0",
+  "_npmUser": "enalmada <enalmada@gmail.com>",
+  "dist": {
+    "integrity": "sha512-iqxYbLjd/mxfq2QdSzYH9Ap9ZkQ47fs1bZCONv9OqyKXxJ2BXsxfVmM1SdGUuj2fuSEHBuOmYUWpp9nll52wXQ==",
+    "shasum": "b3d0dd862e91119a4be0c2d962bd190b9da6bad0",
+    "tarball": "https://registry.npmjs.org/bs-ant-design-mobile/-/bs-ant-design-mobile-1.0.4.tgz",
+    "fileCount": 31,
+    "unpackedSize": 66330,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb66CWCRA9TVsSAnZWagAAGfIP/0r0dTT2h4cz81KSqzND\n8XNrYGVnrMKoGPtvhNYdSn0myL8dzeFLC4Vh1IYoU34CHUSN6/weYFk8tjnT\n1QlQtvA8gAKcOLiGKF50kciFATqLdIfA/ylSAyFw98dCIjbR3rZDiJpEgBgv\n18E4pNU+EB0aZlWZofR5sPrkMq+LuKgEiJeYQAhWBrug5lGvNb+ENBkjCmBs\nY9HbFOYywUhS1D8H41EHlm6x0/+8iz0eC1ZTK3OlBkjpHAJXfxd60IUi9RSK\nFzSoUFrmPDkUnfQVgOp6XCE399NPiGfNeajQsDRto/LmhHoErQ+nE1G/HzLG\neubm21bc2l3jepZnpJwG7iPXY1r0XzZ0YjfDB1AXCbI9TZArDj5QvyHqDS85\n5QYp15p90YReeLQmTHg8HOQ42RvLdDq3GRC4reG8A5GJp2RpBwoL+T1ez1wS\nrQysaASus9PPvIdff89wSuoCKt8i12KYrOwdzdO/LNF+c7MtgEYzvzCBFhxZ\nkUWjwE6Y80Ej95le1lLRPXWiKxCVxWKThP0AheOWKia+1s7Qy50QW8AdqRsf\nVvxwxLddQxr3BmcmbRPhSztw6Yp6lCkDDYTlD2BDya8Nl2oaa9Yr3J8bEgVi\nd0/BBcjiyLzdiDK0cmWtKcdTxWKvMZD0J6VAl7miO9Or9bFiPMu5CRJk1KJj\nE1oy\r\n=sPcc\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-ant-design-mobile_1.0.4_1542168725604_0.9219237643132008"
+  },
+  "_hasShrinkwrap": false
+}

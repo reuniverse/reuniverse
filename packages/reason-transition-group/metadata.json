@@ -1,0 +1,76 @@
+{
+  "_id": "reason-transition-group@2.0.0",
+  "_rev": "4-95101521ab7f86a38b1d3fcc7c603191",
+  "name": "reason-transition-group",
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "2.0.0"
+  ],
+  "time": {
+    "created": "2019-02-09T21:30:15.510Z",
+    "1.0.0": "2019-02-09T21:30:15.654Z",
+    "modified": "2019-04-20T16:10:10.141Z",
+    "1.0.1": "2019-02-11T13:08:25.084Z",
+    "1.0.2": "2019-02-11T19:24:11.777Z",
+    "1.0.3": "2019-02-11T23:34:25.707Z",
+    "2.0.0": "2019-04-20T16:10:07.606Z"
+  },
+  "maintainers": [
+    "jakubmarkiewicz <jakmar73@gmail.com>"
+  ],
+  "description": "Bucklescript bindings for react-transition-group",
+  "homepage": "https://github.com/JakubMarkiewicz/reason-transition-group#readme",
+  "keywords": [
+    "BuckleScript",
+    "ReasonReact",
+    "Transition"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakubMarkiewicz/reason-transition-group.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JakubMarkiewicz/reason-transition-group/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_etag": "W/\"e0fcd2424e9da22b55359d3b12a801ae\"",
+  "_lastModified": "Sat, 20 Apr 2019 16:10:11 GMT",
+  "version": "2.0.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "devDependencies": {
+    "bs-platform": "^5.0.3",
+    "reason-react": "^0.7.0"
+  },
+  "dependencies": {
+    "react-transition-group": "^4.0.0"
+  },
+  "gitHead": "c8540078e8c22d291e3ed0d4b9319cc0556314c4",
+  "_npmVersion": "6.5.0-next.0",
+  "_nodeVersion": "11.6.0",
+  "_npmUser": "jakubmarkiewicz <jakmar73@gmail.com>",
+  "dist": {
+    "integrity": "sha512-BVEAEVMaM9ipvVMyvbYBpqQhIcfSwVUzWcmxOWPG5qM9+pyKmUiiVLCv7IL51wc0KlDgKyA4s/cTAOTEakZT8g==",
+    "shasum": "d6ddc67e7dab15213610c8dc1f318d8237e19251",
+    "tarball": "https://registry.npmjs.org/reason-transition-group/-/reason-transition-group-2.0.0.tgz",
+    "fileCount": 48,
+    "unpackedSize": 241812,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcu0RgCRA9TVsSAnZWagAA8nkQAIbQ0QTRNuPX4ktE+JJd\ngP4MJbuQXoMMP1NBpsCJ1+iaVMS2Mx+buE0RC+jrWeyhXuVb7Yw/cjwPIQQb\nrxfukyKN2eyUqtvMW5VVkC/r5n84ayFHi1Z1gvT4nXora5gE72rFHn7sm1jr\nllKbs/fvsJtJY9myt6R4muF8GVKGKyykNIzK+wfKItZJX65fxAWjTi6flPGa\nwbnaDb98D/SwAWniotHmBWL673ZAkkFMxfQa2ykwaLrWQnRsZ5S9f9T9hU7A\n0625GKFYwwVSrD+PhNGMsEM0QmcBFtTJgz1yzQETWTZR64rY+EFDz3ES/JN5\noRqM15eU9Piy201h0b7bkfNNNRS1EyMC2uhHDanB/xeg2N+HZ6rt9/T2Ie4s\nnkz0Myzdm2xQRslJsRbTtNSxNxkI4RqDsCRvf8TYLxO9x1Wc7j3sm6rguWys\nknCXJuOwnBQpO/Z4M10mYKeEc4tAXSwUMjqQxAlTHstYQ8r3+mPeFcTIxGOW\nAai2+j0SnESnN2zU6q+E15Duhb77OjrFDygO/Nr2lynzQOCgtYi452n6w7TY\nEJeKJkTLdVOigLGPsRK+2K8WsAfyEPAeXCLm1qv9unBFSjRNWbQW35895RCM\nNUC5Dm5SGAbP4p30EVyT535FZmQMWfZt8MhNo0SZqlxxQgFRwTYBJNph6WBd\n+D58\r\n=ZoJJ\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/reason-transition-group_2.0.0_1555776607460_0.18329263258901296"
+  },
+  "_hasShrinkwrap": false
+}

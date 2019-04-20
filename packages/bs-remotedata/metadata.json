@@ -1,0 +1,82 @@
+{
+  "_id": "bs-remotedata@2.0.1",
+  "_rev": "3-73897a58f25d4cf94574e758ea13a2b9",
+  "name": "bs-remotedata",
+  "dist-tags": {
+    "latest": "2.0.1"
+  },
+  "versions": [
+    "0.1.0",
+    "1.0.0",
+    "2.0.0",
+    "2.0.1"
+  ],
+  "time": {
+    "created": "2018-08-16T15:46:53.641Z",
+    "0.1.0": "2018-08-16T15:46:53.695Z",
+    "modified": "2019-01-29T09:02:29.010Z",
+    "1.0.0": "2018-11-21T09:45:41.141Z",
+    "2.0.0": "2019-01-28T09:45:48.123Z",
+    "2.0.1": "2019-01-29T09:02:26.520Z"
+  },
+  "maintainers": [
+    "fabienhenon <henon.fabien@softcreations.fr>"
+  ],
+  "description": "RemoteData and WebData to use with bs-fetch for BuckleScript",
+  "homepage": "https://github.com/FabienHenon/bs-remotedata",
+  "keywords": [
+    "BuckleScript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabienHenon/bs-remotedata.git"
+  },
+  "author": "Fabien Henon",
+  "bugs": {
+    "url": "https://github.com/FabienHenon/bs-remotedata/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_etag": "W/\"46b496360e89c485eb084dae69c70e4a\"",
+  "_lastModified": "Tue, 29 Jan 2019 09:02:30 GMT",
+  "version": "2.0.1",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "npm run build && jest"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.3",
+    "@glennsl/bs-json": "^3.0.0",
+    "bs-platform": "^4.0.3",
+    "jest-fetch-mock": "^1.6.5"
+  },
+  "dependencies": {
+    "bs-fetch": "^0.3.0"
+  },
+  "jest": {
+    "automock": false,
+    "setupFiles": [
+      "./setupJest.js"
+    ]
+  },
+  "gitHead": "c67ab7409090daaea26c4de9c2638f6458c69bf0",
+  "_npmVersion": "6.4.1",
+  "_nodeVersion": "10.15.0",
+  "_npmUser": "fabienhenon <henon.fabien@softcreations.fr>",
+  "dist": {
+    "integrity": "sha512-vvREqPWh6Wvd2cTg7/xvvmkE1Wd9hasgtYNsaM2t+kyzappP+MeZ9cx0V2Je/EnSr11c07AXmYMglK3fwaXZKw==",
+    "shasum": "6e66b5820ce6bfa9d62b18db732615f5ede86df5",
+    "tarball": "https://registry.npmjs.org/bs-remotedata/-/bs-remotedata-2.0.1.tgz",
+    "fileCount": 11,
+    "unpackedSize": 26551,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcUBajCRA9TVsSAnZWagAAdC4QAJzsf5YaCWdL0/x+b666\ndefVa7saybWXW7HSCkTS2KZujpGo1taeyuMPVLE9KOVfrth1uidnacDGag5V\nmXrIMhSUagTNB6DtRzLLYBWRKqMqIYWae1Y6wxothWk9+DLyqr/KRJxadsf6\n/yvoXVu1zyADNQhd0Q0jiID74Cw7gsluviHkfw848MMV5qCnursSgjhHZGOD\njzHyUbbw2kpIM4KBjcGXqcMtIvmT1ohdwjsdcFpQ9aJzFNdCqBYxJ2ap65Gf\nzBOxQhG4Y39agRcsWjiiyb9Gmd36W1ok1oTEgrfCBXQwjmD3R+4Z2OBCtMYo\nd1ZEkPdVzOlB48sNGELHEvjsxb/RBsY5/BhcJDbUONZxuRuWUd1ne35n/35q\nqXRgw08IBgY06KkFuE+CnaE5JYu2vzRpIQWCfe3bc6jvTTgvkPNghHLa3+wA\n+U98vNkQkD2rMLagVYBK0pAVgvMMRdQL0jhu098sKjbO+8KKtwxdnV4GhhXl\nFrMEupekdBIFPrDw19/Xj3OH50LGt+v0HwaqleazrQg7G2T8DH1Gr9VdbcU8\ngVCU4enQXKUqIwuPEz06PmH8iBOooSeXPDBuXz/ShkyPild3v2vjHUb9hi/k\n6uxBoVF92Tsu9JGLq3XhougWkp3pQ3VNDVPx0ey1UNEgKnvY81yRGuu0KDfg\nDItu\r\n=EPrk\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-remotedata_2.0.1_1548752546367_0.9877546772101529"
+  },
+  "_hasShrinkwrap": false
+}

@@ -1,0 +1,96 @@
+{
+  "_id": "bs-react-notification-system@0.0.6",
+  "_rev": "2-86afebaa4ae107071682194402a82daf",
+  "name": "bs-react-notification-system",
+  "description": "Reason bindings for react-notification-system",
+  "dist-tags": {
+    "latest": "0.0.6"
+  },
+  "versions": [
+    "0.0.5",
+    "0.0.6"
+  ],
+  "maintainers": [
+    "bernalrs <bernal.rs@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-12-29T12:27:20.128Z",
+    "created": "2017-12-29T12:05:59.379Z",
+    "0.0.5": "2017-12-29T12:05:59.379Z",
+    "0.0.6": "2017-12-29T12:27:20.128Z"
+  },
+  "homepage": "https://github.com/bernalrs/bs-react-notification-system/readme",
+  "keywords": [
+    "react",
+    "react-component",
+    "react-notification-system",
+    "reason-react",
+    "bucklescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bernalrs/bs-react-notification-system.git"
+  },
+  "contributors": [
+    "Remi Bernal <bernal.rs@gmail.com>"
+  ],
+  "author": "Remi Bernal <bernal.rs@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/bernalrs/bs-react-notification-system/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"4da5d2e5c0e99160f2fd319b55956c8a\"",
+  "_lastModified": "Sat, 26 May 2018 19:04:46 GMT",
+  "version": "0.0.6",
+  "main": "lib/js/src/ReactNotificationSystem.js",
+  "scripts": {
+    "precommit": "lint-staged",
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "yarn run clean && yarn run build",
+    "format": "prettier --write ./*.{js,json} ./**/*.{js,json}",
+    "release-it": "release-it"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "bs-platform": "2.1.0",
+    "husky": "0.14.3",
+    "lint-staged": "6.0.0",
+    "prettier": "1.9.2",
+    "react-notification-system": "0.2.16",
+    "reason-react": "0.3.0",
+    "release-it": "^5.1.2"
+  },
+  "peerDependencies": {
+    "react-notification-system": "0.2.16",
+    "reason-react": "0.3.0"
+  },
+  "lint-staged": {
+    "*.{js,json}": [
+      "prettier --write",
+      "git add"
+    ],
+    "src/**/*.re": [
+      "refmt --in-place",
+      "git add"
+    ]
+  },
+  "gitHead": "56068d2e245b791dd8b158b985718765ebbbabb5",
+  "_npmVersion": "5.5.1",
+  "_nodeVersion": "9.2.0",
+  "_npmUser": "bernalrs <bernal.rs@gmail.com>",
+  "dist": {
+    "integrity": "sha512-mAPb6lws1URqXlc7Ohjqgr3Gwe8Y+moInd85NN0qlBFQSkXgSxZl4tZLaO4z2trkdIb5E85c2n3BgoQfpJtaTw==",
+    "shasum": "2578ac8605f0471d4b488f38af2146aef89e54e3",
+    "tarball": "https://registry.npmjs.org/bs-react-notification-system/-/bs-react-notification-system-0.0.6.tgz"
+  },
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-react-notification-system-0.0.6.tgz_1514550440026_0.15275521716102958"
+  },
+  "directories": {}
+}

@@ -1,0 +1,74 @@
+{
+  "_id": "bs-priority-queue@0.1.4",
+  "_rev": "4-d00c1f90cbc83d69f1e023a08cabf95b",
+  "name": "bs-priority-queue",
+  "dist-tags": {
+    "latest": "0.1.4"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.1.3",
+    "0.1.4"
+  ],
+  "time": {
+    "created": "2018-12-09T01:16:39.277Z",
+    "0.1.0": "2018-12-09T01:16:39.530Z",
+    "modified": "2018-12-23T16:23:35.824Z",
+    "0.1.1": "2018-12-09T01:29:57.933Z",
+    "0.1.2": "2018-12-09T02:44:44.100Z",
+    "0.1.3": "2018-12-09T04:20:59.202Z",
+    "0.1.4": "2018-12-23T16:23:33.363Z"
+  },
+  "maintainers": [
+    "yunyu <mail@yunyul.in>"
+  ],
+  "description": "BuckleScript/ReasonML bindings for [tinyqueue](https://github.com/mourner/tinyqueue), a priority queue/heap implementation.",
+  "homepage": "https://github.com/yunyu/bs-priority-queue",
+  "keywords": [
+    "BuckleScript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yunyu/bs-priority-queue.git"
+  },
+  "author": "yunyu",
+  "bugs": {
+    "url": "https://github.com/yunyu/bs-priority-queue/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_etag": "W/\"13c754c72a513c0b0ce4157d2d9c5221\"",
+  "_lastModified": "Sun, 23 Dec 2018 16:23:37 GMT",
+  "version": "0.1.4",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "devDependencies": {
+    "bs-platform": "^4.0.7"
+  },
+  "dependencies": {
+    "tinyqueue": "^2.0.0"
+  },
+  "gitHead": "dd369d30cf7ec548a1e95a63edcd63e207acf0a8",
+  "_npmVersion": "6.4.1",
+  "_nodeVersion": "10.13.0",
+  "_npmUser": "yunyu <mail@yunyul.in>",
+  "dist": {
+    "integrity": "sha512-LEx/dWb2wDI+r/CMbjjKeGhmV2mFNrLSjBLmvF5jKW8J7GUyqwS5vdjF3zdVIQk2wnwSwm3fXHaDNescKMDR1Q==",
+    "shasum": "90062fccb1585d532e75d239da8c03bc74f95780",
+    "tarball": "https://registry.npmjs.org/bs-priority-queue/-/bs-priority-queue-0.1.4.tgz",
+    "fileCount": 7,
+    "unpackedSize": 5162,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcH7aFCRA9TVsSAnZWagAAAmAP/3pTqKIKex73Au+4r5hv\nNqOtbM5EylAibKpAFzVW4Jpvub2tBvs3DMIo8Ar4hgpCyMesBD+0ALyjRCRw\nlEiba4Y78T4gOdRpAA+vRkKpgFlf1hY/s+365q4DlHWvmeuASFUJrlR+SjFy\ny1Bp6x5Wsc98ngNCMWsiUIeBFUD3EDrhu5kVIw6mLi1uKhinmoQfMs2z+Ry5\nACWmwKiI5q4eRFIOCUYNlmJfQGvEaYFyp+QQA8r+lPXIfqe9Ojjt7HT+aNbM\n0ITYMKPIWeIN3I7q1RAWtRNp2AZ40AbZHwgx0qpszDQc9VUIET7oMXWN5VKR\nWkCvgo66S6nx2aGfwweV1hCklVRizshvXzVpCfzQAgY3spNHDFkRXjwzJ5N+\nrHv9C9u8xTzojv83A3a2zUb6LwDjS1DQQzYekQ0Zt9bDl+SB7PgC9waypdHT\ni/Fp/9/iWq/sspg7ZNwMq9YyZOP28aEnJ+5jGtsxPSK32quStYxdt4snxDcP\nQfx5h24iqUsAEojrc+GQ5jW6oEqHrU29p22/gy7ZMbbxqxNaLLKfGqN/palk\nzbWWUBobUqKFDEmHIaFBy6/quaeu9a3cMZrN6m4snaMVwRdej/FOqfBcz3vt\nX3rH33rYh9B7/ooTT3/wdy1Q3HVPHed9jzHxZDqLa+SkdXcfHmLlpUpXntz6\n5DNq\r\n=tPjs\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-priority-queue_0.1.4_1545582213225_0.019256292376454542"
+  },
+  "_hasShrinkwrap": false
+}

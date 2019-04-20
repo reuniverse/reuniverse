@@ -1,0 +1,86 @@
+{
+  "_id": "bs-storybook@0.3.0",
+  "_rev": "6-d7ec6f34885589f043cff44dbd7265a7",
+  "name": "bs-storybook",
+  "dist-tags": {
+    "latest": "0.3.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.2.0",
+    "0.3.0"
+  ],
+  "time": {
+    "created": "2018-03-03T13:27:59.890Z",
+    "0.1.0": "2018-03-03T13:27:59.962Z",
+    "modified": "2019-01-01T10:59:28.549Z",
+    "0.1.1": "2018-03-05T19:48:21.962Z",
+    "0.1.2": "2018-03-26T14:53:25.860Z",
+    "0.2.0": "2018-07-10T16:39:02.073Z",
+    "0.3.0": "2018-11-01T20:40:47.097Z"
+  },
+  "maintainers": [
+    "jbaxleyiii <james@meteor.com>",
+    "kgoggin <gogginak@gmail.com>"
+  ],
+  "description": "BuckleScript bindings for Storybook.js",
+  "keywords": [
+    "BuckleScript",
+    "Storybook.js",
+    "ReasonML",
+    "react",
+    "ui"
+  ],
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/MyWellGiving/bs-storybook",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MyWellGiving/bs-storybook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MyWellGiving/bs-storybook/issues"
+  },
+  "_etag": "W/\"90d839ac0ab6d6746f9f2c78eb95b228\"",
+  "_lastModified": "Tue, 01 Jan 2019 10:59:29 GMT",
+  "version": "0.3.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "test": "echo XXX TODO",
+    "dev": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "author": "",
+  "devDependencies": {
+    "bs-platform": "^4.0.4"
+  },
+  "dependencies": {
+    "reason-react": "^0.5.3"
+  },
+  "peerDependencies": {
+    "@storybook/addon-actions": "^3.2.17",
+    "@storybook/addon-knobs": "^3.3.3",
+    "@storybook/addons": "^3.3.14",
+    "@storybook/react": "^3.2.17"
+  },
+  "gitHead": "40d313e3e7edbbd341b73fe831fc11de9b3fad81",
+  "_npmVersion": "5.6.0",
+  "_nodeVersion": "8.11.2",
+  "_npmUser": "kgoggin <gogginak@gmail.com>",
+  "dist": {
+    "integrity": "sha512-FAMVnLd1nWVWLrk3+br5s+PCkJNll5fz2o+wXe4CZLQAJLNF71XxQ56HubNzYVUFVuHgNotWyjRE7wWoWQkiCg==",
+    "shasum": "a0f5f2f356bf1a39b0b4fd4a3933cc429c2e3911",
+    "tarball": "https://registry.npmjs.org/bs-storybook/-/bs-storybook-0.3.0.tgz",
+    "fileCount": 10,
+    "unpackedSize": 13919,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb22TPCRA9TVsSAnZWagAATAAQAI0eCfw4BvvtWeWqjOlR\nJBEJS7Ztxt+AUTObeEAiaOjSlXq2w3WBCY7gBJpOelI96sf6+9Xvs7WhxNSe\nniv4A6gYBBxMutELzUeWh1alVtTqXhDIvPoxuMqsRfnvGtUoggtuy3l0LZ0w\n0Z2jMwgeorTHWEruNIe4D/r1uqOc95Aai0U2khslGa3Ug2pZ9zOD2d4TkOy1\nrOJ1nbJipCOJdPNOdffVhSYy8hJz1JxBC1n3B/8xKWG19VnwyYHAv0XO7GmV\nlZe16iHgClggKgWrZNRsQ8JBTPSFHpvNiQEpr43WobVhm5JqRCFN8ekSBy8T\nUgiCs8lo62G9GD3i9PejqV4kpdheUyaYEsH3lcLrDVBy+sEVSLgU3eiRuNmB\ndMSbfe5vrBmLoKZTXDW9HY8M2rE27c3NjbL7vQaNnHwQW1FxmT3xMwTenWud\n3cTVFdA9rpEQ9nHZYw+P77MFZyuA/evRHZ+CFCV3RFVjqSL3V+g/IT8Uk2DQ\ndNvEcBFG13OJSvUTpyGIy8kN9l+4/LLLsbpvJTv9z1d4MvLIoTEBOBER97Ys\nJfP/CaA5jAQSg+gRwAMgsenMjNUMvMcsTWx98gbxdG0qesXxvNvBx4IoSUtM\nntCedyZhTJ4AIURAz66Hveb7pEc6TxHInmuP/C/i3lpSyGDdjonyxl7zAt67\nE5GV\r\n=VgqF\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-storybook_0.3.0_1541104846964_0.57649302830499"
+  },
+  "_hasShrinkwrap": false
+}

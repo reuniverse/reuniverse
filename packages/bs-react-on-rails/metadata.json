@@ -1,0 +1,89 @@
+{
+  "_id": "bs-react-on-rails@0.2.0",
+  "_rev": "3-80e470194957b0e75c87645736569bcd",
+  "name": "bs-react-on-rails",
+  "dist-tags": {
+    "latest": "0.2.0"
+  },
+  "versions": [
+    "0.0.1",
+    "0.1.0",
+    "0.2.0"
+  ],
+  "time": {
+    "created": "2018-03-26T17:27:13.361Z",
+    "0.0.1": "2018-03-26T17:27:13.408Z",
+    "modified": "2018-04-19T07:48:38.794Z",
+    "0.1.0": "2018-04-06T11:03:49.719Z",
+    "0.2.0": "2018-04-19T07:48:35.918Z"
+  },
+  "maintainers": [
+    "alex.fedoseev <alex.fedoseev@gmail.com>"
+  ],
+  "description": "BuckleScript bindings to react-on-rails",
+  "homepage": "https://github.com/shakacode/bs-react-on-rails",
+  "keywords": [
+    "react",
+    "reason",
+    "reasonml",
+    "reason-react",
+    "rails",
+    "react-on-rails",
+    "ocaml",
+    "bucklescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shakacode/bs-react-on-rails.git"
+  },
+  "author": "Alex Fedoseev <alex.fedoseev@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/shakacode/bs-react-on-rails/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"1e497ff58bdb65934c5bd4380bd3d8f9\"",
+  "_lastModified": "Sat, 26 May 2018 19:04:46 GMT",
+  "version": "0.2.0",
+  "main": "src/ReactOnRails.re",
+  "scripts": {
+    "start": "bsb -clean-world -make-world -w",
+    "build": "bsb -clean-world -make-world",
+    "clean": "bsb -clean-world",
+    "test": "exit 0",
+    "refmt": "find -E . -regex '.+\\.rei?' -exec refmt --in-place {} \\;",
+    "preversion": "yarn run clean && yarn run refmt"
+  },
+  "files": [
+    "src",
+    "bsconfig.json"
+  ],
+  "peerDependencies": {
+    "bs-platform": "^2.2.2 || ^3.0.0",
+    "react-on-rails": "^10.1.3",
+    "reason-react": "^0.3.4"
+  },
+  "devDependencies": {
+    "bs-platform": "3.0.0",
+    "react-on-rails": "10.1.4",
+    "reason-react": "0.3.4"
+  },
+  "gitHead": "2577d4aeac4aa772a4741e5bf68a9058dad0d7cf",
+  "_npmVersion": "5.6.0",
+  "_nodeVersion": "8.9.4",
+  "_npmUser": "alex.fedoseev <alex.fedoseev@gmail.com>",
+  "dist": {
+    "integrity": "sha512-fsipunz0NiREx5i1cDQzi/fFxEBko+HLRUfJk1GlVhuACKp9c9Rh4AEdL9p0pcGC87lCucauTe7pBpz/+6k1yw==",
+    "shasum": "de40b3e3e70aeb780da031d031fe8d4390a2d42d",
+    "tarball": "https://registry.npmjs.org/bs-react-on-rails/-/bs-react-on-rails-0.2.0.tgz",
+    "fileCount": 6,
+    "unpackedSize": 5260,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa2EnUCRA9TVsSAnZWagAAt+gP/23DmyT7g9tGECE5ezsq\ntypCS8MXYPHveeW/7wTyGyU2kCvAD9WdnrJlWBaQQ8SqbwJvbeAFWycdBuh9\n4bLfsUSu1/zVjtN2BjWeMaRIUshRjRrIiZO/kF2HoxPv3Q9pHC4w7dMN3kcw\nFj8IukUIe4M6MXIqhBn/jOdKocXNAwbISNGDmspnh8DT4BNJmUBNkX1okz99\nBfFEA5ZtL9ZT+rrFoxAuS3VZdDJcYjSgtHZqhP+5lswIVFrub9qpOP/1NPls\nlot0xPqaZh2tQrVnIOcbnt+s8z+QaZneKUh6muGwMU+VKEiSgYKkv7my0I9F\nM5TaN0kLGLOW/DVO3NfkyLLPK00CWzezeMkye5QLhxkBENuLWhgpAz15kpRA\n7X21qI4sTN+qH4Y7Pun1BUzEaEThTqu8dJm/bsQrRtNuXdQWXwoJNldPykgy\nUgOqmwCWQ0PJ4xZVHzBxtvT4rSaiUdltYjuImnTHU0PxAvqto67C+quycAUG\nXYlgUQhg1SaiPQ/dsfgB9sbBA9eWTS40x538coeaNNm3jF//FLnTS/vU1Ohy\nGRjCzqWtCTh/RiieOfD2Jn+iY0ffWXAQzhF1+zl+Ljdsce3bqka+wKKh3ybZ\naCyqNmwrxrYXH98J+sqVW0jRNB+hC6637aP6gSz3YH3quYsAHKV3UAmeqAPM\nwceG\r\n=qJ7Z\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-react-on-rails_0.2.0_1524124115878_0.15348875153219366"
+  }
+}

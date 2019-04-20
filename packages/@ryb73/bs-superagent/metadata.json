@@ -1,0 +1,90 @@
+{
+  "_id": "@ryb73/bs-superagent@0.0.10",
+  "_rev": "9-534ca7fa1c92082eb85ec72d3f826257",
+  "name": "@ryb73/bs-superagent",
+  "dist-tags": {
+    "latest": "0.0.10"
+  },
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.0.6",
+    "0.0.7",
+    "0.0.8",
+    "0.0.9",
+    "0.0.10"
+  ],
+  "time": {
+    "created": "2019-01-22T01:08:35.780Z",
+    "0.0.1": "2019-01-22T01:08:36.050Z",
+    "modified": "2019-04-04T03:56:49.016Z",
+    "0.0.2": "2019-01-22T01:29:46.984Z",
+    "0.0.3": "2019-01-23T04:23:47.587Z",
+    "0.0.4": "2019-01-24T01:29:46.572Z",
+    "0.0.5": "2019-01-25T02:25:27.663Z",
+    "0.0.6": "2019-01-25T02:59:51.022Z",
+    "0.0.7": "2019-01-25T03:31:44.279Z",
+    "0.0.8": "2019-02-15T03:06:32.848Z",
+    "0.0.9": "2019-02-15T03:42:14.730Z",
+    "0.0.10": "2019-04-04T03:56:46.216Z"
+  },
+  "maintainers": [
+    "ryb73 <rpbiwer@gmail.com>"
+  ],
+  "description": "BuckleScript bindings for superagent",
+  "homepage": "https://github.com/ryb73/bs-superagent#readme",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ryb73/bs-superagent.git"
+  },
+  "author": "Ryan Biwer",
+  "bugs": {
+    "url": "https://github.com/ryb73/bs-superagent/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_etag": "W/\"7ad0f933f0226b3005d65102a4eaf795\"",
+  "_lastModified": "Thu, 04 Apr 2019 03:56:50 GMT",
+  "version": "0.0.10",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run clean && bsb -make-world",
+    "watch": "npm run clean && bsb -make-world -w",
+    "clean": "rm -rf lib && bsb -clean-world",
+    "postinstall": "[ ! -f package-links.json ] || ppl link-file"
+  },
+  "_": [],
+  "peerDependencies": {
+    "bs-platform": "^4.0.18"
+  },
+  "dependencies": {
+    "@ryb73/bs-bluebird": "0.0.3",
+    "@ryb73/decco": "0.0.6",
+    "@ryb73/opt-ex": "0.0.6",
+    "@ryb73/prom-ex": "0.0.8",
+    "superagent": "^4.0.0"
+  },
+  "gitHead": "2ef4b2c15f2fb065be123894d651dce5fe4a5821",
+  "_npmVersion": "6.5.0",
+  "_nodeVersion": "11.9.0",
+  "_npmUser": "ryb73 <rpbiwer@gmail.com>",
+  "dist": {
+    "integrity": "sha512-Frk01ZXvVoJ53fEwXSDkpwW7fh1w2po5v7rHlDCHPPLwV7SQPnjJGhUT7jvHPi717zbnRfwf62HQL59DxicbJA==",
+    "shasum": "1700c527d9628f13e6609d4e07c291c5f32dae71",
+    "tarball": "https://registry.npmjs.org/@ryb73/bs-superagent/-/bs-superagent-0.0.10.tgz",
+    "fileCount": 6,
+    "unpackedSize": 30444,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcpYB/CRA9TVsSAnZWagAAaBIP/imRRKeHfdzxanZ/OkzM\nb02TARLGHZ2Oe3Nf5ECp5XgNgISMEXVRP5bjk4sVQlVBsMNAFkzuR0NqI3r0\ndwjIoPPaGZbEU6hjdTGEwIRz/YIJYg0ZmM8aEWwJZTHQkTZGxxyT4h7Vupca\nIvOESANzg17gHs7UYy94n9olDuK99bq8iudNm57UctzxTeil2luXao7QJnUo\nHOaIaqky4Za3XsT8mwNqu8QNl4+2Gmj73PnYXwMH01YjHC930XtxSkPc99Cp\no7X4tMFDU/cfJSvSYaN8GGcepx1Lj4GGo8ii5uSycOsnMPCm0lAYhPba889F\n2Xp4yGLL1J0ojfBS2gyEa81Wu+xTYJS3uV6ui6ilRR35U00FagksLuo2zXeP\nkUokQIY2qBIw2aFBpMmDdZBpjfKItWR1K39pJMPoP54XWhz3szTGxwdxqCf4\nnRSLwjPcC0LyW66hbIbmx5oOwPI+9WW1xgIhUA9EByO35p8KYSptRih2ITen\nYErYNLbKdNVJTqm5YQsijlldavYp9v11VaQ5iHED82mEjtHwnHjEvXNNGqCS\nTkrBcvE0T7DEa7x+7r9UN63cwxHDa3SVuR2k55ovaARDKvJdmjkT3iGzbmHR\nNtLHGbDy2LEW8tgrD0/mQT+L2Xz6AjD3Yl5XhFYy6R1NvlblCF1c3VCPSG3P\nVJg5\r\n=L9db\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-superagent_0.0.10_1554350206037_0.3390537884633904"
+  },
+  "_hasShrinkwrap": false
+}

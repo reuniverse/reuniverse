@@ -1,0 +1,71 @@
+{
+  "_id": "bs-ocaml-protoc-json@0.1.1",
+  "_rev": "4-2d8ed99e726cb1f36e44216ee2fb1dc1",
+  "name": "bs-ocaml-protoc-json",
+  "description": "Protobuf JSON runtime for BuckleScript",
+  "dist-tags": {
+    "latest": "0.1.1"
+  },
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.1.0",
+    "0.1.1"
+  ],
+  "maintainers": [
+    "mransan <maxime.ransan@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-04-11T04:12:08.544Z",
+    "created": "2017-03-17T20:38:48.888Z",
+    "0.0.1": "2017-03-17T20:38:48.888Z",
+    "0.0.2": "2017-03-27T20:43:35.176Z",
+    "0.1.0": "2017-04-11T03:33:34.104Z",
+    "0.1.1": "2017-04-11T04:12:08.544Z"
+  },
+  "homepage": "https://github.com/mransan/bs-ocaml-protoc-json",
+  "keywords": [
+    "protobuf",
+    "serialization",
+    "syntax",
+    "bucklescript",
+    "json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mransan/bs-ocaml-protoc-json.git"
+  },
+  "author": "Maxime Ransan <maxime.ransan@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/mransan/bs-ocaml-protoc-json/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"4f20640685fae05417b336c4692ba722\"",
+  "_lastModified": "Sat, 26 May 2018 19:04:30 GMT",
+  "version": "0.1.1",
+  "dependencies": {},
+  "devDependencies": {
+    "bs-platform": "^1.6.x"
+  },
+  "scripts": {
+    "build": "bsb -make-world",
+    "test": "npm run-script build && node lib/js/tests/"
+  },
+  "gitHead": "bd68d1b87a1ca097d8052d1b83091a4a8252e902",
+  "_shasum": "5a17883628dffce8acdce6629400d5bee7738229",
+  "_from": ".",
+  "_npmVersion": "4.1.2",
+  "_nodeVersion": "7.7.1",
+  "_npmUser": "mransan <maxime.ransan@gmail.com>",
+  "dist": {
+    "shasum": "5a17883628dffce8acdce6629400d5bee7738229",
+    "tarball": "https://registry.npmjs.org/bs-ocaml-protoc-json/-/bs-ocaml-protoc-json-0.1.1.tgz"
+  },
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/bs-ocaml-protoc-json-0.1.1.tgz_1491883927834_0.3071399994660169"
+  },
+  "directories": {}
+}

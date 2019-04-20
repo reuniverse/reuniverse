@@ -1,0 +1,153 @@
+{
+  "_id": "bs-sql-common@6.0.0",
+  "_rev": "29-96537d1fa1270ecdf9e569bcdd36e9f2",
+  "name": "bs-sql-common",
+  "description": "A common interface common for SQL drivers.",
+  "dist-tags": {
+    "latest": "6.0.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.2.0",
+    "0.2.1",
+    "0.3.0",
+    "0.3.1",
+    "0.4.0",
+    "0.5.0",
+    "0.6.0",
+    "0.7.0",
+    "0.7.1",
+    "0.7.2",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "2.0.0",
+    "2.1.0",
+    "3.0.0",
+    "4.0.0",
+    "4.1.0",
+    "4.2.0",
+    "4.3.0",
+    "4.4.0",
+    "5.0.0",
+    "5.0.1",
+    "5.1.0",
+    "5.2.0",
+    "6.0.0"
+  ],
+  "maintainers": [
+    "scull7 <scull7@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-01-01T10:59:25.531Z",
+    "created": "2018-02-01T16:24:51.161Z",
+    "0.1.0": "2018-02-01T16:24:51.161Z",
+    "0.1.1": "2018-02-01T17:15:59.772Z",
+    "0.1.2": "2018-02-04T20:49:47.872Z",
+    "0.2.0": "2018-02-04T23:04:08.102Z",
+    "0.2.1": "2018-02-23T04:16:41.983Z",
+    "0.3.0": "2018-02-23T04:41:50.126Z",
+    "0.3.1": "2018-02-23T09:26:35.172Z",
+    "0.4.0": "2018-02-25T10:46:50.530Z",
+    "0.5.0": "2018-02-27T00:05:39.065Z",
+    "0.6.0": "2018-02-27T03:56:44.496Z",
+    "0.7.0": "2018-02-27T07:46:06.391Z",
+    "0.7.1": "2018-02-28T02:24:03.051Z",
+    "0.7.2": "2018-03-03T05:57:44.171Z",
+    "1.0.0": "2018-03-11T04:09:03.245Z",
+    "1.0.1": "2018-03-20T17:02:17.788Z",
+    "1.0.2": "2018-05-30T04:48:19.446Z",
+    "2.0.0": "2018-06-13T02:11:49.491Z",
+    "2.1.0": "2018-06-13T05:08:17.049Z",
+    "3.0.0": "2018-07-13T06:40:00.359Z",
+    "4.0.0": "2018-07-13T19:16:09.648Z",
+    "4.1.0": "2018-07-13T23:49:38.184Z",
+    "4.2.0": "2018-07-15T06:01:26.887Z",
+    "4.3.0": "2018-07-15T06:07:14.417Z",
+    "4.4.0": "2018-07-15T06:17:32.617Z",
+    "5.0.0": "2018-07-15T20:56:32.202Z",
+    "5.0.1": "2018-07-25T02:25:24.257Z",
+    "5.1.0": "2018-07-29T00:44:06.671Z",
+    "5.2.0": "2018-09-25T18:39:41.717Z",
+    "6.0.0": "2018-09-29T00:11:27.238Z"
+  },
+  "homepage": "https://github.com/scull7/bs-sql-common",
+  "keywords": [
+    "BuckleScript",
+    "reason",
+    "reasonml",
+    "mysql",
+    "databases",
+    "node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:scull7/bs-sql-common.git"
+  },
+  "author": "Nathan Sculli <scull7@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/scull7/bs-sql-common/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_etag": "W/\"6129ea535186f88ae7f911328d716ded\"",
+  "_lastModified": "Tue, 01 Jan 2019 10:59:26 GMT",
+  "version": "6.0.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "coverage": "nyc report --temp-directory=coverage --reporter=text-lcov",
+    "precommit": "lint-staged",
+    "test": "jest --coverage",
+    "watch:jest": "jest --coverage --watchAll"
+  },
+  "lint-staged": {
+    "*.{re,rei}": [
+      "refmt --in-place",
+      "git add"
+    ]
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules",
+      "<rootDir>/__tests__/TestUtil*"
+    ]
+  },
+  "main": "src/SqlWrapper.bs.js",
+  "dependencies": {
+    "@buckeye/bs-tarn": "^1.0.0",
+    "@glennsl/bs-json": "^2.0.0",
+    "bs-node-debug": "^0.2.0",
+    "sqlstring": "^2.3.1"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.2",
+    "bs-mysql2": "8.2.1",
+    "bs-platform": "^4.0.1",
+    "coveralls": "^3.0.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.1.2",
+    "mysql2": "^1.5.3",
+    "nyc": "^11.8.0"
+  },
+  "peerDependencies": {},
+  "licenseText": "MIT License\n\nCopyright (c) 2018 Nathan Sculli\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+  "dist": {
+    "shasum": "c8354fa44bd0f458be5079e24711c6e985bc65a0",
+    "tarball": "https://registry.npmjs.org/bs-sql-common/-/bs-sql-common-6.0.0.tgz",
+    "integrity": "sha512-JxAVSUVmieRvtuTOCrTkDIilbpAXopF8l8O5SOPwIJRgRUxcbHqPQOrfXIeAl3X41FkBfFqiADFWl+kRs/Ew8w==",
+    "fileCount": 34,
+    "unpackedSize": 58037,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbrsMvCRA9TVsSAnZWagAAis0P/1wDXiSYpRlvP4M43xzS\nJP2STR4y1nLC6qxReCqDuyrIaVlbWycH0n17wDqQx2ALekAb8ZJuDq4Fd3uI\nzj5cAnwvAQzGR37Yf6KwhrsNRJO3MPnVpYcFz52samrX26D/cGgpt9ouZ05r\nejKSGnrFWF4OLwsVZ82KRxO+jHNW+iiVboWkHfaVk9vqcbXSUv0b78INRXeO\nbLDcibpwK1PSPdY4Uz1RaSgHFZOcQYS6DKdkGiQ6/HrRy6ixbJIVkAU+dxHb\nqptHJQkGazu1er+akYUxebMw/wZwvAKKgNP4Pv5jSA0RC+oC4RsK3FoYSFb6\nCmVmYW7bQP0g60qsBUldNmMDhIOe7cj3k6Eo7Qad8H2QEiJH/YVD+LnAngz1\n90anmPpyrLulRsikdcbfgT/uCX1jXJ5skuePRTUMuy8+EkZOm5xMllN5V23e\nyn+Rb+jyFC1yPP3KorcO+623o6dc3ZLCCplyZfyV0arByudbDEoOf2k/AXD8\ns3vdmFNxSQ2LEeCY8M3BQCSkSwsAtRZay1iFTlhbtJS5ecvj1LAnb49iQMbn\nKtZ33OuT5fGIZGq3Mbun3Yy/fQLbLWc69S2QdVFR3yAWEfq3i96vO81JopJ4\ntGtxWmwa4mRb3VI9F4DxDgVIrdxwV5L9hOYpM2fzpK5i5IxNHppE2eaNDz17\nfYFy\r\n=8m6K\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "_npmUser": "scull7 <scull7@gmail.com>",
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-sql-common_6.0.0_1538179886929_0.26612566115728464"
+  },
+  "_hasShrinkwrap": false
+}

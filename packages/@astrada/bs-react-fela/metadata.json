@@ -1,0 +1,78 @@
+{
+  "_id": "@astrada/bs-react-fela@0.3.2",
+  "_rev": "3-1b0b9ab621361865d97d1c715747a117",
+  "name": "@astrada/bs-react-fela",
+  "description": "BuckleScript bindings for react-fela",
+  "dist-tags": {
+    "latest": "0.3.2"
+  },
+  "versions": [
+    "0.2.3",
+    "0.3.0",
+    "0.3.1",
+    "0.3.2"
+  ],
+  "maintainers": [
+    "astrada <alessandro.strada@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-09-05T18:04:22.526Z",
+    "created": "2018-01-15T21:58:00.185Z",
+    "0.2.3": "2018-01-15T21:58:00.185Z",
+    "0.3.0": "2018-08-12T13:48:51.025Z",
+    "0.3.1": "2018-08-14T13:08:45.561Z",
+    "0.3.2": "2018-09-05T18:04:19.723Z"
+  },
+  "homepage": "https://github.com/astrada/bs-react-fela",
+  "keywords": [
+    "bucklescript",
+    "react",
+    "fela",
+    "reason"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astrada/bs-react-fela.git"
+  },
+  "author": "Alessandro Strada <alessandro.strada@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/astrada/bs-react-fela/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_etag": "W/\"1af3116344d1e160eab97cdecfc42e76\"",
+  "_lastModified": "Wed, 05 Sep 2018 18:04:23 GMT",
+  "version": "0.3.2",
+  "main": "src/ReactFela.re",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "dependencies": {
+    "fela": "^6.2.1",
+    "react-fela": "^8.0.1",
+    "reason-react": "^0.5.3"
+  },
+  "devDependencies": {
+    "bs-platform": "^4.0.5"
+  },
+  "gitHead": "b47221fda3dabe732b417df53d9fdf824aebb469",
+  "_npmVersion": "6.1.0",
+  "_nodeVersion": "8.11.4",
+  "_npmUser": "astrada <alessandro.strada@gmail.com>",
+  "dist": {
+    "integrity": "sha512-JM5mj/fl1OxBzEK1YL1FvDDAGtP7YGkWLH2FSlODCqrE8Uqc+QW8EQ4ipIX9q2sUvtOSyIlDZTnAZEN1wI2InA==",
+    "shasum": "aca3a5fd98418f8e08300c7a5b2ffa66509333e3",
+    "tarball": "https://registry.npmjs.org/@astrada/bs-react-fela/-/bs-react-fela-0.3.2.tgz",
+    "fileCount": 7,
+    "unpackedSize": 19046,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbkBqkCRA9TVsSAnZWagAAJ/YP/3BV6Xde29jUqb44CowA\ncEVb7KtAHGZPgDWqFz6IaOsZ4jEKxYtnYdR/Cu4QJf+t17gKo1Eg/SFRnTbE\n3IuhBIwWbGCkJX6vk6C1HdbKVk/qXdR2KZie4uK7A3cqmH+p5ZJgYkUNghEb\nz2UKl4FJn7CjXcpDWUE+AIfmwgBrZJpvmvSVHJdzGJErXJcx7CUtuKpCMzhF\ne/0FoBbW+HBYVt9bS/hAd9zzhuWLXp52xow6UK6FeB/aMXdRSHSIcYx8TdJ5\n/kCwl5AGGORtvjy6OoBmkcmEgScb5rToSebNAbBkP5eR2RMhZoI7vNBlKH7z\ntQJuWOjpuBZfuR4kyHJhHaXtT/KfmRH46cl0Szos9bQmFVmkP1QdcNBwn3Ig\nd1PR+Org+pvaqIh1hzQd8dyR+nzPwEjyko9jEWq921WXoo7dKWHKOtWUk84t\nXq/9/H8p/y/7qtjuKBdplzDToKe6BbgjwCeFvaO7VXLL5EGhEBYfLGL+/Un8\n8/pYJP+s5/ek2XHGpV0AQPXX/JblH5Wt89ggfN08+HFUtwnH1nCOfNvxGxC0\nATXTek1eq8bRQIL3tDPiTBoNsfK27FtG/EwBmR4wHd+dbr+WSjWO82XmIELE\nE9MIAmOJvgYkr+hc5qVKjURLMum8q/7bGasrdMQxsFc9nbdXENszs1LgqIeU\nFL9k\r\n=Nj1F\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-react-fela_0.3.2_1536170659591_0.08736448344368686"
+  },
+  "_hasShrinkwrap": false
+}

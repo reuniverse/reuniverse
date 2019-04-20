@@ -1,0 +1,72 @@
+{
+  "_id": "bs-react-native-modal@0.1.1",
+  "_rev": "1-5b4e11e91819872cd283851840452385",
+  "name": "bs-react-native-modal",
+  "dist-tags": {
+    "latest": "0.1.1"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1"
+  ],
+  "time": {
+    "created": "2018-10-11T09:31:32.164Z",
+    "0.1.0": "2018-10-11T09:31:32.346Z",
+    "modified": "2018-10-13T17:59:41.157Z",
+    "0.1.1": "2018-10-13T17:59:38.006Z"
+  },
+  "maintainers": [
+    "broerjuang <juangwiantoro@gmail.com>"
+  ],
+  "description": "bucklesript bindings for react-native-modal",
+  "homepage": "https://github.com/broerjuang/bs-react-native-modal#readme",
+  "keywords": [
+    "BuckleScript",
+    "react-native",
+    "modal"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/broerjuang/bs-react-native-modal.git"
+  },
+  "author": "Juang Wiantoro <juangwiantoro@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/broerjuang/bs-react-native-modal/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_etag": "W/\"d3e15552e7133995a6816e3559b118ad\"",
+  "_lastModified": "Sat, 13 Oct 2018 17:59:42 GMT",
+  "version": "0.1.1",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "devDependencies": {
+    "bs-platform": "^4.0.5"
+  },
+  "dependencies": {
+    "bs-react-native": "^0.10.0",
+    "react-native-modal": "^6.5.0",
+    "reason-react": "^0.5.3"
+  },
+  "gitHead": "664d9b12878f87f466a06a3e926b22fffe294501",
+  "_npmVersion": "6.4.1",
+  "_nodeVersion": "10.10.0",
+  "_npmUser": "broerjuang <juangwiantoro@gmail.com>",
+  "dist": {
+    "integrity": "sha512-dg4whFzcq8bJJD/5KH8GlhFWET8nN7FrxA/n324lfLc+uFL+JZCxHEoH3wbpke+ElL0hOBUWb2oHlYvtB83y1Q==",
+    "shasum": "0ce736e66db9182ac8e2fe0ed6a1f15883fe81fa",
+    "tarball": "https://registry.npmjs.org/bs-react-native-modal/-/bs-react-native-modal-0.1.1.tgz",
+    "fileCount": 8,
+    "unpackedSize": 14332,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbwjKKCRA9TVsSAnZWagAAx1sP/3P0BLREEDNWeB1qWPbN\ntImu28eprhqmF1FubgUb5Cgopiuv2dHgiJsQwIkgmcquOaVBFBwmcBzQ+NNq\nMeeRqTy0rGnJNcwNxrU1b/rndTxtCycQeQyUz3Ha1y5DPmKK1MATyaHhS0k0\nrm1R4D7zJhaxfGDHcd1USD1MdZEeh9W0R1DNMcqaCabrt7Mz33PwFGnr6v5U\nvvkJcg9n6Uhwb9PLL1e/yI+HHmWE5uxzze9Z6ec6LUeVnbt6u0rqmpUkamq3\nhxxHuqARmEpz6VzaVGEnTM6zU3sYHrQ+Tmydxzd3nfGLtNQnGzHiAPqQyCQM\nlnIMW1Of6cQetZRHJXllYodkmGROg94KkYwDpdc7QKfYiG5xRCRwl4lvq66H\nLKQMNPG9jHY6psRsruGbHg4fveBW5k6sBfuzZUCvttotWAXE07hwGbrXE9b8\np8TccH2qkqRckoBjRLz9PwiM9R7okcUj9JIzHWyzxX4/vRrjuFmYfl0u4pMS\nyREb74waTTPFHMSCCcRBLEGlJSt2fk1qK4YfesH3drtlY7+d8uYzS475SeWK\n1o2KQw+aS3gyq1aFNHaqsK32vk73re0bs2mCGF6pkFQqdeqZTOE+xU6CsQXe\nWkDCORm1HyIKhQMc/0uYZnJnPulZ7XBsW/2DJir3wdrbuwep7mL4DlRhY4/Z\ni82z\r\n=QOmP\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-react-native-modal_0.1.1_1539453577888_0.5919011659840991"
+  },
+  "_hasShrinkwrap": false
+}

@@ -1,0 +1,71 @@
+{
+  "_id": "gimme-reason@0.0.1",
+  "_rev": "1-afad6ebbc9df740a731a1558a8e698f5",
+  "name": "gimme-reason",
+  "description": "Gimme A Reason App.",
+  "dist-tags": {
+    "latest": "0.0.1"
+  },
+  "versions": [
+    "0.0.1"
+  ],
+  "maintainers": [
+    "mrnoname <mrnoname@naver.com>"
+  ],
+  "time": {
+    "modified": "2016-10-30T15:47:08.559Z",
+    "created": "2016-10-30T15:47:08.559Z",
+    "0.0.1": "2016-10-30T15:47:08.559Z"
+  },
+  "homepage": "https://github.com/Pitzcarraldo/gimme-reason#readme",
+  "repository": {
+    "url": "git+https://github.com/Pitzcarraldo/gimme-reason.git",
+    "type": "git"
+  },
+  "author": "Minkyu Cho <mrnoname@naver.com>",
+  "bugs": {
+    "url": "https://github.com/Pitzcarraldo/gimme-reason/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"eb0afaed489cdfe76a6dfdf046a43cd6\"",
+  "_lastModified": "Sun, 27 May 2018 02:17:15 GMT",
+  "version": "0.0.1",
+  "bin": {
+    "gimme-reason": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js --fix"
+  },
+  "dependencies": {
+    "chalk": "1.1.3",
+    "commander": "2.9.0",
+    "copy-template-dir": "1.3.0",
+    "inquirer": "1.2.2",
+    "param-case": "2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "3.8.1",
+    "eslint-config-airbnb": "12.0.0",
+    "eslint-plugin-import": "1.16.0",
+    "eslint-plugin-jsx-a11y": "2.2.3",
+    "eslint-plugin-react": "6.4.1"
+  },
+  "gitHead": "1295fa829f7297481533699eb97c46d957b9ee5c",
+  "_shasum": "de15cf00d97ef5c7a65716540a61c15ee35ef652",
+  "_from": ".",
+  "_npmVersion": "3.10.8",
+  "_nodeVersion": "4.4.7",
+  "_npmUser": "mrnoname <mrnoname@naver.com>",
+  "dist": {
+    "shasum": "de15cf00d97ef5c7a65716540a61c15ee35ef652",
+    "tarball": "https://registry.npmjs.org/gimme-reason/-/gimme-reason-0.0.1.tgz"
+  },
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/gimme-reason-0.0.1.tgz_1477842428338_0.826370875351131"
+  },
+  "directories": {}
+}

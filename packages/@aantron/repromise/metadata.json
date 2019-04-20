@@ -1,0 +1,67 @@
+{
+  "_id": "@aantron/repromise@0.6.0",
+  "_rev": "2-16ed8032add3b435fd9dbbcee53045ad",
+  "name": "@aantron/repromise",
+  "dist-tags": {
+    "latest": "0.6.0"
+  },
+  "versions": [
+    "0.5.0",
+    "0.6.0"
+  ],
+  "time": {
+    "created": "2018-07-14T18:43:15.276Z",
+    "0.5.0": "2018-07-14T18:43:15.597Z",
+    "modified": "2018-07-26T22:39:19.880Z",
+    "0.6.0": "2018-07-26T22:39:15.325Z"
+  },
+  "maintainers": [
+    "aantron <antonbachin@yahoo.com>"
+  ],
+  "description": "Type-safe JS promises for ReasonML",
+  "homepage": "https://aantron.github.io/repromise",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aantron/repromise.git"
+  },
+  "author": "Anton Bachin <antonbachin@yahoo.com> (https://github.com/aantron)",
+  "bugs": {
+    "url": "https://github.com/aantron/repromise/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"5b5a4d97-2461\"",
+  "_lastModified": "Thu, 26 Jul 2018 22:39:19 GMT",
+  "version": "0.6.0",
+  "peerDependencies": {
+    "bs-platform": ">= 3.0.0"
+  },
+  "scripts": {
+    "build": "bsb -make-world",
+    "watch": "bsb -w -make-world",
+    "clean": "bsb -clean-world"
+  },
+  "files": [
+    "src/js/repromise.rei",
+    "src/js/repromise.re",
+    "bsconfig.json"
+  ],
+  "gitHead": "de1e010275132d757b9bd721490591029ea4a93d",
+  "_npmVersion": "5.6.0",
+  "_nodeVersion": "8.9.4",
+  "_npmUser": "aantron <antonbachin@yahoo.com>",
+  "dist": {
+    "integrity": "sha512-nxNUWKQQhRJKmsExKi2qyZUryvpEz07H17fEhRaZC3wXkxCtjcdx9j5LMnV0+anbU+EyG/X+UnfATReerBZgMA==",
+    "shasum": "45bea66e593b7e0f968bc0fd03f0b6578003e698",
+    "tarball": "https://registry.npmjs.org/@aantron/repromise/-/repromise-0.6.0.tgz",
+    "fileCount": 6,
+    "unpackedSize": 11752,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbWk2TCRA9TVsSAnZWagAAQy0P/ReA/yYPfNhA8XzLMP0e\nZgGHU5fiYBZKjJv5nOAMS+l4uz5MgmW3PkjIGjunXEqQeK6h140B0SEXZXfk\nYj55DVGmlVOjxv9v9yOSkXOSz35UC517Ir7p+/8WYiKD6P45cpxSJkndrlv4\n5fcxjsUrScAMZBYcyfqg0gv4mafyTZYmbV70+/I3EnnBEazfbXo8fqHOAin6\n0Jd+VG12Rh12UlJG+C6aIajp6bzKsp7wvmY2kNIFasXMKhJr+ctt8YkVuYvC\n9iDZd8LHR6fhI3VkKSeDZlJmVO+lzS6WjeLKEnjn/vmrfuDIs3eMHJqsRp0E\nRebFDqQr1vXwhn3EuRnSvpEqAUteDwl2nBD751ixYE8aks7SnmZglF5D6pwr\nTX6lhAWatnn66J882HgFnpeni1qMjuSDaIQAiXlb7xx07ounDME51Kluh/FS\nCkodSNnrraD3ejY/KMa6AZ5Q473I78IRFsAqaGkdJMT53rRwV6p+5LAAVgyY\n3nqFVmuRVZvHQqXVy71JbtfJnnWGE59Krs9A9vpazbWmdweF8tZiAiLWbtAQ\ngMgvwA7xEXbVXOYKPfJSlyKXhRaKxbuSEVKjkqmYVdChLyRyCl0ialdkwhPK\nnZn6fCFmvptHDSAhvcIP7CKo2huTWHENYD74etv1O2nMcEAT4qkV0/yxIds/\nq4Qc\r\n=ETMo\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/repromise_0.6.0_1532644755244_0.6994327415480288"
+  }
+}

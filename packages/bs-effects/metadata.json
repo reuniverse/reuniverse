@@ -1,0 +1,91 @@
+{
+  "_id": "bs-effects@0.10.0",
+  "_rev": "10-e3f8fa8fd8062892c907669c693fd8b5",
+  "name": "bs-effects",
+  "description": "Bucklescript data structures for effectful sync and async programming",
+  "dist-tags": {
+    "latest": "0.10.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.3.0",
+    "0.4.0",
+    "0.5.0",
+    "0.6.0",
+    "0.7.0",
+    "0.8.0",
+    "0.9.0",
+    "0.10.0"
+  ],
+  "maintainers": [
+    "ristostevcev <risto1@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-08-05T11:48:34.008Z",
+    "created": "2017-12-31T18:10:09.272Z",
+    "0.1.0": "2017-12-31T18:10:09.272Z",
+    "0.2.0": "2018-01-01T02:28:48.868Z",
+    "0.3.0": "2018-01-01T02:52:54.121Z",
+    "0.4.0": "2018-01-04T01:47:29.651Z",
+    "0.5.0": "2018-01-04T06:54:40.582Z",
+    "0.6.0": "2018-01-07T21:16:42.982Z",
+    "0.7.0": "2018-03-02T14:22:02.203Z",
+    "0.8.0": "2018-03-16T02:14:41.418Z",
+    "0.9.0": "2018-05-20T14:00:36.019Z",
+    "0.10.0": "2018-08-05T11:48:31.211Z"
+  },
+  "homepage": "https://github.com/Risto-Stevcev/bs-effects",
+  "keywords": [
+    "BuckleScript",
+    "reason"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Risto-Stevcev/bs-effects.git"
+  },
+  "author": "Risto Stevcev",
+  "bugs": {
+    "url": "https://github.com/Risto-Stevcev/bs-effects/issues"
+  },
+  "license": "BSD-3-Clause",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"bf802e466fc571aee62138f68cd63cf8\"",
+  "_lastModified": "Sun, 05 Aug 2018 11:48:35 GMT",
+  "version": "0.10.0",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "test": "mocha lib/js/test/Test*.js",
+    "test:watch": "mocha -w lib/js/test/Test*.js"
+  },
+  "devDependencies": {
+    "bs-chai": "^0.4.0",
+    "bs-jsverify": "^0.10.0",
+    "bs-mocha": "^0.4.0",
+    "bs-platform": "^4.0.0"
+  },
+  "dependencies": {
+    "bs-abstract": "^0.16.0",
+    "bs-errors": "^0.5.0"
+  },
+  "gitHead": "079a4cf367c06cb41177819bd3c2cf65858b662c",
+  "_npmVersion": "6.1.0",
+  "_nodeVersion": "10.6.0",
+  "_npmUser": "ristostevcev <risto1@gmail.com>",
+  "dist": {
+    "integrity": "sha512-XPb1PQjn/7Hahv4jtIvTytY6S500PF+qgEm7uZZ4lqcWuG+3Tr6lytKIXH6q5VH7tBrkSHrW72gPI7H9uttsog==",
+    "shasum": "997ed283b1f8cfdd9aa8b97e74b47ccd1290c65e",
+    "tarball": "https://registry.npmjs.org/bs-effects/-/bs-effects-0.10.0.tgz",
+    "fileCount": 10,
+    "unpackedSize": 26890,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbZuQPCRA9TVsSAnZWagAAZHgP/jxg1+Yq6LZ/vY4VY7Rh\nO13fJgokAqZQsGFPY4YWpNn1SXj0RRYDBRws5oVtNLpko2kjtsZN0qPyKxRk\nTJuZCOsr+jCrVIetTCUNcOnBjx81vtzd/wA67NtqofEzwrSbBgVuLvVekoiD\nSbwQGJl4e3aXsraLeiqNBAa5lHe9dmduK+qHZDfQno4v8SY3iyzjF0hqpdiB\n9PIxmfMyVvg7lIoIhKDlX6ZfJYjjLnyGgDYInASSZFnPp8GCnc4ktY499zr2\nmPaCsxcS/jF7/Bj61NElhVuVqffXABwTd72NfIoFOzcuXwcxwyB7bwANTnaC\nl8PqMvbQdyGuV+f/ggBHjxfmKgI/yjX1GJyiSoTlRYIQXvMZgD9ToEERbdo/\nxUJIFtyQ1/iixZYhXmSfj6tT5p8V7+x1VOMBaUZgU29LHg5E5FG82SaK949u\nTxTiEJMwd1uxLQl62je7OU47wAjSGvHD1261lx/AuUoFLeOvpS5mmDOUaXIz\n1/iiVa919IuI/tEe/xzP4ZW/A2iWyh2SX9n1ovshcpAvYx6oVauZTdLAlUwd\nBzTaUewm8bEzoUWNIEhndAs6ZRI1RxH3PJwojnUFjZYOvodZewSLWDoEb1xW\nR0gBrzvBxgQXg+XG3+jmdCZB7phpWqwSjmo5VqvxdLTCbGq4Z1v5o1ho4t0b\nqxtI\r\n=9bcO\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-effects_0.10.0_1533469711106_0.9225795697933936"
+  }
+}

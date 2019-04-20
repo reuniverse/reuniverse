@@ -1,0 +1,73 @@
+{
+  "_id": "reason-maybe@0.3.0",
+  "_rev": "3-5fbd25cf9bdff42b59ba7138c1c7b6c3",
+  "name": "reason-maybe",
+  "dist-tags": {
+    "latest": "0.3.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.3.0"
+  ],
+  "time": {
+    "created": "2018-07-04T06:43:20.083Z",
+    "0.1.0": "2018-07-04T06:43:20.448Z",
+    "modified": "2018-07-04T12:08:45.337Z",
+    "0.2.0": "2018-07-04T07:29:40.157Z",
+    "0.3.0": "2018-07-04T12:08:39.641Z"
+  },
+  "maintainers": [
+    "johnpaulada <johnpaulada@gmail.com>"
+  ],
+  "description": "A simple Maybe library in Reason.",
+  "homepage": "https://www.npmjs.com/package/reason-maybe",
+  "keywords": [
+    "BuckleScript",
+    "maybe",
+    "monad",
+    "reasonml",
+    "library",
+    "functional-programming"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnpaulada/reason-maybe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/reasonml/reason-maybe/issues",
+    "email": "johnpaulada@gmail.com"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"e5d1d7d922defef5c21de0de0743c1d2\"",
+  "_lastModified": "Wed, 04 Jul 2018 12:08:46 GMT",
+  "version": "0.3.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "author": "",
+  "devDependencies": {
+    "bs-platform": "^3.1.5"
+  },
+  "gitHead": "080beb1d3c1c9c54897ec50a6df1f4c555859638",
+  "_npmVersion": "6.1.0",
+  "_nodeVersion": "10.3.0",
+  "_npmUser": "johnpaulada <johnpaulada@gmail.com>",
+  "dist": {
+    "integrity": "sha512-1ch92MBl6pWWToXsXf0gRxlZdUnpkOJYut1ykb74kVqCUE7snPs07p4AavhsYg263WIMGQ/RSe29ZV0SSwM+1Q==",
+    "shasum": "43fd496ecfde05d82235a892470f0f73d47e1087",
+    "tarball": "https://registry.npmjs.org/reason-maybe/-/reason-maybe-0.3.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 10008,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbPLjHCRA9TVsSAnZWagAA+4UP/0hYyc28lkJWQKuUi6ex\nnd1/vTa97pfsFVh9cGZ+KHMj2oTPOZCcXknjDSnoL97q8GcuJgPIR1CB3hoC\nPzL2BCggcqY7ilF2lehhGsYzQvqTn6ljHhOY/o5xtU90oSyNsQgRUmkdSXmG\nNtdicwHdEOc6PxjSMQRKeuU5gU1PkGJNkU86t1MctazskN+hIHq9Q58mVX36\n80xnETiPcrXiA3OOLnQSPbmUc/RuGU+lTO0kVlTTNj10MWkCdslaRWd9sGtv\nh4vd3kNVyenwmPWauGgSUrkBHqX9dy5NoLDDV0kbZp9Znh6Y1SlR+sm1DBHo\ngBsFLc8Ja5vamuVfwD6JuDf+MkvGNYrAfLjqKFGSyTCkx5WI50pck0D9PTN1\nqDiTQ9wWiQ6haSMlKtV8qBoGSrigEgC6eqBK3t1Vsmizlw/4cAr4XhUjFDba\ngjqRlOk+EZI1xqf2iM7NXcfljqkyfml5oj1RBPIm6BahtwVkNhusJ4FYBisL\nkZ5AxGswJdsQxmzTrsrsFRFTWgfHtqHRsCvbKVDbM+F3p4VGv1E0Gfp/j4u1\n6RvAA6WR+/A6SO0NsDCdDyexggbvQYinQnh4z1p/cPvqXMM+k3bw4NoMATEO\nN3LoCcOMm0I+8tHHCE7fxGjBBFa9XaTkwg7A7B5Ez1YrIWSpCgVgimlhi33j\nwSDR\r\n=KlqW\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/reason-maybe_0.3.0_1530706119556_0.05137234291388415"
+  }
+}

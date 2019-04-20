@@ -1,0 +1,79 @@
+{
+  "_id": "bs-react-dropdown@1.0.4",
+  "_rev": "4-7c854b12c39aa574ddb670713186b81b",
+  "name": "bs-react-dropdown",
+  "dist-tags": {
+    "latest": "1.0.4"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4"
+  ],
+  "time": {
+    "created": "2019-03-20T20:53:12.138Z",
+    "1.0.0": "2019-03-20T20:53:13.011Z",
+    "modified": "2019-04-08T16:47:01.455Z",
+    "1.0.1": "2019-03-20T21:14:04.816Z",
+    "1.0.2": "2019-03-21T12:06:27.654Z",
+    "1.0.3": "2019-03-24T09:05:11.019Z",
+    "1.0.4": "2019-04-08T16:46:58.691Z"
+  },
+  "maintainers": [
+    "germes <e.chemohonenko@gmail.com>"
+  ],
+  "description": "BuckleScript binding to react-dropdown",
+  "homepage": "https://github.com/ixzzd/bs-react-dropdown#readme",
+  "keywords": [
+    "reasonml",
+    "binding",
+    "react-dropdown",
+    "bucklescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ixzzd/bs-react-dropdown.git"
+  },
+  "author": "Egor Chemokhonenko",
+  "bugs": {
+    "url": "git+https://github.com/ixzzd/bs-react-dropdown/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_etag": "W/\"55d72cdb8117166d6e8b35e244b79312\"",
+  "_lastModified": "Mon, 08 Apr 2019 16:47:02 GMT",
+  "version": "1.0.4",
+  "main": "src/dropdown.bs.js",
+  "scripts": {
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "dependencies": {
+    "react-dropdown": "^1.6.4",
+    "reason-react": "^0.5.3"
+  },
+  "devDependencies": {
+    "bs-platform": "^4.0.18"
+  },
+  "gitHead": "e14d9a692cf62b5f23e4d55a6a816593dfa25251",
+  "_nodeVersion": "11.10.0",
+  "_npmVersion": "6.8.0",
+  "dist": {
+    "integrity": "sha512-Vd8maqw7mEkh2bZ2AAP8NMSzcKtVs29AVf4SqrZhEdX9koUMGPsycKJLMYLO/6UIQCvZ3EGncsvyAfjARdayIQ==",
+    "shasum": "5d4f475a9d0f733c912a144cbd56ae272ff8d694",
+    "tarball": "https://registry.npmjs.org/bs-react-dropdown/-/bs-react-dropdown-1.0.4.tgz",
+    "fileCount": 6,
+    "unpackedSize": 4643,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcq3sDCRA9TVsSAnZWagAAG9gP/AjIWfierVWLmq+qW+w2\n20VWU3YJa/Ro9fsWtTJMslCXQngH3bXe9LTLFZRQ0hgdkkaURbYKn+HD+L3x\nTSX5qGvVJEHDaX0u2Ox5Ap9F3oxZ8yBOmM/MIucND29m/2NrYQCYfJbjrbyC\nTEXRbSaZwQLkODZUTeFAAA2zSv5ddOsOztt14f+ahojMLuKL24RX4jvFUv+r\nn9xBg8My0B5sfizPIBh2qG/iFeN6I7aTtqPRznjBN6RnCgi8hiE4bdLhVWxg\nP+07kJf4Ykf1Xwj6YCtznQcEO4FixM4HB0YSCBVrMpgGK5DfWced9V5258Jf\nicCwiGvHgo4CvSd1ODB9Y0q87T1cfLzKs3i0TxI6Lle6drNavFBNGgofGKEB\nr03plDkOgv9QdUholUmabEa22fW5OVzQeoX8iknj7EZIlq397JUK5woKQQuE\nfV9Hjy1LJf5IxJupu8evSoPsuyKMEP56OAz/rIzFNyBe5R8qGDP68ZTCidt/\nVr6LJUsLIFUPRF8rEsrTaRHqO2sI+ubRNf7c8OyDTDJxEa0Yp4M962RCoFS8\nY/ylpHpX/cfp0Q1Ep5R/ajy5YuBgMcEuyqIswaU+UdwR98aDViDuRpw0SQQB\nBIoTUTaoT+J2eJv1C9Y3xZw9gC2d92ArBAfUouXYhVR9XN3bTEivZBiyZPO2\nqxBR\r\n=Pcbo\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "_npmUser": "germes <e.chemohonenko@gmail.com>",
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-react-dropdown_1.0.4_1554742018540_0.9055227951684293"
+  },
+  "_hasShrinkwrap": false
+}

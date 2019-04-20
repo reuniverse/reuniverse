@@ -1,0 +1,74 @@
+{
+  "_id": "@nebuta/bs-jquery@0.0.2",
+  "_rev": "2-5e7ff50cb58b8b845ee3cb4e23014dfa",
+  "name": "@nebuta/bs-jquery",
+  "description": "jQuery binding for BuckleScript",
+  "dist-tags": {
+    "latest": "0.0.2"
+  },
+  "versions": [
+    "0.0.1",
+    "0.0.2"
+  ],
+  "maintainers": [
+    "nebuta <nebuta.office@gmail.com>"
+  ],
+  "time": {
+    "modified": "2016-10-09T07:24:57.794Z",
+    "created": "2016-10-09T07:13:10.365Z",
+    "0.0.1": "2016-10-09T07:13:10.365Z",
+    "0.0.2": "2016-10-09T07:24:57.794Z"
+  },
+  "homepage": "https://github.com/nebuta/bucklescript-jquery",
+  "keywords": [
+    "BuckleScript",
+    "OCaml",
+    "JQuery"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nebuta/bucklescript-jquery.git"
+  },
+  "author": "Nebuta",
+  "bugs": {
+    "url": "https://github.com/nebuta/bucklescript-jquery/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"9b0d2b6d2037a94f76752533bc4db46b\"",
+  "_lastModified": "Sat, 14 Oct 2017 07:52:28 GMT",
+  "version": "0.0.2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "mkdir -p lib/js && ./node_modules/bs-platform/bin/bsc.exe -I lib/ocaml -c -bs-main lib/ocaml/jquery.ml -bs-package-name $npm_package_name -bs-package-output lib/js || true",
+    "compile_test": "mkdir -p lib/js && ./node_modules/bs-platform/bin/bsc.exe -I lib/ocaml -c -bs-main lib/ocaml/test.ml -bs-package-name $npm_package_name -bs-package-output lib/js && webpack test/main.js test/bundle.js"
+  },
+  "devDependencies": {
+    "bs-platform": "^1.0.3",
+    "esprima": "^3.0.0",
+    "lodash": "^4.16.2"
+  },
+  "dependencies": {
+    "jquery": "^3.1.0"
+  },
+  "bundleDependencies": [
+    "jquery"
+  ],
+  "_shasum": "6e6eacca6be7947a35dd4741d3f4153cb68d601a",
+  "_resolved": "file:nebuta-bs-jquery-0.0.2.tgz",
+  "_from": "nebuta-bs-jquery-0.0.2.tgz",
+  "_npmVersion": "3.10.8",
+  "_nodeVersion": "6.6.0",
+  "_npmUser": "nebuta <nebuta.office@gmail.com>",
+  "dist": {
+    "shasum": "6e6eacca6be7947a35dd4741d3f4153cb68d601a",
+    "tarball": "https://registry.npmjs.org/@nebuta/bs-jquery/-/bs-jquery-0.0.2.tgz"
+  },
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/bs-jquery-0.0.2.tgz_1475997895489_0.1876809501554817"
+  },
+  "directories": {}
+}

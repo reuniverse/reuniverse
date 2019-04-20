@@ -1,0 +1,78 @@
+{
+  "_id": "bs-mysql@0.2.0",
+  "_rev": "5-2e1509e9585a57b2a6883fa8ea47622f",
+  "name": "bs-mysql",
+  "description": "Bucklescript bindings for mysql.js, written in Reason.",
+  "dist-tags": {
+    "latest": "0.2.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.2",
+    "0.1.3",
+    "0.1.4",
+    "0.2.0"
+  ],
+  "maintainers": [
+    "davidgomes <davidrafagomes@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-02-01T10:40:38.765Z",
+    "created": "2018-01-07T22:42:38.822Z",
+    "0.1.0": "2018-01-07T22:42:38.822Z",
+    "0.1.2": "2018-01-13T22:49:53.276Z",
+    "0.1.3": "2018-01-14T11:06:09.052Z",
+    "0.1.4": "2018-01-15T21:06:56.517Z",
+    "0.2.0": "2018-02-01T10:40:38.765Z"
+  },
+  "homepage": "https://github.com/davidgomes/bs-mysql",
+  "keywords": [
+    "BuckleScript",
+    "reason",
+    "reasonml",
+    "mysql",
+    "databases",
+    "node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidgomes/bs-mysql.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidgomes/bs-mysql/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "author": "David Gomes <davidrafagomes@gmail.com>",
+  "_attachments": {},
+  "_etag": "W/\"7454fd4e88fa79f36b2f5fc2800db272\"",
+  "_lastModified": "Sat, 26 May 2018 19:04:29 GMT",
+  "version": "0.2.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "example": "node example/example.bs.js",
+    "clean": "bsb -clean-world"
+  },
+  "peerDependencies": {
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {
+    "bs-platform": "^2.1.0",
+    "mysql": "^2.15.0"
+  },
+  "gitHead": "5787e88b03078a41fd241e45f1279e172a14baa9",
+  "_npmVersion": "5.6.0",
+  "_nodeVersion": "8.9.0",
+  "_npmUser": "davidgomes <davidrafagomes@gmail.com>",
+  "dist": {
+    "integrity": "sha512-aqDU2Xdpjf4V+s0gCP1AZkMe4iEv4Etdls+M2ajacnGHxLbRR8gCz+THdXvb+nT6dBgE7jJbEATvy5W+NXt1iQ==",
+    "shasum": "ff734e6b6da6067c1c37cd9a1a8bab2506d9876e",
+    "tarball": "https://registry.npmjs.org/bs-mysql/-/bs-mysql-0.2.0.tgz"
+  },
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-mysql-0.2.0.tgz_1517481637761_0.1475558856036514"
+  },
+  "directories": {}
+}

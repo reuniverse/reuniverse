@@ -1,0 +1,105 @@
+{
+  "_id": "immutable-re@0.0.15",
+  "_rev": "9-a0eaae8d98c4c485b405e298b8fa1883",
+  "name": "immutable-re",
+  "description": "Persistent immutable collections for Reason",
+  "dist-tags": {
+    "latest": "0.0.15"
+  },
+  "versions": [
+    "0.0.6",
+    "0.0.7",
+    "0.0.9",
+    "0.0.14",
+    "0.0.15"
+  ],
+  "maintainers": [
+    "bordoley <bordoley@gmail.com>",
+    "fb <opensource+npm@fb.com>"
+  ],
+  "time": {
+    "modified": "2018-03-02T20:37:40.778Z",
+    "created": "2017-04-10T05:56:49.285Z",
+    "0.0.6": "2017-04-10T05:56:49.285Z",
+    "0.0.7": "2017-04-25T23:04:34.636Z",
+    "0.0.9": "2017-04-25T23:37:20.474Z",
+    "0.0.14": "2017-05-11T23:43:23.004Z",
+    "0.0.15": "2017-05-15T21:18:04.432Z"
+  },
+  "keywords": [
+    "reason",
+    "reasonml",
+    "ocaml",
+    "immutable"
+  ],
+  "author": "Dave Bordoley <bordoley@gmail.com>",
+  "license": "BSD-3-Clause",
+  "readmeFilename": "README.md",
+  "homepage": "https://facebookincubator.github.io/immutable-re/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facebookincubator/immutable-re.git"
+  },
+  "contributors": [
+    "Dave Bordoley <bordoley@gmail.com>"
+  ],
+  "bugs": {
+    "url": "https://github.com/facebookincubator/immutable-re/issues"
+  },
+  "_attachments": {},
+  "_etag": "W/\"154993154d380f6019a81a5c00742487\"",
+  "_lastModified": "Sun, 27 May 2018 04:33:53 GMT",
+  "version": "0.0.15",
+  "main": "lib/js/src/immutable.js",
+  "files": [
+    "bsconfig.json",
+    "CONTRIBUTING.md",
+    "LICENSE.txt",
+    "lib/js/src",
+    "PATENTS.txt",
+    "README.md",
+    "src"
+  ],
+  "dependencies": {
+    "bs-platform": "^1.7.1"
+  },
+  "devDependencies": {
+    "reunit": "./reUnit",
+    "opam_of_packagejson": "*"
+  },
+  "opam": {
+    "dependencies": {
+      "reason": "build & >=  \"1.13.3\""
+    },
+    "installPath": "_build/src",
+    "libraryName": "immutable",
+    "mainModule": "Immutable"
+  },
+  "scripts": {
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "deploy-docs": "git subtree push --prefix docs origin gh-pages",
+    "setup-global-env": "npm install -g git://github.com/reasonml/reason-cli.git",
+    "opam-init": "opam init",
+    "opam-install-mac": "brew update && brew install opam",
+    "opam-pin": "eval $(opam config env) && opam update && opam switch 4.02.3 && opam pin add -y immutable .",
+    "package-opam": "opam_of_packagejson -gen-meta -gen-opam -gen-install package.json",
+    "release": "node release.js"
+  },
+  "gitHead": "814d9b443758ff138f1e161d0a168e6d78a33bfd",
+  "_shasum": "56a99ad76479a5ffd3fccec13ec2b853d1ebce31",
+  "_from": ".",
+  "_npmVersion": "4.1.2",
+  "_nodeVersion": "7.7.1",
+  "_npmUser": "bordoley <bordoley@gmail.com>",
+  "dist": {
+    "shasum": "56a99ad76479a5ffd3fccec13ec2b853d1ebce31",
+    "tarball": "https://registry.npmjs.org/immutable-re/-/immutable-re-0.0.15.tgz"
+  },
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/immutable-re-0.0.15.tgz_1494883081863_0.36112069012597203"
+  },
+  "directories": {}
+}

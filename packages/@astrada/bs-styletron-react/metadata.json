@@ -1,0 +1,76 @@
+{
+  "_id": "@astrada/bs-styletron-react@0.3.0",
+  "_rev": "3-0176d64b25eaf4f03c44db612d78b7f0",
+  "name": "@astrada/bs-styletron-react",
+  "description": "BuckleScript bindings for styletron-react",
+  "dist-tags": {
+    "latest": "0.3.0"
+  },
+  "versions": [
+    "0.1.3",
+    "0.2.0",
+    "0.3.0"
+  ],
+  "maintainers": [
+    "astrada <alessandro.strada@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-08-13T15:52:09.261Z",
+    "created": "2018-01-15T22:08:29.992Z",
+    "0.1.3": "2018-01-15T22:08:29.992Z",
+    "0.2.0": "2018-08-12T14:40:15.239Z",
+    "0.3.0": "2018-08-13T15:52:03.709Z"
+  },
+  "homepage": "https://github.com/astrada/bs-styletron-react",
+  "keywords": [
+    "bucklescript",
+    "react",
+    "styletron",
+    "reason"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astrada/bs-styletron-react.git"
+  },
+  "author": "Alessandro Strada <alessandro.strada@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/astrada/bs-styletron-react/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"5b71a929-2263\"",
+  "_lastModified": "Mon, 13 Aug 2018 15:52:09 GMT",
+  "version": "0.3.0",
+  "main": "src/Styletron.re",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "dependencies": {
+    "styletron-engine-atomic": "^1.0.8",
+    "styletron-react": "^4.3.5"
+  },
+  "devDependencies": {
+    "bs-platform": "^4.0.3",
+    "reason-react": "^0.5.0"
+  },
+  "gitHead": "ea0e030d5789bbc93d683ac3541677d08d87ce06",
+  "_npmVersion": "6.1.0",
+  "_nodeVersion": "8.11.3",
+  "_npmUser": "astrada <alessandro.strada@gmail.com>",
+  "dist": {
+    "integrity": "sha512-iUKNGc65vK2tfUTaAz+JfM4ORyXq1lmXpy9QlZjWzx+LvXNrKHqPvwRVp5LXjtYy9eA3QTBqKYTdT6eiotY4Aw==",
+    "shasum": "f37965bc6874e552bbaffb3b9003f6177c3238aa",
+    "tarball": "https://registry.npmjs.org/@astrada/bs-styletron-react/-/bs-styletron-react-0.3.0.tgz",
+    "fileCount": 7,
+    "unpackedSize": 13551,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbcakkCRA9TVsSAnZWagAAGhAQAKABCxSk/S5C/LZQhu+A\n3n7PsLudAejJ2A/8rCbD80IAg15dQx+EP6FMUtz6KmWOf/4CJTgajEZF7UwM\ncTCrTe0udJCFCbp4Dak8CjcE8ZXMQ6sVtmQFhJFi3oEhjcN3B5QL9411kupw\n84g9uT145TJwCJWwsYvypMj2JLoNaZPq8pwLn41YM5ATWlXS7/3JQzSiH2og\ntWEkSdSey6UsDlNFwjArckUUlHjxsBxMuBVhZ78ttjjuOE2Yyd5KWvz/P2pa\n5mrnmrC2t2wPqOpyoJeEz1C3jMNSQW+RXjUfhyDgZJpNVGwzjecaTOLISqDc\nU1g4InAfYI+PbGH2TEuvxa5PjWaNBgyeL85GKmiJWA4NqRQOEIfLNvef62pU\na9YcZE17J8SoBs9BegOvgdmHiSdHejAgfUBWhJylVG7TcEscBDwqK0o45yDd\n/Xgl5ftp7mMxSF3QAsyz5Am5y6rDxJC+3TBK7wpi9+BFD1OOVmtuLhXlg/cG\noA+sKiuLGK8z2mbf5eu2AoCAdPobFGrD76xz0DDQs56I+Uhtg44dbAeu0GUm\nymSOeJ1FEh20t7vLIjsvNZW8+Q8sG/VpVmCkWNHHw3fFJPR/l0g9roycPnqx\n0pLstt6I+TV8j62GGFUvhgHEpuHV2R87a0YnqOSXwmfoIVefvzJ2lemfqZHj\nqXtB\r\n=IPM4\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-styletron-react_0.3.0_1534175523653_0.2627536903468932"
+  }
+}

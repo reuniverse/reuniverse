@@ -1,0 +1,77 @@
+{
+  "_id": "bs-compression@0.0.3",
+  "_rev": "3-acec14ce4fb97c81772ee1f2b84886c7",
+  "name": "bs-compression",
+  "dist-tags": {
+    "latest": "0.0.3"
+  },
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3"
+  ],
+  "time": {
+    "created": "2018-03-04T18:03:26.582Z",
+    "0.0.1": "2018-03-04T18:03:26.651Z",
+    "modified": "2018-03-12T05:49:33.738Z",
+    "0.0.2": "2018-03-04T18:09:35.792Z",
+    "0.0.3": "2018-03-12T05:49:32.975Z"
+  },
+  "maintainers": [
+    "viebel <viebel@gmail.com>"
+  ],
+  "description": "Bucklescript bindings for Compression middlewaare",
+  "homepage": "https://github.com/viebel/bs-compression#readme",
+  "keywords": [
+    "bucklescript",
+    "compression",
+    "nodejs",
+    "middleware"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viebel/bs-compression.git"
+  },
+  "author": "Yehonathan Sharvir",
+  "bugs": {
+    "url": "https://github.com/viebel/bs-compression/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"fb3504f9d8f5768e118d3335ccd9a8a1\"",
+  "_lastModified": "Sat, 26 May 2018 19:04:16 GMT",
+  "version": "0.0.3",
+  "scripts": {
+    "test": "jest --watch",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "devDependencies": {
+    "bs-platform": "^2.2.2",
+    "bs-express": "^0.0.4"
+  },
+  "dependencies": {
+    "compression": "^1.7.2"
+  },
+  "peerDependencies": {
+    "bs-express": "^0.0.4"
+  },
+  "gitHead": "097105ae34a47528830cf6b5715b86e8e937869a",
+  "_npmVersion": "5.5.1",
+  "_nodeVersion": "8.9.1",
+  "_npmUser": "viebel <viebel@gmail.com>",
+  "dist": {
+    "integrity": "sha512-h4MHnRTngVp+39YhaWDE7550IhqB9LZ671pxsz5xPJF0Ers4B+VbBojLsWiqLurUcI272ApsdmiS7bzaqASy4w==",
+    "shasum": "8f1af231f92f02804ff4197471b517c1d94db32d",
+    "tarball": "https://registry.npmjs.org/bs-compression/-/bs-compression-0.0.3.tgz",
+    "fileCount": 5,
+    "unpackedSize": 12812
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-compression_0.0.3_1520833772932_0.7942302287809277"
+  }
+}

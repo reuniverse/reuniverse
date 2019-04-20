@@ -1,0 +1,92 @@
+{
+  "_id": "bs-ws@1.1.1",
+  "_rev": "12-bd57262843e2e2d17f2e9c95dea1f96c",
+  "name": "bs-ws",
+  "dist-tags": {
+    "latest": "1.1.1"
+  },
+  "versions": [
+    "0.1.0",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5",
+    "1.0.7",
+    "1.0.8",
+    "1.0.9",
+    "1.1.1"
+  ],
+  "time": {
+    "created": "2018-05-15T17:37:28.441Z",
+    "0.1.0": "2018-05-15T17:37:28.535Z",
+    "modified": "2019-03-31T21:26:20.706Z",
+    "1.0.0": "2018-05-15T17:39:37.151Z",
+    "1.0.1": "2018-05-15T18:15:46.189Z",
+    "1.0.2": "2018-05-15T23:27:56.220Z",
+    "1.0.3": "2018-05-15T23:52:49.442Z",
+    "1.0.4": "2018-05-16T04:56:51.215Z",
+    "1.0.5": "2018-05-16T19:20:45.413Z",
+    "1.0.7": "2018-05-16T21:57:41.018Z",
+    "1.0.8": "2018-05-19T01:25:12.977Z",
+    "1.0.9": "2018-12-03T19:54:36.451Z",
+    "1.1.0": "2019-03-31T21:18:22.958Z",
+    "1.1.1": "2019-03-31T21:26:16.375Z"
+  },
+  "maintainers": [
+    "kfish610 <kfish610@gmail.com>"
+  ],
+  "description": "ws bindings for Reason",
+  "homepage": "https://github.com/kfish610/bs-ws",
+  "keywords": [
+    "BuckleScript",
+    "Node",
+    "WebSocket",
+    "ws"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kfish610/bs-ws.git"
+  },
+  "author": "kfish610 <kfish610@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/kfish610/bs-ws/issues",
+    "email": "kfish610@gmail.com"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_etag": "W/\"32287c54c41b12eb0f8fb47cb4772d13\"",
+  "_lastModified": "Sun, 31 Mar 2019 21:26:21 GMT",
+  "version": "1.1.1",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "devDependencies": {
+    "bs-platform": "^5.0.0"
+  },
+  "dependencies": {
+    "isomorphic-ws": "^4.0.1",
+    "ws": "^6.2.1"
+  },
+  "gitHead": "1beb91545a9aaa2096d9f72cd1bd6d7ccf22074c",
+  "_nodeVersion": "11.12.0",
+  "_npmVersion": "6.7.0",
+  "dist": {
+    "integrity": "sha512-1fnJtM2T82iUHHACu9Hxa+aWDrjIdY3MQDljVNSak1aJG5pkLEXMWG/7B+yLv+dfHhg+AT2cRwfSezTHdr8ZAw==",
+    "shasum": "b6f0bcef6668b679673ba2b85ebc929e594353b8",
+    "tarball": "https://registry.npmjs.org/bs-ws/-/bs-ws-1.1.1.tgz",
+    "fileCount": 11,
+    "unpackedSize": 5711,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcoTB4CRA9TVsSAnZWagAA7Z8P/R2YyW6OKnKOUC6+UhFa\nwNRWqcvMsBwAYE0VWAdgpTss60dExyBJIO6WfQ8v1kwMz6bTBiPVbWNJFR9o\nKzoXEGSXhz29hmGbNLq/sAtgHo0ZchrA72qtIk9rkY0yNml8NtTmR0R7ZFf1\n+7mZa0cY1vm4p0Xd2SdaIbIhcW1ShOwmDHg3vr3AdheKYoZoqcZR3POfQ3+v\n3f1lP6Yr3buda6FSkDBTyrQ+yS3F0g3ILOW+fnMiuwAgEMLOZ/bz+ZjX8zcp\nnD1NhWPLCO9MCjjvFY5R4l2lLCjQI6a4Jht0rOCUuhr3jH+u3KNjkoPVCVNt\nyXTm9yUzrUKJinffs1yOde74GP4+2kC29i+aCrzURU2Psj6m2qM2vx5dyNDO\nczUHKm/ul8uzDGYUli1YIbXAXPw9a9i2UqTrX02Iw8bZp30J553IMdLcPu50\noprPwtIULE+fx28d6y6sy+TIIUncTMilfMwomMDLAYqKbPsLrhS6aMfEvjpS\nESScbsUY9y973KuRW+Jmq+1nhpCOOQ92vp72hPzZGI5UHvbTrjYwsA7qqU/N\niqHZO+biX3TdVcelVQfeAs4tTfmwIWSTrxj6DM5bnswM+3PhnfeYZfDMsQ4k\nexf8Iwpux/4pk5fygtzgBt+N8aVzW4VVv2JN9k07UrZ+oGgkrwDEVIX6b7sL\nnkZf\r\n=syIW\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "_npmUser": "kfish610 <kfish610@gmail.com>",
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-ws_1.1.1_1554067576255_0.43440509294040996"
+  },
+  "_hasShrinkwrap": false
+}

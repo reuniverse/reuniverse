@@ -1,0 +1,83 @@
+{
+  "_id": "bs-winston@0.4.0",
+  "_rev": "3-75cc8a3a64b65be567d343f3fbad4a77",
+  "name": "bs-winston",
+  "dist-tags": {
+    "latest": "0.4.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.3.0",
+    "0.4.0"
+  ],
+  "time": {
+    "created": "2018-12-21T20:16:35.025Z",
+    "0.1.0": "2018-12-21T20:16:35.171Z",
+    "modified": "2019-01-09T11:36:19.086Z",
+    "0.2.0": "2018-12-23T18:13:22.232Z",
+    "0.3.0": "2018-12-26T22:20:44.480Z",
+    "0.4.0": "2019-01-09T11:36:16.315Z"
+  },
+  "maintainers": [
+    "seppjus1 <jussi.seppala@veikkaus.fi>"
+  ],
+  "description": "Winston for ReasonML",
+  "homepage": "https://github.com/veikkaus/bs-winston#readme",
+  "keywords": [
+    "BuckleScript",
+    "ReasonML",
+    "Reason",
+    "Winston",
+    "nodejs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veikkaus/bs-winston.git"
+  },
+  "author": "Kundi team - Veikkaus",
+  "bugs": {
+    "url": "https://github.com/veikkaus/bs-winston/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_etag": "W/\"0a2590cd048a5fb240e11e207b66fa6c\"",
+  "_lastModified": "Wed, 09 Jan 2019 11:36:20 GMT",
+  "version": "0.4.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "npm run clean && npm run build && mocha"
+  },
+  "dependencies": {
+    "winston": "3.1.0"
+  },
+  "peerDependencies": {
+    "bs-platform": ">= 4.0.8"
+  },
+  "devDependencies": {
+    "bs-mocha": "0.4.0",
+    "bs-platform": "4.0.14",
+    "bs-yarp": "0.3.1",
+    "winston-transport": "4.3.0"
+  },
+  "gitHead": "4dd64ba3aabb75c260fa0e790748df6fe19b21f8",
+  "_npmVersion": "5.6.0",
+  "_nodeVersion": "8.10.0",
+  "_npmUser": "seppjus1 <jussi.seppala@veikkaus.fi>",
+  "dist": {
+    "integrity": "sha512-Ay0rO+9SSMVNTDaAk5q6+4yVQKh0achEkMIz66iQT2Z6sHglLjD9Op/N/bFnc5yQOHxJ8z4+Yb6GRnqPe9ALgg==",
+    "shasum": "d878ae8040324db37ec06393b1b7a6c3714df7c4",
+    "tarball": "https://registry.npmjs.org/bs-winston/-/bs-winston-0.4.0.tgz",
+    "fileCount": 12,
+    "unpackedSize": 23852,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcNdywCRA9TVsSAnZWagAA0jUQAKB1oW3hThEDJA4KJ8hx\n+WECCiSo/vJRfZSALxqXcLZ3D7KnBDjJQo+dDjA2bspr5nslDcFdb9W4zNTS\nvC/3th2zJYfDTwDRBX5T6tBvh9W1uj9AyNnxKPQu5NVEEdFgyWWY9yS0sMVB\n+B0beiTGJQ3vGy2S7y9ObG8FoVHXQ6n+U1+HvxVNdA/avelnmXluAXDH/m8y\npcPBxnH6S8h7f97/8V6mUSFxsvWhbjwy+YEr46eQv8VNvsNfhNEYTd1p+JCb\nAPFZoXHLFruu1zoZl7gpUHj9STdpESMoF+bvVwitFievalkpx5rX8SW1g0+H\nu0DlwpQ2yhpXySLN0Xx3+Y/VpxcHxHUW4CSmu+1mgNEytBK57fkGzO3ygUS7\nzmraphzqiMSPWSuAmfIpCxLI975RdzBs5eqKY7ago5vWHgpzMk13jzhEsqqu\nRriB2NudkDLLIqho8J5fAFU3dSqE/THWd2CslXGENaEa+9g2SGQHW5uVYQqp\nA2KfJX0N5xgGCMVxCecozoy4kmXT3FqhX/UHwE2XTFSyqd/fx05C5sdicSlt\nvR46f7Hbs31QloJYb1kEdfS2Rf/zNta7j5bZePwhB8LVvTpfCKTnlcqNdpFZ\nDvUHwQW2JUog9dfP7WiQTDcOzlBhQpVcebxP4ioRJFFQxGiGjjTxzwowkeDe\ntY1b\r\n=lyAU\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-winston_0.4.0_1547033776045_0.7342324064477002"
+  },
+  "_hasShrinkwrap": false
+}

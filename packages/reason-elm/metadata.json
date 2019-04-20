@@ -1,0 +1,70 @@
+{
+  "_id": "reason-elm@0.0.5",
+  "_rev": "5-d9c445596bb11a25b37cfb8462fd4f0a",
+  "name": "reason-elm",
+  "dist-tags": {
+    "latest": "0.0.5"
+  },
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5"
+  ],
+  "maintainers": [
+    "jaredramirez <jaredramirez@me.com>"
+  ],
+  "time": {
+    "modified": "2018-02-17T21:27:09.871Z",
+    "created": "2018-01-13T22:11:45.273Z",
+    "0.0.1": "2018-01-13T22:11:45.273Z",
+    "0.0.2": "2018-01-14T01:37:30.511Z",
+    "0.0.3": "2018-01-14T02:28:37.480Z",
+    "0.0.4": "2018-01-16T19:49:05.670Z",
+    "0.0.5": "2018-02-17T21:27:09.003Z"
+  },
+  "keywords": [
+    "reasonml",
+    "bucklescript",
+    "elm"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaredramirez/bs-elm.git"
+  },
+  "author": "Jared Ramirez <jaredramirez@me.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "description": "This project has been moved to [`bs-elm`](https://github.com/jaredramirez/bs-elm)",
+  "_attachments": {},
+  "_etag": "W/\"0ad8f9458e9609afef3b52c8731ff361\"",
+  "_lastModified": "Sun, 27 May 2018 15:29:00 GMT",
+  "version": "0.0.5",
+  "main": "index.js",
+  "scripts": {
+    "bsb": "node_modules/.bin/bsb",
+    "build": "yarn bsb -make-world",
+    "start": "yarn bsb -make-world -w",
+    "clean": "yarn bsb -clean-world"
+  },
+  "devDependencies": {
+    "bs-platform": "^2.1.0"
+  },
+  "dependencies": {
+    "lodash.get": "^4.4.2"
+  },
+  "licenseText": "MIT License\n\nCopyright (c) 2018 Jared Ramirez <jaredramirez@me.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+  "dist": {
+    "shasum": "f9f70828c102cdf8754036dfb787677909bd6c47",
+    "tarball": "https://registry.npmjs.org/reason-elm/-/reason-elm-0.0.5.tgz",
+    "fileCount": 13,
+    "unpackedSize": 12035
+  },
+  "_npmUser": "jaredramirez <jaredramirez@me.com>",
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/reason-elm_0.0.5_1518902828941_0.8741347493782161"
+  }
+}

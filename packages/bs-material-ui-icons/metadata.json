@@ -1,0 +1,110 @@
+{
+  "_id": "bs-material-ui-icons@0.2.0",
+  "_rev": "7-79e468bf594d4b5e9ece652fea547c22",
+  "name": "bs-material-ui-icons",
+  "description": "Reason bindings for material-ui-icons",
+  "dist-tags": {
+    "latest": "0.2.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.1.3",
+    "0.1.4",
+    "0.1.5",
+    "0.2.0"
+  ],
+  "maintainers": [
+    "insidersbyte <jonathon@insidersbyte.com>"
+  ],
+  "time": {
+    "modified": "2018-04-26T11:14:34.089Z",
+    "created": "2017-11-02T15:14:49.374Z",
+    "0.1.0": "2017-11-02T15:14:49.374Z",
+    "0.1.1": "2017-11-07T13:14:21.415Z",
+    "0.1.2": "2017-11-08T15:52:11.855Z",
+    "0.1.3": "2017-11-09T08:48:35.590Z",
+    "0.1.4": "2017-11-09T08:50:55.687Z",
+    "0.1.5": "2017-12-05T11:26:00.692Z",
+    "0.2.0": "2018-04-26T11:14:31.247Z"
+  },
+  "homepage": "https://github.com/InsidersByte/bs-material-ui-icons#readme",
+  "keywords": [
+    "Material",
+    "Design",
+    "Material-UI",
+    "Icons",
+    "React",
+    "react-component",
+    "bucklescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InsidersByte/bs-material-ui-icons.git"
+  },
+  "author": "Jonathon Kelly <jonathon@insidersbyte.com>",
+  "bugs": {
+    "url": "https://github.com/InsidersByte/bs-material-ui-icons/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"3cc89e19677f7c9e34b249caec6216f3\"",
+  "_lastModified": "Sat, 26 May 2018 19:04:27 GMT",
+  "version": "0.2.0",
+  "main": "lib/js/src/MaterialUI.js",
+  "scripts": {
+    "precommit": "lint-staged",
+    "build": "yarn generate-bindings && bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "yarn run clean && yarn run build",
+    "generate-bindings": "node ./scripts/generate-bindings.js",
+    "format:js": "prettier --write ./*.{js,json,md} ./**/*.{js,json,md}",
+    "format:reason": "refmt --in-place src/*.re",
+    "format": "yarn format:js && yarn format:reason"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@material-ui/icons": "1.0.0-beta.43",
+    "bs-platform": "3.0.0",
+    "husky": "0.14.3",
+    "lint-staged": "7.0.5",
+    "material-ui": "1.0.0-beta.43",
+    "prettier": "1.12.1",
+    "reason-react": "0.4.0"
+  },
+  "peerDependencies": {
+    "@material-ui/icons": "^1.0.0-beta.43",
+    "reason-react": "^0.3.0"
+  },
+  "lint-staged": {
+    "*.{js,json}": [
+      "prettier --write",
+      "git add"
+    ],
+    "src/**/*.re": [
+      "refmt --in-place",
+      "git add"
+    ]
+  },
+  "gitHead": "c94632d92882bb3dc3c379c0736add87c2f22797",
+  "_npmVersion": "5.6.0",
+  "_nodeVersion": "8.10.0",
+  "_npmUser": "insidersbyte <jonathon@insidersbyte.com>",
+  "dist": {
+    "integrity": "sha512-BkvlhiCwtW4xUcA1f4IFw8wGCXW4x0ykikqakKj/swPjUg2nSICXIrFjFaGtp0WbKkJ8x5S9sXizCbypkOyNBg==",
+    "shasum": "a2ac4f48bfdf98a9261b5f271f6ae21d7ea7228f",
+    "tarball": "https://registry.npmjs.org/bs-material-ui-icons/-/bs-material-ui-icons-0.2.0.tgz",
+    "fileCount": 23,
+    "unpackedSize": 4493740,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa4bSXCRA9TVsSAnZWagAA2OIP/A6XCMS8dhRWv+jabpLv\nl9h5lhKCiI7/WWkbkC7sN/iRaggnoGQrZZzKgY650EkDmw8ISmvbxDLmqyMw\nYaHt6LeNuJV/tV8cVXiEzNl0pc7aHy/x2fbBgFlJMlzrO0OZr3DsjX4m2T56\n8W0foqzjV4UPgswaWKehlTOH6C20aSBNcv1oh+SY66X+WC9BSamfa+llsn1O\ndwg32E4Ea4dOkcETsTWpg1SK2/hhAoKc4wGKtFtTSqCUzXUUXYARh6XFb5Vk\n8MVbhElK2hroB9Syer6MAuYeJbNMJ5xzqJwcmX/DTH1HzvZOuPvY7SNsXfxP\n+WJPkcVhIESfPmebNmnzdQk0Mvi2Ty9IGwIY7O4xGivlhLd2I4KIQ4XRVede\nVECHLHxR2hAZLWPcYGuoIahecYnzZQJyGz0TI8ioDDe1d2tsUX59txZsefIY\neaBVPoBVVBmHchYp8Pny1wL9GrAUGiu+BSEYf5E32vtMrTxg2toUuN+Hkts+\nxRgOWl0FTyClsvEMNW0AngrsCnKYeKUDnIesWtt/dU8ihhHPNT8vLPI9wUiF\nWnzNlBsPfmQISy0btEgTC6OsPclGHYipwhSUtIik0hNPm8nfUhFTRA2tS0xv\nxcjonFXMYQdd/eIGCM77gGRsMp28mV0O9qnigt+8/KxjTHtxTfkz6dw+y08r\neUaN\r\n=N4kA\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-material-ui-icons_0.2.0_1524741271139_0.001274149488488474"
+  }
+}

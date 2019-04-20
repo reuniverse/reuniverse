@@ -1,0 +1,66 @@
+{
+  "_id": "bs-numeral@0.1.0",
+  "_rev": "1-d346f687974f266b674374ccc2a0326c",
+  "name": "bs-numeral",
+  "description": "BuckleScript bindings for Numeral.js",
+  "dist-tags": {
+    "latest": "0.1.0"
+  },
+  "versions": [
+    "0.1.0"
+  ],
+  "maintainers": [
+    "drwlrsn <me@drew.xxx>"
+  ],
+  "time": {
+    "modified": "2017-08-20T23:23:57.226Z",
+    "created": "2017-08-20T23:23:57.226Z",
+    "0.1.0": "2017-08-20T23:23:57.226Z"
+  },
+  "homepage": "https://github.com/drwlrsn/bs-numeral#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/drwlrsn/bs-numeral.git"
+  },
+  "author": "Drew Larson <me@drew.xxx>",
+  "bugs": {
+    "url": "https://github.com/drwlrsn/bs-numeral/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"a8fbe3f266e11c6074b6f84754afe12b\"",
+  "_lastModified": "Sat, 26 May 2018 19:04:30 GMT",
+  "version": "0.1.0",
+  "main": "lib/js/src/numeralRe.js",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "pretest": "yarn run build",
+    "prepublish": "yarn run test && yarn run clean && yarn run build",
+    "release": "standard-version",
+    "test": "jest",
+    "start": "yarn run build -- -w"
+  },
+  "devDependencies": {
+    "bs-jest": "^0.1.0",
+    "bs-platform": "^1.7.1",
+    "jest": "^19.0.2",
+    "numeral": "^2.0.6",
+    "standard-version": "^4.2.0"
+  },
+  "gitHead": "b1942872684d5a186e5d2807a0859e6d8ac82f37",
+  "_npmVersion": "5.3.0",
+  "_nodeVersion": "8.3.0",
+  "_npmUser": "drwlrsn <me@drew.xxx>",
+  "dist": {
+    "integrity": "sha512-YL4OlSwxVlhNgPOc0hqiNl9eSf3KY08W+vrXH4Oy39Y6apv9OjYsTWztpC0WtjGPTzeSqT5NX2ZDplMeUyUh1A==",
+    "shasum": "862782de750f6a0747faf0a637052ba6e2ba526b",
+    "tarball": "https://registry.npmjs.org/bs-numeral/-/bs-numeral-0.1.0.tgz"
+  },
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-numeral-0.1.0.tgz_1503271437090_0.42062406125478446"
+  },
+  "directories": {}
+}

@@ -1,0 +1,81 @@
+{
+  "_id": "reasonml-in-browser@1.0.9",
+  "_rev": "10-f5e2caded6a76429230d9473ce3d8b56",
+  "name": "reasonml-in-browser",
+  "description": "```html <script src=\"https://unpkg.com/reasonml-in-browser\"></script> ```",
+  "dist-tags": {
+    "latest": "1.0.9"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5",
+    "1.0.6",
+    "1.0.7",
+    "1.0.8",
+    "1.0.9"
+  ],
+  "maintainers": [
+    "aaronshaf <aaronshaf@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-01-04T20:41:28.602Z",
+    "created": "2017-12-27T01:44:16.674Z",
+    "1.0.0": "2017-12-27T01:44:16.674Z",
+    "1.0.1": "2017-12-27T01:47:38.935Z",
+    "1.0.2": "2017-12-27T01:49:28.836Z",
+    "1.0.3": "2017-12-27T01:56:31.865Z",
+    "1.0.4": "2017-12-27T01:57:54.077Z",
+    "1.0.5": "2017-12-27T01:59:16.952Z",
+    "1.0.6": "2017-12-27T02:01:40.066Z",
+    "1.0.7": "2017-12-27T02:03:02.482Z",
+    "1.0.8": "2017-12-28T22:28:35.175Z",
+    "1.0.9": "2018-01-04T20:41:28.602Z"
+  },
+  "homepage": "https://github.com/aaronshaf/reasonml-in-browser#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronshaf/reasonml-in-browser.git"
+  },
+  "author": "Aaron Shafovaloff <aaronshaf@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/aaronshaf/reasonml-in-browser/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "keywords": [
+    "reason",
+    "reasonml",
+    "bucklescript"
+  ],
+  "_attachments": {},
+  "_etag": "W/\"0f1251b21e8bd8baecd5bb1715303e45\"",
+  "_lastModified": "Sun, 27 May 2018 15:29:11 GMT",
+  "version": "1.0.9",
+  "main": "index.js",
+  "scripts": {
+    "build": "microbundle --output build",
+    "dev": "microbundle watch --output build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "microbundle": "^0.2.4"
+  },
+  "gitHead": "1f28ebdd011d094d91823b35d20452c0a392670d",
+  "_npmVersion": "5.6.0",
+  "_nodeVersion": "8.8.1",
+  "_npmUser": "aaronshaf <aaronshaf@gmail.com>",
+  "dist": {
+    "integrity": "sha512-91BnHSa0RbKnbgxKFVRvELwKFN+WcOpQCx/ncwxuAdYqFlIeIXhQkpszCCfTGzP0bKDcmVnAQK+K9Jr4zKCzCg==",
+    "shasum": "9dee5d1952a495f71574058f9a4c08009bc073f2",
+    "tarball": "https://registry.npmjs.org/reasonml-in-browser/-/reasonml-in-browser-1.0.9.tgz"
+  },
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/reasonml-in-browser-1.0.9.tgz_1515098488515_0.8886434924788773"
+  },
+  "directories": {}
+}

@@ -1,3 +1,4 @@
 (executable
   (name runiverse)
-  (public_name runiverse))
+  (public_name runiverse)
+  (libraries npm lwt lwt.unix fmt fmt.tty logs logs.fmt bos))

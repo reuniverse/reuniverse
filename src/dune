@@ -1,0 +1,3 @@
+(executable
+  (name runiverse)
+  (public_name runiverse))

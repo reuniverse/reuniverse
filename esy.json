@@ -16,9 +16,11 @@
     "@opam/bos": "0.2.0",
     "@opam/dune": "*",
     "@opam/fmt": "0.8.6",
-    "@opam/logs": "0.6.3",
     "@opam/httpkit": "*",
     "@opam/httpkit-lwt": "*",
+    "@opam/logs": "0.6.3",
+    "@opam/utop": "2.3.0",
+    "@opam/yojson": "1.7.0",
     "ocaml": "~4.6.0",
     "refmterr": "*"
   },

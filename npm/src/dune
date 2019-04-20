@@ -1,0 +1,4 @@
+(library
+  (name npm)
+  (public_name npm)
+  (libraries httpkit httpkit-lwt yojson))

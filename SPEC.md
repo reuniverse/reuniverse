@@ -8,7 +8,3 @@
    3. Install and run `bsdoc`
    4. Copy docs to `/docs/{package_name}`
 1. For the list of packages generate an index in `/docs/index.html`
-
-# 1. Listing Projects from `npm`
-
-

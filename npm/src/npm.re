@@ -205,7 +205,8 @@ module API = {
   module V2 = {
     let base_url = "https://api.npms.io/v2";
 
-    let tls_config = Httpkit_lwt.Client.Https.Config.no_auth();
+    // let tls_config = Tls_config.from_ca(`Ca_file("/etc/ssl/cert.pem"));
+    let tls_config = Tls_config.from_ca(`No_authentication_I'M_STUPID);
 
     let search:
       (~query: Search.Query.t, ~from: int, ~size: int) =>
@@ -217,8 +218,7 @@ module API = {
         let query = query |> Search.Query.to_query_params;
         let req =
           Httpkit.Client.Request.create(
-            ~headers=[],
-            `POST,
+            `GET,
             Uri.with_query(search_url, query),
           );
 

@@ -1,0 +1,71 @@
+{
+  "_id": "bs-tinycolor@1.0.1",
+  "_rev": "1-f58f5f3940b2ef8745211878478e2b6e",
+  "name": "bs-tinycolor",
+  "dist-tags": {
+    "latest": "1.0.1"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1"
+  ],
+  "time": {
+    "created": "2019-03-05T15:22:03.097Z",
+    "1.0.0": "2019-03-05T15:22:03.237Z",
+    "modified": "2019-03-12T06:17:51.626Z",
+    "1.0.1": "2019-03-12T06:17:49.019Z"
+  },
+  "maintainers": [
+    "mikaello <mikaello@student.matnat.uio.no>"
+  ],
+  "description": "Fast, small color manipulation and conversion",
+  "homepage": "https://github.com/mikaello/bs-tinycolor",
+  "keywords": [
+    "BuckleScript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikaello/bs-tinycolor.git"
+  },
+  "author": "mikaello",
+  "bugs": {
+    "url": "https://github.com/mikaello/bs-tinycolor/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_etag": "W/\"1e292c700171346d9b7051b63212fd67\"",
+  "_lastModified": "Tue, 12 Mar 2019 06:17:52 GMT",
+  "version": "1.0.1",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "pretest": "yarn run build",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.7",
+    "bs-platform": "^4.0.18"
+  },
+  "dependencies": {
+    "@ctrl/tinycolor": "^2.3.0"
+  },
+  "gitHead": "a0677eafc3f3fad1c321d5d379a941490c961932",
+  "_nodeVersion": "11.2.0",
+  "_npmVersion": "6.8.0",
+  "dist": {
+    "integrity": "sha512-/NluT9QWXnh6rsdHIdPzE9FspJH8T9HVPj/86E1Vi5Px0i1s1HYMitJmou5BdhHxqeTVKNpN432SpBYDesxfMw==",
+    "shasum": "02b7ad49fd8afba34701dca4faf17c23958c5406",
+    "tarball": "https://registry.npmjs.org/bs-tinycolor/-/bs-tinycolor-1.0.1.tgz",
+    "fileCount": 7,
+    "unpackedSize": 32519,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJch08NCRA9TVsSAnZWagAAPqkQAJTFz3MIqcVy5SWSFLXW\nhJLjHtgXCOUfutFO3KzcfZ8p+GLnPGQkFgHfGh4PHQbl3ZQKMJO8tmw+RxMc\nKah2xHXONTzP2Kgfj2vWAy/bV3zBxrO4d4I8pKlKiiHdF0VV/QRMOvtzVDqf\nzOt8U6ZJpHWyeASvzrob6sZDea9WGXA1DZhj9aQPKcuHPR1D+4iVzbK6rOl4\nnD2Mpu1N5fq+YrujZW43phg1+A/q3o1QPdzOqEe6zqVkzmkexy/uU8Jet6cl\nir+Aq9BQKAcJAb6vNwYbG8IiRNp/S4/WEX4upyQv8Ou3Kj0HQk/FLz6TaTzW\nUVsGP10du9rpDoRIE8w1Fm3VslA5NrF58FXqKGEMnzwTgrX2qTm0E/2+DDHg\nkR7p8H/JdTjyKr+E16FEdIA13nPZEJ+DSgLyURfSgIgIxVmbsOkvir2irfH+\nBRSTdTxQua1GTcjG6I971fo+U/BDaIH/3cZzyhp9MEqPQ9vVqRrKxhDr9YfY\nMZyFquljxz1hwWrsko9n3v8SSV9G/9Oea7UlG82aBn3OdVeeaBb2TxpPNOoC\nq0NegUUOA/SqI9FTlxwQMqloQah4pGmqjQujt86hUKEMzLqlardEV65rStYc\nxb7RW3TPK4S3zZrKPtrr/IZpvPnIkk9tHyW/hxc2UzELBwdgGNqwXJKxw7mD\ncvn1\r\n=u0js\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "_npmUser": "mikaello <mikaello@student.matnat.uio.no>",
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-tinycolor_1.0.1_1552371468827_0.13939257202004196"
+  },
+  "_hasShrinkwrap": false
+}

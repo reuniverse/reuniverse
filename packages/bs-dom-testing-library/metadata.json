@@ -1,0 +1,80 @@
+{
+  "_id": "bs-dom-testing-library@0.4.0",
+  "_rev": "3-1fd26b8f8b323cc26c0f4c0bd03790b2",
+  "name": "bs-dom-testing-library",
+  "dist-tags": {
+    "latest": "0.4.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.3.0",
+    "0.4.0"
+  ],
+  "time": {
+    "created": "2018-06-04T17:02:48.300Z",
+    "0.1.0": "2018-06-04T17:02:48.371Z",
+    "modified": "2019-04-06T01:50:05.126Z",
+    "0.2.0": "2018-07-29T22:13:24.378Z",
+    "0.3.0": "2018-10-10T23:21:27.135Z",
+    "0.4.0": "2019-04-06T01:50:02.240Z"
+  },
+  "maintainers": [
+    "wyze <neil.kistner@gmail.com>"
+  ],
+  "description": "BuckleScript bindings for dom-testing-library.",
+  "keywords": [
+    "bucklescript",
+    "testing"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wyze/bs-dom-testing-library.git"
+  },
+  "author": "Neil Kistner <neil.kistner@gmail.com> (neilkistner.com)",
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "_etag": "W/\"1e584e75412c1dc11b9db56ba6d8698f\"",
+  "_lastModified": "Sat, 06 Apr 2019 01:50:06 GMT",
+  "version": "0.4.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "clean": "run-p clean:*",
+    "clean:bsb": "bsb -clean-world",
+    "clean:project": "rimraf lib .merlin",
+    "jest": "jest",
+    "postversion": "github-release",
+    "prebuild": "yarn clean",
+    "pretest": "yarn build",
+    "test": "yarn jest",
+    "version": "changelog"
+  },
+  "dependencies": {
+    "dom-testing-library": "^3.19.0"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.8",
+    "@wyze/changelog": "^1.0.0",
+    "@wyze/github-release": "^1.0.0",
+    "bs-platform": "^5.0.0",
+    "bs-webapi": "^0.13.6",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^2.6.3"
+  },
+  "licenseText": "MIT License\n\nCopyright (c) Neil Kistner <neil.kistner@gmail.com> (neilkistner.com)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+  "dist": {
+    "shasum": "8292c0857ad7812da8214a1007b74d2b74795af9",
+    "integrity": "sha512-zxpX9WPCe3WmhuBfjvj2AvpNlw7kRnMeqam5qP5mDSTotb7maTf6upQt71qJ08nt3Wu45TzU6H4MK6hbhy+iXg==",
+    "tarball": "https://registry.npmjs.org/bs-dom-testing-library/-/bs-dom-testing-library-0.4.0.tgz",
+    "fileCount": 13,
+    "unpackedSize": 35114,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcqAXLCRA9TVsSAnZWagAAQXsP/2kVOxHGUVW8TFDCn4Sl\n2aBgSOz8XaUbA7a6PLB8yl0QhN/+U9LliDb8NLSBIZrGLmuCgd7/qvqO5MQG\nvtEGAsMx6hdEYDNiPVaLs6eehrACSNvLqbDU6CfqdgBbIc4Uurue7EsuU3cs\nLcwdYPC4LDsrjn2iX2RV40Y4txcp2PQvN5BnD0EFMGfgoxNyHKTizrahbn7T\nOmBaYvvX0wg8WdRFnL4woZ4OeyyzET7fKJ+6D0cC2gM5Dcor80KUU7fyDF5j\n4C9fA6MROsP2Y2QEppQK8etm3T9ZEqxKXIl1YzmpzIjQO3SLlcu5BW4e0LGS\nXoUChQPtqa5QyFMN6qqZNVPq2frGTXeBjFGN8w7QLU56P54u7/wiTABbDRz1\nJemXNUtr4DmCibDQ2Pqh59+/BDzEWvRXvCMiGQVx6Mv1BEQqfNkmsS0cCY/T\nD3+fU62PFzajD1jq5Vhz6N0XV/S/rzHmnHJwIDZzYNa/+9Zm4AbxxUtB8w5z\n68ZILmyl2IyDtoa120x+WqHZCIx24NmcwBGs0KIOEoqjn6GShomG2PF3czNU\nuYoBpfWfoYnc/yUVqzOInZOI9WB8y3M53Y+kRrZFDKbjVCe/vuGZZWGrwrk7\nVpIsF7ZXf9lJiQp4FBrQldmgvFqVoDSIgDwRyRyIriaXvKeZDItXA0UQTOpG\ncnlB\r\n=AWRg\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "_npmUser": "wyze <neil.kistner@gmail.com>",
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-dom-testing-library_0.4.0_1554515402070_0.5142456273237104"
+  },
+  "_hasShrinkwrap": false
+}

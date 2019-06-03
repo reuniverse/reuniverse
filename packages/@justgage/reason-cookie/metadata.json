@@ -1,0 +1,81 @@
+{
+  "_id": "@justgage/reason-cookie@0.1.2",
+  "_rev": "3-ce5ab50d6513a9a5ab55b149ed3cbe85",
+  "name": "@justgage/reason-cookie",
+  "dist-tags": {
+    "latest": "0.1.2"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2"
+  ],
+  "time": {
+    "created": "2018-04-21T21:59:18.474Z",
+    "0.1.0": "2018-04-21T21:59:18.610Z",
+    "modified": "2018-04-23T21:57:50.583Z",
+    "0.1.1": "2018-04-22T13:30:52.389Z",
+    "0.1.2": "2018-04-23T21:57:47.008Z"
+  },
+  "maintainers": [
+    "justgage <justgage@gmail.com>"
+  ],
+  "description": "a simple way to use cross-browser cookies that contain JSON.",
+  "keywords": [
+    "BuckleScript",
+    "ReasonMl",
+    "cookie",
+    "Reason"
+  ],
+  "author": "Gage Peterson",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/justgage/reason-cookie#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justgage/reason-cookie.git"
+  },
+  "bugs": {
+    "url": "https://github.com/justgage/reason-cookie/issues"
+  },
+  "_attachments": {},
+  "_etag": "W/\"498fc99252676d536d98a769daa04fcc\"",
+  "_lastModified": "Mon, 23 Apr 2018 21:57:51 GMT",
+  "version": "0.1.2",
+  "private": false,
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "npm run build && jest --coverage",
+    "test-watch": "npm run build && jest --watch"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.2",
+    "bs-platform": "^3.0.0"
+  },
+  "dependencies": {
+    "js-cookie": "^2.2.0"
+  },
+  "main": "src/Cookie.re",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "gitHead": "d7dfebfcc2487f436a4dde1588890fe9016ee1b8",
+  "_npmVersion": "5.3.0",
+  "_nodeVersion": "8.6.0",
+  "_npmUser": "justgage <justgage@gmail.com>",
+  "dist": {
+    "integrity": "sha512-8F1wPUNqSCuMRhlrAqAJQ8sXAvf2yJwLhJkclnwWYNVcjZoBomGFb786Vna3TvHUrfhRZteDcAFJp2Vo+Ani3A==",
+    "shasum": "8b93650fa47db0d1b98d789da7a6cc3c6bea1a9b",
+    "tarball": "https://registry.npmjs.org/@justgage/reason-cookie/-/reason-cookie-0.1.2.tgz",
+    "fileCount": 48,
+    "unpackedSize": 159900,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa3lbcCRA9TVsSAnZWagAAWAkP/1lLHqSR2cFLdVXm5pcZ\nw+ggq/gg/arbLzxL+ow5s1yYbNbz5qJtfS+F0JPBadXCblCKkIm+RKgjQW90\nMZpMKtMTMYSKXoWKDa9vCKI6jwvuUwfFfrYum4p5XrnquNNQqO2QKXmBQifU\n6FZXVeg5vUDLEmqv9V88xDTd30H0lq6K361k9YxgKPaIG3VFebQDpTiOAVPW\nFekR4c6+h2SnDNtOYPEY5vCGoPBujwD0PUWh/nkfK1gO6CuNIHXwJlEFASfD\n0Q67luYr35Zd0Ax8SBPTiy4lnAwU1hR5+zo8U4+sWq1A+MruWZmkrtiVXhKs\nIqo3eaQ+W0cpgd3+9+TK84VXCQH0gMDIRtIXqHlH9tYBgd9V6BXt+rWfKm7/\n2G4k4NA5kIm+2x6XeswrMYm5UqFkkCoVHDuyyaY0ZpFtEdgcJZTVvk2+Qzgm\nuSm7MamfE/2E0bIU+vgIkXCi8CVzqn+rlbpYJYjOHlrrqCutR6hvNYCJvmKf\nw5rwe+S7WYmNqCTQMNv/5hajKvved9fCYIP5OCDhzlmvSl9GAOTJrQt7b4OX\nVdFLd+cYAOB5Es5pslsyV7pRG++wki/Oy6Qd0ryzbzXRPu68T/hHRxUhs/Bi\nMJLDkeaKTAM0ULpOUHh16jPoGKrHy0NdZ2oM29/K7EiAfXBAbcgsIGZ9fdFK\nX3J/\r\n=qE8r\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/reason-cookie_0.1.2_1524520666880_0.7603098441582716"
+  }
+}

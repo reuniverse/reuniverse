@@ -1,0 +1,76 @@
+{
+  "_id": "bs-aeson@3.1.0",
+  "_rev": "4-dd5efac09aa73b6236c14061f5000c21",
+  "name": "bs-aeson",
+  "description": "BuckleScript JSON serializations that match Haskell aeson",
+  "dist-tags": {
+    "latest": "3.1.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.1.0",
+    "2.0.0",
+    "3.0.0",
+    "3.1.0"
+  ],
+  "maintainers": [
+    "mchaver <mchaver@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-03-17T11:24:28.407Z",
+    "created": "2017-11-08T08:40:38.000Z",
+    "1.0.0": "2017-11-08T08:40:38.000Z",
+    "1.1.0": "2017-12-19T03:17:46.856Z",
+    "2.0.0": "2018-05-24T01:23:27.768Z",
+    "3.0.0": "2018-06-05T02:30:31.778Z",
+    "3.1.0": "2019-03-17T11:24:25.646Z"
+  },
+  "homepage": "https://github.com/plow-technologies/bs-aeson#readme",
+  "keywords": [
+    "bucklescript",
+    "json",
+    "aeson"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plow-technologies/bs-aeson.git"
+  },
+  "author": "mchaver",
+  "bugs": {
+    "url": "https://github.com/plow-technologies/bs-aeson/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_etag": "W/\"c04656516343d03c40b0eb4dd571ced4\"",
+  "_lastModified": "Sun, 17 Mar 2019 11:24:29 GMT",
+  "version": "3.1.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "bsb -make-world",
+    "clean": "bsb -clean-world",
+    "test": "npm run build && jest && npm run test:examples",
+    "test:examples": "npm run build && ./run_examples.sh"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.8",
+    "bs-platform": "^4.0.18"
+  },
+  "gitHead": "ab8c4b65059d7924145d8f11bb2d1d9d84863d5c",
+  "_npmVersion": "5.6.0",
+  "_nodeVersion": "8.11.1",
+  "_npmUser": "mchaver <mchaver@gmail.com>",
+  "dist": {
+    "integrity": "sha512-Fdb9B4uy8BeqRraV7zIPUEwtYxWskoV+QpBjEXE4Z3LQRiHu3Caiu8zsIdN5vVBNwVxRX//+aGlgoSmqop2LgQ==",
+    "shasum": "6346ec58b5a4fb18f38e600c80e2797887c6bacd",
+    "tarball": "https://registry.npmjs.org/bs-aeson/-/bs-aeson-3.1.0.tgz",
+    "fileCount": 34,
+    "unpackedSize": 274162,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcji5qCRA9TVsSAnZWagAA6scP/1W1oRqW/ja04QjmcLjo\nUC+I6KfWRrmJh533al4OGVSe4vuxYFL66nNGpGKxYh+Su33JbIqyXElfSDjI\nzS0XBUFOSgD/3GIw9/UXHkHNhuCRuv8qWFmKE6VU92Xm2D3YMipyYEUFAsmn\nWCZHSjzVAauVmUfAYkDr4aADLP5sbsT2xBrRyb825NJnBGNaFE8HaRzhf3Qh\nnaL2MDvDpR8u8B/DqlqMRK0lAhYzKj2RUEhQOilbzki0v5vFOkqmmjp7wxwB\ndl6BIIb3uO+JHTGFNzXoRVZdUhmHRoPWljro2UL9ls8ZUUymRFluMZXm+xUN\ntFwO7fU1jX7Y5onCCdUG4fK9WhXnOeV3AhwOpiywkUMUXP8MFJqu1C2d+OUa\nhvNQfc63SedohTpmiCisHQnla11Cg7bFI0606ir5+dY4moY2orahGBa/jxzq\nIOAUlg/uMAiseKhZQt8LE8XojuSGjoGiA3zkW8nrXZRT7WRHDnzUIKuF6GfQ\nGhevNf25hIC3dF4aCoCNvyJAo11AIk7YqnBOt0Hjt4C1lVPXBCZzfGXtk1Qc\nFjzlo4XvAf1ZFxEK8HqWFXelX8U9eOOt1XkiLb7lUIAHYtXcumusMc9zidOy\nGrLBtbnt35L7CS/wwhdsVUvSCpJ7uUpxdV6SDPHiZnPnKAKy7XD2S+Lg3hD7\n27uC\r\n=iA/m\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-aeson_3.1.0_1552821865420_0.9315129671141005"
+  },
+  "_hasShrinkwrap": false
+}

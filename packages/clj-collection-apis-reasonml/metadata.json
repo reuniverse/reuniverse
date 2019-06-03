@@ -1,0 +1,90 @@
+{
+  "_id": "clj-collection-apis-reasonml@1.1.0",
+  "_rev": "12-d54a3d021d74459ae8fdd40e7093cf92",
+  "name": "clj-collection-apis-reasonml",
+  "description": "Adding common functions from Clojure to Reason",
+  "dist-tags": {
+    "latest": "1.1.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.2.0",
+    "0.3.0",
+    "0.4.0",
+    "0.4.1",
+    "0.4.2",
+    "0.5.0",
+    "0.6.0",
+    "0.7.0",
+    "1.0.0",
+    "1.1.0"
+  ],
+  "maintainers": [
+    "jasonrose <jasoncrose@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-01-02T01:00:53.357Z",
+    "created": "2017-12-13T07:12:52.391Z",
+    "0.1.0": "2017-12-13T07:12:52.391Z",
+    "0.1.1": "2017-12-13T07:26:55.821Z",
+    "0.2.0": "2017-12-14T05:34:43.712Z",
+    "0.3.0": "2017-12-17T07:21:00.433Z",
+    "0.4.0": "2017-12-21T07:39:15.363Z",
+    "0.4.1": "2017-12-21T07:40:16.468Z",
+    "0.4.2": "2017-12-22T06:19:01.227Z",
+    "0.5.0": "2017-12-22T07:24:30.348Z",
+    "0.6.0": "2017-12-26T03:12:23.026Z",
+    "0.7.0": "2017-12-26T04:22:59.755Z",
+    "1.0.0": "2017-12-26T06:59:52.952Z",
+    "1.1.0": "2018-01-02T01:00:53.357Z"
+  },
+  "keywords": [
+    "BuckleScript",
+    "Clojurescript",
+    "Clojure",
+    "Reason",
+    "ReasonML"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonrose/clj-collection-apis-reasonml.git"
+  },
+  "author": "Jason Rose <jasoncrose@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/jasonrose/clj-collection-apis-reasonml",
+  "bugs": {
+    "url": "https://github.com/jasonrose/clj-collection-apis-reasonml/issues"
+  },
+  "_attachments": {},
+  "_etag": "W/\"77b03911aeff311a0535fb35425fd52b\"",
+  "_lastModified": "Sat, 26 May 2018 20:01:13 GMT",
+  "version": "1.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "pretest": "npm run build",
+    "test": "jest"
+  },
+  "main": "lib/js/src/Clj.js",
+  "devDependencies": {
+    "bs-jest": "0.2.0",
+    "bs-platform": "2.1.0"
+  },
+  "gitHead": "1ea61e6bf15236c2dce51a5ac895c672d96c4f57",
+  "_npmVersion": "5.5.1",
+  "_nodeVersion": "8.9.3",
+  "_npmUser": "jasonrose <jasoncrose@gmail.com>",
+  "dist": {
+    "integrity": "sha512-0hlw6R7fdYklA0q4E+9J4eFhvKbjjvnvccuCB65wPVXlB5cAdxzuXPvkziBu+HDVGlQRfDwPLwKEFfWqlyrwEQ==",
+    "shasum": "7de17ae2ee4606ddd933bd32638ceb4a065e9505",
+    "tarball": "https://registry.npmjs.org/clj-collection-apis-reasonml/-/clj-collection-apis-reasonml-1.1.0.tgz"
+  },
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/clj-collection-apis-reasonml-1.1.0.tgz_1514854853243_0.25150196673348546"
+  },
+  "directories": {}
+}

@@ -1,0 +1,78 @@
+{
+  "_id": "reason-react-document-title@1.0.1",
+  "_rev": "3-bfe581884731ea134a099ab3cc8bdaea",
+  "name": "reason-react-document-title",
+  "dist-tags": {
+    "latest": "1.0.1"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "1.0.0",
+    "1.0.1"
+  ],
+  "time": {
+    "created": "2019-02-11T19:14:16.209Z",
+    "0.1.0": "2019-02-11T19:14:16.316Z",
+    "modified": "2019-02-11T22:03:27.583Z",
+    "0.1.1": "2019-02-11T19:40:40.636Z",
+    "1.0.0": "2019-02-11T20:09:20.529Z",
+    "1.0.1": "2019-02-11T22:03:25.093Z"
+  },
+  "maintainers": [
+    "qziem <kamilkuz@gmail.com>"
+  ],
+  "description": "Reason component to manage document title",
+  "keywords": [
+    "BuckleScript",
+    "Reason",
+    "ReasonReact",
+    "React",
+    "document.title"
+  ],
+  "author": "Qziem",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kamilkuz/reason-react-document-title"
+  },
+  "bugs": {
+    "url": "https://github.com/kamilkuz/reason-react-document-title/issues"
+  },
+  "_etag": "W/\"eebc5f6ed257ec98fc48e6253d81c036\"",
+  "_lastModified": "Mon, 11 Feb 2019 22:03:28 GMT",
+  "main": "./src/DocumentTitle.re",
+  "version": "1.0.1",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "yarn build && jest"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.7",
+    "bs-enzyme": "^0.6.1",
+    "bs-platform": "^4.0.18",
+    "enzyme-adapter-react-16": "^1.9.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "reason-react": ">=0.4.0"
+  },
+  "licenseText": "MIT License\n\nCopyright (c) 2019 reason-react-document-title\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+  "dist": {
+    "shasum": "f7ee622a9da3fb36b9a209a8b31d1d3a9de7e78b",
+    "integrity": "sha512-JFowp42PNTUlXT4u3eshVss8LWczZqSZjJtV147pnWmZP+7woP4dMSqyWegqOV9QlYWQw2yAs3AybBewXiVRLw==",
+    "tarball": "https://registry.npmjs.org/reason-react-document-title/-/reason-react-document-title-1.0.1.tgz",
+    "fileCount": 11,
+    "unpackedSize": 6182,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcYfEtCRA9TVsSAnZWagAAB0oP+wc/Sd/mPiehxs+MkgS7\nsCOX4sdBazanAQlqPDQW3GvtoVpIPL3mO/Lf5Nc04+IAQJu7E6Gd+L1f2D0Y\nf7bnTY3tAMBFHLNiPVtvZLrCSRJEmQFmu8DctzW9alzC0h9llyptsTDiVgk/\nRK3qkIid72/6wGeZ1MfBs/txghVQrcownY2ajevtCbv+8iuo5IU0wn7vHce4\nDVPvfoqhgrgy3jh1jjlznRZPQwPvVrEoI4eOOs3vKEnvqRWGedJ0lD41K4X4\n0pvOoN5xdz/ZXM1bUXZOssKISX0dpcdeaILN2zH+oc87+NSGEg1f1sp51XLp\n8yebjDoPyS/EzULp89Arbr7kjH0NCQh570rr+UlVYg9qZ705QGNIo+WMwr8z\nWwiSbxwUbJ+tfydaTgL1iu6WaxscjLfUIrwRNYjiZH/9eAgbTUUup9a5N5Yb\nRrs50cU7zqQ7RJ2MMZyLNueLoZv3IMWvOTxu7fBO70rvItSiVw67LqeDhwOQ\ng5KGut8I+4Nz9V3Ob1ew4eRIgxhkSo2yy90hcgTc/JENOLleKH27Kx7+GJzZ\nRzwElxHaYEmF9kh05iu/WfSTFDy0aLq8K2PL4NG0k87eqsF+73WAa2t6vPIH\nBT73mgKEYLmMHoW57d0KFWZ6PqDBJiwhIIBX6bZuaFE2JFtFLYt0gBsVVIpX\n4vHK\r\n=5iW2\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "_npmUser": "qziem <kamilkuz@gmail.com>",
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/reason-react-document-title_1.0.1_1549922604963_0.5998623509925987"
+  },
+  "_hasShrinkwrap": false
+}

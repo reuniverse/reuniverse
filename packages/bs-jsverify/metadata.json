@@ -1,0 +1,91 @@
+{
+  "_id": "bs-jsverify@0.10.0",
+  "_rev": "12-44b3d97238f32b30a64090bda6a8500a",
+  "name": "bs-jsverify",
+  "description": "Jsverify bindings for bucklescript",
+  "dist-tags": {
+    "latest": "0.10.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.2.1",
+    "0.3.0",
+    "0.4.0",
+    "0.5.0",
+    "0.6.0",
+    "0.7.0",
+    "0.8.0",
+    "0.8.1",
+    "0.9.0",
+    "0.10.0"
+  ],
+  "maintainers": [
+    "ristostevcev <risto1@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-08-03T01:01:08.597Z",
+    "created": "2017-12-19T17:30:14.707Z",
+    "0.1.0": "2017-12-19T17:30:14.707Z",
+    "0.2.0": "2017-12-20T22:29:59.054Z",
+    "0.2.1": "2017-12-27T19:39:53.946Z",
+    "0.3.0": "2017-12-31T07:28:58.011Z",
+    "0.4.0": "2017-12-31T08:20:30.895Z",
+    "0.5.0": "2018-01-01T02:39:40.196Z",
+    "0.6.0": "2018-01-04T01:20:27.679Z",
+    "0.7.0": "2018-01-04T06:45:45.760Z",
+    "0.8.0": "2018-02-25T12:00:08.295Z",
+    "0.8.1": "2018-02-25T12:08:33.756Z",
+    "0.9.0": "2018-03-16T01:29:42.968Z",
+    "0.10.0": "2018-08-03T01:01:05.192Z"
+  },
+  "keywords": [
+    "BuckleScript",
+    "reason"
+  ],
+  "author": "Risto Stevcev",
+  "license": "BSD-3-Clause",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/Risto-Stevcev/bs-jsverify",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Risto-Stevcev/bs-jsverify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Risto-Stevcev/bs-jsverify/issues"
+  },
+  "_attachments": {},
+  "_etag": "W/\"19cc55fe6ddbfd49efacc17d34affa3a\"",
+  "_lastModified": "Fri, 03 Aug 2018 01:01:09 GMT",
+  "version": "0.10.0",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "test": "mocha lib/js/test/Test*.js"
+  },
+  "devDependencies": {
+    "bs-mocha": "^0.4.0",
+    "bs-platform": "^4.0.2"
+  },
+  "dependencies": {
+    "jsverify": "^0.8.3"
+  },
+  "gitHead": "42652279763243b53d44257c133f88c0c3864608",
+  "_npmVersion": "6.1.0",
+  "_nodeVersion": "10.6.0",
+  "_npmUser": "ristostevcev <risto1@gmail.com>",
+  "dist": {
+    "integrity": "sha512-egb28RqdX9P01V6EQfOxCEPTgiSse+gh8JbKLqcj9P/6zWE51Z3NIX4L/s5/EPL97U4pJTxEsMnKjRdAW4Porg==",
+    "shasum": "caca0254669fe197599f2bcca074874b5fce1215",
+    "tarball": "https://registry.npmjs.org/bs-jsverify/-/bs-jsverify-0.10.0.tgz",
+    "fileCount": 7,
+    "unpackedSize": 27306,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbY6lSCRA9TVsSAnZWagAA7QwQAIa5wekwU/MSkVCNupoo\n/C5Fx/PMCYl33qmaqUfVzek5PG12JFNFtPq45ZqjZBWAdqUUbCy0nqLB2x4J\nh3Z0reTFVtcvWFuPXssZF0Pa6XjXuPOmYWjVuKzVhBABq1AP3vUoUv+eCVSd\nJc0TbtTijMrYC/HfjlqVCakB5CUpJhpx9PJo11aaZTOXcccGkbYf8dQr/unz\n1K77atcGy4B74nRMtgT155ivV4Ry3aNzx8CZHarLfG2yMcnQ2JtpgP58neA5\nUTHkA75zzL0zETQd1QgRQBjchPm2iD8fgceSlQhD/vkugEVJ+h+OO5Fs6qDe\nNq/4y2j5yzoBxOuBNcZ1I3Jw/0wtGrGI13YSeyUwH5VOT07WKpY4eusl2QjZ\nFryqhKEnJvOuiBDg6ahMoYv4i/SIi74yaJlnCTq2+ifaAR7HX6EVgE18hqt9\nAH+FTLSRdkx0xijtzNx34dlAL0tci9Y7V4OYl0qY74H7R7G2kB6/T9XbyMA0\nJc1+akRwfUCbyc8AdaGDVK1RCs7LMuMjwycxTkNOI48x7B4Mu733UU3ri20i\nHEZjER+JDcaQrD8luKl2WFGlw4ZlSKUlEELm6Smfqydm4mXEKzBMvF7h41b8\nwjWUlTJ7KSed9+WPlu7r/bifH+eiB6kI2Rku/vi9DkSRlDuNbUFgeSWLclyD\nUSUf\r\n=NgZl\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-jsverify_0.10.0_1533258065085_0.2756851893862766"
+  }
+}

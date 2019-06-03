@@ -1,0 +1,92 @@
+{
+  "_id": "bs-validation@2.0.0",
+  "_rev": "3-b14f23c026e3d22e0aedace05f117e23",
+  "name": "bs-validation",
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "versions": [
+    "1.0.3",
+    "1.0.4",
+    "2.0.0"
+  ],
+  "time": {
+    "created": "2018-03-12T07:44:41.039Z",
+    "1.0.3": "2018-03-12T07:44:41.091Z",
+    "modified": "2018-08-06T09:33:17.638Z",
+    "1.0.4": "2018-03-12T17:31:31.333Z",
+    "2.0.0": "2018-08-06T09:33:09.016Z"
+  },
+  "maintainers": [
+    "scull7 <scull7@gmail.com>"
+  ],
+  "description": "BucklesScript bindings to the validationjs library",
+  "homepage": "https://github.com/scull7/bs-validation",
+  "keywords": [
+    "BuckleScript",
+    "folktale",
+    "fp",
+    "reason",
+    "reasonml",
+    "password",
+    "validation",
+    "node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:scull7/bs-validation.git"
+  },
+  "author": "Nathan Sculli <scull7@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/scull7/bs-validation/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"307d588c9e2bcd1000ccbac1901c544a\"",
+  "_lastModified": "Mon, 06 Aug 2018 09:33:19 GMT",
+  "version": "2.0.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "clean": "bsb -clean-world",
+    "coverage": "nyc report --temp-directory=coverage --reporter=text-lcov | coveralls",
+    "install:peers": "yarn add $(jq -r '.peerDependencies|keys|join(\" \")' package.json)",
+    "precommit": "lint-staged",
+    "start": "bsb -make-world -w",
+    "test": "yarn run clean; yarn run build; jest --coverage && yarn run coverage",
+    "watch:jest": "jest --coverage --watchAll"
+  },
+  "lint-staged": {
+    "*.{re,rei}": [
+      "refmt --in-place",
+      "git add"
+    ]
+  },
+  "main": "src/Validation.bs.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.2",
+    "coveralls": "^3.0.2",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.1.0",
+    "nyc": "^12.0.2"
+  },
+  "peerDependencies": {
+    "bs-platform": "^4.0.3"
+  },
+  "licenseText": "MIT License\n\nCopyright (c) 2018 Nathan Sculli\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+  "dist": {
+    "shasum": "bf7398ac0d8b781f55e6ebbe1057dc358be611e9",
+    "tarball": "https://registry.npmjs.org/bs-validation/-/bs-validation-2.0.0.tgz",
+    "integrity": "sha512-5nb2gAyjj7WB8oEp7IearMDLjiciYdLMekzJIyBsLFTmPSbA5npLk8P6nYVyD+N+pO47HRZvb5DGGj1ZLQ4jTw==",
+    "fileCount": 18,
+    "unpackedSize": 27099,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbaBXVCRA9TVsSAnZWagAA1vwP/1XCxZlq5WH9n1eNQ3Eh\nJzoxIaHJEzUwWpoO9Yqmb9fgpajoX1xadN8ow8L3yQoGAi0M3Cb/a8R84gpA\nHPo1sDUNQR/jFWLnBqnFwIxdqWYtDTFvqD0O5AmEO5roCOwHYXa/6eioVKtv\nzxbQIsSfEZM9mSZf0TpkGEeoA8Zfl5M8NMqVS9pWAJv39zdaIhaIAHWhrkDv\nxbNgxkn6jtJ2/k4LvikCvl7PZP6WKsj1PDpAUo/JOHwpLBg2rMrI9hNlMab/\no8rKZju2xoikwXXhoT+UF+zcq/PqVQ4bKop9Sw+rdFL0wWMOV1PeJF8X+50E\n/P8bGNYRjk14ENIIH5dnOIjhtGJzByA4mQIYp3WMYNcd6qQT8N3Uw2Pc3oHW\nt0RqEXIi+bhZqussT70Mul2v4KTlN/vpZ5jY9YMv0CAivmHg7MAGN/UHbWhs\n0/KrOWtQj/oIGdGGDJsHYqyi+9SDFiOY3fcuqW+OZdvNnHkEgpsJeKBEi0Ql\njK+nIN4jN2mlMOhjw39RHdfzvp4UDJ2MrtL4uv0n2uXM48x7B2hdZZXwOeks\nb1tsnYOMHxuitkkizvd2U/13uKR0QGY3KOHSkAwgF9mtO4ZzojN5Jd1x1Ty6\nfe3Rp7LJTwubhXgLaB6BI5QMt3bn2cIIE63Ww7SIw8Qn1PAZP63y4Hr24Myh\nC/8n\r\n=XKlA\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "_npmUser": "scull7 <scull7@gmail.com>",
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-validation_2.0.0_1533547988869_0.18878710405895793"
+  }
+}

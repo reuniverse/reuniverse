@@ -1,0 +1,65 @@
+{
+  "_id": "bs-apollo-server-express@0.3.1",
+  "_rev": "3-bde0f2983337ac6428ac5c8e505f3478",
+  "name": "bs-apollo-server-express",
+  "description": "BuckleScript binding for apollo-server-express",
+  "dist-tags": {
+    "latest": "0.3.1"
+  },
+  "versions": [
+    "0.1.0",
+    "0.3.0",
+    "0.3.1"
+  ],
+  "maintainers": [
+    "rricard <ricard.robin@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-08-20T17:01:56.820Z",
+    "created": "2017-08-20T10:46:14.717Z",
+    "0.1.0": "2017-08-20T10:46:14.717Z",
+    "0.3.0": "2017-08-20T13:51:28.114Z",
+    "0.3.1": "2017-08-20T17:01:56.820Z"
+  },
+  "keywords": [
+    "BuckleScript",
+    "GraphQL",
+    "Apollo",
+    "Express"
+  ],
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"15ed8a450450193cfa279873e7f4ecd6\"",
+  "_lastModified": "Sat, 26 May 2018 19:04:12 GMT",
+  "version": "0.3.1",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "pretest": "npm run build",
+    "test": "jest"
+  },
+  "dependencies": {
+    "apollo-server-express": "^1.1.0",
+    "bs-express": "^0.0.2",
+    "bs-graphql": "^0.3.1"
+  },
+  "devDependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4"
+  },
+  "_npmVersion": "5.3.0",
+  "_nodeVersion": "8.1.2",
+  "_npmUser": "rricard <ricard.robin@gmail.com>",
+  "dist": {
+    "integrity": "sha512-T7Q0tCI9PunT08jRIM4ZjIrfRaonD4bBpy6J1jraDnIzke5qHVxxf9txETwon183p6lyBy7OwA9tHmZ6v8iUVw==",
+    "shasum": "85d5b7ef7355a0a0c73144d98610882172a83a34",
+    "tarball": "https://registry.npmjs.org/bs-apollo-server-express/-/bs-apollo-server-express-0.3.1.tgz"
+  },
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-apollo-server-express-0.3.1.tgz_1503248515778_0.8479897540528327"
+  },
+  "directories": {}
+}

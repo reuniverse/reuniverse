@@ -1,0 +1,88 @@
+{
+  "_id": "@gmmorris/bs-rewire@0.3.0",
+  "_rev": "5-a5eeaff180e1dd12ddc320fc4c770fce",
+  "name": "@gmmorris/bs-rewire",
+  "dist-tags": {
+    "latest": "0.3.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.2.0",
+    "0.2.1",
+    "0.3.0"
+  ],
+  "time": {
+    "created": "2018-06-02T23:09:11.110Z",
+    "0.1.0": "2018-06-02T23:09:11.158Z",
+    "modified": "2018-06-06T14:36:19.025Z",
+    "0.1.1": "2018-06-03T13:05:04.100Z",
+    "0.2.0": "2018-06-03T13:48:54.991Z",
+    "0.2.1": "2018-06-06T09:27:23.637Z",
+    "0.3.0": "2018-06-06T14:36:15.857Z"
+  },
+  "maintainers": [
+    "gmmorris <npm@gidi.io>"
+  ],
+  "description": "BuckleScript bindings to the Rewire unit test monkey-patching utility",
+  "homepage": "https://github.com/gmmorris/bs-rewire#readme",
+  "keywords": [
+    "BuckleScript",
+    "Rewire",
+    "Testing",
+    "OCaml",
+    "ReasonML"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmmorris/bs-rewire.git"
+  },
+  "author": "Gidi Meir Morris <gidi@gidi.io>",
+  "bugs": {
+    "url": "https://github.com/gmmorris/bs-rewire/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"5b17f163-4b44\"",
+  "_lastModified": "Wed, 6 Jun 2018 14:36:19 GMT",
+  "version": "0.3.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "interface": "bsc -bs-re-out lib/bs/src/Rewire.cmi > src/Rewire.rei",
+    "test": "npm run clean && npm run build && jest .*bs.js",
+    "watch:bsb": "npm start",
+    "watch:jest": "jest .*bs.js --watchAll",
+    "watch:screen": "screen -c .screenrc"
+  },
+  "files": [
+    "src/",
+    "bsconfig.json"
+  ],
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.2",
+    "bs-platform": "^3.0.0"
+  },
+  "dependencies": {
+    "rewire": "^4.0.1"
+  },
+  "gitHead": "e8a5584ae52b9531071dde2e6e711f8a3836bfd4",
+  "_npmVersion": "5.8.0",
+  "_nodeVersion": "8.6.0",
+  "_npmUser": "gmmorris <npm@gidi.io>",
+  "dist": {
+    "integrity": "sha512-iBDJClXqf8g3E2HM7VaXLEmQwhW1aN5WU4pyzWxs5TgcSShqr30AlGbScY2VG1KQGsXj2bfu9oyoP0EMgJEbpw==",
+    "shasum": "524bbd90a19fd343931074d4820607014e073f5d",
+    "tarball": "https://registry.npmjs.org/@gmmorris/bs-rewire/-/bs-rewire-0.3.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 10571,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbF/FgCRA9TVsSAnZWagAArygP/AhXG16Q7lRoLZCGBLbk\n7hAYja8Pq427lsLosRGK+2thIIdYwFs1CX74bWzzLlL3QNTZFxDdhY2U8BCC\nWQtFFix4iWLNK0s6qpsb1aYNcVksuWPS4V56cdM/KGOKZwRJzdem1Yduw4Xe\ntcyHiGCrkq605DsJ+OtuDXJgaD8YhgJIIl0kS5Rw50xV+nAhF0jfLL9pBHon\nOZ1JWQ8VZ4G5gvDxnQ2rjPK3eKQnF4gqLBujIho1N+B3af8W4ySUMUfuqR6h\nwHpg5Z8U+cGqenQvVwGWcJFcJKV1Goeu3ruIckkQfwzmI6jhCQkClKNguNtA\nHw6z0VnmppqxVCGoBbsHw97lSF7u73zbVZWwa0sGuDGX4g7a699IoUO3x9RK\nnq8h5XkJdmo2RQUDnQBEpb2/BqV7qDJ/3GtTQQGigVZVIBmq1eCZkRz/0Wja\nuUm72i6v4sqAJ70KrxzItWicHOrI2wiQ1Qm93FhYWEUzBda3Qd0kez1BfZMr\n+ljA/TL4xgxtqszeBo1mGbdFpxG2t0lPCuXmkbN1E+dAlT6q609+a9lM5trw\nAxnQrqMt1NuXXDmKFtAWbSu+cleROme+AWqJV1COmIWOBEgpUfI01hueWlkZ\nHyYeNh0dV0x+5ANudDLee9FyiQBqUpt1+EqdTmx6iFcPwot6h+yjtNKdDpmH\n2XIt\r\n=pX4m\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-rewire_0.3.0_1528295775798_0.5763840110928964"
+  }
+}

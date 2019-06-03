@@ -1,0 +1,119 @@
+{
+  "_id": "bs-webapi@0.14.1",
+  "_rev": "27-a6db8db36b45c8b098e75c76abc0d303",
+  "name": "bs-webapi",
+  "description": "Reason + BuckleScript bindings to DOM",
+  "dist-tags": {
+    "latest": "0.14.1"
+  },
+  "versions": [
+    "0.4.0",
+    "0.4.1",
+    "0.5.0",
+    "0.6.0",
+    "0.6.1",
+    "0.7.0",
+    "0.8.0",
+    "0.8.1",
+    "0.8.2",
+    "0.8.3",
+    "0.9.0",
+    "0.9.1",
+    "0.10.0",
+    "0.11.0",
+    "0.12.0",
+    "0.12.1",
+    "0.12.2",
+    "0.13.0",
+    "0.13.1",
+    "0.13.2",
+    "0.13.3",
+    "0.13.4",
+    "0.13.5",
+    "0.13.6",
+    "0.14.0",
+    "0.14.1"
+  ],
+  "maintainers": [
+    "chenglou <chenglou92@gmail.com>",
+    "glennsl <gsl-npm@slotte.net>"
+  ],
+  "time": {
+    "modified": "2019-04-16T06:54:11.069Z",
+    "created": "2017-04-25T13:56:08.586Z",
+    "0.4.0": "2017-04-25T13:56:08.586Z",
+    "0.4.1": "2017-04-25T14:05:07.769Z",
+    "0.5.0": "2017-07-07T17:32:55.226Z",
+    "0.6.0": "2017-09-10T07:10:37.302Z",
+    "0.6.1": "2017-09-10T13:05:13.223Z",
+    "0.7.0": "2017-09-22T21:08:32.848Z",
+    "0.8.0": "2018-01-03T06:03:21.949Z",
+    "0.8.1": "2018-01-21T19:59:13.151Z",
+    "0.8.2": "2018-01-30T09:20:44.024Z",
+    "0.8.3": "2018-02-13T07:24:28.016Z",
+    "0.9.0": "2018-04-17T02:45:00.575Z",
+    "0.9.1": "2018-04-19T12:47:34.302Z",
+    "0.10.0": "2018-06-14T01:17:39.693Z",
+    "0.11.0": "2018-08-02T16:01:03.893Z",
+    "0.12.0": "2018-09-16T12:42:10.400Z",
+    "0.12.1": "2018-09-16T12:57:52.435Z",
+    "0.12.2": "2018-09-17T09:38:57.764Z",
+    "0.13.0": "2018-10-09T09:18:11.708Z",
+    "0.13.1": "2018-11-11T15:20:55.497Z",
+    "0.13.2": "2019-01-16T14:01:06.929Z",
+    "0.13.3": "2019-02-19T17:39:33.648Z",
+    "0.13.4": "2019-02-24T14:24:09.050Z",
+    "0.13.5": "2019-03-15T20:17:02.359Z",
+    "0.13.6": "2019-03-22T17:07:52.524Z",
+    "0.14.0": "2019-04-15T19:26:20.616Z",
+    "0.14.1": "2019-04-16T06:54:08.467Z"
+  },
+  "homepage": "https://github.com/reasonml-community/bs-webapi-incubator#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reasonml-community/bs-webapi-incubator.git"
+  },
+  "author": "chenglou",
+  "bugs": {
+    "url": "https://github.com/reasonml-community/bs-webapi-incubator/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "keywords": [
+    "reason",
+    "bucklescript",
+    "web",
+    "dom"
+  ],
+  "_etag": "W/\"086f4ea8902ddf408d9d7bb2e7c81718\"",
+  "_lastModified": "Tue, 16 Apr 2019 06:54:12 GMT",
+  "version": "0.14.1",
+  "main": "index.js",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "bsb -make-world"
+  },
+  "devDependencies": {
+    "bs-platform": "^5.0.2"
+  },
+  "gitHead": "3d2c0282b52c6b5cb93463d2f40bc8a399b62adb",
+  "_nodeVersion": "11.11.0",
+  "_npmVersion": "6.9.0",
+  "dist": {
+    "integrity": "sha512-wJrX2YWocqQ2+VVzx+8olMojo7W6ZEg1uQLm1J7eeJ2EkhzGLZjeJdgR0m9DOkJM+wSssMP+1klzhO5WXYp5rg==",
+    "shasum": "98110c77c69ddfe204165edf3705a15f3b4e18bf",
+    "tarball": "https://registry.npmjs.org/bs-webapi/-/bs-webapi-0.14.1.tgz",
+    "fileCount": 84,
+    "unpackedSize": 180473,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJctXwRCRA9TVsSAnZWagAAAusP/R6A4+zCQUbeJq8nrqoB\ncDhZuUOjFS1A+vyInODIL51lS6vemx+jq6r+53bWcAwNCOqtWFM7ObNkKesB\nz4cp8BcYVsxlZkXxSnXy8KYAGaL9oAMlRT7Wotv1TmPYCHHdiBJLCPtUzQJO\nwuwYCovQHSHFESyRZZGuLWXYwqzsOkBuIdhgvdeJbnY9bqbMsKWpZ9YbVoTP\naMIm3AFvqXLoFnlU0dEII1JQDPs5zWKywbrbGhNX6mKyu0J94CAXSWc4HcW+\nvzvna3gEJA5Km00kLwm7YH+d4FUh6u2SUY6+5oFEBjIfd78vd1Y5A9JmOaP/\n7c0jLvxWcwIAdLhkdBzb/mshcGVvKBoR0tHPkHHJnE4E0MoKZ3wEMIl0cWxk\n9KBj7rIZlg7Zz7nYx1ixbbUk35OyY2Dtk8KhCb+9Zu5OMm7zWiKrwSR4V6oX\nlmLZwVwam+B0WKgIwvJpSd/hPKOFUNTbNqjfkzvAUtccqNvqfZlVNWoBF9wu\nawkz5opLi/HDg3ZRGR8m8yBw52GE8txrG3592HoCLNIdv00pYNVGh1JJttrm\n8IrQhq9s3gXYX4Bqp6+lKTrDvs1ry/H+8/RjSBFXQoovlhxIWxQB2bU1XbrX\nd5RxuJDG5nUz9NVNuOEVkNAxgCoyl629dCbpQHfzEx9dy3csxcZFwSmyNk8a\nuZas\r\n=g9uh\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "_npmUser": "glennsl <gsl-npm@slotte.net>",
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-webapi_0.14.1_1555397648304_0.0036971517575370427"
+  },
+  "_hasShrinkwrap": false
+}

@@ -1,0 +1,66 @@
+{
+  "_id": "bs-amplitude@0.1.2",
+  "_rev": "4-67bfe2887ba8f54b402b0712ae0c5028",
+  "name": "bs-amplitude",
+  "time": {
+    "modified": "2017-10-27T18:00:04.633Z",
+    "created": "2017-10-27T17:48:44.681Z",
+    "0.1.0": "2017-10-27T17:48:44.681Z",
+    "0.1.1": "2017-10-27T17:53:48.494Z",
+    "0.1.2": "2017-10-27T18:00:04.633Z"
+  },
+  "maintainers": [
+    "arnar <arnar.th92@gmail.com>"
+  ],
+  "dist-tags": {
+    "latest": "0.1.2"
+  },
+  "description": "BuckleScript bindings for amplitude",
+  "versions": [
+    "0.1.1",
+    "0.1.2"
+  ],
+  "homepage": "https://github.com/viskahq/bs-amplitude#readme",
+  "keywords": [
+    "BuckleScript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/viskahq/bs-amplitude.git"
+  },
+  "bugs": {
+    "url": "https://github.com/viskahq/bs-amplitude/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"529fd9fefe6f8a98b6bfcd9e27d331ef\"",
+  "_lastModified": "Sat, 26 May 2018 19:04:12 GMT",
+  "version": "0.1.2",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w"
+  },
+  "peerDependencies": {
+    "bs-platform": "^1.10.3"
+  },
+  "dependencies": {
+    "amplitude": "^3.5.0"
+  },
+  "author": "",
+  "gitHead": "57bfe06dd9854ae1dd00b774d367ad09d936805e",
+  "_npmVersion": "5.4.2",
+  "_nodeVersion": "8.8.0",
+  "_npmUser": "arnar <arnar.th92@gmail.com>",
+  "dist": {
+    "integrity": "sha512-+il4u23LhQHZXH0rjRPY9hBWlK2RiLW15NF2TRTDwRPTg4Z7BvUNp6Z8DLKtMLTRtd7z//tzbcQ6umVcko8o8Q==",
+    "shasum": "ea002da715c316354dc76ec1132a478a1c090381",
+    "tarball": "https://registry.npmjs.org/bs-amplitude/-/bs-amplitude-0.1.2.tgz"
+  },
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-amplitude-0.1.2.tgz_1509127204513_0.5248255357146263"
+  },
+  "directories": {}
+}

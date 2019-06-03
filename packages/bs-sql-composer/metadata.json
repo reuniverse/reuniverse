@@ -1,0 +1,115 @@
+{
+  "_id": "bs-sql-composer@3.2.2",
+  "_rev": "12-5c5287d13eeca22e3faf47d02923fcf0",
+  "name": "bs-sql-composer",
+  "dist-tags": {
+    "latest": "3.2.2"
+  },
+  "versions": [
+    "0.1.1",
+    "0.2.1",
+    "0.2.2",
+    "0.2.3",
+    "1.0.0",
+    "1.1.0",
+    "2.0.0",
+    "3.0.0",
+    "3.1.0",
+    "3.2.0",
+    "3.2.1",
+    "3.2.2"
+  ],
+  "time": {
+    "created": "2018-03-01T07:24:06.582Z",
+    "0.1.1": "2018-03-01T07:24:06.637Z",
+    "modified": "2019-01-01T10:59:26.283Z",
+    "0.2.1": "2018-03-02T06:37:41.887Z",
+    "0.2.2": "2018-03-02T07:08:16.988Z",
+    "0.2.3": "2018-03-02T10:20:20.280Z",
+    "1.0.0": "2018-03-04T03:09:35.365Z",
+    "1.1.0": "2018-05-30T07:31:06.167Z",
+    "2.0.0": "2018-05-30T09:16:07.980Z",
+    "3.0.0": "2018-06-06T03:20:19.374Z",
+    "3.1.0": "2018-06-06T16:26:22.705Z",
+    "3.2.0": "2018-06-06T17:20:07.774Z",
+    "3.2.1": "2018-07-25T02:27:55.058Z",
+    "3.2.2": "2018-12-11T02:10:05.945Z"
+  },
+  "maintainers": [
+    "scull7 <scull7@gmail.com>"
+  ],
+  "description": "A library for SQL composition in BuckleScript",
+  "keywords": [
+    "BuckleScript",
+    "reason",
+    "reasonml",
+    "sql",
+    "databases",
+    "node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/scull7/bs-sql-composer.git"
+  },
+  "author": "Nathan Sculli <scull7@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/scull7/bs-sql-composer/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/scull7/bs-sql-composer",
+  "_etag": "W/\"a65223bb3db1d6b93cf2d3dc66e8f8f2\"",
+  "_lastModified": "Tue, 01 Jan 2019 10:59:27 GMT",
+  "version": "3.2.2",
+  "scripts": {
+    "build": "bsb -make-world",
+    "clean": "bsb -clean-world",
+    "coverage": "nyc report --temp-directory=coverage --reporter=text-lcov | coveralls",
+    "format": "bsrefmt --in-place",
+    "precommit": "lint-staged",
+    "start": " yarn install ; bsb -clean-world ; bsb -make-world -w",
+    "test": "bsb -clean-world ; bsb -make-world ; jest --coverage ; yarn coverage ",
+    "test:no-report": "bsb -clean-world ; bsb -make-world ; jest --coverage",
+    "watch:test": "jest --coverage --watchAll"
+  },
+  "lint-staged": {
+    "*.{re,rei}": [
+      "yarn format",
+      "git add"
+    ]
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules",
+      "/__tests__/assets/*"
+    ]
+  },
+  "main": "src/SqlComposer.bs.js",
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.2",
+    "@glennsl/bs-json": "^2.0.0",
+    "bs-platform": "^4.0.1",
+    "coveralls": "^3.0.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.1.2",
+    "nyc": "^11.8.0"
+  },
+  "gitHead": "550814623863a97592c429a2e5d39483c1c7abab",
+  "_npmVersion": "6.4.1",
+  "_nodeVersion": "11.2.0",
+  "_npmUser": "scull7 <scull7@gmail.com>",
+  "dist": {
+    "integrity": "sha512-QF8/pmu+YZRwSkocdjFiRGfq2b5mJDQqNDIFexjzr8efRjaFeRIyP8P5r4CVZM7GgPHjuS+uRVPtXKcGWLH2OQ==",
+    "shasum": "033507acbbec20f33ce6ff903ef4d22ce719e559",
+    "tarball": "https://registry.npmjs.org/bs-sql-composer/-/bs-sql-composer-3.2.2.tgz",
+    "fileCount": 91,
+    "unpackedSize": 810543,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcDxx+CRA9TVsSAnZWagAArpcP/R+wu0LXCUmxjE5yJEN7\nqSQkhTsk+z1eRXz0JDm1Z7K1a2uy3/3XvbuKtiKnQJwk7u/qLJo2tw4f+/gj\nOKd+efIn0Pk610gyxIO086olYHjUys4Atx2Ydh6plxxHmXBL/C4xcZShFB4n\noylUxdr1LhoNzCt3mWPiDQKm5G0kTLXyGsA3DF5SuFC7A6QQwfcEWqCw0vE9\nzK8FwPFJgGig/Uxd1v7PB9n40YaHsfDErLgK45XMmUIkNP30OydP5VfL7AGi\n7bBrsHyvlZ1EW7fMZAq2FZw2quaR7yC5bO8h5aoYLD3op52J9Ns8fzynMJeQ\nt2Q8GcBMzS6YR1PKctrNGob8qhFVHJj/Xwf0Ep1QnT2zEHU+TTcdJdp2VJKj\nzV7m0F9KYYRVT6t+Ka+hSMO4zLMecGwplynuD+8eXiMpv7K/L9qKpttvf1eL\ndJ6HHbDWy6wRca0ag/esDuTECRkEZWpYWvH9nUVdFODSLj31aSdZ8ef+acZ6\nSVcwFvj3Ar5/5KVdFBwVDWrAP20tGjmELp+8sGLZFzjd0XPVImYj9+aFmQcS\nAJurfxr3PBGeq50V5D4VT5vonGxWZ94RifZZtuxN4lNTx7Qv3u+3ANZ7d7Op\nZb+dP2l7jA8Dl64HT8aW4iE27uO4nyzsi/MxCC2AbX+Rn1GnijqW3HWwjrVM\nFKG1\r\n=phhd\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-sql-composer_3.2.2_1544494205816_0.7849236360911978"
+  },
+  "_hasShrinkwrap": false
+}

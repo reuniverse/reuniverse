@@ -1,0 +1,61 @@
+{
+  "_id": "stylite-re@0.1.0",
+  "_rev": "4-f3311554475b2c8de755dce51bf044a7",
+  "name": "stylite-re",
+  "description": "The core of `Stylite` is the ability to express CSS rules using `Reason` syntax.",
+  "dist-tags": {
+    "latest": "0.1.0"
+  },
+  "versions": [
+    "0.0.5",
+    "0.0.6",
+    "0.0.7",
+    "0.1.0"
+  ],
+  "maintainers": [
+    "maarekj <josephmaarek@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-03-14T17:38:12.644Z",
+    "created": "2017-11-29T16:43:17.614Z",
+    "0.0.5": "2017-11-29T16:43:17.614Z",
+    "0.0.6": "2017-11-29T16:49:58.524Z",
+    "0.0.7": "2017-11-30T15:15:55.027Z",
+    "0.1.0": "2018-03-14T17:38:11.649Z"
+  },
+  "author": "Maarek Joseph",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"31d70de1d0823921c9eb3673a23817c1\"",
+  "_lastModified": "Sun, 27 May 2018 18:31:30 GMT",
+  "version": "0.1.0",
+  "main": "index.js",
+  "devDependencies": {
+    "bs-jest": "^0.1.0",
+    "bs-platform": "2.1.0",
+    "webpack": "^3.6.0"
+  },
+  "scripts": {
+    "start": "bsb -make-world -w",
+    "build": "bsb -make-world",
+    "clean": "bsb -clean-world && rm -Rvf lib/output",
+    "test": "jest lib/js/src",
+    "test:watch": "jest lib/js/src --watchAll"
+  },
+  "dependencies": {
+    "bs-webapi": "^0.6.1"
+  },
+  "dist": {
+    "shasum": "bc6a2165632eb7a4efe05f2a4980afaac8e2f4a9",
+    "tarball": "https://registry.npmjs.org/stylite-re/-/stylite-re-0.1.0.tgz",
+    "fileCount": 17,
+    "unpackedSize": 49503
+  },
+  "_npmUser": "maarekj <josephmaarek@gmail.com>",
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/stylite-re_0.1.0_1521049091573_0.8049397454452523"
+  }
+}

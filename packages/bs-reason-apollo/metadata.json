@@ -1,0 +1,76 @@
+{
+  "_id": "bs-reason-apollo@1.0.0-beta.4",
+  "_rev": "5-af8a44d5d088fa34efad65089190881c",
+  "name": "bs-reason-apollo",
+  "description": "React Apollo bindings for BS",
+  "dist-tags": {
+    "latest": "1.0.0-beta.4"
+  },
+  "versions": [
+    "1.0.0-beta",
+    "1.0.0-beta.1",
+    "1.0.0-beta.2",
+    "1.0.0-beta.3",
+    "1.0.0-beta.4"
+  ],
+  "maintainers": [
+    "gabrielrubens <grsabreu@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-02-03T05:28:52.192Z",
+    "created": "2017-12-18T13:42:06.317Z",
+    "1.0.0-beta": "2017-12-18T13:42:06.317Z",
+    "1.0.0-beta.1": "2017-12-18T18:12:51.126Z",
+    "1.0.0-beta.2": "2017-12-18T18:16:30.197Z",
+    "1.0.0-beta.3": "2017-12-24T15:22:15.612Z",
+    "1.0.0-beta.4": "2018-02-03T05:28:52.192Z"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Astrocoders/bs-reason-apollo.git"
+  },
+  "author": "Gabriel R. Abreu <grsabreu@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/Astrocoders/bs-reason-apollo#readme",
+  "keywords": [
+    "reason",
+    "bucklescript",
+    "apollo",
+    "graphql",
+    "react"
+  ],
+  "bugs": {
+    "url": "https://github.com/Astrocoders/bs-reason-apollo/issues"
+  },
+  "_attachments": {},
+  "_etag": "W/\"10c22ab51c9b5ebcf9e540a4aa6354b7\"",
+  "_lastModified": "Sat, 26 May 2018 19:04:47 GMT",
+  "version": "1.0.0-beta.4",
+  "main": "lib/js/re/root.js",
+  "dependencies": {},
+  "devDependencies": {
+    "bs-platform": "^2.1.0",
+    "reason-react": "^0.3.1"
+  },
+  "scripts": {
+    "start": "yarn bs:watch",
+    "bs:build": "bsb -make-world -clean-world",
+    "bs:watch": "bsb -make-world -clean-world -w",
+    "bs:setup": "bsb -make-world"
+  },
+  "peerDependencies": {
+    "reason-react": "^0.3.0"
+  },
+  "licenseText": "MIT License\n\nCopyright (c) 2017 \n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+  "dist": {
+    "shasum": "4ece07bcaf28106a4de04f81421f5d292a4c801b",
+    "tarball": "https://registry.npmjs.org/bs-reason-apollo/-/bs-reason-apollo-1.0.0-beta.4.tgz"
+  },
+  "_npmUser": "gabrielrubens <grsabreu@gmail.com>",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-reason-apollo-1.0.0-beta.4.tgz_1517635732128_0.39042939455248415"
+  },
+  "directories": {}
+}

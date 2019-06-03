@@ -1,0 +1,71 @@
+{
+  "_id": "bs-react-ga@0.0.2",
+  "_rev": "2-e4da21211f2d2ec0f1119072edf30f54",
+  "name": "bs-react-ga",
+  "dist-tags": {
+    "latest": "0.0.2"
+  },
+  "versions": [
+    "0.0.1",
+    "0.0.2"
+  ],
+  "time": {
+    "created": "2018-03-09T09:43:48.689Z",
+    "0.0.1": "2018-03-09T09:43:48.736Z",
+    "modified": "2018-03-12T05:55:48.455Z",
+    "0.0.2": "2018-03-12T05:55:48.090Z"
+  },
+  "maintainers": [
+    "viebel <viebel@gmail.com>"
+  ],
+  "description": "Bucklescript bindings for react-ga (Google Analytics)",
+  "homepage": "https://github.com/viebel/bs-react-ga#readme",
+  "keywords": [
+    "bucklescript",
+    "compression",
+    "nodejs",
+    "middleware"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viebel/bs-react-ga.git"
+  },
+  "author": "Yehonathan Sharvit",
+  "bugs": {
+    "url": "https://github.com/viebel/bs-react-ga/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"3d6ecfa7a813b45066849925c62fc735\"",
+  "_lastModified": "Sat, 26 May 2018 19:04:44 GMT",
+  "version": "0.0.2",
+  "scripts": {
+    "test": "jest --watch",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "devDependencies": {
+    "bs-platform": "^2.2.2"
+  },
+  "dependencies": {
+    "react-ga": "^2.4.1"
+  },
+  "gitHead": "4a00eac496e441233aa55a6be00804aeab0ca591",
+  "_npmVersion": "5.5.1",
+  "_nodeVersion": "8.9.1",
+  "_npmUser": "viebel <viebel@gmail.com>",
+  "dist": {
+    "integrity": "sha512-CEMzSta/bOdqWmh61f+BpXhZF6EXzfK3bfqzLiDPRJWv0bCUY7EPEWldvg2LbVQhJT4zTtlB9BdqwYPatf/jfQ==",
+    "shasum": "7dd3c376da4a2011e75387cc800f8ee915bef096",
+    "tarball": "https://registry.npmjs.org/bs-react-ga/-/bs-react-ga-0.0.2.tgz",
+    "fileCount": 8,
+    "unpackedSize": 7482
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-react-ga_0.0.2_1520834148023_0.2582569951610736"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "_id": "reductive@1.0.0",
+  "_rev": "6-82ac4707140aa031762f862f32e972b2",
+  "name": "reductive",
+  "description": "Redux in Reason",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": [
+    "0.0.1",
+    "0.1.0",
+    "0.2.0",
+    "1.0.0"
+  ],
+  "maintainers": [
+    "chenglou <chenglou92@gmail.com>",
+    "rickyvetter <rickywvetter@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-06-04T06:17:43.339Z",
+    "created": "2017-04-15T00:30:36.633Z",
+    "0.0.1": "2017-04-15T00:30:36.633Z",
+    "0.1.0": "2017-10-23T19:59:18.153Z",
+    "0.2.0": "2017-11-28T07:09:51.749Z",
+    "1.0.0": "2018-06-04T06:17:39.893Z"
+  },
+  "keywords": [
+    "reason",
+    "reasonml",
+    "ocaml",
+    "redux",
+    "state management"
+  ],
+  "author": "rickyvetter",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/reasonml-community/reductive#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reasonml-community/reductive.git"
+  },
+  "bugs": {
+    "url": "https://github.com/reasonml-community/reductive/issues"
+  },
+  "_attachments": {},
+  "_etag": "W/\"0c30587dfc855badb2dfc302470e91ae\"",
+  "_lastModified": "Mon, 04 Jun 2018 06:17:44 GMT",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "bsb -make-world"
+  },
+  "devDependencies": {
+    "bs-platform": "^3.0.0",
+    "immutable-re": "git+https://github.com/facebookincubator/immutable-re.git",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "reason-react": "^0.4.1"
+  },
+  "gitHead": "bc7b72698962c22565d42cd37e184c92415236ca",
+  "_npmVersion": "5.6.0",
+  "_nodeVersion": "9.11.1",
+  "_npmUser": "rickyvetter <rickywvetter@gmail.com>",
+  "dist": {
+    "integrity": "sha512-zKQn1TQIs/pqjb57jnvwAvL5tRfX91h6sujPk5+H2Q1fN1Y71oSxMO0DWLg5Um9OoILhZMDIDfjF5kBSG3s1Lw==",
+    "shasum": "e360501df34e00efe51f56ce1915c52f5994e30f",
+    "tarball": "https://registry.npmjs.org/reductive/-/reductive-1.0.0.tgz",
+    "fileCount": 23,
+    "unpackedSize": 94283,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbFNmECRA9TVsSAnZWagAAwwYQAIqNpfY4kJ3c5/K5//jA\nPuLlfkNv0C6+8x7Zrqm+9gpPGbsaenwTWwkGnGbuavQqDtnXcx5vvKJIOznT\n2CkxrWqUFvBmAmwT2Ye4zkqc8avrhr72lK7RNR8yVwZVnAhf/kXKrONUOidD\nKmlAPPiRNklX6iOk6uvnkYow1lMAdfE2laYd1HiiPC8TBQCljEzr8FvVgEJH\n0YSWvec4r0SiWKWFF1jSHEio8KNdzkv5sh0JXZA72nVyAfrJHXSwf2onqIuK\n8v6vtQ0NU1E0RgDjp9opV6/xJCgw0mo/uqa+2bZLunWf6mUWXTci5Pxgu4Bw\n3GzEfjeUKyAjnXogOIWDwISIqvZ2yE1yrnhHJVeZUM+CA7Gy/PKnhtNQvWTB\nW294DkErdPKxmz8n2kU9iJ4LmdMRJWkJpZZWpkU/gZ6XnL0iVJZOy/AJmRi7\nL0We/giOFkdllDbM0RoIQ4w90iham3ZcKBNt54jymEyKQlMVysxM/j5DZr+u\nL4G3ltrCq4EvFCNKLWfAVfwfG+vrMH2unSo3bl044yf6Pc9m7XaF6Yc/Ir9i\nnvX0Pv1lyIv9JYPYpN/GuPQEfCCU0KqeL6dMntsZY/yZtO14YvlByMPQplo5\nfRmgjgVQ4ZQkc4iMAxLEi1liYXeVB1dXFze7BpkqJWgMzrfiAbXW3YX6oaOj\n+vnT\r\n=oZHh\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/reductive_1.0.0_1528093059700_0.7942060602403553"
+  }
+}

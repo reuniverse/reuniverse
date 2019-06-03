@@ -1,0 +1,115 @@
+{
+  "_id": "@ristostevcev/bs-declaredom@1.0.2",
+  "_rev": "4-6ae80cef1c2cecca60ab4027517396f2",
+  "name": "@ristostevcev/bs-declaredom",
+  "dist-tags": {
+    "latest": "1.0.2"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2"
+  ],
+  "time": {
+    "created": "2019-02-06T17:57:31.489Z",
+    "0.1.0": "2019-02-06T17:57:32.695Z",
+    "modified": "2019-04-06T16:29:05.412Z",
+    "0.1.1": "2019-02-06T18:11:24.528Z",
+    "1.0.0": "2019-04-05T22:38:55.083Z",
+    "1.0.1": "2019-04-06T03:24:18.947Z",
+    "1.0.2": "2019-04-06T16:29:02.923Z"
+  },
+  "maintainers": [
+    "ristostevcev <risto1@gmail.com>"
+  ],
+  "description": "Strongly typed declarative markup for the DOM and CSS",
+  "keywords": [
+    "BuckleScript",
+    "reason"
+  ],
+  "author": "Risto Stevcev",
+  "license": "BSD-3-Clause",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/Risto-Stevcev/bs-declaredom",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Risto-Stevcev/bs-declaredom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Risto-Stevcev/bs-declaredom/issues"
+  },
+  "_etag": "W/\"d7afc682f355c2eb4cd7b3d9cfcaecd9\"",
+  "_lastModified": "Sat, 06 Apr 2019 16:29:06 GMT",
+  "version": "1.0.2",
+  "sideEffects": false,
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "pretest": "bsb -make-world",
+    "bundle:webpack": "webpack",
+    "bundle:parcel": "parcel build lib/es6/example/Example.bs.js",
+    "bundle:rollup": "rollup lib/es6/example/Example.bs.js --file dist/bundle.rollup.js --output.name foo --format umd",
+    "bundle": "npm run bundle:webpack && npm run bundle:parcel && npm run bundle:rollup",
+    "test": "npm run bundle && npm run test:unit && npm run test:tree-shaking",
+    "test:unit": "node -r esm lib/es6/test/Test_All.bs.js | tap-spec",
+    "test:tree-shaking": "bats ./test-tree-shaking.bats | tap-spec",
+    "test:html": "node lib/js/test/Test_Html.bs.js | tap-spec",
+    "test:html:node": "node lib/js/test/nodes/Test_Html_Node.bs.js | tap-spec",
+    "test:css": "node lib/js/test/Test_Css.bs.js | tap-spec",
+    "test:css:media": "node lib/js/test/css/Test_Css_Media.bs.js | tap-spec",
+    "test:css:property": "node lib/js/test/css/Test_Css_Property.bs.js | tap-spec",
+    "test:css:selector": "node lib/js/test/css/Test_Css_Selector.bs.js | tap-spec",
+    "test:css:stylesheet": "node lib/js/test/css/Test_Css_Stylesheet.bs.js | tap-spec",
+    "graph:dot": "bs-dependency-graph | json-to-dot > graph.dot",
+    "graph:image": "dot -Tpng graph.dot -o graph.png",
+    "graph:view": "feh graph.png",
+    "graph": "npm run graph:dot && npm run graph:image",
+    "docs": "bs-odoc && npm run docs:index",
+    "docs:index": "./index-docs.sh",
+    "example": "parcel example/example.html"
+  },
+  "devDependencies": {
+    "@babel/core": "7.3.3",
+    "@babel/preset-env": "7.3.1",
+    "@ristostevcev/bs-odoc": "1.3.0",
+    "@ristostevcev/bs-tape": "0.2.0",
+    "babel-loader": "8.0.5",
+    "bats": "1.1.0",
+    "bs-dependency-graph": "2.1.0",
+    "bs-platform": "4.0.3",
+    "core-js": "3",
+    "esm": "3.2.5",
+    "jsdom": "13.2.0",
+    "json-to-dot": "1.1.0",
+    "parcel-bundler": "1.11.0",
+    "rollup": "1.1.2",
+    "tap-spec": "5.0.0",
+    "webpack": "4.29.4",
+    "webpack-cli": "3.2.3"
+  },
+  "dependencies": {
+    "bs-webapi": "^0.13.2",
+    "declaredom": "^2.1.0"
+  },
+  "gitHead": "b36f7bf497de7b9f4821b8937499d3cbc8e6419a",
+  "_npmVersion": "6.5.0",
+  "_nodeVersion": "11.4.0",
+  "_npmUser": "ristostevcev <risto1@gmail.com>",
+  "dist": {
+    "integrity": "sha512-h0X6Lx4oiGE2ATVn1m0rq+NfCgMVspSk0pwbeiTQidC6bNA6uZEqoPQvJZ542FsiBWEDAkSiIPIUKjmi796XZA==",
+    "shasum": "c605092bd5ac2dd8e0bf454ac8dc610436bc0360",
+    "tarball": "https://registry.npmjs.org/@ristostevcev/bs-declaredom/-/bs-declaredom-1.0.2.tgz",
+    "fileCount": 611,
+    "unpackedSize": 9447898,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcqNPPCRA9TVsSAnZWagAAsDoQAKSA8O8bz4HIGMUgyvC4\n832G3OTDnEcx3qeS6BhthzFf2DfZsj/F0345tqVOw8Z4q1j5WIe9NTDI+OZd\nboFKrbvcLc4kZB9UG8TF3Ys3RSNVYPcCTDdylINyrdVOM2CG4f7A3CqgEKR7\nqy2/gMaAZZvgeYtP+SBSva35LKw1rxgZ1Go/tw/TCQRQywYiu/TNp/ju/F2W\nhJl15lUVKiqhw2OF/f24I1/ANMqHNLxnG6RkFU8bo7Qu//gU+J6FwHwwfHaE\nNVvl6jNyHJqlD0j6j8wxsrn5fSpL+eS8ksQbg0i1dZIXlkTAbTTYpxiHilF4\nDXC2lHhiHuniP315IO30jKMDgpd5qqZFk2SpWw0PFWor4JgjSsXKYnVfpJ4J\npdua64e1pdfJbV9bMc90rrQ51jPYccumQHQy7DDpMom4tu8Tg8LJR5QmOPpE\n+jqweFQklXKaH+A7a3HeAkqMD6ebFpWUtoTbz23EULtUdl5orGNn3C4Ub0By\nZHuFgY3ullF4a5B55JmXM98LxR7cSV5TX2Cys+zvCcuGLHcRG45ySOuy5edj\nHJ2CuOEEmxPtYz16+faJxgEF4NwautqmUR4AmTDEi4Lzz8tSvwEoJtHq9vYQ\n/dAlUdgfZ3/b6ivR+dNsypIwOMBLEA6JDi5XT+quVl0LzrAQJBqlb9wkSWwT\nR6Kd\r\n=6ETu\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-declaredom_1.0.2_1554568142766_0.07129551746118712"
+  },
+  "_hasShrinkwrap": false
+}

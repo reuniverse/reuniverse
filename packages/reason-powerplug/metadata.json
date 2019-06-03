@@ -1,0 +1,85 @@
+{
+  "_id": "reason-powerplug@0.1.2",
+  "_rev": "2-3a7c92367fb28c7671edfaa25b7868d9",
+  "name": "reason-powerplug",
+  "dist-tags": {
+    "beta": "0.1.0",
+    "latest": "0.1.2"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2"
+  ],
+  "time": {
+    "created": "2018-10-01T13:31:58.702Z",
+    "0.1.0": "2018-10-01T13:31:58.978Z",
+    "modified": "2018-10-07T05:39:13.353Z",
+    "0.1.1": "2018-10-01T14:17:51.163Z",
+    "0.1.2": "2018-10-07T05:39:10.349Z"
+  },
+  "maintainers": [
+    "beizhedenglong <wang_shaojie@icloud.com>"
+  ],
+  "description": "A set of reuseable `components` and `functors` for  reason react",
+  "keywords": [
+    "BuckleScript",
+    "ReasonReact",
+    "ReasonML",
+    "components",
+    "dumb",
+    "state",
+    "RenderProps"
+  ],
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/beizhedenglong/reason-powerplug",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beizhedenglong/reason-powerplug.git"
+  },
+  "author": "Victor <wang_shaojie@icloud.com> (https://github.com/beizhedenglong)",
+  "bugs": {
+    "url": "https://github.com/beizhedenglong/reason-powerplug/issues"
+  },
+  "_etag": "W/\"82d652d9e44cd257699e549a0a84d9f6\"",
+  "_lastModified": "Sun, 07 Oct 2018 05:39:14 GMT",
+  "version": "0.1.2",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack -w"
+  },
+  "peerDependencies": {
+    "bs-platform": "^4.0.5",
+    "reason-react": ">=0.4.0"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.4",
+    "bs-platform": "^4.0.5",
+    "bs-react-test-renderer": "^2.0.0",
+    "reason-react": ">=0.4.0",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^3.1.1"
+  },
+  "gitHead": "cb847400ac6012d4fe83fe20dc274579eea8e581",
+  "_npmVersion": "5.6.0",
+  "_nodeVersion": "9.11.2",
+  "_npmUser": "beizhedenglong <wang_shaojie@icloud.com>",
+  "dist": {
+    "integrity": "sha512-ZgREfU7OwhO/ktRvp3TZhkZwktN44ipGrLcG5BS2BivunQ+7KX5wQP+mjnmohaTXJs8RT9CVHi6MagfewJhFJA==",
+    "shasum": "57eda8d134203be0066f62420fb1ed8bbb19b704",
+    "tarball": "https://registry.npmjs.org/reason-powerplug/-/reason-powerplug-0.1.2.tgz",
+    "fileCount": 127,
+    "unpackedSize": 1427323,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbuZv+CRA9TVsSAnZWagAAcwUP/3BkS1pgXpr66gw3EyM/\ngfQYFlLU41yyqNYAY1T92M/1D8Kx/k7Y9p/8Lu5QhMhv+av0w590D7q3oAod\nmzeNzM9YEVXD0bPjqcUqX3+8MHU4RgV/KbPDPXRLlj7wyxkBUloAP0n/Xx8r\nMfqY4teS2NiUm/V/4xD6sc3lQo9hCRPmsUmwDECycReRGrf9K3eeo1ivs3hc\no4yCUv7jy+yzVSsyxQhIChiEaKYTklbJ9eqGWI2wkoUR7fmhXcxsHb081ZAG\njIHnroYjdiPCSzd7jweMCIRNgtYOTkwkEq/khlDtJohQfNqwtE9sPPME+4iC\nqYO0X5CHakiZYqn+hQ+r+bsditjZWVdmihbm4uoojwmPp5+fpgWpx/Tu0X3Z\ne5JBJYf5uBIFeqzVPjXreTp5+HMKk3gPkYs/V0kwK48lusgJN8BM0Kkw47gA\nl9gVlGU6KRRL14sBlUcQhwFeclQSowqQtvER5Hc59/EFAVwylnugnBbJuaTc\n4OafMnAwC5F0/tGwbX3aRli2Z8KzrInHcU6oFjyxr2qpCzisGG+QHd+bVyf0\n5pHcfoNBZKm3EyRWOnRkEGj/SV/TYKrnFqmN6c3TDxCcj9NDGukPkxMRZu5/\nl2HRCs3ZgWDsHx4fC6l2bw/r2RNmJ0Mf2rIxncAG1kZEuhJvH9hUmZ+H3sTW\nugh5\r\n=SWy5\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/reason-powerplug_0.1.2_1538890750195_0.8481297210048067"
+  },
+  "_hasShrinkwrap": false
+}

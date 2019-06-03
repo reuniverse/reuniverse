@@ -1,0 +1,100 @@
+{
+  "_id": "@jsiebern/bs-devextreme-reactive@1.4.1",
+  "_rev": "20-144ff7ca4933a70be6a2c66fa69daf9b",
+  "name": "@jsiebern/bs-devextreme-reactive",
+  "dist-tags": {
+    "latest": "1.4.1",
+    "next": "1.5.0-beta.1"
+  },
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.21",
+    "1.1.0-0.0.1",
+    "1.1.0",
+    "1.2.0-beta.3",
+    "1.2.0-beta.4",
+    "1.3.0-beta.1",
+    "1.3.0-beta.2",
+    "1.3.0-beta.4",
+    "1.3.1",
+    "1.4.0",
+    "1.4.1",
+    "1.5.0-beta.1"
+  ],
+  "time": {
+    "created": "2018-03-20T10:22:43.878Z",
+    "1.1.0": "2018-03-20T10:22:44.013Z",
+    "modified": "2018-08-23T16:57:54.957Z",
+    "1.1.0-0.0.1": "2018-03-20T11:32:12.798Z",
+    "0.0.1": "2018-03-20T12:33:13.639Z",
+    "0.0.2": "2018-03-20T12:35:35.879Z",
+    "0.0.21": "2018-03-20T15:18:51.983Z",
+    "1.2.0-beta.3": "2018-05-02T11:50:59.091Z",
+    "1.2.0-beta.4": "2018-05-02T14:49:14.139Z",
+    "1.3.0-beta.2": "2018-05-31T14:06:20.846Z",
+    "1.3.0": "2018-05-31T14:18:14.093Z",
+    "1.3.1": "2018-05-31T14:45:09.752Z",
+    "1.3.0-beta.1": "2018-06-07T08:09:52.207Z",
+    "1.3.0-beta.4": "2018-06-07T08:43:56.502Z",
+    "1.4.0": "2018-06-07T09:11:35.637Z",
+    "1.4.1": "2018-06-07T10:14:06.734Z",
+    "1.5.0-beta.1": "2018-08-23T16:57:51.086Z"
+  },
+  "maintainers": [
+    "jsiebern <jsiebern88@gmail.com>"
+  ],
+  "description": "This library provides Reason bindings for devextreme-reactive.",
+  "homepage": "https://github.com/jsiebern/bs-devextreme-reactive",
+  "keywords": [
+    "bucklescript",
+    "reason",
+    "devextreme-reactive"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsiebern/bs-devextreme-reactive"
+  },
+  "author": "Jonathan Siebern <jsiebern88@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/jsiebern/bs-devextreme-reactive/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "",
+  "_attachments": {},
+  "_etag": "W/\"af7ab8a7d1fc004e3ae0c61f1cc83c35\"",
+  "_lastModified": "Thu, 23 Aug 2018 16:57:56 GMT",
+  "version": "1.4.1",
+  "main": "src/Grid.re",
+  "scripts": {
+    "build": "bsb -make-world"
+  },
+  "devDependencies": {
+    "bs-platform": "^3.1.5",
+    "reason-react": "^0.4.2"
+  },
+  "peerDependencies": {
+    "@devexpress/dx-react-core": "~1.3.0",
+    "@devexpress/dx-react-grid": "~1.3.0",
+    "@devexpress/dx-react-grid-bootstrap3": "~1.3.0",
+    "@devexpress/dx-react-grid-bootstrap4": "~1.3.0",
+    "@devexpress/dx-react-grid-material-ui": "~1.3.0",
+    "@material-ui/icons": "~1.2.0",
+    "@material-ui/core": "~1.2.0",
+    "reason-react": "^0.4.2"
+  },
+  "dependencies": {},
+  "dist": {
+    "shasum": "af1cd462d4865aa69090a130f600b26f53123dfa",
+    "tarball": "https://registry.npmjs.org/@jsiebern/bs-devextreme-reactive/-/bs-devextreme-reactive-1.4.1.tgz",
+    "fileCount": 10,
+    "unpackedSize": 323717,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbGQVvCRA9TVsSAnZWagAAzOUQAJTBbGDJUxwS1yC3L83u\nkicJ36BDbWWY6H07f/U0J0lqP5hwvO48Z1SSzRhr+C1nNmRFwAc/lNv8e2Il\n2hNnNfWHpi5w/yolnDEhnKb0vLAuP7s56POvWtvKtFkh6mFiYnyQvBsffy79\nIBH5YONrugbnFSh1yPZ/hcZqzuM8PSbdS7SXiekrS4jbcocYFmGMU13aJfVA\n8I/eWnpNY8gfVIec5f6oRtuOe2l6N63CyOCauta98ciNK1PoQ1M+m0ZR9zFg\nUMsbbwPgKO3Eo94Em6tf2s3YASBKXukiYsCcoFy+jtndhTG93oU7jqQmLR93\nZqD5Zm9KKeSBZuVZtKBl+Dh+P3cIltylrYExUKSyFp7d1mJSUcSADeuYBTx7\nYds1hm60Y43QnCuaSD9MqZ/cwc67F2j2WewVd80ylhoW0mmOR9Lhl++u8t37\nXBo3jlr54ZVTUX7l/PNfGORsSROVFNHwIwXoD6q9t2FEgZMeudsEB8HtqomA\nmGpIDLCaS1KVdnNwqAcKLQI3vkWKdxBESRkeo2yPhDW2f4G/2nm5PhrnyIAq\nIjL5uretPzSELxBi58jZERcHR61idWxJT3Dvdc4ad0SDXHFmSyqubicaCJfB\n4OIFkEi+4nlQam/bVorWegzO8l2xCOFDrkDLSPpE0CoWr7ga7b9fdLJIkILt\nyE6I\r\n=pUby\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "_npmUser": "jsiebern <jsiebern88@gmail.com>",
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-devextreme-reactive_1.4.1_1528366446630_0.48889100957813447"
+  }
+}

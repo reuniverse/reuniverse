@@ -1,0 +1,70 @@
+{
+  "_id": "reason-webpack-plugin@2.0.1",
+  "_rev": "3-f275be90abff359a457f0ae902bcde84",
+  "name": "reason-webpack-plugin",
+  "description": "Webpack plugin to run BSB on changes",
+  "dist-tags": {
+    "latest": "2.0.1"
+  },
+  "versions": [
+    "1.0.0",
+    "2.0.0",
+    "2.0.1"
+  ],
+  "maintainers": [
+    "rrdelaney <rrdelaney@outlook.com>"
+  ],
+  "time": {
+    "modified": "2018-02-17T19:53:01.753Z",
+    "created": "2017-09-20T01:56:24.053Z",
+    "1.0.0": "2017-09-20T01:56:24.053Z",
+    "2.0.0": "2018-02-17T19:49:39.685Z",
+    "2.0.1": "2018-02-17T19:53:00.863Z"
+  },
+  "homepage": "https://github.com/reasonml-community/bs-loader#readme",
+  "keywords": [
+    "webpack",
+    "reason",
+    "reasonml",
+    "bucklescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reasonml-community/bs-loader.git"
+  },
+  "author": "Ryan Delaney <rrdelaney@outlook.com>",
+  "bugs": {
+    "url": "https://github.com/reasonml-community/bs-loader/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"adca4f253433a00c6de6cd86ee3b9d30\"",
+  "_lastModified": "Sun, 27 May 2018 15:29:08 GMT",
+  "version": "2.0.1",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bsb-js": "^1.0.2"
+  },
+  "_npmVersion": "5.6.0",
+  "_nodeVersion": "9.2.0",
+  "_npmUser": "rrdelaney <rrdelaney@outlook.com>",
+  "dist": {
+    "integrity": "sha512-v1IWbesW5khW2F5KzxzQTCSpHwvJhAhK+reiAWE9znHY+DX+0xCv7+BkYP5hbpR7GGdNTY1yb0gnwkHknVrqIQ==",
+    "shasum": "f49aceff1b98797db1d65788a4e2ed4fda844668",
+    "tarball": "https://registry.npmjs.org/reason-webpack-plugin/-/reason-webpack-plugin-2.0.1.tgz",
+    "fileCount": 4,
+    "unpackedSize": 2410
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/reason-webpack-plugin_2.0.1_1518897180781_0.4816906490577413"
+  }
+}

@@ -1,0 +1,4 @@
+(executable
+ (name reuniverse)
+ (public_name reuniverse)
+ (libraries npm fpath lwt lwt.unix fmt fmt.tty logs logs.fmt bos))

@@ -1,0 +1,93 @@
+{
+  "_id": "@piq9117/bs-mailgun@3.0.0-beta",
+  "_rev": "11-1291178a13595dedc2bdb09272204245",
+  "name": "@piq9117/bs-mailgun",
+  "dist-tags": {
+    "latest": "3.0.0-beta"
+  },
+  "versions": [
+    "0.1.0-alpha",
+    "0.1.0-beta",
+    "0.1.1-alpha",
+    "0.1.2-alpha",
+    "0.1.3-alpha",
+    "0.1.4-alpha",
+    "0.1.5-alpha",
+    "0.1.6-alpha",
+    "1.0.0-beta",
+    "1.0.1-beta",
+    "2.0.0-beta",
+    "3.0.0-beta"
+  ],
+  "time": {
+    "created": "2018-12-24T05:06:48.313Z",
+    "0.1.0-alpha": "2018-12-24T05:06:48.627Z",
+    "modified": "2019-01-25T03:25:35.474Z",
+    "0.1.1-alpha": "2018-12-24T05:19:36.971Z",
+    "0.1.2-alpha": "2018-12-24T05:23:57.659Z",
+    "0.1.3-alpha": "2018-12-24T05:29:51.396Z",
+    "0.1.4-alpha": "2018-12-24T05:47:31.470Z",
+    "0.1.5-alpha": "2018-12-24T05:57:26.915Z",
+    "0.1.6-alpha": "2018-12-24T06:06:07.216Z",
+    "0.1.0-beta": "2018-12-28T07:00:14.204Z",
+    "1.0.0-beta": "2019-01-08T02:21:16.890Z",
+    "1.0.1-beta": "2019-01-08T22:46:10.233Z",
+    "2.0.0-beta": "2019-01-16T05:49:26.863Z",
+    "3.0.0-beta": "2019-01-25T03:25:32.897Z"
+  },
+  "maintainers": [
+    "piq9117 <piq9117@gmail.com>"
+  ],
+  "description": "mailgun-js bucklescript binding",
+  "homepage": "https://github.com/piq9117/bs-mailgun",
+  "keywords": [
+    "BuckleScript",
+    "mailgun",
+    "email"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piq9117/bs-mailgun.git"
+  },
+  "author": "Ken Aguilar <piq9117@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/piq9117/bs-mailgun/issues"
+  },
+  "license": "Apache-2.0",
+  "readmeFilename": "README.md",
+  "_etag": "W/\"192bf84f13e439bffd18195fa5e81cb7\"",
+  "_lastModified": "Fri, 25 Jan 2019 03:25:36 GMT",
+  "version": "3.0.0-beta",
+  "main": "index.js",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "bsdoc": "bsdoc"
+  },
+  "devDependencies": {
+    "bs-platform": "^4.0.7",
+    "bsdoc": "^0.1.4"
+  },
+  "dependencies": {
+    "mailgun-js": "^0.22.0"
+  },
+  "gitHead": "e89b99479783eb39189206b2a581f2411daadcf9",
+  "_npmVersion": "6.5.0",
+  "_nodeVersion": "8.15.0",
+  "_npmUser": "piq9117 <piq9117@gmail.com>",
+  "dist": {
+    "integrity": "sha512-1ypWEmWzQIsxAU0KdVw19brDpY1K2isNl/j4MD6uTo5VCGTDcoJ+hKdzum4r8ACxHJcezBnauQeXNYkvH/fmPg==",
+    "shasum": "cf2156fe223e73cd829f43762868f52670852852",
+    "tarball": "https://registry.npmjs.org/@piq9117/bs-mailgun/-/bs-mailgun-3.0.0-beta.tgz",
+    "fileCount": 8,
+    "unpackedSize": 38534,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcSoGtCRA9TVsSAnZWagAAl8AP/A0utkqwiCmKoFaufTaC\nhh14Jq+2NwXwBqYaCZ8oCyc0opCfOhNBeGz6DNFMitsIpWC3/E+ZBEClO3XZ\ncsDZe1ZhYqlkXIEw6mSx/KEsSqHCFyDzJvu5382gicHvwijETzJm/7ET7UPn\nt9JG1QunasgLOu5DngK43S+c5BQNlUxkNNt4P52h9n9xt4ttFlBzaLTqBjYF\nC+aKtqOpmRgicMH+CqoItKckA3QxvQrw5HiB+UCCBUlUevgwHbZiemzZZY/A\nVjPPSYT8fppiwX4ZW84FThcm/tTdaYv8a2+7Wqye/cZ8k0NiMUaA5QaNqjUR\n1g+eGXSts4/8reZgtKyVeVPvjufu/uc3GdAYBZuOJvscpSAowmKtrxnfLQ/3\ncOANa8um9Smazho2BdzD7n0e0UcsDjRCTBp7FNm6luh30oHeAYJzv+CaEtYH\nKm6tsMh6oaztb+bmmBf1ci8NghSyP517UyFjlUAT2Sv47NfX16Xx0CtXU6HW\nHxGLGx0UNOn3KZ1YaLkyWjfIWUK2j7vRj3Q9BuBp4xDYIhyLvtzeOKfd5O8D\nC64wtfE/Q1nRD3cAgmanBp/fdwAydNqVl1ybnyB+effpdxVPzScaXhyh7i/o\nL1Z58sYSLVsWxfcf97uiz37HVzQd8sAYbo/B16XAk7HtORqKubauRmY6wFiZ\n7NLG\r\n=8Dxg\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-mailgun_3.0.0-beta_1548386732770_0.449466178764131"
+  },
+  "_hasShrinkwrap": false
+}

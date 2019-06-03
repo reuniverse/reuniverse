@@ -1,0 +1,85 @@
+{
+  "_id": "bs-free@0.7.0",
+  "_rev": "7-af60d0065ea267d6e1c42fcbc80e31b9",
+  "name": "bs-free",
+  "description": "Free monads and other free structures for bucklescript",
+  "dist-tags": {
+    "latest": "0.7.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.3.0",
+    "0.4.0",
+    "0.5.0",
+    "0.6.0",
+    "0.7.0"
+  ],
+  "maintainers": [
+    "ristostevcev <risto1@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-08-05T11:58:16.924Z",
+    "created": "2018-01-01T06:09:58.632Z",
+    "0.1.0": "2018-01-01T06:09:58.632Z",
+    "0.2.0": "2018-01-04T01:53:05.839Z",
+    "0.3.0": "2018-01-04T06:56:42.024Z",
+    "0.4.0": "2018-03-02T14:30:19.064Z",
+    "0.5.0": "2018-03-16T02:19:22.888Z",
+    "0.6.0": "2018-05-20T14:07:34.696Z",
+    "0.7.0": "2018-08-05T11:58:13.161Z"
+  },
+  "homepage": "https://github.com/Risto-Stevcev/bs-free",
+  "keywords": [
+    "BuckleScript",
+    "reason"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Risto-Stevcev/bs-free.git"
+  },
+  "author": "Risto Stevcev",
+  "bugs": {
+    "url": "https://github.com/Risto-Stevcev/bs-free/issues"
+  },
+  "license": "BSD-3-Clause",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"f1bcc7b77015e75b5ef89fa8633208fd\"",
+  "_lastModified": "Sun, 05 Aug 2018 11:58:18 GMT",
+  "version": "0.7.0",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "test": "mocha lib/js/test/Test*.js",
+    "test-watch": "mocha -w lib/js/test/Test*.js"
+  },
+  "devDependencies": {
+    "bs-chai": "^0.4.0",
+    "bs-effects": "^0.10.0",
+    "bs-jsverify": "^0.10.0",
+    "bs-mocha": "^0.4.0",
+    "bs-platform": "^4.0.0"
+  },
+  "dependencies": {
+    "bs-abstract": "^0.16.0"
+  },
+  "gitHead": "e0a1a07428fda0db8bb6add8439987b540e8b8a2",
+  "_npmVersion": "6.1.0",
+  "_nodeVersion": "10.6.0",
+  "_npmUser": "ristostevcev <risto1@gmail.com>",
+  "dist": {
+    "integrity": "sha512-oT1fGCiasx0GKC/d96TpT5V5M3SbyIeS07fQzyE+dO/AOi0V3cO8O0G5elMEBrPnGf5pHlfF9t2E1pAvNc1d9g==",
+    "shasum": "7b3de1ab38cd09bfb9ca46f0c25bf820aef8719a",
+    "tarball": "https://registry.npmjs.org/bs-free/-/bs-free-0.7.0.tgz",
+    "fileCount": 7,
+    "unpackedSize": 16846,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbZuZVCRA9TVsSAnZWagAAEAAP/1GndW2K+KnC44Xkv6D9\nHhWBgCiygbB9t9Y9q8Ce8csA6ZRF6BVRC5OL1yNk3H1JTfx3+qPmnAvr3iZ1\nRFBC9e436z8M2ygtw/ToXjsBqZjS98y5MwEK9pFHwp10fj0PfTh9QY2S9g2p\n9TW9sRmrPdqUkqKDHjGp9lJJux7/WLnRC9ANLac092DAo99R/Tm55GLDNOym\nQW/61PZcz9dlIxv7EHwTk/j2OfGwrZLM2043s1psoFtI4utKhCBhB9t65yuS\nN/ElIA1DlBBdgK/hnnXc4ONDavpFpwUv8T1h5OxISiw/1TXe2l3KmkRHLzMU\nd+TJ1aG7BvfF/CDOk+81vt6pHHtFXTJUvZyq6qYrbPwGPKB1YyDCYIpuIas1\nqowsT6lC+cbnBL4LZQm3uQy57n8KkwFqdytWcjtweyQotDQE10xvf8Hldml4\nZknJGSxuwM23H9dFO84Y4mpgW0XBg+/9fVTt9qaAXt4pUGR9oIn07Sfhier7\nP6XX/I3Vc8+2RP1UK4estCeaVF/DCBX0EYa+DntjAvzEwHQh1M2PoXWkvHT9\nXvlD+cRPLZH7l6MWMxmFR0tQ02SNJkZML5QxAHoAzl4InP65o4TuE3sI6wuq\nRMaDFpQKxH1I6kYPmuq9hgOhNOqOz57kainAep/AvdFtZp7QyUfo2PSYKvLr\n2sBu\r\n=2K/N\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-free_0.7.0_1533470293086_0.8652135416676994"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "_id": "@ahrefs/bs-aws-lambda@1.0.0",
+  "_rev": "14-5f5cdbd69baac344964d322462534172",
+  "name": "@ahrefs/bs-aws-lambda",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": [
+    "0.1.1",
+    "0.2.0",
+    "0.3.0",
+    "0.4.0",
+    "0.5.0",
+    "0.6.0",
+    "0.7.0",
+    "0.7.1",
+    "0.8.0",
+    "1.0.0"
+  ],
+  "time": {
+    "created": "2018-02-26T04:19:06.892Z",
+    "0.1.0": "2018-02-26T04:19:07.030Z",
+    "modified": "2018-07-25T23:57:24.597Z",
+    "0.1.1": "2018-02-26T04:22:03.018Z",
+    "0.2.0": "2018-02-27T02:11:06.211Z",
+    "0.3.0": "2018-03-21T07:12:42.927Z",
+    "0.4.0": "2018-03-23T05:13:18.828Z",
+    "0.5.0": "2018-03-23T05:59:44.770Z",
+    "0.6.0": "2018-03-28T06:28:48.341Z",
+    "0.7.0": "2018-04-03T07:52:59.076Z",
+    "0.7.1": "2018-04-03T09:15:06.629Z",
+    "0.8.0": "2018-04-23T02:30:48.077Z",
+    "1.0.0": "2018-07-25T23:57:24.597Z"
+  },
+  "maintainers": [
+    "khady <louis@louisroche.net>",
+    "liubko <liubko.qwert@gmail.com>",
+    "rustykey <iam@stfoo.ru>"
+  ],
+  "description": "bucklescript types for aws-lambda",
+  "homepage": "https://github.com/ahrefs/bs-aws-lambda#readme",
+  "keywords": [
+    "aws",
+    "lambda",
+    "serverless",
+    "bucklescript",
+    "bsb",
+    "reason",
+    "reasonml",
+    "ocaml",
+    "bs-aws-lambda",
+    "bs-platform"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahrefs/bs-aws-lambda.git"
+  },
+  "author": "Louis Roché <louis.roche@ahrefs.com>",
+  "bugs": {
+    "url": "https://github.com/ahrefs/bs-aws-lambda/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"b559abc2ee7d222d577d4e554dcb8a7a\"",
+  "_lastModified": "Wed, 25 Jul 2018 23:57:25 GMT",
+  "version": "1.0.0",
+  "main": "src/awsLambda.bs.js",
+  "scripts": {
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "peerDependencies": {
+    "bs-platform": "^3.0.0"
+  },
+  "devDependencies": {
+    "bs-platform": "^3.0.0"
+  },
+  "licenseText": "MIT License\n\nCopyright (c) 2017\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+  "dist": {
+    "shasum": "02b391b3e751d347e5b7776b4f3c903f8e5ceddc",
+    "tarball": "https://registry.npmjs.org/@ahrefs/bs-aws-lambda/-/bs-aws-lambda-1.0.0.tgz",
+    "fileCount": 18,
+    "unpackedSize": 30547
+  },
+  "_npmUser": "khady <louis@louisroche.net>",
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-aws-lambda_1.0.0_1532563044534_0.11501631314810412"
+  }
+}

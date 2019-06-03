@@ -1,0 +1,85 @@
+{
+  "_id": "bs-nonempty@1.3.0",
+  "_rev": "5-6f263f405fa9407ecd51b58a7f42f3b6",
+  "name": "bs-nonempty",
+  "dist-tags": {
+    "latest": "1.3.0"
+  },
+  "versions": [
+    "1.1.0",
+    "1.2.0",
+    "1.2.1",
+    "1.2.2",
+    "1.2.3",
+    "1.3.0"
+  ],
+  "time": {
+    "created": "2018-09-11T22:50:57.246Z",
+    "1.1.0": "2018-09-11T22:50:57.370Z",
+    "modified": "2018-10-23T04:38:12.781Z",
+    "1.2.0": "2018-09-12T17:42:20.033Z",
+    "1.2.1": "2018-09-12T20:36:12.034Z",
+    "1.2.2": "2018-09-27T17:10:29.331Z",
+    "1.2.3": "2018-10-20T23:38:14.875Z",
+    "1.3.0": "2018-10-23T04:38:08.527Z"
+  },
+  "maintainers": [
+    "mlms13 <mlmartin13@gmail.com>"
+  ],
+  "description": "NonEmpty type with Array and List implementations for ReasonML and OCaml",
+  "keywords": [
+    "reasonml",
+    "bucklescript",
+    "nonempty",
+    "list",
+    "array"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlms13/bs-nonempty.git"
+  },
+  "author": "Michael Martin-Smucker",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/mlms13/bs-nonempty",
+  "bugs": {
+    "url": "https://github.com/mlms13/bs-nonempty/issues"
+  },
+  "_etag": "W/\"0a10c68dc2196d3a5bd07d33ea57b3db\"",
+  "_lastModified": "Tue, 23 Oct 2018 05:15:27 GMT",
+  "version": "1.3.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "test": "npm run clean && npm run build && jest --testMatch '**/test/*.js'"
+  },
+  "dependencies": {
+    "bs-abstract": "^0.16.0"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.2",
+    "bs-platform": "^4.0.5",
+    "jest": "^23.5.0"
+  },
+  "gitHead": "a0f73076b077e5d4cf8f591c3821c93f90fc1c38",
+  "_npmVersion": "6.4.1",
+  "_nodeVersion": "10.6.0",
+  "_npmUser": "mlms13 <mlmartin13@gmail.com>",
+  "dist": {
+    "integrity": "sha512-nNXw8RubW7rlY+t0NTy5pJsnb9/YKvkZhsIbHO/JeM4u1cZfCe0M3sLesxzX2qVXXWdR/GV2ctaGxWYCMQOkbA==",
+    "shasum": "a46feecbe85acbcef605b155b690038ff9a38688",
+    "tarball": "https://registry.npmjs.org/bs-nonempty/-/bs-nonempty-1.3.0.tgz",
+    "fileCount": 13,
+    "unpackedSize": 37174,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbzqWxCRA9TVsSAnZWagAABfEP/0YTXDknXXKIN4I9PqES\nHznzKw5HxTuef/aLfqnDwHrSrktM9m3Z8OAxriMdWEMUzKAv4iJM50HK+PC5\nVokvPXI4YLMeXcwfMlnMrx3BzFWr8eGNKh9clLKAm4yDm4PcCg3zd6FcsSEV\n0FBCYlisYUYISKIws6jycMJ9/r9yHMF8gu0xMJmlS8b+qtfpt75+Yvk0Ekb6\nELFzlTXWypXVNbv+7eaDc1gBE086xZ8gI0RxMHD0G0fb8NdXN3sk1z9pwLXs\njlZM7Gykb425+YvsDAAwl3XR19K7PlsRA7NY2yFmGuQuTm8OC++VPyIGzlC4\nmdtbd/LJPBknovAtVTlErnhYlSzaVWAAceA1xer66+QVSj9T7JRLIPe50xWD\nkywocD1ws8np3aCRxUUuKkHQHuYzvYwOwvx+xfiE+rYioXkT828U50KJ6JiL\nVbw2JQ8t39wWFBQPc/fR63T8gM3CcCJS2L9mNUPi7+AjJpNlsIew2Mj1wnpN\n80W61Pk8kS/11Y3j0z84lo8F9WFy1zeI0rfoQXF0kx/HQLB4LWhT5DSqUoTz\nIQjkPk8QvdX9zEryOqoRJrLn1fEDqMtbro6ILKsD1KdbCDwMBLZll3c18MXw\nAH/lzXbgAJdq/kLk3n3uc2jFGZGHCnOmhBcWwbmrPi/tCmHUu/NeilwsR0qp\n0dqi\r\n=78rN\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-nonempty_1.3.0_1540269488312_0.8602795809934793"
+  },
+  "_hasShrinkwrap": false
+}

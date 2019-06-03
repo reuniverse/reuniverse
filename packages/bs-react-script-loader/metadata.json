@@ -1,0 +1,85 @@
+{
+  "_id": "bs-react-script-loader@0.0.6",
+  "_rev": "6-89acdb63ce14695c7d5f71633ed4e364",
+  "name": "bs-react-script-loader",
+  "dist-tags": {
+    "latest": "0.0.6"
+  },
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.0.6"
+  ],
+  "time": {
+    "created": "2018-05-12T17:51:38.328Z",
+    "0.0.1": "2018-05-12T17:51:38.423Z",
+    "modified": "2018-05-12T20:06:19.266Z",
+    "0.0.2": "2018-05-12T17:56:38.499Z",
+    "0.0.3": "2018-05-12T18:10:26.098Z",
+    "0.0.4": "2018-05-12T18:49:09.648Z",
+    "0.0.5": "2018-05-12T18:59:31.782Z",
+    "0.0.6": "2018-05-12T20:06:15.346Z"
+  },
+  "maintainers": [
+    "mattmarcello <matt.marcello@gmail.com>"
+  ],
+  "description": "A utility for loading third party scripts on the client.",
+  "keywords": [
+    "react",
+    "script",
+    "reason"
+  ],
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/mattmarcello/bs-react-script-loader",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattmarcello/bs-react-script-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mattmarcello/bs-react-script-loader/issues"
+  },
+  "author": "matt marcello",
+  "_attachments": {},
+  "_etag": "W/\"d12b4e4a2938d42753f61ba0be653dab\"",
+  "_lastModified": "Sat, 26 May 2018 19:04:46 GMT",
+  "version": "0.0.6",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack -w",
+    "webpack:production": "NODE_ENV=production webpack"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "reason-react": ">=0.3.4"
+  },
+  "devDependencies": {
+    "bs-platform": "^3.0.0",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.10"
+  },
+  "gitHead": "53571b632a1a7b16ffcf53d4c421e03031171d9f",
+  "_npmVersion": "5.7.1",
+  "_nodeVersion": "8.6.0",
+  "_npmUser": "mattmarcello <matt.marcello@gmail.com>",
+  "dist": {
+    "integrity": "sha512-32MDH3GWPiQ+GXy23jwLXVXofBqQ0nCmysc1Wd8pPxXBmrsN2Q6mfm0pkxT0CZkNmEsIuOY9jnj//8TVXI9fdw==",
+    "shasum": "e39ee89361768fa6fa0e7c436c2989d61cf50adf",
+    "tarball": "https://registry.npmjs.org/bs-react-script-loader/-/bs-react-script-loader-0.0.6.tgz",
+    "fileCount": 8,
+    "unpackedSize": 174371,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa90k4CRA9TVsSAnZWagAASdYP/imSeZzf2u/KqB0/O5oC\nVIXXv7tMnOb3MUgP41KWfrQGTFYx00p1bQs4EdPebKiuFuSf/3r8IAfby//s\nbeOLOE246lQ0rPkVnBynJv5uQDZNoI0fRkSUb97GroNG5XLxmIJaILcNDdVL\nkz/IpmRnDLYD2grZ+ziI0qLIKrhSm2pbYoZIdvigbHc5oOskcPpHLt4zIUSb\nXdD9lgZ7Zddw7qjtTr5WX8Mk9KMHAf4BM4U8oJQevlTmI5jWQ53GOpBSnc2c\n1vA05VlFyGC4tK4cP/l8m18sZQwedtv7vsx5Lq9/BQ1u8pLK5Eymy+0VERx4\nYNbX95lLarRWRK7IdAbI2I2EPziO4awx5c5htI9rbKBViB8mZtrbtIcQnOUv\n9FZCAzIKsvWnS0/0s9R/ZYySAI8dYokkTGQglj3xb41LKT/AovhWwtaWeuTh\n203KPgxMzdt+8s0LLj+5tWryluUGlokM5R5+sHmclj03B8AlgS9AbGHY01um\njvKwhOGCnYsFdXFpCnuGL8a1gWFbFiTiXZZqzmgioymKYFxCEtsL4nwybxfA\nrIrMkD3uBtwuzItFeeoSDARTOCMUG8aj4U8GXYneBLbF8L+Zp5n9uNm/tI0W\ntMlP3OLeAywahlmvYv+/BbqmL3f0+zE4A7UzR2+7c/gMdzM/b6Twn8b5/MgM\n/H7c\r\n=bIh8\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-react-script-loader_0.0.6_1526155575225_0.8643444818766244"
+  }
+}

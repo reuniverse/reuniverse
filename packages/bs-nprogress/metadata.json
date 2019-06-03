@@ -1,0 +1,79 @@
+{
+  "_id": "bs-nprogress@5.0.0",
+  "_rev": "6-9a08037865e005f69029efe5fb602840",
+  "name": "bs-nprogress",
+  "description": "BuckleScript bindings to nprogress",
+  "dist-tags": {
+    "latest": "5.0.0"
+  },
+  "versions": [
+    "0.0.1",
+    "1.0.0",
+    "2.0.0",
+    "3.0.0",
+    "4.0.0",
+    "5.0.0"
+  ],
+  "maintainers": [
+    "alex.fedoseev <alex.fedoseev@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-04-09T00:09:02.596Z",
+    "created": "2017-11-23T07:19:22.368Z",
+    "0.0.1": "2017-11-23T07:19:22.368Z",
+    "1.0.0": "2018-03-04T08:48:31.503Z",
+    "2.0.0": "2018-03-17T11:37:39.394Z",
+    "3.0.0": "2018-05-02T08:15:04.727Z",
+    "4.0.0": "2018-11-29T14:06:01.476Z",
+    "5.0.0": "2019-04-09T00:08:59.811Z"
+  },
+  "keywords": [
+    "nprogress",
+    "reason",
+    "reasonml",
+    "ocaml",
+    "bucklescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexfedoseev/bs-nprogress.git"
+  },
+  "author": "Alex Fedoseev <alex.fedoseev@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_etag": "W/\"bef2c8c6ef8c4fee472adeb8bbdc6dfe\"",
+  "_lastModified": "Tue, 09 Apr 2019 00:09:03 GMT",
+  "version": "5.0.0",
+  "main": "src/NProgress.bs.js",
+  "scripts": {
+    "start": "bsb -clean-world -make-world -w",
+    "build": "bsb -clean-world -make-world",
+    "clean": "bsb -clean-world",
+    "refmt": "find -E . -regex '.+\\.rei?' -exec refmt --in-place {} \\;",
+    "test": "exit 0",
+    "preversion": "yarn run clean && yarn run refmt"
+  },
+  "peerDependencies": {
+    "bs-platform": "^5.0.0",
+    "nprogress": "^0.2.0"
+  },
+  "devDependencies": {
+    "bs-platform": "5.0.0",
+    "nprogress": "0.2.0"
+  },
+  "dist": {
+    "shasum": "a0ef00ae545a3708908b17240f0cbfb5e4af3225",
+    "integrity": "sha512-Fcqnj5vePDQjaAH2tetJMVN9ha2iZSw6LO9CuTp5+OYojwh6XJu9RTbb6o9Wi8LPYC6V6oiI5dj1ed+hqx3Rmg==",
+    "tarball": "https://registry.npmjs.org/bs-nprogress/-/bs-nprogress-5.0.0.tgz",
+    "fileCount": 7,
+    "unpackedSize": 3993,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcq+KcCRA9TVsSAnZWagAAQ1EP+QDGa6eF4afB5bscX2sS\nyRNO24bET5DRaNunNvPHLuzezcAr5c5Yu+O2osLg6a7vKjloAeKCvxfwbh8c\nVkc8y0HmafbP3s9tBHrW9fSpWoYS1isvuYY/TUI0qsrIx3qBwodRcv7TG4nY\nvt7zTw56KvAh9Bes+2QVnuDL6cy4cA+G6NIbUDEI8b1D/OG0TpDT2Xl7HUa0\nMoOSP7v5kyA9uJIpmebP8ezWNmT7TjJ7qVKM6RtcYqsPbA1Tp1klh/CG1gDf\ns/Nj/lP/zE77vggJxT6b9DsMcVGVcgdR7uHavz+G4Qi13ftSMxPzngG7AfV/\nxh8FQ02uwxil5XBaUQY0VuNrela3N9dgB5ksOTG0U/fRm1ZAMbyeldMZx1sh\n6UF4ZuLtRD/1hKfqFr6W3rQgGtu/IX4efnZ6AUKoSNZubC9nU1PgrjUbL2Bu\nqAp+O/Av64bMhb3aEnWVQ1kIi0p/rfqDS4VUXijr2419wO/MQr00wvSa78Hq\nM4XQrDW0V5YuRudzXEBlVFhX5fMEL4y9wsRGpgSvCL1ozAILxdP4MesDG6uV\nyGaJLAzGVDuqXW8jMnXNSpGQxFpFB6xIPID9Cd9N5WFc5KaIhnulCI/y/HoU\n2e1kMHaOp79ZWYd7WmoxU00J7Zio1tr9rFyUJRKROrWf/BgiYMflzb3D2c6p\nRHsP\r\n=Sv0d\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "_npmUser": "alex.fedoseev <alex.fedoseev@gmail.com>",
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-nprogress_5.0.0_1554768539557_0.26324745646221026"
+  },
+  "_hasShrinkwrap": false
+}

@@ -1,0 +1,85 @@
+{
+  "_id": "bs-mongodb@0.2.0",
+  "_rev": "4-0119f463d626416f68863b9f0686357b",
+  "name": "bs-mongodb",
+  "description": "Bucklescript bindings to node mongodb driver",
+  "dist-tags": {
+    "latest": "0.2.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.2.0"
+  ],
+  "maintainers": [
+    "stroiman <peter@stroiman.com>"
+  ],
+  "time": {
+    "modified": "2018-03-29T11:25:57.857Z",
+    "created": "2017-11-22T19:07:03.630Z",
+    "0.1.0": "2017-11-22T19:07:03.630Z",
+    "0.1.1": "2017-11-22T20:34:19.488Z",
+    "0.1.2": "2017-11-25T09:42:28.124Z",
+    "0.2.0": "2018-03-29T11:25:57.160Z"
+  },
+  "keywords": [
+    "bucklescript",
+    "mongodb",
+    "database",
+    "node",
+    "nosql"
+  ],
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/stroiman/bs-mongodb#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stroiman/bs-mongodb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stroiman/bs-mongodb/issues"
+  },
+  "_attachments": {},
+  "_etag": "W/\"6771ad1d0926b4ae561d9603cf9592f7\"",
+  "_lastModified": "Sat, 26 May 2018 19:04:29 GMT",
+  "version": "0.2.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test:run": "respect",
+    "test": "run-s dev:start build test:run",
+    "test:watch": "nodemon node_modules/re-respect/bin/respect",
+    "dev:start": "docker-compose up -d",
+    "dev:run": "run-p test:watch start",
+    "dev": "run-s dev:start dev:run"
+  },
+  "author": "",
+  "devDependencies": {
+    "@stroiman/async": "^0.7.0",
+    "@stroiman/respect": "0.7.2",
+    "bs-platform": "^2.2.3",
+    "nodemon": "^1.12.1",
+    "npm-run-all": "^4.1.2"
+  },
+  "dependencies": {
+    "mongodb": "^2.2.33"
+  },
+  "gitHead": "15e196ccf7edaf37294662a5dadc644d9527267e",
+  "_npmVersion": "5.6.0",
+  "_nodeVersion": "8.11.0",
+  "_npmUser": "stroiman <peter@stroiman.com>",
+  "dist": {
+    "integrity": "sha512-ibj9io+lhZaOoJArT8knLfRKDr9iikFNzqJEeYriAXzd2ID2aPjn5YYaTOzGx8hBzRUJEaHc5iu+zxGPsi9bjg==",
+    "shasum": "1d7a42ad17f65e11ef64313148d3d705b4c3d5d2",
+    "tarball": "https://registry.npmjs.org/bs-mongodb/-/bs-mongodb-0.2.0.tgz",
+    "fileCount": 15,
+    "unpackedSize": 83236
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-mongodb_0.2.0_1522322757059_0.18089149037184193"
+  }
+}

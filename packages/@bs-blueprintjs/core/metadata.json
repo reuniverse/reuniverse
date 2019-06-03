@@ -1,0 +1,64 @@
+{
+  "_id": "@bs-blueprintjs/core@0.3.1",
+  "_rev": "4-c1dbdfd151af096b26ef260069dace4a",
+  "name": "@bs-blueprintjs/core",
+  "description": "BuckleScript bindings for Blueprintjs",
+  "dist-tags": {
+    "latest": "0.3.1"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.2.0",
+    "0.3.1"
+  ],
+  "maintainers": [
+    "shanewilson <shanezilla@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-09-05T14:33:34.720Z",
+    "created": "2017-08-14T14:48:36.092Z",
+    "0.1.0": "2017-08-14T14:48:36.092Z",
+    "0.1.1": "2017-08-14T17:05:55.516Z",
+    "0.2.0": "2017-08-21T20:40:40.345Z",
+    "0.3.1": "2017-09-05T14:33:34.720Z"
+  },
+  "homepage": "https://github.com/shanewilson/bs-blueprintjs#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shanewilson/bs-blueprintjs.git"
+  },
+  "author": "Shane Wilson",
+  "bugs": {
+    "url": "https://github.com/shanewilson/bs-blueprintjs/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "",
+  "_attachments": {},
+  "_etag": "W/\"249841a6f919967b6c2c4bb57a95aa63\"",
+  "_lastModified": "Sat, 14 Oct 2017 21:13:18 GMT",
+  "files": [
+    "src/*.re",
+    "bsconfig.json"
+  ],
+  "private": false,
+  "version": "0.3.1",
+  "dependencies": {
+    "@blueprintjs/core": "^1.27.0",
+    "bs-platform": "^1.9.1",
+    "reason-react": "^0.2.4"
+  },
+  "_npmVersion": "5.3.0",
+  "_nodeVersion": "8.1.0",
+  "_npmUser": "shanewilson <shanezilla@gmail.com>",
+  "dist": {
+    "integrity": "sha512-FGzNwxOHeiPuL9PW6xiO9pM0RiXV3YEvQ7Ii35dFiGcmxq1YFhMASWzsSfr7jCmAe/V+lAqVKLdRdGgKg5fZ8g==",
+    "shasum": "1621e0f59feefa1ec30cecaacc6750ad8c72aa2a",
+    "tarball": "https://registry.npmjs.org/@bs-blueprintjs/core/-/core-0.3.1.tgz"
+  },
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/core-0.3.1.tgz_1504622013687_0.6579807058442384"
+  },
+  "directories": {}
+}

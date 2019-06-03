@@ -1,0 +1,85 @@
+{
+  "_id": "@ristostevcev/bs-callbag-element@1.0.1",
+  "_rev": "6-6fce11ab8b8aa137875bc8dd378f62ca",
+  "name": "@ristostevcev/bs-callbag-element",
+  "dist-tags": {
+    "latest": "1.0.1"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.2.0",
+    "0.2.1",
+    "0.3.0",
+    "1.0.0",
+    "1.0.1"
+  ],
+  "time": {
+    "created": "2019-02-07T00:02:29.719Z",
+    "0.1.0": "2019-02-07T00:02:30.010Z",
+    "modified": "2019-04-06T16:35:55.560Z",
+    "0.1.1": "2019-02-07T00:06:33.737Z",
+    "0.2.0": "2019-04-06T03:12:08.006Z",
+    "0.2.1": "2019-04-06T03:32:21.895Z",
+    "0.3.0": "2019-04-06T14:31:04.898Z",
+    "1.0.0": "2019-04-06T15:08:43.177Z",
+    "1.0.1": "2019-04-06T16:35:53.060Z"
+  },
+  "maintainers": [
+    "ristostevcev <risto1@gmail.com>"
+  ],
+  "description": "Callbag elements for declaredom",
+  "homepage": "https://github.com/Risto-Stevcev/bs-callbag-element",
+  "keywords": [
+    "BuckleScript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Risto-Stevcev/bs-callbag-element.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Risto-Stevcev/bs-callbag-element/issues"
+  },
+  "license": "BSD-3-Clause",
+  "readmeFilename": "README.md",
+  "author": "Risto Stevcev",
+  "_etag": "W/\"a94699348ed836bbe4b52caf5ef59c81\"",
+  "_lastModified": "Sat, 06 Apr 2019 16:35:56 GMT",
+  "version": "1.0.1",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "example": "parcel example/example.html"
+  },
+  "devDependencies": {
+    "@webcomponents/webcomponentsjs": "^2.2.6",
+    "bs-platform": "^4.0.7",
+    "parcel-bundler": "1.10.3"
+  },
+  "dependencies": {
+    "@ristostevcev/bs-callbag": "^1.1.0",
+    "@ristostevcev/bs-callbag-basics": "^1.4.0",
+    "@ristostevcev/bs-declaredom": "^1.0.2",
+    "bs-webapi": "^0.13.6",
+    "callbag-element": "^2.0.0"
+  },
+  "gitHead": "2010ae85fe806bc139a15afe9c37f6f74f0106c3",
+  "_npmVersion": "6.5.0",
+  "_nodeVersion": "11.4.0",
+  "_npmUser": "ristostevcev <risto1@gmail.com>",
+  "dist": {
+    "integrity": "sha512-DJhhIyLWIf5XXRSujPgQvzydnHaX+XAi0PieQooLwGty4QN3UpdaUkt/mqKI0L0yMbAm5euLutG/dLHyxddITQ==",
+    "shasum": "d77bc8fbb8a876af73bd8df45d65814099a80854",
+    "tarball": "https://registry.npmjs.org/@ristostevcev/bs-callbag-element/-/bs-callbag-element-1.0.1.tgz",
+    "fileCount": 10,
+    "unpackedSize": 233245,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcqNVpCRA9TVsSAnZWagAAsEMQAIpF4DrFCNA5S7Zrci3X\nJii77AuUjm66mwIC7mjuiGsz6v1OSZkf0MTU7KGwkWTH/xBAqVasmLbfljAf\nfon0Q2EZWBhI6XNWjmkxs+Zwrzvr07K9sqCGq87Iz72M2Dny+zU2ZwI+9Emz\nTBRmC+XO4OOxKep7T30G/5GmE5xlw1wvVkyQqDHZ0yKtgPmeDWQ+s8ivzMep\np2YUE3DBgdVu4yMRC4jMGYbl2Y0GdLrxz+8df7fzvmkKuml5dkyO8Mt3sUN0\nIWBrvSABk0nhnKyIR6EQiNE3jk026hvWXsxeqtEh1hlUx6F8LD6kAXVjcw4x\nEI0yJQhGVNJp9JliU7pU94O5p7rx07jPKK7i1AMNW1Pi73BLFTDruuZBdaz3\nUQ+TXxRI+StxRUkPgvoDDwXreXSL9gf/BwLDHS8qj7q4N0o/QhSDSTUvlPA/\nbakv9FdlfcloXqno/fKYlNEhPS8NyD6aI3zH2pP8P67mnIe60xUCdNoGtRNS\n2XRM7cIor13P9SpVTyyMVQ7P96UHpQJVvPuHM1XyAdo/ha0Fcb278wkQnhA0\n8YlmjhFtq0UKgXoyMnD4YMeVL9p+gFZEjT+YjdmvIktuIv6EL5/wAdE7iMgq\nOdk6hLgqq9QfkOuxv7z+LDdkfrBEbdg8XrZHP7UU/Q3pnrIBM7X2KM3b+kXo\nYrUg\r\n=5QZu\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-callbag-element_1.0.1_1554568552880_0.17702827197490545"
+  },
+  "_hasShrinkwrap": false
+}

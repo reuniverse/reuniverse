@@ -1,0 +1,105 @@
+{
+  "_id": "bs-puppeteer@0.12.0",
+  "_rev": "13-c584d55a0a19178aaad50c0dbb852598",
+  "name": "bs-puppeteer",
+  "description": "Bucklescript bindings for Puppeteer (headless chrome browser) written in Reason",
+  "dist-tags": {
+    "latest": "0.12.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.3.0",
+    "0.4.0",
+    "0.4.1",
+    "0.5.0",
+    "0.6.0",
+    "0.7.0",
+    "0.8.0",
+    "0.9.0",
+    "0.10.0",
+    "0.11.0",
+    "0.12.0"
+  ],
+  "maintainers": [
+    "jihchi <achi@987.tw>",
+    "zploskey <zach@ploskey.com>"
+  ],
+  "time": {
+    "modified": "2019-01-01T10:59:04.634Z",
+    "created": "2018-01-21T16:10:36.752Z",
+    "0.1.0": "2018-01-21T16:10:36.752Z",
+    "0.3.0": "2018-02-20T02:12:27.410Z",
+    "0.4.0": "2018-03-02T16:51:46.940Z",
+    "0.4.1": "2018-03-03T22:27:06.365Z",
+    "0.5.0": "2018-03-16T04:09:28.671Z",
+    "0.6.0": "2018-04-17T20:22:17.259Z",
+    "0.7.0": "2018-05-22T16:38:25.094Z",
+    "0.8.0": "2018-06-13T22:58:00.546Z",
+    "0.9.0": "2018-07-18T03:28:37.865Z",
+    "0.10.0": "2018-08-13T13:01:46.092Z",
+    "0.11.0": "2018-09-16T02:43:57.558Z",
+    "0.12.0": "2018-10-14T04:27:25.679Z"
+  },
+  "keywords": [
+    "BuckleScript",
+    "Puppeteer",
+    "headless",
+    "browser",
+    "scraping"
+  ],
+  "author": "Zach Ploskey <zach@ploskey.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/zploskey/bs-puppeteer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zploskey/bs-puppeteer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zploskey/bs-puppeteer/issues"
+  },
+  "_etag": "W/\"650811f414ec642d30e5cbde5e540686\"",
+  "_lastModified": "Tue, 01 Jan 2019 10:59:05 GMT",
+  "version": "0.12.0",
+  "main": "src/Puppeteer.re",
+  "scripts": {
+    "build": "bsb -make-world",
+    "clean": "bsb -clean-world",
+    "lint-staged": "lint-staged",
+    "precommit": "lint-staged && bsb -clean-world -make-world && jest",
+    "snap": "bsb -clean-world -make-world && rm -rf snap/* && mkdir -p snap && cp -ar lib/js snap/",
+    "snap-diff": "bsb -clean-world -make-world && git diff --no-index snap/js lib/js || true",
+    "start": "bsb -make-world -w",
+    "test": "bsb -make-world && jest",
+    "test:ci": "jest --bail --ci",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "puppeteer": "^1.9.0"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.4",
+    "bs-platform": "^4.0.6",
+    "bs-webapi": "^0.13.0",
+    "husky": "^1.1.0",
+    "lint-staged": "^7.3.0"
+  },
+  "gitHead": "5045b8e0a48ce9d17f5a8d2e05be337020d6ed72",
+  "_npmVersion": "6.4.1",
+  "_nodeVersion": "10.12.0",
+  "_npmUser": "zploskey <zach@ploskey.com>",
+  "dist": {
+    "integrity": "sha512-N/9/tSjjndDnJJMDBlyFZiGzez/BBrc+h8vwc4QlghtGM19QBFo6EW3XPE6I1QZifgZZmUU/WQBRnpFsm9dXZA==",
+    "shasum": "afd55ad19f19f5cf6279f38d3c1d98b3047fdb9e",
+    "tarball": "https://registry.npmjs.org/bs-puppeteer/-/bs-puppeteer-0.12.0.tgz",
+    "fileCount": 40,
+    "unpackedSize": 70005,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbwsWuCRA9TVsSAnZWagAAZzoQAIADA0GucwyLC1G8Yn1+\nhNdT3rhv9FH4/qgGNJAfB34qx0CUwDTZXo/LqSmE8Y0GS9UaWMQ4QzAYNBS4\nvaDhg9Eddk1DYq7qBRN6vLGhQmSzLrhaYwmf+AgidsUxTcpbtyhZonmMamiI\nOB53y68U0WlVUZLo+qgNs9TLldIazDacIaUsLE4/IHco6jRA1KRhL6Ucunzp\n/Zf8DiZZq1HBVbxY98FJF3EaBizR6C37T6r/QA8B/VrvlLkGyGgGvSPssb/F\nfbOpUKqca8ERoNVUnF/d1cQiUs7yDW5OdwfHxx4LbxuEKE5GzfVNFna42zko\nuXe1wUd0z7IkkMZvjHPwyLTyzECSvGvPc1DuaXqfT1ZfWaa3nhQ6Y8/M2OR/\n0VuBLPK0fAZlQsYT6btHcgBQo1P4duGZA+HIqnmp8mXlQ1Z2HLzgR+osUD1A\ngAa3HnV7UspevrNq/7NJuTm8a+zTpDAEef6V2wqBRmPRXFtQMrR5SkNCOxL+\n9Qj5xkBq0DgAGD2zk4OBAB6gc0KIf2Im+024nknFk0AuaFVCLNcvkTRACA55\nWPCAIhPwuOgf+sGITB2PVRTS8RSWy1vneDB8CVk3Uo1Uac/l61jAO/IOzCmg\n92uHc2o9m4xMfWJor+JCxI8n6JxsfXWPKOMbQ1HKTQNhgmgPVHn/vWt+YF2Q\nDN7o\r\n=ACNz\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-puppeteer_0.12.0_1539491245513_0.673199036118767"
+  },
+  "_hasShrinkwrap": false
+}

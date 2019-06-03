@@ -1,0 +1,89 @@
+{
+  "_id": "bs-ant-design@2.1.0",
+  "_rev": "13-9e8e54c3d123ed99a3d77966713cebfe",
+  "name": "bs-ant-design",
+  "description": "Bucklescript bindings for Ant Design",
+  "dist-tags": {
+    "latest": "2.1.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.1.0",
+    "1.1.1",
+    "1.2.0",
+    "1.3.0",
+    "1.4.0",
+    "1.4.1",
+    "2.0.0",
+    "2.1.0"
+  ],
+  "maintainers": [
+    "khoanguyen.me <hi@khoanguyen.me>",
+    "luisfcofv <me@luisflores.mx>",
+    "thangngoc89 <hi@khoanguyen.me>"
+  ],
+  "time": {
+    "modified": "2019-01-01T10:58:05.780Z",
+    "created": "2018-01-01T21:28:05.678Z",
+    "1.0.0": "2018-01-01T21:28:05.678Z",
+    "1.0.1": "2018-01-01T22:02:26.066Z",
+    "1.1.0": "2018-02-20T08:53:32.686Z",
+    "1.1.1": "2018-02-20T11:56:22.383Z",
+    "1.2.0": "2018-02-25T05:34:23.655Z",
+    "1.3.0": "2018-02-25T16:28:23.184Z",
+    "1.4.0": "2018-02-25T16:32:37.237Z",
+    "1.4.1": "2018-03-07T14:20:10.987Z",
+    "2.0.0": "2018-09-04T23:55:19.944Z",
+    "2.1.0": "2018-11-11T15:12:44.168Z"
+  },
+  "homepage": "https://github.com/thangngoc89/bs-ant-design#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thangngoc89/bs-ant-design.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thangngoc89/bs-ant-design/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_etag": "W/\"d3dfeb8e8c605015bdec32a8d71cc0d9\"",
+  "_lastModified": "Tue, 01 Jan 2019 10:58:06 GMT",
+  "version": "2.1.0",
+  "scripts": {
+    "changelog": "auto-changelog --template keepachangelog"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "bs-platform": "^4.0.7",
+    "cheerio": "^1.0.0-rc.2",
+    "got": "^8.0.1",
+    "lodash": "^4.17.4",
+    "reason-react": ">=0.5.3"
+  },
+  "peerDependencies": {
+    "reason-react": ">=0.5.3"
+  },
+  "dependencies": {
+    "antd": "^3.8.2",
+    "re-classnames": "^3.0.0"
+  },
+  "gitHead": "90c2802eea21f7e2a816953de4202876a79fdf8d",
+  "_npmVersion": "6.4.1",
+  "_nodeVersion": "10.12.0",
+  "_npmUser": "luisfcofv <me@luisflores.mx>",
+  "dist": {
+    "integrity": "sha512-DgxM4kn+InJ2gHmamNQDAUO1xG9T++PZLBbojYL8RU+1CDuKcV3Vtg6xR4usQwCYE+6DXlCbOdCQaUS8m/Hayw==",
+    "shasum": "f054cba5ebe02bca35ed531c5a991e7c0978348d",
+    "tarball": "https://registry.npmjs.org/bs-ant-design/-/bs-ant-design-2.1.0.tgz",
+    "fileCount": 28,
+    "unpackedSize": 56096,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb6EbsCRA9TVsSAnZWagAAl1sP/RAzIXdvam6YeNMq1Y5e\nFxgjHYT5A735fWt8pBDtVrCXn4sky7ua/W2r8RUwiwpWr2NFVIUZqKinhjc+\n5Jp0ldhjfQo3XUIyUyhzOQViAywnqC7r0YIXvLYcVjku/rY23LjGQoqYJbdX\nG68G1nNUPm29djIotgFe2SlRBh13c8m+tmI7EWfKFodOFWlXHzjoXkiqVKoz\nWb8OhIblGmRUBu9+c3UcxXF1s+14u+pOCoHbpcdpmXALe9+07h7223ICazVc\n8qfdLotwl4jnowwuYthAZIQTTexrmEOZj1HUhYAkhfZiOGc9RhO+tgmxCKc6\nmrEoiekWzo6hAy+w57WCtP+IbHIR/71MZrthxjovUYNm+0rL7dfokxQUGxIs\nk6K2rNnFksqKMSP2B0G0+qGwgWPzDrFTzgcZjA7ZbCyVPNvkDutV227udx6b\nXYjoeHshPCwfll4N2hFF1J+0kgrMT/OyRhX5H0SLRFNeaoQNs1MGJ8+pqDxj\nA5ZOSby75OwgYjNbGYvFYgvn5laIQzu9fynqjNsKv0wG/nyxF2nlel4iZ4+Y\n7VX1/vPX5cLU/Shtcnz1DZuzWwJCGobuKSYaYN5erB6S/o/EVrLdrnsfTWFC\ngnE4BbZ2cZtk4XJl/FiUngYD6mok/RmUv8XuuJ1eTpIauLSjWm9r8CILUz6I\nU6kP\r\n=moTE\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-ant-design_2.1.0_1541949164066_0.058791280662693124"
+  },
+  "_hasShrinkwrap": false
+}

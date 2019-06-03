@@ -1,0 +1,89 @@
+{
+  "_id": "generator-reason-react-class@1.0.1",
+  "_rev": "2-a1f8c6752e0ebbd9f71d8eb3d0b29064",
+  "name": "generator-reason-react-class",
+  "description": "Generates a Reason-React class",
+  "dist-tags": {
+    "latest": "1.0.1"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1"
+  ],
+  "maintainers": [
+    "ryb73 <rpbiwer@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-04-30T22:06:58.942Z",
+    "created": "2017-04-30T22:05:59.709Z",
+    "1.0.0": "2017-04-30T22:05:59.709Z",
+    "1.0.1": "2017-04-30T22:06:58.942Z"
+  },
+  "homepage": "https://github.com/ryb73/generator-reason-react-class",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryb73/generator-reason-react-class.git"
+  },
+  "author": "Ryan Biwer <ryan@brightcellars.com>",
+  "bugs": {
+    "url": "https://github.com/ryb73/generator-reason-react-class/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"051c39569b6b8eb1edd9031575a72ddd\"",
+  "_lastModified": "Sun, 27 May 2018 02:00:11 GMT",
+  "version": "1.0.1",
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "devDependencies": {
+    "yeoman-test": "^1.6.0",
+    "yeoman-assert": "^3.0.0",
+    "nsp": "^2.6.3",
+    "eslint": "^3.18.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "jest": "^19.0.2",
+    "jest-cli": "^19.0.1"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "change-case": "^3.0.1",
+    "yeoman-generator": "^1.0.0",
+    "yosay": "^2.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "prepublish": "nsp check",
+    "pretest": "eslint . --fix",
+    "test": "jest"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "jest": true,
+      "node": true
+    }
+  },
+  "gitHead": "46966caabbf108a546c6c2b519dad4d04810b29f",
+  "_shasum": "aa53e6b28e92627f6295730931a688bfa58e4a4e",
+  "_from": ".",
+  "_npmVersion": "4.5.0",
+  "_nodeVersion": "7.9.0",
+  "_npmUser": "ryb73 <rpbiwer@gmail.com>",
+  "dist": {
+    "shasum": "aa53e6b28e92627f6295730931a688bfa58e4a4e",
+    "tarball": "https://registry.npmjs.org/generator-reason-react-class/-/generator-reason-react-class-1.0.1.tgz"
+  },
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/generator-reason-react-class-1.0.1.tgz_1493590018263_0.5563539615832269"
+  },
+  "directories": {}
+}

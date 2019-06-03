@@ -1,0 +1,77 @@
+{
+  "_id": "bs-errors@0.5.0",
+  "_rev": "5-aaedd8fe83615395d3d64cdecd0d5883",
+  "name": "bs-errors",
+  "description": "Utilities for working with errors in bucklescript",
+  "dist-tags": {
+    "latest": "0.5.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.3.0",
+    "0.4.0",
+    "0.5.0"
+  ],
+  "maintainers": [
+    "ristostevcev <risto1@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-08-03T01:31:06.764Z",
+    "created": "2018-01-07T18:50:29.623Z",
+    "0.1.0": "2018-01-07T18:50:29.623Z",
+    "0.2.0": "2018-01-07T19:50:03.215Z",
+    "0.3.0": "2018-03-02T13:45:06.300Z",
+    "0.4.0": "2018-03-16T01:36:24.931Z",
+    "0.5.0": "2018-08-03T01:31:03.024Z"
+  },
+  "homepage": "https://github.com/Risto-Stevcev/bs-errors",
+  "keywords": [
+    "BuckleScript",
+    "reason"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Risto-Stevcev/bs-errors.git"
+  },
+  "author": "Risto-Stevcev",
+  "bugs": {
+    "url": "https://github.com/Risto-Stevcev/bs-errors/issues"
+  },
+  "license": "BSD-3-Clause",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"6a4ef184343e79f2dcf8ec16eeadd182\"",
+  "_lastModified": "Fri, 03 Aug 2018 01:31:08 GMT",
+  "version": "0.5.0",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "test": "mocha lib/js/test/Test*.js",
+    "test:watch": "mocha -w lib/js/test/Test*.js"
+  },
+  "devDependencies": {
+    "bs-chai": "^0.4.0",
+    "bs-mocha": "^0.4.0",
+    "bs-platform": "^4.0.0"
+  },
+  "dependencies": {},
+  "gitHead": "bc26ebc0b171435642db4ecac24896a112c3db09",
+  "_npmVersion": "6.1.0",
+  "_nodeVersion": "10.6.0",
+  "_npmUser": "ristostevcev <risto1@gmail.com>",
+  "dist": {
+    "integrity": "sha512-boxMQF/eksRyJeNLlk27Hb77ywpJWbv5j7cp2qEbRDECWsUqVXdBkKbRY/OlsYZTBWmtBjCoWtbIPvmiw6w/kA==",
+    "shasum": "8e9d907ac4c6dff1b49232428acb4085c63053b8",
+    "tarball": "https://registry.npmjs.org/bs-errors/-/bs-errors-0.5.0.tgz",
+    "fileCount": 7,
+    "unpackedSize": 12247,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbY7BXCRA9TVsSAnZWagAA1xoP/2KfQ6rYwygaV3PQWS/Z\nFMH97lxUTKjsB1b7hI/T8mdQTMdJOFUIIokGJ/7HxPsFkMQOklSZlUwsQq6Q\nhDLR8TMS7Zsm89XGCN8mohiDtVsAbPZ/sQLlZXbjZsBJNHQXUOnYMbL8bcCS\nO89OXHV55sSK8WdJ1KgbaEeA06OmSKfwA43qmZqJzShDYPMaLmrGxdXkx0k/\nOZeLET9xPnxe1YfUnzX1769W+ThcjcJIvDl541vbkvjcNV0Yl3NHQaKlUqgh\nYcMXknlTaq35wKFjrIRe8oW4sbo1jv4ZjS6erBDJPwQ7LdgCDiIyt+qrSPoE\nzIVoliWYHKmt0ilgGvZUGqX4o2OXx+xWPNv/9hODIvK6Zy9FjyDoVf4uHvQ3\nTPkFNINHsQ1VK/QUo74mE3tkVBcnMG5WzIHebG4+nOgZbCGwp+xOCWFA5ihG\n2TwRtQfNLfS5UhU8D2oHJgIsXrj2J2Dj9Ve9h1Op896YwOul3/TbOFzvSEE4\nNazQga4KyoA6zHDwSMTBz+VWn32IW0tGXPRQysIzGl/5SpUpd+DL0aDROUo4\nj6rM8TakU1f2gocoE9hEknZ8c9Z+4Akjwmq5MEHpkgGtHmaG5weV4gPPYE7H\nH6st0oXfQFoZ/E+7FE9hsJoTpTPKuE0I8LoIuPDBwTBhcqzilomK8MX6Lqjw\njrDA\r\n=hIZK\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-errors_0.5.0_1533259862939_0.22515986464110394"
+  }
+}

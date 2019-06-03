@@ -1,0 +1,92 @@
+{
+  "_id": "reason-navigation@0.4.1",
+  "_rev": "17-3a4a6b0ec0b5cda0a1e0b57b115b7920",
+  "name": "reason-navigation",
+  "description": "reason navigation",
+  "dist-tags": {
+    "latest": "0.4.1",
+    "beta": "0.5.0-beta.1"
+  },
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.3.0",
+    "0.3.1",
+    "0.3.2",
+    "0.3.3",
+    "0.3.4",
+    "0.3.5",
+    "0.3.6",
+    "0.3.7",
+    "0.3.8",
+    "0.3.9",
+    "0.4.0",
+    "0.4.1",
+    "0.5.0-beta.1"
+  ],
+  "maintainers": [
+    "kennetpostigo <kennetfpostigo@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-12-16T23:15:30.446Z",
+    "created": "2017-12-08T03:53:04.146Z",
+    "0.1.0": "2017-12-08T03:53:04.146Z",
+    "0.2.0": "2017-12-08T04:02:18.005Z",
+    "0.3.0": "2017-12-08T04:09:42.825Z",
+    "0.3.1": "2017-12-08T04:13:54.755Z",
+    "0.3.2": "2017-12-08T04:19:48.417Z",
+    "0.3.3": "2017-12-08T04:28:11.713Z",
+    "0.3.4": "2017-12-08T04:42:07.542Z",
+    "0.3.5": "2017-12-08T04:50:34.468Z",
+    "0.3.6": "2017-12-08T04:58:28.646Z",
+    "0.3.7": "2017-12-08T05:06:17.798Z",
+    "0.3.8": "2017-12-08T05:13:51.398Z",
+    "0.3.9": "2017-12-08T05:20:23.121Z",
+    "0.4.0": "2017-12-12T23:12:48.168Z",
+    "0.4.1": "2017-12-12T23:20:29.449Z",
+    "0.5.0-beta": "2017-12-16T23:12:31.606Z",
+    "0.5.0-beta.1": "2017-12-16T23:15:30.446Z"
+  },
+  "homepage": "https://github.com/kennetpostigo/reason-navigation#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kennetpostigo/reason-navigation.git"
+  },
+  "author": "Kennet Postigo <kennetfpostigo@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/kennetpostigo/reason-navigation/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "_attachments": {},
+  "_etag": "W/\"de0256ea3bd2253f5ea4bc46d5630e56\"",
+  "_lastModified": "Sun, 27 May 2018 15:29:03 GMT",
+  "version": "0.4.1",
+  "main": "index.js",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "devDependencies": {
+    "bs-platform": "^2.1.0"
+  },
+  "dependencies": {
+    "history": "^4.7.2",
+    "reason-react": "^0.3.0"
+  },
+  "gitHead": "0cb23024e901159910b03d598d4eb560dfa90d80",
+  "_npmVersion": "5.5.1",
+  "_nodeVersion": "8.9.1",
+  "_npmUser": "kennetpostigo <kennetfpostigo@gmail.com>",
+  "dist": {
+    "integrity": "sha512-2i0fX7utQ1plDym0+dERdlVQc+mCC+/O+jfDil3SWR/9KpNdrGCHjk4UtvrVx4jI4mzHPShgN6Oo7LV36a0J6w==",
+    "shasum": "4db8ce11afed2bb107b253e1b5b61d1f1dcf6fbd",
+    "tarball": "https://registry.npmjs.org/reason-navigation/-/reason-navigation-0.4.1.tgz"
+  },
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/reason-navigation-0.4.1.tgz_1513120829360_0.7772159343585372"
+  },
+  "directories": {}
+}

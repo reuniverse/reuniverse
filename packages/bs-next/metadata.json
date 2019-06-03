@@ -1,0 +1,80 @@
+{
+  "_id": "bs-next@3.0.0",
+  "_rev": "4-ee7e01188e6c865d67c9efa441359745",
+  "name": "bs-next",
+  "description": "Reason bindings for Next.js",
+  "dist-tags": {
+    "latest": "3.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.1.0",
+    "2.0.0",
+    "3.0.0"
+  ],
+  "maintainers": [
+    "ulrikstrid <ulrik.strid@outlook.com>"
+  ],
+  "time": {
+    "modified": "2018-05-22T17:31:19.330Z",
+    "created": "2017-08-28T08:41:09.917Z",
+    "1.0.0": "2017-08-28T08:41:09.917Z",
+    "1.1.0": "2017-08-29T10:30:40.967Z",
+    "2.0.0": "2017-12-16T08:02:17.611Z",
+    "3.0.0": "2018-05-22T17:31:15.969Z"
+  },
+  "homepage": "https://github.com/ulrikstrid/bs-next#readme",
+  "keywords": [
+    "next",
+    "next.js",
+    "reasonreact",
+    "reason",
+    "reasonml",
+    "bucklescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ulrikstrid/bs-next.git"
+  },
+  "author": "Ulrik Strid (ulrik.strid@outlook.com)",
+  "bugs": {
+    "url": "https://github.com/ulrikstrid/bs-next/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"d2ba64db0e99b0df96d08a8a397e526b\"",
+  "_lastModified": "Sat, 26 May 2018 19:04:29 GMT",
+  "version": "3.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "exit 0"
+  },
+  "devDependencies": {
+    "bs-platform": "^3.0.0"
+  },
+  "dependencies": {
+    "next": "^6.0.3",
+    "reason-react": "^0.4.1"
+  },
+  "gitHead": "62fe706ae279864d90e81b3b792e34e05f8cf714",
+  "_npmVersion": "5.6.0",
+  "_nodeVersion": "10.1.0",
+  "_npmUser": "ulrikstrid <ulrik.strid@outlook.com>",
+  "dist": {
+    "integrity": "sha512-LtDaWBYpTpf48rQOCtJu8UFA4UQIsVjrkQC6AinAn7L9BdHqgYtYIarAHIfF1+7a+gH1MYf2Dtpk5KGqmGYr2g==",
+    "shasum": "8a5d8b724583e55ae0914616e9bc9eabff6e398b",
+    "tarball": "https://registry.npmjs.org/bs-next/-/bs-next-3.0.0.tgz",
+    "fileCount": 7,
+    "unpackedSize": 145912,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbBFPkCRA9TVsSAnZWagAAI+oP+wT/FgQNRry44JGhVR7R\nyc9TTECrG3AGVGjUhc2r7PKImv0DA4Px7N6LJ+RwClGj/XerW4gcXCNH8MI8\nrSNJ7vhZt3DJx6vhblDlq5FhuKgv4GSXy9N6wq59YCGO+31O6fatH5CjU+Ib\nWKb/OfeiW71ttQ7A87PYtIJTSZX1cL5WivlQuO3i7FMuX5WqK0S67nCqTuq0\nxPYBdPor8jSrIXSno5NliX83I7UVN9x6dy1DpDQMlP8ncanaEqbw2XZfkCLu\nOsIycCm/75flc4gzACiUKOxQeDFCe6DaEIWAIDRcuN8bsC/N/crmmnnpSG2f\nTt8ztUfgik7QnPVkqNnDR6cytwji/MCiPCVPTGb+qEX1CSWczYLBUgk++rZh\nzUUZsiKYAniSCXAhdpYL2k4F+atRSqgknZOd+L2gSqSGDLwrtLI08FW+gERY\nP7BRf1BwqUGm/F/QGrlVcgd+soCznIq/+XzYetRnDkTcSdZrYJ6KCbKTv8l5\nebBOB2oPEba8cBW65s8Pikp6RM3jO80nYLJwJNa8HowG62FRonh1oN2ttXh7\nSF+ENOJk+sP8Bxa+Xgr3eSVw/U61ww3vbHhftK6GNGxqrt7Kp/kmCqSpN8Wh\n9R3Q2oeWQwn2TWQBo86y9yoUsgg2vtCjBgZL2KsBhyIymnW9YH5yffLlaaNo\nNewL\r\n=PgaR\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-next_3.0.0_1527010275909_0.5053977685673527"
+  }
+}

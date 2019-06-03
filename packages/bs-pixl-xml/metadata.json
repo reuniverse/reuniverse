@@ -1,0 +1,68 @@
+{
+  "_id": "bs-pixl-xml@0.1.0",
+  "_rev": "2-3b28d7e778bc38401a79d9587ca5390d",
+  "name": "bs-pixl-xml",
+  "dist-tags": {
+    "latest": "0.1.0"
+  },
+  "versions": [
+    "0.0.1",
+    "0.1.0"
+  ],
+  "time": {
+    "created": "2018-03-17T21:05:12.477Z",
+    "0.0.1": "2018-03-17T21:05:12.575Z",
+    "modified": "2018-03-17T21:53:15.558Z",
+    "0.1.0": "2018-03-17T21:53:15.095Z"
+  },
+  "maintainers": [
+    "njouanin <nico@beerfactory.org>"
+  ],
+  "description": "Bucklescript bindings to pixl-xml",
+  "homepage": "https://gitlab.com/NicolasJouanin/bs-pixl-xml#README",
+  "keywords": [
+    "reason",
+    "reasonml",
+    "bucklescript",
+    "pixl-xml"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/NicolasJouanin/bs-pixl-xml.git"
+  },
+  "author": "Nicolas Jouanin <nico@beerfactory.org>",
+  "bugs": {
+    "url": "https://gitlab.com/NicolasJouanin/bs-pixl-xml/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"5b288d95b582b486cd2c603180a5fc18\"",
+  "_lastModified": "Sat, 26 May 2018 19:04:31 GMT",
+  "version": "0.1.0",
+  "scripts": {
+    "bs-build": "bsb -clean-world -make-world"
+  },
+  "peerDependencies": {
+    "pixl-xml": "^1.0.13"
+  },
+  "dependencies": {
+    "pixl-xml": "^1.0.13"
+  },
+  "gitHead": "87819e00bbf5d3381bc96657a4ac804ac955b909",
+  "_npmVersion": "5.7.1",
+  "_nodeVersion": "9.8.0",
+  "_npmUser": "njouanin <nico@beerfactory.org>",
+  "dist": {
+    "integrity": "sha512-0miJHqtDT7Nis/orjrMOM1BmMXeOUigf5ah146vhKUUcS8awWxmB9WPEU8jVTRId3HsfLFAyShmbs57CQeSGTg==",
+    "shasum": "87bab7877fcf11728b9050d5edb8d59852e3d61a",
+    "tarball": "https://registry.npmjs.org/bs-pixl-xml/-/bs-pixl-xml-0.1.0.tgz",
+    "fileCount": 8,
+    "unpackedSize": 5311
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-pixl-xml_0.1.0_1521323595042_0.045463296875466463"
+  }
+}

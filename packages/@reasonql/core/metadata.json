@@ -1,0 +1,70 @@
+{
+  "_id": "@reasonql/core@0.1.2",
+  "_rev": "2-10f0d16f1afb19c36e5e5993fd827c5f",
+  "name": "@reasonql/core",
+  "dist-tags": {
+    "latest": "0.1.2"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2"
+  ],
+  "time": {
+    "created": "2019-04-01T00:06:42.189Z",
+    "0.1.0": "2019-04-01T00:06:42.521Z",
+    "modified": "2019-04-01T00:57:57.007Z",
+    "0.1.1": "2019-04-01T00:11:20.535Z",
+    "0.1.2": "2019-04-01T00:57:54.512Z"
+  },
+  "maintainers": [
+    "sainthkh <sainthkh@gmail.com>"
+  ],
+  "homepage": "https://github.com/sainthkh/reasonql#readme",
+  "keywords": [
+    "ReasonML",
+    "GraphQL",
+    "BuckleScript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sainthkh/reasonql.git"
+  },
+  "author": "sainthkh",
+  "bugs": {
+    "url": "https://github.com/sainthkh/reasonql/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "description": "ReasonQL is a type-safe and simple GraphQL library for ReasonML developers.",
+  "_etag": "W/\"5da7b30c7195e12c48532145a5f7b0a8\"",
+  "_lastModified": "Mon, 01 Apr 2019 00:57:58 GMT",
+  "version": "0.1.2",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "bs-platform": "^4.0.18"
+  },
+  "_npmVersion": "6.4.1",
+  "_nodeVersion": "10.15.0",
+  "_npmUser": "sainthkh <sainthkh@gmail.com>",
+  "dist": {
+    "integrity": "sha512-gNGBi1VLpwgIOOs/08ALHrCIV8978ttASWyrzxtfPuZTR0f5Zblf4gZWnjtDTJK5cLwbNEexdiGowJ76YfIY8A==",
+    "shasum": "120dd6402f88e44ebb523d291dc22d7e48288833",
+    "tarball": "https://registry.npmjs.org/@reasonql/core/-/core-0.1.2.tgz",
+    "fileCount": 4,
+    "unpackedSize": 16187,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcoWISCRA9TVsSAnZWagAA06sP/21mhwVgR3s8o3zE6Tto\nrRA3YGGshBARaWR7nraCghkYtNJXj+8Rzvn05ZXpxOuRcMqTRSZjuf71uy+C\nvF/RSZOp3mrUaknD1Ud43oIfET24Oo8jvM2uXEf8HGPI81w5f9EQP8kXqjdc\n1jMJej/GvOB4PGNN9eBYKEJtjGounNrUm+W1MatfkG/Q/xXHwFcJezT656rE\nB3H7HvLVSPuyZZ4rR1N4wl6GeTlVJ35xcfK5HAT/0OzGqbJJQRNduelY+3rr\n9HRf/32SeXckNyxLCBiXx90NuTGab5aB3W0zZ3zvmBy3q0NgoQl43v5fLGse\nA/+UkRojj2PrFCI+HMI2Xwknc/hO4DNTvrSzCcjzNmVsvHiFl65r7ebWNFeg\nNl1+XioIJ7X9xdTODbW4WhrKglrm5W8QGCGssz5dBe4RX4FChPYCWkZl3VkU\n8XDc3Tf2ra6n0GkSf7FwWBswifNe5x36CMGLZ4idKI0gz6YxD9K5/EdDU7HP\nMhM1PS71TIsG4kCsYWcVjxJkRC9HUAcvdrQyx5d6ySJCMktSQ5siHPqUrMQr\nFviSpW6zm9J1nlZg8F5s8JSo3Je9rQjLmnBmBl1KXzHfLSrpJDvcW75qRD7H\nurtVd4dxyEvamH4F0lO5Kb68X0L1X/bT7E9O+3SkYQ8PWvhC2CqOHncNHtSI\na7TG\r\n=8891\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/core_0.1.2_1554080274409_0.3699503796366852"
+  },
+  "_hasShrinkwrap": false
+}

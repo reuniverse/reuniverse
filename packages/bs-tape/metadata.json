@@ -1,0 +1,85 @@
+{
+  "_id": "bs-tape@0.3.0",
+  "_rev": "6-a72f7e60e8308745e3e2402fef9814fb",
+  "time": {
+    "0.2.0": "2017-08-31T11:33:34.523Z",
+    "created": "2018-05-08T23:33:28.052Z",
+    "0.1.0": "2018-05-08T23:33:28.155Z",
+    "modified": "2018-05-21T05:30:12.078Z",
+    "0.1.1": "2018-05-09T19:05:05.134Z",
+    "0.2.1": "2018-05-09T22:13:25.013Z",
+    "0.3.0": "2018-05-21T05:30:08.824Z"
+  },
+  "name": "bs-tape",
+  "dist-tags": {
+    "latest": "0.3.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.2.1",
+    "0.3.0"
+  ],
+  "maintainers": [
+    "jeffreywescott <jeffrey.wescott@gmail.com>"
+  ],
+  "description": "BuckleScript bindings for tape",
+  "homepage": "https://github.com/jeffreywescott/bs-tape#readme",
+  "keywords": [
+    "bucklescript",
+    "tape",
+    "testing"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeffreywescott/bs-tape.git"
+  },
+  "author": "Jeffrey Wescott <jeffrey.wescott@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/jeffreywescott/bs-tape/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"bf574b6fc6cfa6337e638b37a31be332\"",
+  "_lastModified": "Sat, 26 May 2018 19:04:54 GMT",
+  "version": "0.3.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "build:watch": "bsb -make-world -w",
+    "build:clean": "bsb -clean-world",
+    "test": "yarn build && ./node_modules/.bin/nyc --all node ./lib/js/example/UseTape.bs.js | ./node_modules/.bin/tap-spec",
+    "test:coverage": "./node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls"
+  },
+  "dependencies": {
+    "tape": "^4.9.0"
+  },
+  "peerDependencies": {
+    "bs-platform": "^3.0.0"
+  },
+  "devDependencies": {
+    "bs-platform": "^3.0.0",
+    "coveralls": "^3.0.1",
+    "nyc": "^11.7.3",
+    "tap-spec": "^4.1.1"
+  },
+  "nyc": {
+    "include": [
+      "lib/js/src/**/*.bs.js"
+    ]
+  },
+  "licenseText": "Copyright © 2018 Jeffrey Wescott\n\nPermission to use, copy, modify, and/or distribute this software for any purpose\nwith or without fee is hereby granted, provided that the above copyright notice\nand this permission notice appear in all copies.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH\nREGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND\nFITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,\nINDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS\nOF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER\nTORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF\nTHIS SOFTWARE.",
+  "dist": {
+    "shasum": "be22679ab295a0c209c0fe724c77f35ae057abb8",
+    "tarball": "https://registry.npmjs.org/bs-tape/-/bs-tape-0.3.0.tgz",
+    "fileCount": 13,
+    "unpackedSize": 13309,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbAllhCRA9TVsSAnZWagAArl8P/0Pccd68owiA03NelfDp\nq97CTgCbmd6XFbhgTYVPeKvWnL58dU3A6qV9SVZdNZ/hIQp3EEXaU7GKUIIf\nVoGMFyxUU9oiAVIng512971mI1Kwe8xSdr6J4hossWxuC97/KCycAzxx4WIV\ngDUWNDf9i8MBKR2DIggXgudS0cf2FblHrCE+gIpv1H8jcbE7pJchWTiT1yZF\nftEw/ReWc0jf9tqwR4X11AmeRzzWFL3HCSg13ijMWsWRPzFoGVy0Puh52IDl\nmYb48kfXnXjX9aXA+GJBGAGulOqjrNHeUwEAV1S8FVeVpddZwkZ2SBO4JUe9\nnmtUxg57ePBLae0oAMDr9C3fqB8nNFWKC+jKr9voI/JmHl5jgVbA8CLkhekb\np6GdvnoEux4yCIXfaz5svwNv+ggbrPOoZUmDm2ixa0e/naqrME4an/xRmvC6\nfNL2MyK4iuS28eBU6iaCuxBCzwMSekWL1ujlgWa2U27qYh6NC6kBMKEas1i+\nZ2+EhAOnGCdjQH112sflHaxgjguRs3//O0qDENqa+eT1YV1OdNPpVZs0rJwy\nDGGYxcqLtWmsUdkoDAjz093L81Frr7aerQSy/c8KgPsjPfdJM3kAUWVAyOR7\nJC5SLRJJYNN8ChcmXRZa/uzAwbWTvpZeCizZBXhiygFwcCIIPHWYAphpBpfK\nkFfr\r\n=+SCT\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "_npmUser": "jeffreywescott <jeffrey.wescott@gmail.com>",
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-tape_0.3.0_1526880608748_0.8614568307515793"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "_id": "bs-graphql-scalar@0.2.2",
+  "_rev": "5-acbc0c4f58b242fc944b2feeb651c317",
+  "name": "bs-graphql-scalar",
+  "description": "BuckleScript interface to create GraphQL Custom Scalar types",
+  "dist-tags": {
+    "latest": "0.2.2"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.2.0",
+    "0.2.1",
+    "0.2.2"
+  ],
+  "maintainers": [
+    "bkonkle <brandon@ecliptic.io>"
+  ],
+  "time": {
+    "modified": "2018-01-28T18:52:08.630Z",
+    "created": "2017-12-17T23:18:59.765Z",
+    "0.1.0": "2017-12-17T23:18:59.765Z",
+    "0.1.1": "2017-12-19T04:43:52.166Z",
+    "0.2.0": "2018-01-04T19:29:03.435Z",
+    "0.2.1": "2018-01-28T18:49:22.490Z",
+    "0.2.2": "2018-01-28T18:52:08.630Z"
+  },
+  "homepage": "https://github.com/ecliptic/bucklescript-tools#readme",
+  "keywords": [
+    "bucklescript",
+    "reason",
+    "node",
+    "graphql",
+    "apollo",
+    "scalar"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecliptic/bucklescript-tools.git"
+  },
+  "author": "Brandon Konkle <brandon@ecliptic.io> (http://ecliptic.io)",
+  "bugs": {
+    "url": "https://github.com/ecliptic/bucklescript-tools/issues"
+  },
+  "license": "BSD-2-Clause",
+  "readmeFilename": "README.md",
+  "_attachments": {},
+  "_etag": "W/\"25271ccfe154a0a5918d6a1e6d80f413\"",
+  "_lastModified": "Sat, 26 May 2018 19:04:22 GMT",
+  "version": "0.2.2",
+  "main": "index.js",
+  "scripts": {
+    "precommit": "lint-staged",
+    "prepush": "yarn build && yarn test",
+    "test": "cross-env NODE_ENV=test jest",
+    "test.watch": "cross-env NODE_ENV=test jest --watch",
+    "format.js": "prettier-eslint --write \"packages/*/src/**/*.js\"",
+    "format.re": "refmt --in-place src/**/*.re",
+    "lint": "eslint --ext .js,.jsx ./",
+    "build": "bsb -make-world",
+    "build.watch": "yarn build -w",
+    "build.clean": "bsb -clean-world"
+  },
+  "dependencies": {
+    "bs-graphql": "^0.3.1",
+    "graphql": "^0.12.3"
+  },
+  "devDependencies": {
+    "bs-jest": "^0.2.0",
+    "bs-loader": "^2.0.0",
+    "bs-platform": "2.0.0",
+    "cross-env": "^5.1.1",
+    "eslint": "^4.13.1",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-config-standard-react": "^5.0.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-react": "^7.5.1",
+    "eslint-plugin-standard": "^3.0.1",
+    "husky": "^0.14.3",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^21.2.1",
+    "lint-staged": "^4.3.0",
+    "prettier-eslint-cli": "^4.4.0"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "re",
+      "js",
+      "ml"
+    ],
+    "testURL": "http://localhost",
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga|css)$": "identity-obj-proxy"
+    },
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react",
+      "<rootDir>/node_modules/react-dom"
+    ],
+    "transform": {
+      ".(re|ml)": "bs-loader",
+      ".*": "babel-jest"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.js": [
+      "format",
+      "git add"
+    ],
+    "src/**/*.re": [
+      "format.re",
+      "git add"
+    ]
+  },
+  "_npmVersion": "5.6.0",
+  "_nodeVersion": "8.9.2",
+  "_npmUser": "bkonkle <brandon@ecliptic.io>",
+  "dist": {
+    "integrity": "sha512-o5tIXW9bSY8Yr/myvK7zMZXGiYDcM5ua+O4kZk+BCso4MPHgRVF8utPIFE4us8yRMW6y31ATLzKk2Cuc31sFKg==",
+    "shasum": "4d41d53ab751d40ec5f0c820f9969b8bea1d9abf",
+    "tarball": "https://registry.npmjs.org/bs-graphql-scalar/-/bs-graphql-scalar-0.2.2.tgz"
+  },
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bs-graphql-scalar-0.2.2.tgz_1517165527616_0.6915739923715591"
+  },
+  "directories": {}
+}

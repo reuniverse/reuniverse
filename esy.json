@@ -16,19 +16,12 @@
     "@opam/bos": "0.2.0",
     "@opam/dune": "*",
     "@opam/fmt": "0.8.6",
-    "@opam/httpkit": "*",
-    "@opam/httpkit-lwt": "*",
     "@opam/logs": "0.6.3",
+    "@opam/uri": "2.2.1",
     "@opam/utop": "2.3.0",
     "@opam/yojson": "1.7.0",
     "ocaml": "~4.6.0",
     "refmterr": "*"
-  },
-  "resolutions": {
-    "@opam/httpkit": "github:ostera/httpkit:httpkit.opam#5e627ebdc49720d3ebab361881c75bf3cd471012",
-    "@opam/httpkit-lwt": "github:ostera/httpkit:httpkit-lwt.opam#5e627ebdc49720d3ebab361881c75bf3cd471012",
-    "@opam/httpaf": "anmonteiro/httpaf:httpaf.opam#57e9dd2",
-    "@opam/httpaf-lwt": "anmonteiro/httpaf:httpaf-lwt.opam#57e9dd2"
   },
   "devDependencies": {
     "@opam/merlin": "*",

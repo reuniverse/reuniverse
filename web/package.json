@@ -1,0 +1,24 @@
+{
+  "name": "reuniverse-web",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world && fpack build ./lib/js/index.bs.js --development --output=_bundle",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world && rm -rf _bundle",
+    "test": "bsb -make-world && jest",
+    "refmt": "bsrefmt --in-place src/*"
+  },
+  "keywords": [
+    "BuckleScript",
+    "Reason",
+    "ReasonReact"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^6.0.0",
+    "fastpack": "^0.8.4"
+  },
+  "dependencies": {
+    "reason-react": "^0.7.0"
+  }
+}

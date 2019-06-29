@@ -1,0 +1,26 @@
+{
+  "name": "reuniverse-web",
+  "version": "0.0.0",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": [
+    ".",
+    "pkg_index",
+    "design_system"
+  ],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": false
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "reason-react"
+  ],
+  "bs-dev-dependencies": [],
+  "warnings": {
+    "error": "+101"
+  },
+  "namespace": false,
+  "refmt": 3
+}

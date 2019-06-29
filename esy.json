@@ -17,15 +17,22 @@
     "@opam/dune": "*",
     "@opam/fmt": "0.8.6",
     "@opam/logs": "0.6.3",
+    "@opam/lwt": "4.2.1",
     "@opam/uri": "2.2.1",
     "@opam/utop": "2.3.0",
+    "@opam/httpkit": "*",
+    "@opam/httpkit-lwt-unix-httpaf": "*",
     "@opam/yojson": "1.7.0",
-    "ocaml": "~4.6.0",
+    "ocaml": "~4.7.0",
     "refmterr": "*"
+  },
+  "resolutions": {
+    "@opam/httpkit":"ostera/httpkit:httpkit.opam#14e1c1fabe978ad1038705f6e8f2fcc36ce82b3b",
+    "@opam/httpkit-lwt-unix-httpaf":"ostera/httpkit:httpkit-lwt-unix-httpaf.opam#14e1c1fabe978ad1038705f6e8f2fcc36ce82b3b"
   },
   "devDependencies": {
     "@opam/merlin": "*",
-    "ocaml": "~4.6.0",
+    "ocaml": "~4.7.0",
     "@opam/odoc": "*"
   }
 }

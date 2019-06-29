@@ -203,38 +203,27 @@ module Package_response = {
 
 module API = {
   module V2 = {
+    let base_host = "api.npms.io";
     let base_url = "https://api.npms.io/v2";
-
-    // let tls_config = Tls_config.from_ca(`Ca_file("/etc/ssl/cert.pem"));
-    let tls_config = Tls_config.from_ca(`No_authentication_I'M_STUPID);
+    let base_port = 443;
 
     let search:
-      (~query: Search.Query.t, ~from: int, ~size: int) =>
-      Lwt_result.t(Search.t, _) =
+      (~query: Search.Query.t, ~from: int, ~size: int) => Lwt.t(Search.t) =
       (~query, ~from as _, ~size as _) => {
-        open Lwt_result.Infix;
+        open Lwt.Infix;
 
         let search_url = base_url ++ "/search" |> Uri.of_string;
         let query = query |> Search.Query.to_query_params;
-        let req =
-          Httpkit.Client.Request.create(
-            `GET,
-            Uri.with_query(search_url, query),
-          );
+        let uri = Uri.with_query(search_url, query);
+        let req = Http.Request.create(`GET, uri);
 
-        Httpkit_lwt.Client.(
-          req
-          |> Https.send(~config=tls_config)
-          >>= Response.body
-          |> Lwt_result.map(body =>
-               body |> Yojson.Basic.from_string |> Search.from_json
-             )
-        );
+        Http.get(~host=base_host, ~port=base_port, req)
+        >|= (body => body |> Yojson.Basic.from_string |> Search.from_json);
       };
 
-    let packages: list(string) => Lwt_result.t(list(Package_response.t), _) =
+    let packages: list(string) => Lwt.t(list(Package_response.t)) =
       names => {
-        open Lwt_result.Infix;
+        open Lwt.Infix;
 
         let search_url = base_url ++ "/mget" |> Uri.of_string;
         let body =
@@ -249,28 +238,24 @@ module API = {
           ++ "]"; // ["a","b","c"]
 
         let req =
-          Httpkit.Client.Request.create(
-            ~headers=[
-              ("Accept", "application/json"),
-              ("Content-Type", "application/json"),
-            ],
-            ~body,
+          Http.Request.create(
+            ~headers=
+              [
+                ("Accept", "application/json"),
+                ("Content-Type", "application/json"),
+              ]
+              |> H2.Headers.of_list,
             `POST,
             search_url,
           );
 
-        Httpkit_lwt.Client.(
-          req
-          |> Https.send(~config=tls_config)
-          >>= Response.body
-          |> Lwt_result.map(body =>
-               body
-               |> Yojson.Basic.from_string
-               |> Yojson.Basic.Util.to_assoc
-               |> List.map(((_name, pkg)) =>
-                    pkg |> Package_response.from_json
-                  )
-             )
+        Http.post(~host=base_host, ~port=base_port, ~body=Some(body), req)
+        >|= (
+          body =>
+            body
+            |> Yojson.Basic.from_string
+            |> Yojson.Basic.Util.to_assoc
+            |> List.map(((_name, pkg)) => pkg |> Package_response.from_json)
         );
       };
   };

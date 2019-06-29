@@ -22,17 +22,19 @@
     "@opam/utop": "2.3.0",
     "@opam/httpkit": "*",
     "@opam/httpkit-lwt-unix-httpaf": "*",
+    "@opam/httpaf": "*",
+    "@opam/httpaf-lwt-unix": "*",
     "@opam/yojson": "1.7.0",
     "ocaml": "~4.7.0",
     "refmterr": "*"
   },
   "resolutions": {
-    "@opam/httpkit":"ostera/httpkit:httpkit.opam#14e1c1fabe978ad1038705f6e8f2fcc36ce82b3b",
-    "@opam/httpkit-lwt-unix-httpaf":"ostera/httpkit:httpkit-lwt-unix-httpaf.opam#14e1c1fabe978ad1038705f6e8f2fcc36ce82b3b"
+    "@opam/httpkit": "ostera/httpkit:httpkit.opam#36b24c2",
+    "@opam/httpkit-lwt-unix-httpaf": "ostera/httpkit:httpkit-lwt-unix-httpaf.opam#36b24c2",
+    "@opam/httpaf": "anmonteiro/httpaf:httpaf.opam#6d2c80e3a16ecf85d74df76005ab68136457e111",
+    "@opam/httpaf-lwt-unix": "anmonteiro/httpaf:httpaf-lwt-unix.opam#6d2c80e3a16ecf85d74df76005ab68136457e111"
   },
   "devDependencies": {
-    "@opam/merlin": "*",
-    "ocaml": "~4.7.0",
-    "@opam/odoc": "*"
+    "@opam/merlin": "*"
   }
 }

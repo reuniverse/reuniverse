@@ -1,156 +1,56 @@
-/*
- module Version = {
-   type t = string;
+module Httpkit = Httpkit_lwt_unix_httpaf;
 
-   let of_string = x => x;
-
-   let to_string = x => x;
- };
- */
-
-/*
- module Package_evaluation = {
-   type quality = {
-     carefulness: float,
-     tests: float,
-     health: float,
-     branding: float,
-   };
-
-   type popularity = {
-     community_interest: float,
-     downloads_count: float,
-     downloads_acceleration: float,
-     dependents_count: float,
-   };
-
-   type maintenance = {
-     releases_frequency: float,
-     commits_frequency: float,
-     open_issues: float,
-     issues_distribution: float,
-   };
-
-   type t = {
-     quality,
-     popularity,
-     maintenance,
-   };
- };
- */
-
-module Repository = {
+module Links = {
   type t = {
-    kind: string,
-    url: string,
-    directory: string,
+    homepage: option(string),
+    repository: option(string),
   };
 
   let from_json: Yojson.Basic.t => t =
     json => {
       Yojson.Basic.{
-        kind: Util.(json |> member("kind") |> to_string),
-        url: Util.(json |> member("url") |> to_string),
-        directory: Util.(json |> member("directory") |> to_string),
+        homepage: Util.(json |> member("homepage") |> to_string_option),
+        repository: Util.(json |> member("repository") |> to_string_option),
       };
     };
 };
 
-/*
- module Author = {
-   type t = {
-     username: string,
-     email: string,
-   };
- };
- */
-
 module Package = {
-  /*
-   module Flag = {
-     type t =
-       | Deprecated
-       | Unstable
-       | Insecure;
-   };
-
-   module Score = {
-     type detailed_score = {
-       quality: float,
-       popularity: float,
-       maintenance: float,
-     };
-
-     type t = {
-       final: float,
-       detail: detailed_score,
-     };
-   };
-   */
-
   type t = {
     name: string,
-    description: string,
-    repository: Repository.t,
-    /*
-     keywords: list(string),
-     maintainers: list(Author.t),
-     publisher: Author.t,
-     scope: string,
-     version: Version.t,
-     */
+    description: option(string),
+    links: Links.t,
   };
 
   let from_json: Yojson.Basic.t => t =
     json => {
       Yojson.Basic.{
         name: Util.(json |> member("name") |> to_string),
-        description: Util.(json |> member("description") |> to_string),
-        repository:
-          Util.(json |> member("repository") |> Repository.from_json),
+        description: Util.(json |> member("description") |> to_string_option),
+        links: Util.(json |> member("links") |> Links.from_json),
       };
     };
 };
 
 module Search = {
   module Query = {
-    // | `Exclude(Package.Flag.t)
-    // | `Include(Package.Flag.t)
-    // | `Score_effect(float)
-    // | `Quality_weight(float)
-    // | `Popularity_weight(float)
-    // | `Maintenance_weight(float)
-    // | `Scope(string)
-    // | `Author(string)
-    // | `Maintainer(string)
-    // | `Boost_exact_matches(bool)
     type param = [ | `Keywords(list(string))];
 
-    type t = {
-      params: list(param),
-      /*
-       from: option(int),
-       size: option(int),
-       */
-    };
+    type t = {params: list(param)};
 
     let param_to_pair =
       fun
-      | `Keywords(kws) => ("keywords", kws);
+      | `Keywords(kws) => (
+          "text",
+          ["keywords:" ++ String.concat(",", kws)],
+        );
 
     let to_query_params = t => {
       t.params |> List.map(param_to_pair);
     };
   };
 
-  type search_result = {
-    package: Package.t,
-    /*
-     flags: Package.Flag.t,
-     score: Package.Score.t,
-     search_score: float,
-     */
-  };
+  type search_result = {package: Package.t};
 
   type t = {
     total: int,
@@ -164,7 +64,7 @@ module Search = {
       let results =
         Util.(
           json
-          |> member("results")
+          |> member("objects")
           |> to_list
           |> List.map(res =>
                {
@@ -178,11 +78,7 @@ module Search = {
 
 module Package_response = {
   type collected = {metadata: Package.t};
-  type t = {
-    // analyzed_at: string,
-    collected,
-    // score: Package.score,
-  };
+  type t = {collected};
   let from_json: Yojson.Basic.t => t =
     json => {
       open Yojson.Basic;
@@ -202,54 +98,54 @@ module Package_response = {
 };
 
 module API = {
-  module V2 = {
-    let base_host = "api.npms.io";
-    let base_url = "https://api.npms.io/v2";
+  module V1 = {
+    let base_host = "registry.npmjs.org";
+    let base_url = "https://registry.npmjs.org/-/v1";
     let base_port = 443;
 
     let search:
-      (~query: Search.Query.t, ~from: int, ~size: int) => Lwt.t(Search.t) =
-      (~query, ~from as _, ~size as _) => {
-        open Lwt.Infix;
+      (~query: Search.Query.t, ~from: int, ~size: int) =>
+      Lwt_result.t(Search.t, _) =
+      (~query, ~from, ~size) => {
+        open Lwt_result.Infix;
 
         let search_url = base_url ++ "/search" |> Uri.of_string;
-        let query = query |> Search.Query.to_query_params;
+        let query =
+          [
+            ("size", [string_of_int(size)]),
+            ("from", [string_of_int(from)]),
+          ]
+          @ (query |> Search.Query.to_query_params);
         let uri = Uri.with_query(search_url, query);
-        let req = Http.Request.create(`GET, uri);
+        let req = Httpkit.Request.create(`GET, uri);
 
-        Http.get(~host=base_host, ~port=base_port, req)
+        Logs.app(m => m("%s", uri |> Uri.to_string));
+
+        req
+        |> Httpkit.Client.Https.send
+        >>= Httpkit.Client.Response.body
         >|= (body => body |> Yojson.Basic.from_string |> Search.from_json);
       };
 
-    let packages: list(string) => Lwt.t(list(Package_response.t)) =
-      names => {
-        open Lwt.Infix;
+    let package: string => Lwt_result.t(list(Package_response.t), _) =
+      name => {
+        open Lwt_result.Infix;
 
-        let search_url = base_url ++ "/mget" |> Uri.of_string;
-        let body =
-          "["
-          ++ (
-            names
-            |> List.fold_left(
-                 (acc, name) => "\"" ++ name ++ "\", " ++ acc,
-                 "",
-               )
-          )
-          ++ "]"; // ["a","b","c"]
+        let search_url = base_url ++ "/" ++ name |> Uri.of_string;
 
         let req =
-          Http.Request.create(
-            ~headers=
-              [
-                ("Accept", "application/json"),
-                ("Content-Type", "application/json"),
-              ]
-              |> H2.Headers.of_list,
+          Httpkit.Request.create(
+            ~headers=[
+              ("accept", "application/json"),
+              ("content-type", "application/json"),
+            ],
             `POST,
             search_url,
           );
 
-        Http.post(~host=base_host, ~port=base_port, ~body=Some(body), req)
+        req
+        |> Httpkit.Client.Https.send
+        >>= Httpkit.Client.Response.body
         >|= (
           body =>
             body

@@ -1,5 +1,5 @@
 {
-  "checksum": "18c35e58a0754c7623adf42d61d12503",
+  "checksum": "963104cbaac536a48a17b50dcae8c4d2",
   "root": "reuniverse@link-dev:./esy.json",
   "node": {
     "yarn-pkg-config@github:esy-ocaml/yarn-pkg-config#cca65f99674ed2d954d28788edeb8c57fada5ed0@d41d8cd9": {
@@ -35,6 +35,7 @@
         "@opam/httpaf-lwt-unix@github:anmonteiro/httpaf:httpaf-lwt-unix.opam#6d2c80e3a16ecf85d74df76005ab68136457e111@d41d8cd9",
         "@opam/httpaf@github:anmonteiro/httpaf:httpaf.opam#6d2c80e3a16ecf85d74df76005ab68136457e111@d41d8cd9",
         "@opam/fmt@opam:0.8.6@a06c130d", "@opam/dune@opam:1.10.0@b15ce221",
+        "@opam/cmdliner@opam:1.0.4@93208aac",
         "@opam/bos@opam:0.2.0@df49e63f", "@esy-ocaml/reason@3.4.0@d41d8cd9"
       ],
       "devDependencies": [ "@opam/merlin@opam:3.3.1@43415979" ]
@@ -1463,6 +1464,7 @@
         "@opam/ocamlfind@opam:1.8.0@f744a0c5",
         "@opam/ocamlbuild@opam:0.14.0@427a2331",
         "@opam/lwt@opam:4.2.1@c1888ec9", "@opam/fmt@opam:0.8.6@a06c130d",
+        "@opam/cmdliner@opam:1.0.4@93208aac",
         "@esy-ocaml/substs@0.0.1@d41d8cd9"
       ],
       "devDependencies": [ "ocaml@4.7.1004@d41d8cd9" ]
@@ -1751,6 +1753,7 @@
         "@opam/seq@opam:base@d8d7de1d",
         "@opam/ocamlfind@opam:1.8.0@f744a0c5",
         "@opam/ocamlbuild@opam:0.14.0@427a2331",
+        "@opam/cmdliner@opam:1.0.4@93208aac",
         "@opam/base-unix@opam:base@87d0b2eb",
         "@esy-ocaml/substs@0.0.1@d41d8cd9"
       ],
@@ -2148,6 +2151,28 @@
         "@esy-ocaml/substs@0.0.1@d41d8cd9"
       ],
       "devDependencies": []
+    },
+    "@opam/cmdliner@opam:1.0.4@93208aac": {
+      "id": "@opam/cmdliner@opam:1.0.4@93208aac",
+      "name": "@opam/cmdliner",
+      "version": "opam:1.0.4",
+      "source": {
+        "type": "install",
+        "source": [
+          "archive:https://opam.ocaml.org/cache/md5/fe/fe2213d0bc63b1e10a2d0aa66d2fc8d9#md5:fe2213d0bc63b1e10a2d0aa66d2fc8d9",
+          "archive:http://erratique.ch/software/cmdliner/releases/cmdliner-1.0.4.tbz#md5:fe2213d0bc63b1e10a2d0aa66d2fc8d9"
+        ],
+        "opam": {
+          "name": "cmdliner",
+          "version": "1.0.4",
+          "path": "esy.lock/opam/cmdliner.1.0.4"
+        }
+      },
+      "overrides": [],
+      "dependencies": [
+        "ocaml@4.7.1004@d41d8cd9", "@esy-ocaml/substs@0.0.1@d41d8cd9"
+      ],
+      "devDependencies": [ "ocaml@4.7.1004@d41d8cd9" ]
     },
     "@opam/camomile@opam:1.0.1@ab4729e2": {
       "id": "@opam/camomile@opam:1.0.1@ab4729e2",

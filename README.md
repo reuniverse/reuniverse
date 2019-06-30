@@ -14,6 +14,9 @@ For a build server, you can use: `esy start`.
 
 Running the build server requires [`fswatch`](https://github.com/emcrisostomo/fswatch).
 
+Locally, you can run the cli with `esy run`. If you need to pass in more parameters
+you can pass them on with `esy run -- <params>`: `esy run -- --help`.
+
 ### Building the Web interface
 
 The Web project is developed with BuckleScript, and it relies on yarn. If you 

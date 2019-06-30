@@ -5,11 +5,7 @@
   "license": "MIT",
   "esy": {
     "build": "refmterr dune build @all",
-    "release": {
-      "bin": [
-        "reuniverse"
-      ]
-    }
+    "release": { "bin": [ "reuniverse" ] }
   },
   "scripts": {
     "start": "dune build @all --watch",
@@ -18,6 +14,7 @@
   "dependencies": {
     "@esy-ocaml/reason": ">= 3.4.0 < 3.5.0",
     "@opam/bos": "0.2.0",
+    "@opam/cmdliner": "1.0.4",
     "@opam/dune": "*",
     "@opam/fmt": "0.8.6",
     "@opam/httpaf": "*",

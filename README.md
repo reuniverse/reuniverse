@@ -10,7 +10,9 @@ The CLI project is developed as a native program, and it relies on esy and dune.
 If you have esy installed, it should be a matter of running: `esy` to get a 
 complete build in place.
 
-For a build server, you can use: `esy dune build @all --watch`.
+For a build server, you can use: `esy start`.
+
+Running the build server requires [`fswatch`](https://github.com/emcrisostomo/fswatch).
 
 ### Building the Web interface
 

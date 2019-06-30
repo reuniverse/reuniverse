@@ -11,6 +11,9 @@
       ]
     }
   },
+  "scripts": {
+    "start": "dune build @all --watch" 
+  },
   "dependencies": {
     "@esy-ocaml/reason": ">= 3.4.0 < 3.5.0",
     "@opam/bos": "0.2.0",

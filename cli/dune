@@ -1,4 +1,4 @@
 (executable
  (name reuniverse)
  (public_name reuniverse)
- (libraries index_builder fmt fmt.tty logs logs.fmt))
+ (libraries index_builder model fmt fmt.tty logs logs.fmt))

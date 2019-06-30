@@ -1,106 +1,117 @@
-module Httpkit = Httpkit_lwt_unix_httpaf;
+module Search = Search;
 
-module Links = {
+module Sha: {
+  type t;
+  let of_string: string => t;
+  let to_string: t => string;
+} = {
+  type t = string;
+  let of_string = x => x;
+  let to_string = x => x;
+};
+
+module Author = {
   type t = {
-    homepage: option(string),
-    repository: option(string),
+    name: option(string),
+    email: option(string),
+  };
+  let from_json: Yojson.Basic.t => t =
+    json => {
+      open Yojson.Basic;
+      let name = Util.(json |> member("name") |> to_string_option);
+      let email = Util.(json |> member("email") |> to_string_option);
+      {name, email};
+    };
+};
+
+module Package_distribution = {
+  type t = {
+    shasum: Sha.t,
+    tarball: Uri.t,
+  };
+  let from_json: Yojson.Basic.t => t =
+    json => {
+      open Yojson.Basic;
+      let shasum =
+        Util.(json |> member("shasum") |> to_string |> Sha.of_string);
+      let tarball =
+        Util.(json |> member("tarball") |> to_string |> Uri.of_string);
+      {shasum, tarball};
+    };
+};
+
+module Package_version = {
+  type t = {
+    _id: string,
+    name: string,
+    version: string,
+    git_head: option(Sha.t),
+    dist: Package_distribution.t,
+    author: Author.t,
   };
 
   let from_json: Yojson.Basic.t => t =
     json => {
-      Yojson.Basic.{
-        homepage: Util.(json |> member("homepage") |> to_string_option),
-        repository: Util.(json |> member("repository") |> to_string_option),
-      };
+      open Yojson.Basic;
+
+      let _id = Util.(json |> member("_id") |> to_string);
+      let name = Util.(json |> member("name") |> to_string);
+      let version = Util.(json |> member("version") |> to_string);
+      let git_head =
+        Util.(
+          json
+          |> member("gitHead")
+          |> to_string_option
+          |> (
+            fun
+            | None => None
+            | Some(s) => Some(Sha.of_string(s))
+          )
+        );
+      let dist =
+        Util.(json |> member("dist") |> Package_distribution.from_json);
+      let author = Util.(json |> member("author") |> Author.from_json);
+
+      {_id, name, version, git_head, dist, author};
     };
 };
 
 module Package = {
   type t = {
+    _id: string,
     name: string,
     description: option(string),
-    links: Links.t,
-  };
-
-  let from_json: Yojson.Basic.t => t =
-    json => {
-      Yojson.Basic.{
-        name: Util.(json |> member("name") |> to_string),
-        description: Util.(json |> member("description") |> to_string_option),
-        links: Util.(json |> member("links") |> Links.from_json),
-      };
-    };
-};
-
-module Search = {
-  module Query = {
-    type param = [ | `Keywords(list(string))];
-
-    type t = {params: list(param)};
-
-    let param_to_pair =
-      fun
-      | `Keywords(kws) => (
-          "text",
-          ["keywords:" ++ String.concat(",", kws)],
-        );
-
-    let to_query_params = t => {
-      t.params |> List.map(param_to_pair);
-    };
-  };
-
-  type search_result = {package: Package.t};
-
-  type t = {
-    total: int,
-    results: list(search_result),
+    versions: list(Package_version.t),
   };
 
   let from_json: Yojson.Basic.t => t =
     json => {
       open Yojson.Basic;
-      let total = Util.(json |> member("total") |> to_int);
-      let results =
+
+      let _id = Util.(json |> member("_id") |> to_string);
+      let name = Util.(json |> member("name") |> to_string);
+      let description =
+        Util.(json |> member("description") |> to_string_option);
+
+      let versions =
         Util.(
           json
-          |> member("objects")
-          |> to_list
-          |> List.map(res =>
-               {
-                 package: Util.(res |> member("package") |> Package.from_json),
-               }
-             )
+          |> member("versions")
+          |> to_assoc
+          |> List.map(((_, v)) => v)
+          |> List.map(Package_version.from_json)
         );
-      {total, results};
+
+      {_id, name, description, versions};
     };
 };
 
-module Package_response = {
-  type collected = {metadata: Package.t};
-  type t = {collected};
-  let from_json: Yojson.Basic.t => t =
-    json => {
-      open Yojson.Basic;
-      let metadata =
-        Util.(
-          json
-          |> member("collected")
-          |> member("metadata")
-          |> Package.from_json
-        );
-      {
-        collected: {
-          metadata: metadata,
-        },
-      };
-    };
-};
+module Api = {
+  module Httpkit = Httpkit_lwt_unix_httpaf;
 
-module API = {
   module V1 = {
     let base_host = "registry.npmjs.org";
-    let base_url = "https://registry.npmjs.org/-/v1";
+    let base_url = "https://registry.npmjs.org";
     let base_port = 443;
 
     let search:
@@ -109,7 +120,7 @@ module API = {
       (~query, ~from, ~size) => {
         open Lwt_result.Infix;
 
-        let search_url = base_url ++ "/search" |> Uri.of_string;
+        let search_url = base_url ++ "/-/v1/search" |> Uri.of_string;
         let query =
           [
             ("size", [string_of_int(size)]),
@@ -127,7 +138,7 @@ module API = {
         >|= (body => body |> Yojson.Basic.from_string |> Search.from_json);
       };
 
-    let package: string => Lwt_result.t(list(Package_response.t), _) =
+    let package: string => Lwt_result.t(Package.t, _) =
       name => {
         open Lwt_result.Infix;
 
@@ -139,19 +150,24 @@ module API = {
               ("accept", "application/json"),
               ("content-type", "application/json"),
             ],
-            `POST,
+            `GET,
             search_url,
           );
+
+        Logs.debug(m => m("Requesting: %s", search_url |> Uri.to_string));
 
         req
         |> Httpkit.Client.Https.send
         >>= Httpkit.Client.Response.body
-        >|= (
-          body =>
-            body
-            |> Yojson.Basic.from_string
-            |> Yojson.Basic.Util.to_assoc
-            |> List.map(((_name, pkg)) => pkg |> Package_response.from_json)
+        >>= (
+          body => {
+            switch (body |> Yojson.Basic.from_string |> Package.from_json) {
+            | exception e =>
+              Logs.err(m => m("%s", Printexc.to_string(e)));
+              Lwt_result.fail(`Parse_error(e));
+            | pkg => Lwt_result.return(pkg)
+            };
+          }
         );
       };
   };

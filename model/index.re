@@ -1,14 +1,4 @@
-module Package = {
-  type t = {
-    name: string,
-    repo_url: string,
-  };
-  let make = (~name, ~repo_url) => {name, repo_url};
-
-  let pp = (fmt, pkg) =>
-    Format.fprintf(fmt, "@[(%S %S)@]", pkg.name, pkg.repo_url);
-};
-
+[@deriving yojson]
 type t = {
   package_count: int,
   packages: list(Package.t),

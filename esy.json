@@ -4,7 +4,7 @@
   "description": "Reason Documentation Universe",
   "license": "MIT",
   "esy": {
-    "build": "refmterr dune build -p #{self.name}",
+    "build": "refmterr dune build @all",
     "release": {
       "bin": [
         "reuniverse"

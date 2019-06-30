@@ -1,0 +1,4 @@
+(library
+  (name model)
+  (preprocess (pps ppx_deriving_yojson))
+  (libraries uri lwt logs fmt utils))

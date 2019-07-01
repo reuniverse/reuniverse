@@ -10,7 +10,8 @@ let package_of_npm_pkg: Npm.Package.t => Model.Package.t =
     let name = pkg.name;
     let description = pkg.description;
     let versions = pkg.versions |> List.map(version_of_npm_version);
-    {name, description, versions};
+    let keywords = pkg.keywords;
+    {name, description, versions, keywords};
   };
 
 let scan: list(string) => Model.Index.t =

@@ -91,6 +91,7 @@ module Package = {
     _id: string,
     name: string,
     description: option(string),
+    keywords: list(string),
     versions: list(Package_version.t),
   };
 
@@ -101,8 +102,12 @@ module Package = {
       let _id = Util.(json |> member("_id") |> to_string);
 
       let name = Util.(json |> member("name") |> to_string);
+
       let description =
         Util.(json |> member("description") |> to_string_option);
+
+      let keywords =
+        Util.(json |> member("keywords") |> to_list |> List.map(to_string));
 
       let versions =
         Util.(
@@ -113,7 +118,7 @@ module Package = {
           |> List.map(Package_version.from_json)
         );
 
-      {_id, name, description, versions};
+      {_id, name, description, versions, keywords};
     };
 };
 

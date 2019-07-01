@@ -59,6 +59,10 @@
             "https://registry.npmjs.org/@ahrefs/bs-atdgen-codec-runtime/-/bs-atdgen-codec-runtime-1.2.0.tgz",
           "integrity_shasum": "195c1f436590da22da3551662db1c123d05b6982"
         }
+      ],
+      "keywords": [
+        "atdgen", "json", "atd", "runtime", "bsb", "reason", "reasonml",
+        "ocaml", "bs-atdgen-codec-runtime", "bs-platform", "bucklescript"
       ]
     },
     {
@@ -107,6 +111,10 @@
             "https://registry.npmjs.org/@ahrefs/bs-react-dnd/-/bs-react-dnd-0.0.8.tgz",
           "integrity_shasum": "e03fb7bf9daebba72648b8ee618f8010b7eb2e81"
         }
+      ],
+      "keywords": [
+        "react", "reason-react", "reason", "reasonml", "bucklescript",
+        "drag-and-drop", "dnd"
       ]
     },
     {
@@ -227,6 +235,10 @@
             "https://registry.npmjs.org/@ahrefs/bs-reactstrap/-/bs-reactstrap-1.0.3.tgz",
           "integrity_shasum": "0aac977c677f6c6ef4b09d8f7ea93b7528fcae99"
         }
+      ],
+      "keywords": [
+        "reactstrap", "bootstrap", "react", "component", "components",
+        "react-component", "ui", "bucklescript", "binding", "reasonml"
       ]
     },
     {
@@ -275,7 +287,8 @@
             "https://registry.npmjs.org/@astrocoders/nautilus/-/nautilus-1.0.0-beta.2.tgz",
           "integrity_shasum": "4befbce06f7e0cbfd5719643c8b6e73bc827a71e"
         }
-      ]
+      ],
+      "keywords": [ "router", "react", "reason", "reasonml", "react-native" ]
     },
     {
       "name": "@bkonkle/graft",
@@ -294,7 +307,8 @@
             "https://registry.npmjs.org/@bkonkle/graft/-/graft-1.1.0.tgz",
           "integrity_shasum": "cb0253af40a2e879bd0746d999247bae54ec28ff"
         }
-      ]
+      ],
+      "keywords": [ "reasonml", "graphql", "express" ]
     },
     {
       "name": "@bryanthomaschen/re-url",
@@ -306,6 +320,9 @@
             "https://registry.npmjs.org/@bryanthomaschen/re-url/-/re-url-0.1.0.tgz",
           "integrity_shasum": "532f10c39f40f0121ad116cf17a1a17355542f02"
         }
+      ],
+      "keywords": [
+        "url", "binding", "urlsearchparams", "bucklescript", "reason"
       ]
     },
     {
@@ -318,6 +335,10 @@
             "https://registry.npmjs.org/@ctbucha/bs-react-cookie-consent/-/bs-react-cookie-consent-0.0.1.tgz",
           "integrity_shasum": "32349e9e9989baf4bfe3dd075088ed9d4ee08039"
         }
+      ],
+      "keywords": [
+        "react-cookie-consent", "bucklescript", "reasonml", "react",
+        "cookie", "gdpr", "binding", "component"
       ]
     },
     {
@@ -355,6 +376,9 @@
             "https://registry.npmjs.org/@elliottcable/bs-uchar/-/bs-uchar-0.0.4.tgz",
           "integrity_shasum": "76a9750e0e221ee8b6459b142ccb55c47c38ba67"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "ReasonML", "OCaml", "compat", "compatibility"
       ]
     },
     {
@@ -367,7 +391,8 @@
             "https://registry.npmjs.org/@gmmorris/bs-aws-sdk/-/bs-aws-sdk-0.1.0.tgz",
           "integrity_shasum": "bba9adc1066493ec78e80f1237d7405473e0e1af"
         }
-      ]
+      ],
+      "keywords": [ "AWS", "S3", "AWS-SDK", "ReasonML", "BuckleScript" ]
     },
     {
       "name": "@gmmorris/bs-rewire",
@@ -404,6 +429,9 @@
             "https://registry.npmjs.org/@gmmorris/bs-rewire/-/bs-rewire-0.3.0.tgz",
           "integrity_shasum": "524bbd90a19fd343931074d4820607014e073f5d"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "Rewire", "Testing", "OCaml", "ReasonML"
       ]
     },
     {
@@ -465,7 +493,8 @@
             "https://registry.npmjs.org/@godu/bs-ava/-/bs-ava-3.0.0.tgz",
           "integrity_shasum": "f99cafa604a134e07379ff53760a2daaddfb2b79"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "reason", "ava", "test" ]
     },
     {
       "name": "@godu/bs-register",
@@ -495,7 +524,8 @@
             "https://registry.npmjs.org/@godu/bs-register/-/bs-register-0.1.3.tgz",
           "integrity_shasum": "cba49db6b72140b0eff9336f8fdcb94bac328d77"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "reason", "require" ]
     },
     {
       "name": "@highpoint/bs-js-fetch",
@@ -555,7 +585,8 @@
             "https://registry.npmjs.org/@highpoint/bs-js-fetch/-/bs-js-fetch-0.5.0.tgz",
           "integrity_shasum": "44c3f36325b69a0254a6ab70e8b97b2d3d079a5c"
         }
-      ]
+      ],
+      "keywords": [ "reason", "bucklescript", "highpoint", "fetch" ]
     },
     {
       "name": "@jaredly/reason-language-server",
@@ -591,7 +622,8 @@
             "https://registry.npmjs.org/@jaredly/reason-language-server/-/reason-language-server-1.0.0-alpha.5.tgz",
           "integrity_shasum": "8399c8059766f36e79782f441873e541b315c17b"
         }
-      ]
+      ],
+      "keywords": [ "Reason", "lsp", "IDE" ]
     },
     {
       "name": "@lidcore/bs-express",
@@ -675,7 +707,8 @@
             "https://registry.npmjs.org/@lidcore/bs-express/-/bs-express-1.1.3.tgz",
           "integrity_shasum": "70fa1238322c1cbc4c48d48aee683158789ad441"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "express" ]
     },
     {
       "name": "@lidcore/bs-node",
@@ -790,7 +823,8 @@
             "https://registry.npmjs.org/@lidcore/bs-node/-/bs-node-1.3.7.tgz",
           "integrity_shasum": "334f48e5a4560dc7d6e29de333c10ec5737e63ae"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "node" ]
     },
     {
       "name": "@lidcore/draco",
@@ -808,7 +842,8 @@
             "https://registry.npmjs.org/@lidcore/draco/-/draco-0.0.2.tgz",
           "integrity_shasum": "a921fcd71a04bcf842289ce70c9bf9973a4bd93b"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "gcloud" ]
     },
     {
       "name": "@minima.app/re-css",
@@ -862,6 +897,9 @@
             "https://registry.npmjs.org/@minima.app/re-css/-/re-css-0.1.0.tgz",
           "integrity_shasum": "482295907f26ac8bfb0e2e71213407a53afdf423"
         }
+      ],
+      "keywords": [
+        "css", "css-in-js", "reason", "reasonml", "ocaml", "bucklescript"
       ]
     },
     {
@@ -970,6 +1008,11 @@
             "https://registry.npmjs.org/@mscharley/bs-material-ui-icons/-/bs-material-ui-icons-1.0.1.tgz",
           "integrity_shasum": "a66affef6cbcee4fa0987cc26baab5165d41f373"
         }
+      ],
+      "keywords": [
+        "Material", "Design", "Material-UI", "Icons", "React",
+        "react-component", "reason", "reason-react", "reasonml",
+        "bucklescript"
       ]
     },
     {
@@ -982,7 +1025,8 @@
             "https://registry.npmjs.org/@reasonableconsulting/compare/-/compare-0.0.0.tgz",
           "integrity_shasum": "bfeb8300cfa3787dd41788e1ff0c8f89ad95fbc6"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "Reason", "Comparator", "Sort" ]
     },
     {
       "name": "@ristostevcev/bs-callbag",
@@ -1000,7 +1044,8 @@
             "https://registry.npmjs.org/@ristostevcev/bs-callbag/-/bs-callbag-1.1.0.tgz",
           "integrity_shasum": "589e4b911716c72cc4fa9726222cba51f441f494"
         }
-      ]
+      ],
+      "keywords": [ "callbag", "bucklescript", "reason" ]
     },
     {
       "name": "@ristostevcev/bs-callbag-basics",
@@ -1036,7 +1081,8 @@
             "https://registry.npmjs.org/@ristostevcev/bs-callbag-basics/-/bs-callbag-basics-1.4.0.tgz",
           "integrity_shasum": "6245d6db0a7d06a4f80200f1514b101ae02b77a5"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "reason" ]
     },
     {
       "name": "@ristostevcev/bs-odoc",
@@ -1066,7 +1112,8 @@
             "https://registry.npmjs.org/@ristostevcev/bs-odoc/-/bs-odoc-1.3.0.tgz",
           "integrity_shasum": "32cb3df77f2f7f8c32b378425e9f250a9994b544"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "doc", "docs", "odoc", "odocs" ]
     },
     {
       "name": "@ryb73/bs-react-split-pane",
@@ -1108,7 +1155,8 @@
             "https://registry.npmjs.org/@ryb73/bs-react-split-pane/-/bs-react-split-pane-0.2.0.tgz",
           "integrity_shasum": "556cb663b41ca900196a434b3cec6964e3d29e1b"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "reason", "reasonml", "react" ]
     },
     {
       "name": "add-reason",
@@ -1181,6 +1229,10 @@
             "https://registry.npmjs.org/add-reason/-/add-reason-1.0.11.tgz",
           "integrity_shasum": "40998b1581f06a428abbead69bdf1b184280db2a"
         }
+      ],
+      "keywords": [
+        "reasonml", "reason", "ocaml", "add", "interop", "cli", "tool",
+        "bucklescript"
       ]
     },
     {
@@ -1200,7 +1252,8 @@
             "https://registry.npmjs.org/astexplorer-refmt/-/astexplorer-refmt-1.0.1.tgz",
           "integrity_shasum": "490875d350a1cf0136404d8d71f940012aa9dc78"
         }
-      ]
+      ],
+      "keywords": [ "reason", "reasonml", "ocaml", "astexplorer", "ast" ]
     },
     {
       "name": "babel-plugin-bucklescript",
@@ -1309,7 +1362,8 @@
             "https://registry.npmjs.org/babel-plugin-bucklescript/-/babel-plugin-bucklescript-0.5.3.tgz",
           "integrity_shasum": "acf08f70c2215177cf427ad0b674684f5737de3e"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "babel", "reasonml", "plugin" ]
     },
     {
       "name": "babel-preset-reason",
@@ -1321,7 +1375,8 @@
             "https://registry.npmjs.org/babel-preset-reason/-/babel-preset-reason-1.0.0.tgz",
           "integrity_shasum": "bc4cbbbad9266176781605593be499aa864edefb"
         }
-      ]
+      ],
+      "keywords": [ "reasonml" ]
     },
     {
       "name": "babel-preset-reasonml",
@@ -1333,7 +1388,8 @@
             "https://registry.npmjs.org/babel-preset-reasonml/-/babel-preset-reasonml-1.0.0.tgz",
           "integrity_shasum": "5061d144a24880ec591ab7703c41f38881587cce"
         }
-      ]
+      ],
+      "keywords": [ "reasonml" ]
     },
     {
       "name": "belt-diff",
@@ -1351,6 +1407,10 @@
             "https://registry.npmjs.org/belt-diff/-/belt-diff-0.1.1.tgz",
           "integrity_shasum": "5ff31e36cbf7aef4181a0d334e61ba1acf207b70"
         }
+      ],
+      "keywords": [
+        "reason", "reasonml", "diff", "belt", "utilities", "collections",
+        "BuckleScript"
       ]
     },
     {
@@ -1399,7 +1459,8 @@
             "https://registry.npmjs.org/brewery-cli/-/brewery-cli-0.3.1.tgz",
           "integrity_shasum": "e238a4e08d7c59a232a7ac8a2f47012fa0b06cc7"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "brew", "reason" ]
     },
     {
       "name": "bs-abstract",
@@ -1526,7 +1587,8 @@
             "https://registry.npmjs.org/bs-abstract/-/bs-abstract-0.17.0.tgz",
           "integrity_shasum": "543272bc8c58c01756e113540557b62b510f1664"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "reason" ]
     },
     {
       "name": "bs-aeson",
@@ -1569,7 +1631,8 @@
             "https://registry.npmjs.org/bs-aeson/-/bs-aeson-3.2.0.tgz",
           "integrity_shasum": "f96c4d1f93a4f1cc0e1842026fd0e1f994f2ce83"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "json", "aeson" ]
     },
     {
       "name": "bs-aeson-spec",
@@ -1624,7 +1687,8 @@
             "https://registry.npmjs.org/bs-aeson-spec/-/bs-aeson-spec-3.0.0.tgz",
           "integrity_shasum": "84853d5d2ddb2b665081155e0c50c9c9b52381d6"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "json", "aeson" ]
     },
     {
       "name": "bs-ajv",
@@ -1648,6 +1712,11 @@
             "https://registry.npmjs.org/bs-ajv/-/bs-ajv-1.0.1.tgz",
           "integrity_shasum": "aace87349aab9b0b22794a58e73b06a3ba16d836"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "reason", "reasonml", "validator", "validation",
+        "JSON", "schema", "jsonschema", "json-schema",
+        "json-schema-validator", "json-schema-validation", "node"
       ]
     },
     {
@@ -1660,7 +1729,8 @@
             "https://registry.npmjs.org/bs-algolia/-/bs-algolia-0.0.1.tgz",
           "integrity_shasum": "4e29bd0a5802098e332abe3d2bfdf1aa478f0f8b"
         }
-      ]
+      ],
+      "keywords": [ "reasonml", "bucklescript", "algolia" ]
     },
     {
       "name": "bs-antd",
@@ -1684,7 +1754,8 @@
             "https://registry.npmjs.org/bs-antd/-/bs-antd-0.0.3.tgz",
           "integrity_shasum": "ea3df307ab6f427c236d01afc4a948931c457ea2"
         }
-      ]
+      ],
+      "keywords": [ "antd", "BuckleScript", "Reason" ]
     },
     {
       "name": "bs-async-monad",
@@ -1756,7 +1827,8 @@
             "https://registry.npmjs.org/bs-async-monad/-/bs-async-monad-1.2.6.tgz",
           "integrity_shasum": "02283e66a0431b9193f774aa5acae49b5fc2e84e"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "asynchronous", "callback", "monad" ]
     },
     {
       "name": "bs-auth0-js",
@@ -1768,7 +1840,8 @@
             "https://registry.npmjs.org/bs-auth0-js/-/bs-auth0-js-0.1.0.tgz",
           "integrity_shasum": "ac33630ad86f00d37072639be62232ed8bc80bfb"
         }
-      ]
+      ],
+      "keywords": [ "reason", "reasonml", "ocaml", "bucklescript", "auth0" ]
     },
     {
       "name": "bs-auth0-session",
@@ -1805,7 +1878,8 @@
             "https://registry.npmjs.org/bs-auth0-session/-/bs-auth0-session-1.0.4.tgz",
           "integrity_shasum": "e298b9b5e2367c58551dc6759e8e5dc29004a418"
         }
-      ]
+      ],
+      "keywords": [ "reason", "reasonml", "ocaml", "bucklescript", "auth0" ]
     },
     {
       "name": "bs-automerge",
@@ -1823,6 +1897,9 @@
             "https://registry.npmjs.org/bs-automerge/-/bs-automerge-0.3.5.tgz",
           "integrity_shasum": "ec078ccc76a4574599b522ab765d5908a5b6ef48"
         }
+      ],
+      "keywords": [
+        "reason", "bucklescript", "crdt", "data structures", "replication"
       ]
     },
     {
@@ -2075,6 +2152,10 @@
             "https://registry.npmjs.org/bs-axios/-/bs-axios-0.0.42.tgz",
           "integrity_shasum": "dde0fb642f8f297e93716396cd1f254a473b2bf9"
         }
+      ],
+      "keywords": [
+        "axios", "bucklescript", "bsb", "reason", "reasonml", "ocaml",
+        "bs-axios", "bs-platform"
       ]
     },
     {
@@ -2159,6 +2240,10 @@
             "https://registry.npmjs.org/bs-batteries/-/bs-batteries-0.0.14.tgz",
           "integrity_shasum": "51536a489615087c05774525c38ab56b4d45df4c"
         }
+      ],
+      "keywords": [
+        "batteries-included", "bucklescript", "bsb", "reason", "reasonml",
+        "ocaml", "bs-batteries", "bs-platform"
       ]
     },
     {
@@ -2195,6 +2280,9 @@
             "https://registry.npmjs.org/bs-bcrypt/-/bs-bcrypt-2.0.0.tgz",
           "integrity_shasum": "62d730b6f1f5b1579747402eb2136a38a1cd6183"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "reason", "reasonml", "password", "bcrypt", "node"
       ]
     },
     {
@@ -2207,7 +2295,8 @@
             "https://registry.npmjs.org/bs-big.js/-/bs-big.js-1.0.2.tgz",
           "integrity_shasum": "2f95d0101e66726e4df520c57c5934a69d120ad1"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "Reason", "Reasonml" ]
     },
     {
       "name": "bs-black-tea",
@@ -2237,7 +2326,8 @@
             "https://registry.npmjs.org/bs-black-tea/-/bs-black-tea-0.2.2.tgz",
           "integrity_shasum": "4cf0bbf0745b03f723bcee3c0f9a08f784d7c100"
         }
-      ]
+      ],
+      "keywords": [ "reason", "bucklescript", "react", "state" ]
     },
     {
       "name": "bs-bn.js",
@@ -2255,7 +2345,8 @@
             "https://registry.npmjs.org/bs-bn.js/-/bs-bn.js-0.0.2.tgz",
           "integrity_shasum": "e3b19bbc5124ccf049ab1010552c8e8e0687dba8"
         }
-      ]
+      ],
+      "keywords": [ "reason", "reasonml", "bucklescript" ]
     },
     {
       "name": "bs-callbag-events",
@@ -2267,7 +2358,8 @@
             "https://registry.npmjs.org/bs-callbag-events/-/bs-callbag-events-0.1.0.tgz",
           "integrity_shasum": "15bf5b6354e6506df401e75cfb3679a0c2eefa99"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript" ]
     },
     {
       "name": "bs-chai",
@@ -2303,7 +2395,8 @@
             "https://registry.npmjs.org/bs-chai/-/bs-chai-0.5.0.tgz",
           "integrity_shasum": "1b83bd8fa1b2f9058881cc2727de112c217b60ad"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "reason" ]
     },
     {
       "name": "bs-chalk",
@@ -2333,7 +2426,8 @@
             "https://registry.npmjs.org/bs-chalk/-/bs-chalk-0.2.1.tgz",
           "integrity_shasum": "dfd47db944f4ca8b17fcff9b35ad82c81f52d512"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "reason", "node", "color", "chalk" ]
     },
     {
       "name": "bs-circuitbreaker",
@@ -2357,7 +2451,8 @@
             "https://registry.npmjs.org/bs-circuitbreaker/-/bs-circuitbreaker-1.0.2.tgz",
           "integrity_shasum": "170373e8a42d44e33c2fd7365d023a2a86edd18f"
         }
-      ]
+      ],
+      "keywords": [ "circuit breaker", "bucklescript", "reason" ]
     },
     {
       "name": "bs-clean-deep",
@@ -2382,7 +2477,8 @@
             "https://registry.npmjs.org/bs-clean-deep/-/bs-clean-deep-1.0.1.tgz",
           "integrity_shasum": "4854b0916fcf6f67fa303578d15a3def44d0d6f8"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript" ]
     },
     {
       "name": "bs-clearingnummer",
@@ -2400,6 +2496,10 @@
             "https://registry.npmjs.org/bs-clearingnummer/-/bs-clearingnummer-0.1.1.tgz",
           "integrity_shasum": "5933588e0fc7920954d6556450f38c7af8f4ab1e"
         }
+      ],
+      "keywords": [
+        "Clearing", "Number", "Swedish", "Banks", "Bank", "Clearingnummer",
+        "Svensk bank", "BuckleScript"
       ]
     },
     {
@@ -2460,6 +2560,9 @@
             "https://registry.npmjs.org/bs-crud-functors/-/bs-crud-functors-7.1.2.tgz",
           "integrity_shasum": "75818a69d1e7b6a3910908a60094f7858c3758dd"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "reason", "reasonml", "mysql", "databases", "node"
       ]
     },
     {
@@ -2772,7 +2875,8 @@
             "https://registry.npmjs.org/bs-css/-/bs-css-9.0.1.tgz",
           "integrity_shasum": "105733f880bfb2dc1d1dfd3174b60b35c381ee6f"
         }
-      ]
+      ],
+      "keywords": [ "emotion", "bucklescript", "reason", "css" ]
     },
     {
       "name": "bs-d3",
@@ -2784,6 +2888,9 @@
             "https://registry.npmjs.org/bs-d3/-/bs-d3-0.1.0.tgz",
           "integrity_shasum": "5e6adf0301f5f97f349ac6cbcbe016b2885ce4b2"
         }
+      ],
+      "keywords": [
+        "bucklescript", "d3", "d3js", "dataviz", "reason", "reasonml"
       ]
     },
     {
@@ -2845,7 +2952,8 @@
             "https://registry.npmjs.org/bs-dataloader/-/bs-dataloader-1.0.2.tgz",
           "integrity_shasum": "7ae85bfea8205e940ddc143840107e4ad731f830"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "dataloader" ]
     },
     {
       "name": "bs-date-fns",
@@ -2893,7 +3001,8 @@
             "https://registry.npmjs.org/bs-date-fns/-/bs-date-fns-0.1.6.tgz",
           "integrity_shasum": "29983fb072611539e7585d85450759ad366d61f8"
         }
-      ]
+      ],
+      "keywords": [ "reason", "reasonml", "bucklescript", "date-fns" ]
     },
     {
       "name": "bs-decode",
@@ -2977,6 +3086,10 @@
             "https://registry.npmjs.org/bs-decode/-/bs-decode-0.7.0.tgz",
           "integrity_shasum": "f98710f4b6f1f05ba2e62b02022a04b573d19df8"
         }
+      ],
+      "keywords": [
+        "reasonml", "bucklescript", "json", "decode", "validation", "result",
+        "applicative"
       ]
     },
     {
@@ -3020,7 +3133,8 @@
             "https://registry.npmjs.org/bs-dependency-graph/-/bs-dependency-graph-2.1.0.tgz",
           "integrity_shasum": "bb52b79d449adda4c7bccccc0413eb16e2b3be84"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "dependency", "graph" ]
     },
     {
       "name": "bs-deriving",
@@ -3039,6 +3153,10 @@
             "https://registry.npmjs.org/bs-deriving/-/bs-deriving-42.1.0.tgz",
           "integrity_shasum": "7b3584b9d89a7f72164ac22e1058f03604d73da8"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "ReasonML", "OCaml", "PPX", "AST", "transpiler",
+        "tool", "codegen", "functional", "types", "static-typing"
       ]
     },
     {
@@ -3075,7 +3193,8 @@
             "https://registry.npmjs.org/bs-dom-testing-library/-/bs-dom-testing-library-0.4.1.tgz",
           "integrity_shasum": "46fd1fea65465edd799f1e7dd1596a633ef44b05"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "testing" ]
     },
     {
       "name": "bs-downshift",
@@ -3111,7 +3230,8 @@
             "https://registry.npmjs.org/bs-downshift/-/bs-downshift-1.0.1.tgz",
           "integrity_shasum": "7502316ab0d7fced2ee5a50dd7bd613f9e84a12f"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "Downshift", "React", "Reason" ]
     },
     {
       "name": "bs-dynamic-import",
@@ -3148,6 +3268,10 @@
             "https://registry.npmjs.org/bs-dynamic-import/-/bs-dynamic-import-0.4.0.tgz",
           "integrity_shasum": "73e72d4ab38d68bd448652392b7d99bd72c1b8c6"
         }
+      ],
+      "keywords": [
+        "reason", "bucklescript", "dynamic", "module", "import",
+        "code-splitting"
       ]
     },
     {
@@ -3173,6 +3297,10 @@
             "https://registry.npmjs.org/bs-dynogels/-/bs-dynogels-1.0.0.tgz",
           "integrity_shasum": "67fd26727b7f57e75cbdaf62f696617c221f3418"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "DynamoDB", "Dynogels", "ReasonML", "Reason",
+        "Vogels"
       ]
     },
     {
@@ -3221,6 +3349,11 @@
             "https://registry.npmjs.org/bs-effector/-/bs-effector-19.0.0.tgz",
           "integrity_shasum": "67e8d1946119eacb5b1680f7b2960591a937a693"
         }
+      ],
+      "keywords": [
+        "bucklescript", "reason", "bsb", "data", "datastructure",
+        "functional", "collection", "state", "store", "reactive", "streams",
+        "actions", "effects", "redux"
       ]
     },
     {
@@ -3281,6 +3414,11 @@
             "https://registry.npmjs.org/bs-effector-react/-/bs-effector-react-19.0.0.tgz",
           "integrity_shasum": "faaaf71683bc8e1653d6af6e801e8cdd385d2172"
         }
+      ],
+      "keywords": [
+        "bucklescript", "reason", "bsb", "data", "datastructure",
+        "functional", "collection", "state", "store", "reactive", "streams",
+        "actions", "effects", "redux", "react"
       ]
     },
     {
@@ -3348,7 +3486,8 @@
             "https://registry.npmjs.org/bs-effects/-/bs-effects-0.10.0.tgz",
           "integrity_shasum": "997ed283b1f8cfdd9aa8b97e74b47ccd1290c65e"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "reason" ]
     },
     {
       "name": "bs-electron-updater",
@@ -3378,7 +3517,8 @@
             "https://registry.npmjs.org/bs-electron-updater/-/bs-electron-updater-1.0.3.tgz",
           "integrity_shasum": "faaab79ad7d6bb56a986d51cded670e0e505ebaf"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "reason", "reasonml" ]
     },
     {
       "name": "bs-elm",
@@ -3421,7 +3561,8 @@
             "https://registry.npmjs.org/bs-elm/-/bs-elm-2.0.0.tgz",
           "integrity_shasum": "8628f5b8712f29d0cad1a3e7d6a1cad98a1b8fbc"
         }
-      ]
+      ],
+      "keywords": [ "reason", "bucklescript", "elm" ]
     },
     {
       "name": "bs-emotion",
@@ -3499,6 +3640,10 @@
             "https://registry.npmjs.org/bs-emotion/-/bs-emotion-0.1.1.tgz",
           "integrity_shasum": "d38520a1cada7a87fc3f913e79f3fa783c3d03b6"
         }
+      ],
+      "keywords": [
+        "css", "css-in-js", "react", "emotion", "reason", "reasonml",
+        "ocaml", "bucklescript"
       ]
     },
     {
@@ -3547,6 +3692,10 @@
             "https://registry.npmjs.org/bs-emotion-ppx/-/bs-emotion-ppx-0.0.6.tgz",
           "integrity_shasum": "e11f6b36e8b2731457f99e70beb90b09b2af8d2a"
         }
+      ],
+      "keywords": [
+        "css", "css-in-js", "react", "emotion", "reason", "reasonml",
+        "ocaml", "bucklescript"
       ]
     },
     {
@@ -3625,7 +3774,8 @@
             "https://registry.npmjs.org/bs-enzyme/-/bs-enzyme-0.6.1.tgz",
           "integrity_shasum": "a25185ded67d90b20126991dff261aa8f103bfb5"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "enzyme", "testing" ]
     },
     {
       "name": "bs-errors",
@@ -3661,7 +3811,8 @@
             "https://registry.npmjs.org/bs-errors/-/bs-errors-0.5.0.tgz",
           "integrity_shasum": "8e9d907ac4c6dff1b49232428acb4085c63053b8"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "reason" ]
     },
     {
       "name": "bs-eth",
@@ -3691,7 +3842,8 @@
             "https://registry.npmjs.org/bs-eth/-/bs-eth-0.4.0.tgz",
           "integrity_shasum": "7a10ef1e479e287788838efad66bbdf26ce75783"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "ReasonML", "Ethereum", "Web3" ]
     },
     {
       "name": "bs-expo",
@@ -3716,6 +3868,9 @@
             "https://registry.npmjs.org/bs-expo/-/bs-expo-0.0.3.tgz",
           "integrity_shasum": "dd90db73d104eddf455a916c53cd56bd175ec29c"
         }
+      ],
+      "keywords": [
+        "reason", "reasonml", "bucklescript", "react-native", "expo"
       ]
     },
     {
@@ -3872,6 +4027,9 @@
             "https://registry.npmjs.org/bs-express/-/bs-express-0.12.0.tgz",
           "integrity_shasum": "1fd970c4b75c69c89afc1c4809fc9e2c025ae490"
         }
+      ],
+      "keywords": [
+        "reasonml", "bucklescript", "expressjs", "web", "server", "nodejs"
       ]
     },
     {
@@ -3956,7 +4114,8 @@
             "https://registry.npmjs.org/bs-faker/-/bs-faker-1.3.0.tgz",
           "integrity_shasum": "a88826dfc791d0bf522a63961ee1ad03e2967efb"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "faker" ]
     },
     {
       "name": "bs-fetch",
@@ -4004,7 +4163,8 @@
             "https://registry.npmjs.org/bs-fetch/-/bs-fetch-0.5.0.tgz",
           "integrity_shasum": "6913b1d1ddfa0b0a4b832357854e9763d61d4b28"
         }
-      ]
+      ],
+      "keywords": [ "fetch", "browser", "xhr", "bucklescript" ]
     },
     {
       "name": "bs-fluture",
@@ -4064,6 +4224,9 @@
             "https://registry.npmjs.org/bs-fluture/-/bs-fluture-0.5.0.tgz",
           "integrity_shasum": "374b5f936c6f04c5a1a8f11d3f9b2fc6c4e4f615"
         }
+      ],
+      "keywords": [
+        "bucklescript", "reason", "bsb", "fluture", "promise", "async"
       ]
     },
     {
@@ -4076,6 +4239,9 @@
             "https://registry.npmjs.org/bs-fontawesome/-/bs-fontawesome-1.0.0.tgz",
           "integrity_shasum": "24d8c8c3ba9ae4166ccc9c80a55f884d99964360"
         }
+      ],
+      "keywords": [
+        "react", "fontawesome", "reason", "reasonml", "ocaml", "bucklescript"
       ]
     },
     {
@@ -4124,7 +4290,8 @@
             "https://registry.npmjs.org/bs-free/-/bs-free-0.7.0.tgz",
           "integrity_shasum": "7b3de1ab38cd09bfb9ca46f0c25bf820aef8719a"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "reason" ]
     },
     {
       "name": "bs-gen",
@@ -4142,6 +4309,10 @@
             "https://registry.npmjs.org/bs-gen/-/bs-gen-0.5.2.tgz",
           "integrity_shasum": "cf3d58e241c8b3b6b10fe99cfb46eb0174963e95"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "ReasonML", "OCaml", "generator", "tool", "coro",
+        "coroutine", "async", "iterator"
       ]
     },
     {
@@ -4202,7 +4373,8 @@
             "https://registry.npmjs.org/bs-gestalt/-/bs-gestalt-0.5.2.tgz",
           "integrity_shasum": "8a1a229ecb82fa4dd33eb9bdd4af52ee5a3f3aea"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "Gestalt", "ReasonReact", "React" ]
     },
     {
       "name": "bs-glamor",
@@ -4238,7 +4410,8 @@
             "https://registry.npmjs.org/bs-glamor/-/bs-glamor-0.2.0.tgz",
           "integrity_shasum": "f08c0ebed52b24d20b878afc0351ee6b4822e858"
         }
-      ]
+      ],
+      "keywords": [ "glamor", "bucklescript", "reason", "css" ]
     },
     {
       "name": "bs-glamour",
@@ -4256,7 +4429,8 @@
             "https://registry.npmjs.org/bs-glamour/-/bs-glamour-0.1.3.tgz",
           "integrity_shasum": "30995293fb95c7378aa67726f5842b2617b9e5d6"
         }
-      ]
+      ],
+      "keywords": [ "glamor", "bucklescript", "reason", "css" ]
     },
     {
       "name": "bs-graphql-js",
@@ -4353,7 +4527,8 @@
             "https://registry.npmjs.org/bs-graphql-js/-/bs-graphql-js-0.5.1.tgz",
           "integrity_shasum": "a340826bc84f81415ddc2ff704c7da64b718fb0c"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "graphql", "relay", "bindings" ]
     },
     {
       "name": "bs-graphql-json-parser",
@@ -4365,6 +4540,9 @@
             "https://registry.npmjs.org/bs-graphql-json-parser/-/bs-graphql-json-parser-0.6.0.tgz",
           "integrity_shasum": "cb20fae7a643e6b9d9b804072cc3d7790d44e181"
         }
+      ],
+      "keywords": [
+        "Bucklescript", "ReasonML", "Reason", "JSON", "Parser", "Serializer"
       ]
     },
     {
@@ -4377,7 +4555,8 @@
             "https://registry.npmjs.org/bs-graphql-runner/-/bs-graphql-runner-0.6.0.tgz",
           "integrity_shasum": "ee561c9360dc8ce73ecd485dd1b95fe3a6829eba"
         }
-      ]
+      ],
+      "keywords": [ "GraphQL", "Reason", "Bucklescript", "bs", "ReasonML" ]
     },
     {
       "name": "bs-graphql-scalar",
@@ -4414,6 +4593,9 @@
             "https://registry.npmjs.org/bs-graphql-scalar/-/bs-graphql-scalar-0.2.2.tgz",
           "integrity_shasum": "4d41d53ab751d40ec5f0c820f9969b8bea1d9abf"
         }
+      ],
+      "keywords": [
+        "bucklescript", "reason", "node", "graphql", "apollo", "scalar"
       ]
     },
     {
@@ -4433,6 +4615,10 @@
             "https://registry.npmjs.org/bs-graphql-schema-parser/-/bs-graphql-schema-parser-0.6.0.tgz",
           "integrity_shasum": "c4bb53dc16380bae58f9416b846d66f3374a5736"
         }
+      ],
+      "keywords": [
+        "bs", "Bucklescript", "re", "Reason", "ReasonML", "GraphQL",
+        "Schema", "Parser", "Serializer"
       ]
     },
     {
@@ -4445,7 +4631,8 @@
             "https://registry.npmjs.org/bs-guid/-/bs-guid-1.0.0.tgz",
           "integrity_shasum": "82ec5c724f8616399ee5e9ac154c12d4295ed23b"
         }
-      ]
+      ],
+      "keywords": [ "uuid", "guid", "rfc4122", "bucklescript", "reason" ]
     },
     {
       "name": "bs-intl",
@@ -4469,7 +4656,8 @@
             "https://registry.npmjs.org/bs-intl/-/bs-intl-0.2.1.tgz",
           "integrity_shasum": "11960c0b09d018c7238fc890f721069147487dbd"
         }
-      ]
+      ],
+      "keywords": [ "i18n", "reason", "reasonml", "ocaml", "bucklescript" ]
     },
     {
       "name": "bs-jest-dom",
@@ -4493,7 +4681,8 @@
             "https://registry.npmjs.org/bs-jest-dom/-/bs-jest-dom-2.0.1.tgz",
           "integrity_shasum": "8aabe5a7910db4a4f9e9fb77014b8e33f61e5e13"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "testing", "jest", "dom" ]
     },
     {
       "name": "bs-json-parser",
@@ -4535,6 +4724,9 @@
             "https://registry.npmjs.org/bs-json-parser/-/bs-json-parser-0.5.0.tgz",
           "integrity_shasum": "59e807af70448865052bfc70fced5abd310a19a0"
         }
+      ],
+      "keywords": [
+        "Bucklescript", "ReasonML", "Reason", "JSON", "Parser", "Serializer"
       ]
     },
     {
@@ -4613,7 +4805,8 @@
             "https://registry.npmjs.org/bs-jsverify/-/bs-jsverify-0.10.0.tgz",
           "integrity_shasum": "caca0254669fe197599f2bcca074874b5fce1215"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "reason" ]
     },
     {
       "name": "bs-knex",
@@ -4763,6 +4956,9 @@
             "https://registry.npmjs.org/bs-knex/-/bs-knex-3.1.0.tgz",
           "integrity_shasum": "fd12b4118e8fd041dbb6368d36e8bc0ae577dbb3"
         }
+      ],
+      "keywords": [
+        "bucklescript", "reason", "node", "database", "sql", "knex"
       ]
     },
     {
@@ -4776,6 +4972,9 @@
             "https://registry.npmjs.org/bs-legacy/-/bs-legacy-0.1.0.tgz",
           "integrity_shasum": "fe910bcc648487675cb8c975764946f734372a4b"
         }
+      ],
+      "keywords": [
+        "bucklescript", "bsb", "reason", "reasonml", "ocaml", "bs-platform"
       ]
     },
     {
@@ -4794,6 +4993,9 @@
             "https://registry.npmjs.org/bs-list/-/bs-list-0.1.1.tgz",
           "integrity_shasum": "8d487a7611a6fb8bf1289e5a8beb689b48d416bc"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "reason", "immutable list", "funkia/list"
       ]
     },
     {
@@ -4848,7 +5050,8 @@
             "https://registry.npmjs.org/bs-little-parser/-/bs-little-parser-0.3.4.tgz",
           "integrity_shasum": "98818f5481daa73914cd31ff08aeb61981215492"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "Reason" ]
     },
     {
       "name": "bs-loader",
@@ -5160,6 +5363,9 @@
             "https://registry.npmjs.org/bs-loader/-/bs-loader-2.0.7.tgz",
           "integrity_shasum": "2ce26752e08cab165b0625580e2b2d19476cfc6d"
         }
+      ],
+      "keywords": [
+        "bucklescript", "reason", "webpack", "ocaml", "reasonml"
       ]
     },
     {
@@ -5232,6 +5438,9 @@
             "https://registry.npmjs.org/bs-log/-/bs-log-0.1.1.tgz",
           "integrity_shasum": "03181ea3589c130b24ab4fc294b6948f823ff6a4"
         }
+      ],
+      "keywords": [
+        "log", "logging", "reason", "reasonml", "ocaml", "bucklescript"
       ]
     },
     {
@@ -5251,6 +5460,10 @@
             "https://registry.npmjs.org/bs-lottie-react-native/-/bs-lottie-react-native-1.0.0.tgz",
           "integrity_shasum": "9d2cadcb1375429597eca8eb7a6b546d11e67a96"
         }
+      ],
+      "keywords": [
+        "lottie", "animation", "reason", "reasonml", "bucklescript",
+        "react-native"
       ]
     },
     {
@@ -5287,6 +5500,9 @@
             "https://registry.npmjs.org/bs-luxon/-/bs-luxon-0.3.0.tgz",
           "integrity_shasum": "b801d2f409e2c546bf572133261da7ee77ae6b12"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "reason", "reasonml", "luxon", "date", "time"
       ]
     },
     {
@@ -5353,7 +5569,8 @@
             "https://registry.npmjs.org/bs-mocha/-/bs-mocha-0.5.0.tgz",
           "integrity_shasum": "38644b34d68c7dc55f4062242372b06fbb09af68"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "reason" ]
     },
     {
       "name": "bs-moment",
@@ -5509,7 +5726,8 @@
             "https://registry.npmjs.org/bs-moment/-/bs-moment-0.4.4.tgz",
           "integrity_shasum": "3d59767e8cd0107393c4f371e15b95bf862ceaac"
         }
-      ]
+      ],
+      "keywords": [ "reason", "bucklescript", "moment", "date", "time" ]
     },
     {
       "name": "bs-moment-duration-format",
@@ -5527,6 +5745,9 @@
             "https://registry.npmjs.org/bs-moment-duration-format/-/bs-moment-duration-format-0.1.1.tgz",
           "integrity_shasum": "0c5936e3aad57438256b458409965d56166ddf54"
         }
+      ],
+      "keywords": [
+        "reason", "bucklescript", "moment", "duration", "format"
       ]
     },
     {
@@ -5570,7 +5791,8 @@
             "https://registry.npmjs.org/bs-moment-timezone/-/bs-moment-timezone-0.6.0.tgz",
           "integrity_shasum": "bc28d41dd54a4dec4cb2238fdd6430528dd2ae6a"
         }
-      ]
+      ],
+      "keywords": [ "reason", "bucklescript", "moment", "date", "time" ]
     },
     {
       "name": "bs-mongodb",
@@ -5600,7 +5822,8 @@
             "https://registry.npmjs.org/bs-mongodb/-/bs-mongodb-0.2.0.tgz",
           "integrity_shasum": "1d7a42ad17f65e11ef64313148d3d705b4c3d5d2"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "mongodb", "database", "node", "nosql" ]
     },
     {
       "name": "bs-most",
@@ -5631,6 +5854,10 @@
             "https://registry.npmjs.org/bs-most/-/bs-most-1.0.0.tgz",
           "integrity_shasum": "375b6095d06ac1b037d3349f3a70f6b27bb28d13"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "Reason", "OCaml", "reactive", "streams", "promise",
+        "functional", "async", "most", "most.js"
       ]
     },
     {
@@ -5662,7 +5889,8 @@
             "https://registry.npmjs.org/bs-msal/-/bs-msal-1.0.3.tgz",
           "integrity_shasum": "408fe4730cfb331306d15bb7141ef18818d75925"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "reasonml", "msal" ]
     },
     {
       "name": "bs-mysql",
@@ -5698,6 +5926,9 @@
             "https://registry.npmjs.org/bs-mysql/-/bs-mysql-0.2.0.tgz",
           "integrity_shasum": "ff734e6b6da6067c1c37cd9a1a8bab2506d9876e"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "reason", "reasonml", "mysql", "databases", "node"
       ]
     },
     {
@@ -5914,6 +6145,9 @@
             "https://registry.npmjs.org/bs-mysql2/-/bs-mysql2-9.0.0.tgz",
           "integrity_shasum": "566c9737b69c62f8f7c84cc90e2f54604ed68d42"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "reason", "reasonml", "mysql", "databases", "node"
       ]
     },
     {
@@ -5944,6 +6178,10 @@
             "https://registry.npmjs.org/bs-next/-/bs-next-3.0.0.tgz",
           "integrity_shasum": "8a5d8b724583e55ae0914616e9bc9eabff6e398b"
         }
+      ],
+      "keywords": [
+        "next", "next.js", "reasonreact", "reason", "reasonml",
+        "bucklescript"
       ]
     },
     {
@@ -5980,6 +6218,10 @@
             "https://registry.npmjs.org/bs-next-alt/-/bs-next-alt-1.0.4.tgz",
           "integrity_shasum": "a99df5e5f1501dfcad7d02bfaded90a3f2e59b44"
         }
+      ],
+      "keywords": [
+        "next", "next.js", "reasonreact", "reason", "reasonml",
+        "bucklescript"
       ]
     },
     {
@@ -5998,6 +6240,9 @@
             "https://registry.npmjs.org/bs-next-seo/-/bs-next-seo-1.0.1.tgz",
           "integrity_shasum": "d1e6ea8f2e0d43f0a1de39323087e00c5896ed3e"
         }
+      ],
+      "keywords": [
+        "next-seo", "react", "reason", "reasonml", "ocaml", "bucklescript"
       ]
     },
     {
@@ -6046,7 +6291,8 @@
             "https://registry.npmjs.org/bs-nice/-/bs-nice-0.1.6.tgz",
           "integrity_shasum": "69de4059eeba6fd15252ce76c55be0e0fee4cf2b"
         }
-      ]
+      ],
+      "keywords": [ "reason", "bucklescript", "css" ]
     },
     {
       "name": "bs-node-debug",
@@ -6070,7 +6316,8 @@
             "https://registry.npmjs.org/bs-node-debug/-/bs-node-debug-0.2.0.tgz",
           "integrity_shasum": "50d2d48819af4d40e0585cc35b56dfdeeda4985a"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "reason", "node", "debug" ]
     },
     {
       "name": "bs-node-http",
@@ -6130,7 +6377,8 @@
             "https://registry.npmjs.org/bs-node-http/-/bs-node-http-0.3.1.tgz",
           "integrity_shasum": "4067e9e9c4cda028206f9c8ff28e71b7f5e14d09"
         }
-      ]
+      ],
+      "keywords": [ "reason", "bucklescript", "node", "http" ]
     },
     {
       "name": "bs-node-readline",
@@ -6142,7 +6390,8 @@
             "https://registry.npmjs.org/bs-node-readline/-/bs-node-readline-0.1.0.tgz",
           "integrity_shasum": "08358814930697cf858cc21d4db47cb0de303f9b"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "readline", "node", "reasonml", "ocaml" ]
     },
     {
       "name": "bs-nonempty",
@@ -6185,7 +6434,8 @@
             "https://registry.npmjs.org/bs-nonempty/-/bs-nonempty-1.3.0.tgz",
           "integrity_shasum": "a46feecbe85acbcef605b155b690038ff9a38688"
         }
-      ]
+      ],
+      "keywords": [ "reasonml", "bucklescript", "nonempty", "list", "array" ]
     },
     {
       "name": "bs-nprogress",
@@ -6227,6 +6477,9 @@
             "https://registry.npmjs.org/bs-nprogress/-/bs-nprogress-5.0.0.tgz",
           "integrity_shasum": "a0ef00ae545a3708908b17240f0cbfb5e4af3225"
         }
+      ],
+      "keywords": [
+        "nprogress", "reason", "reasonml", "ocaml", "bucklescript"
       ]
     },
     {
@@ -6240,6 +6493,10 @@
             "https://registry.npmjs.org/bs-office-ui-fabric-react/-/bs-office-ui-fabric-react-0.1.0.tgz",
           "integrity_shasum": "ed96d4b4b01d038f27df85995f18a8fdd01c9591"
         }
+      ],
+      "keywords": [
+        "reasonml", "bucklescript", "react", "office-ui-fabric-react",
+        "microsoft"
       ]
     },
     {
@@ -6294,7 +6551,8 @@
             "https://registry.npmjs.org/bs-ospec/-/bs-ospec-1.0.0.tgz",
           "integrity_shasum": "a2e5bfff08d2d6679e648e21ffb7e367ddb7b431"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "ReasonML", "testing", "binding" ]
     },
     {
       "name": "bs-parse-color",
@@ -6312,6 +6570,10 @@
             "https://registry.npmjs.org/bs-parse-color/-/bs-parse-color-0.5.1.tgz",
           "integrity_shasum": "bac99663d6f3fd2bbe6492b293145b844133465c"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "reasonml", "colors", "parsing", "fun", "reason",
+        "convert"
       ]
     },
     {
@@ -6336,6 +6598,9 @@
             "https://registry.npmjs.org/bs-password/-/bs-password-1.0.2.tgz",
           "integrity_shasum": "4a7eaa7ed37bb3734356a45cd1c4039fe74d935c"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "reason", "reasonml", "password", "bcrypt", "node"
       ]
     },
     {
@@ -6349,6 +6614,10 @@
             "https://registry.npmjs.org/bs-pg-listen/-/bs-pg-listen-0.0.1.tgz",
           "integrity_shasum": "b83654efdc8c788e2764fc9c78f1e5e004d63912"
         }
+      ],
+      "keywords": [
+        "reason", "reasonml", "bucklescript", "pg", "postgres", "postgresql",
+        "listen", "notify", "pubsub"
       ]
     },
     {
@@ -6463,6 +6732,9 @@
             "https://registry.npmjs.org/bs-pimp-my-sql/-/bs-pimp-my-sql-5.1.1.tgz",
           "integrity_shasum": "3a15deb6d5f5a920b8f89fb3b6422eebf11deadb"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "reason", "reasonml", "mysql", "databases", "node"
       ]
     },
     {
@@ -6481,7 +6753,8 @@
             "https://registry.npmjs.org/bs-pixl-xml/-/bs-pixl-xml-0.1.0.tgz",
           "integrity_shasum": "87bab7877fcf11728b9050d5edb8d59852e3d61a"
         }
-      ]
+      ],
+      "keywords": [ "reason", "reasonml", "bucklescript", "pixl-xml" ]
     },
     {
       "name": "bs-platform",
@@ -7292,6 +7565,9 @@
             "https://registry.npmjs.org/bs-platform/-/bs-platform-5.0.6.tgz",
           "integrity_shasum": "88c13041fb020479800de3d82c680bf971091425"
         }
+      ],
+      "keywords": [
+        "ocaml", "bucklescript", "stdlib", "functional programming"
       ]
     },
     {
@@ -7310,7 +7586,8 @@
             "https://registry.npmjs.org/bs-pretty-bytes/-/bs-pretty-bytes-0.1.1.tgz",
           "integrity_shasum": "62f21f41f4281feded6fdb9a4912b6095be55119"
         }
-      ]
+      ],
+      "keywords": [ "reason", "bucklescript", "pretty-bytes" ]
     },
     {
       "name": "bs-priority-queue",
@@ -7347,7 +7624,8 @@
             "https://registry.npmjs.org/bs-priority-queue/-/bs-priority-queue-0.1.4.tgz",
           "integrity_shasum": "90062fccb1585d532e75d239da8c03bc74f95780"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript" ]
     },
     {
       "name": "bs-promise-monad",
@@ -7455,7 +7733,8 @@
             "https://registry.npmjs.org/bs-promise-monad/-/bs-promise-monad-0.3.3.tgz",
           "integrity_shasum": "14450fbdbb046c88e54c7264640d6222f0f97ef4"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "Promise", "Monad", "ReasonML" ]
     },
     {
       "name": "bs-promise-router",
@@ -7485,6 +7764,9 @@
             "https://registry.npmjs.org/bs-promise-router/-/bs-promise-router-0.2.0.tgz",
           "integrity_shasum": "3e29d30dccd6ff7da84862d07cf4ecae2eb0688b"
         }
+      ],
+      "keywords": [
+        "bucklescript", "reason", "node", "graphql", "apollo", "scalar"
       ]
     },
     {
@@ -7564,6 +7846,9 @@
             "https://registry.npmjs.org/bs-puppeteer/-/bs-puppeteer-0.12.0.tgz",
           "integrity_shasum": "afd55ad19f19f5cf6279f38d3c1d98b3047fdb9e"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "Puppeteer", "headless", "browser", "scraping"
       ]
     },
     {
@@ -7618,6 +7903,9 @@
             "https://registry.npmjs.org/bs-querystringify/-/bs-querystringify-1.0.0.tgz",
           "integrity_shasum": "cc054503e63c655320eca4ce03c48d9aa67fcbf8"
         }
+      ],
+      "keywords": [
+        "reason", "reasonml", "ocaml", "bucklescript", "querystringify"
       ]
     },
     {
@@ -7636,7 +7924,8 @@
             "https://registry.npmjs.org/bs-randomcolor/-/bs-randomcolor-0.1.1.tgz",
           "integrity_shasum": "7501138826cadb57b21b9c91238838ce64661650"
         }
-      ]
+      ],
+      "keywords": [ "reason", "bucklescript", "randomColor", "colors" ]
     },
     {
       "name": "bs-react",
@@ -7684,6 +7973,9 @@
             "https://registry.npmjs.org/bs-react/-/bs-react-0.0.8.tgz",
           "integrity_shasum": "f61f70755a919b13a48af1eabd4697ed55a5365f"
         }
+      ],
+      "keywords": [
+        "reasonml", "bucklescript", "react", "hooks", "context", "suspense"
       ]
     },
     {
@@ -7696,6 +7988,10 @@
             "https://registry.npmjs.org/bs-react-bootstrap/-/bs-react-bootstrap-0.1.0.tgz",
           "integrity_shasum": "93e997764b637715f4a797e85bc7be85166275b2"
         }
+      ],
+      "keywords": [
+        "Bootstrap", "binding", "BuckleScript", "React", "ReactJS",
+        "react-bootstrap", "ReasonML", "UI"
       ]
     },
     {
@@ -7732,7 +8028,8 @@
             "https://registry.npmjs.org/bs-react-dropdown/-/bs-react-dropdown-1.0.4.tgz",
           "integrity_shasum": "5d4f475a9d0f733c912a144cbd56ae272ff8d694"
         }
-      ]
+      ],
+      "keywords": [ "reasonml", "binding", "react-dropdown", "bucklescript" ]
     },
     {
       "name": "bs-react-dropzone",
@@ -7774,6 +8071,9 @@
             "https://registry.npmjs.org/bs-react-dropzone/-/bs-react-dropzone-0.3.3.tgz",
           "integrity_shasum": "4eab598e4bb057432fd15b34ed1abf2409a7f6ce"
         }
+      ],
+      "keywords": [
+        "reason", "bucklescript", "bindings", "react", "dropzone"
       ]
     },
     {
@@ -7804,6 +8104,10 @@
             "https://registry.npmjs.org/bs-react-head/-/bs-react-head-0.1.6.tgz",
           "integrity_shasum": "a34f40a266aa802dbd9d432cb0cfc2162bc8f38c"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "Reason", "React", "document", "head", "title",
+        "meta", "link", "style", "metatag", "metatags", "opengraph", "seo"
       ]
     },
     {
@@ -7816,6 +8120,10 @@
             "https://registry.npmjs.org/bs-react-i18next/-/bs-react-i18next-1.0.0.tgz",
           "integrity_shasum": "d46bea2e35959be7dc049195515aa6d421f8b750"
         }
+      ],
+      "keywords": [
+        "react-i18next", "react", "reason", "reasonml", "ocaml",
+        "bucklescript"
       ]
     },
     {
@@ -7828,6 +8136,9 @@
             "https://registry.npmjs.org/bs-react-iframe/-/bs-react-iframe-1.0.0.tgz",
           "integrity_shasum": "456fb6080777f38f6be01882d305d116f58fad6f"
         }
+      ],
+      "keywords": [
+        "next-iframe", "react", "reason", "reasonml", "ocaml", "bucklescript"
       ]
     },
     {
@@ -7936,6 +8247,9 @@
             "https://registry.npmjs.org/bs-react-intl/-/bs-react-intl-0.9.0-beta.3.tgz",
           "integrity_shasum": "87f493aee3a7f1b5fecb30d85d1827b7dd302d4b"
         }
+      ],
+      "keywords": [
+        "react", "react-intl", "reason", "reasonml", "ocaml", "bucklescript"
       ]
     },
     {
@@ -7966,6 +8280,10 @@
             "https://registry.npmjs.org/bs-react-intl-extractor-bin/-/bs-react-intl-extractor-bin-0.7.0.tgz",
           "integrity_shasum": "501828265c2e6ef350a83637bd7c3f2c929c0a6f"
         }
+      ],
+      "keywords": [
+        "cli", "bin", "binary", "extract", "extractor", "reason", "reasonml",
+        "react", "intl", "react-intl", "bs-react-intl"
       ]
     },
     {
@@ -7991,6 +8309,10 @@
             "https://registry.npmjs.org/bs-react-is-visible/-/bs-react-is-visible-0.1.2.tgz",
           "integrity_shasum": "78441fabfeb591a27cf05cfc6872e0debc2997e2"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "ReasonML", "intersection observer", "visible",
+        "invisible", "visibility", "on screen"
       ]
     },
     {
@@ -8094,7 +8416,8 @@
             "https://registry.npmjs.org/bs-react-native/-/bs-react-native-0.11.1.tgz",
           "integrity_shasum": "1e0ec167cc6a73d64106b9165361b9a2e1a796ce"
         }
-      ]
+      ],
+      "keywords": [ "reason", "reasonml", "bucklescript", "react-native" ]
     },
     {
       "name": "bs-react-native-gifted-chat",
@@ -8112,7 +8435,8 @@
             "https://registry.npmjs.org/bs-react-native-gifted-chat/-/bs-react-native-gifted-chat-0.0.2.tgz",
           "integrity_shasum": "8582e5362716c040a0e5fd79cd9c4bb80804129f"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "reason", "reasonml" ]
     },
     {
       "name": "bs-react-native-jsx3-compat",
@@ -8124,7 +8448,8 @@
             "https://registry.npmjs.org/bs-react-native-jsx3-compat/-/bs-react-native-jsx3-compat-0.11.1.tgz",
           "integrity_shasum": "643699594056e14dc61a719d0741b9c94d0c08fe"
         }
-      ]
+      ],
+      "keywords": [ "reason", "reasonml", "bucklescript", "react-native" ]
     },
     {
       "name": "bs-react-native-navigation",
@@ -8137,6 +8462,10 @@
             "https://registry.npmjs.org/bs-react-native-navigation/-/bs-react-native-navigation-0.1.1.tgz",
           "integrity_shasum": "ce9028cc1f40cd54ec12f6362686d13f5742d39c"
         }
+      ],
+      "keywords": [
+        "reason", "reasonml", "bucklescript", "bindings", "react-native",
+        "react-native-navigation"
       ]
     },
     {
@@ -8353,6 +8682,10 @@
             "https://registry.npmjs.org/bs-react-native-paper/-/bs-react-native-paper-5.1.0.tgz",
           "integrity_shasum": "f7ad99c977cb12454d5c696747e4e6b65ea20896"
         }
+      ],
+      "keywords": [
+        "bucklescript", "react-native-paper", "reasonml", "reason",
+        "react-native", "material design"
       ]
     },
     {
@@ -8455,7 +8788,8 @@
             "https://registry.npmjs.org/bs-react-native-vector-icons/-/bs-react-native-vector-icons-2.0.2.tgz",
           "integrity_shasum": "ba1b13cfda5f15faaa546a641d583effc4e65bcf"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "react-native-vector-icons" ]
     },
     {
       "name": "bs-react-navigation",
@@ -8474,6 +8808,10 @@
             "https://registry.npmjs.org/bs-react-navigation/-/bs-react-navigation-0.2.0.tgz",
           "integrity_shasum": "004e732dff23619c9af1e8a9064203dbf9ed567e"
         }
+      ],
+      "keywords": [
+        "router", "react", "reason", "reasonml", "bucklescript",
+        "react-native", "react-navigation"
       ]
     },
     {
@@ -8498,6 +8836,10 @@
             "https://registry.npmjs.org/bs-react-on-rails/-/bs-react-on-rails-0.2.0.tgz",
           "integrity_shasum": "de40b3e3e70aeb780da031d031fe8d4390a2d42d"
         }
+      ],
+      "keywords": [
+        "react", "reason", "reasonml", "reason-react", "rails",
+        "react-on-rails", "ocaml", "bucklescript"
       ]
     },
     {
@@ -8582,6 +8924,10 @@
             "https://registry.npmjs.org/bs-react-pdf/-/bs-react-pdf-0.0.13.tgz",
           "integrity_shasum": "4595602694f4dbb8c780537f6d12e7ffb1cb5b62"
         }
+      ],
+      "keywords": [
+        "bucklescript", "bsb", "reason", "reasonml", "ocaml", "bs-react-pdf",
+        "bs-platform", "react-pdf"
       ]
     },
     {
@@ -8600,7 +8946,8 @@
             "https://registry.npmjs.org/bs-react-simple-maps/-/bs-react-simple-maps-1.0.0.tgz",
           "integrity_shasum": "78c0fb9711ddc13ec3834006e8796f4ca6059943"
         }
-      ]
+      ],
+      "keywords": [ "bs-react-simple-maps", "BuckleScript", "Reason" ]
     },
     {
       "name": "bs-react-testing-library",
@@ -8636,7 +8983,8 @@
             "https://registry.npmjs.org/bs-react-testing-library/-/bs-react-testing-library-0.5.0.tgz",
           "integrity_shasum": "3906666ffc6dfd22ff25ae01bfa8f5ba65c30db0"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "react", "testing" ]
     },
     {
       "name": "bs-react-transition-group",
@@ -8720,7 +9068,8 @@
             "https://registry.npmjs.org/bs-react-transition-group/-/bs-react-transition-group-0.1.15.tgz",
           "integrity_shasum": "2224e68cfec94207dd18108b41d7fa79bc5e6b5e"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "React", "Animation", "ReasonML" ]
     },
     {
       "name": "bs-react-useragent",
@@ -8732,6 +9081,10 @@
             "https://registry.npmjs.org/bs-react-useragent/-/bs-react-useragent-1.0.0.tgz",
           "integrity_shasum": "206baa084aa0e16ebabcc6c29a6dc2896fe4b4ee"
         }
+      ],
+      "keywords": [
+        "react-useragent", "react", "reason", "reasonml", "ocaml",
+        "bucklescript"
       ]
     },
     {
@@ -8768,7 +9121,8 @@
             "https://registry.npmjs.org/bs-reason-apollo/-/bs-reason-apollo-1.0.0-beta.4.tgz",
           "integrity_shasum": "4ece07bcaf28106a4de04f81421f5d292a4c801b"
         }
-      ]
+      ],
+      "keywords": [ "reason", "bucklescript", "apollo", "graphql", "react" ]
     },
     {
       "name": "bs-reform",
@@ -9158,7 +9512,8 @@
             "https://registry.npmjs.org/bs-reform/-/bs-reform-8.3.2.tgz",
           "integrity_shasum": "06c78e83924c1e34958fc6ac0669bcae8bbc42cf"
         }
-      ]
+      ],
+      "keywords": [ "reason", "bucklescript", "react", "form" ]
     },
     {
       "name": "bs-rembrant",
@@ -9170,7 +9525,8 @@
             "https://registry.npmjs.org/bs-rembrant/-/bs-rembrant-0.1.0.tgz",
           "integrity_shasum": "9c311807fe9c498e3bae08e430e0c1c8394d4594"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "Reasonml" ]
     },
     {
       "name": "bs-remotedata",
@@ -9201,7 +9557,8 @@
             "https://registry.npmjs.org/bs-remotedata/-/bs-remotedata-2.0.1.tgz",
           "integrity_shasum": "6e66b5820ce6bfa9d62b18db732615f5ede86df5"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript" ]
     },
     {
       "name": "bs-restyled",
@@ -9219,7 +9576,8 @@
             "https://registry.npmjs.org/bs-restyled/-/bs-restyled-1.0.1.tgz",
           "integrity_shasum": "3693a20475af13049bf4f398141bcdb6d70fcafd"
         }
-      ]
+      ],
+      "keywords": [ "reason", "bucklescript", "react", "css", "css-in-js" ]
     },
     {
       "name": "bs-retable",
@@ -9237,7 +9595,8 @@
             "https://registry.npmjs.org/bs-retable/-/bs-retable-0.2.0.tgz",
           "integrity_shasum": "65d298b1f4cc6eb03fd240a56d6ffe3b0fe069ed"
         }
-      ]
+      ],
+      "keywords": [ "reason", "bucklescript", "react", "table" ]
     },
     {
       "name": "bs-run",
@@ -9285,7 +9644,8 @@
             "https://registry.npmjs.org/bs-run/-/bs-run-0.0.8.tgz",
           "integrity_shasum": "2336040826978c2ab7c6196ed340bdf38ac5fd7a"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript" ]
     },
     {
       "name": "bs-shortid",
@@ -9298,7 +9658,8 @@
             "https://registry.npmjs.org/bs-shortid/-/bs-shortid-0.0.1.tgz",
           "integrity_shasum": "3693b7fb4accd59002831a45ae39bb9a43ebfc2b"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript" ]
     },
     {
       "name": "bs-simple-maps",
@@ -9316,6 +9677,9 @@
             "https://registry.npmjs.org/bs-simple-maps/-/bs-simple-maps-0.1.1.tgz",
           "integrity_shasum": "5b6a07202a1e6d05a3b41f5f4108ab957670846e"
         }
+      ],
+      "keywords": [
+        "react-simple-maps", "bucklescript", "reason", "mapping"
       ]
     },
     {
@@ -9341,7 +9705,8 @@
             "https://registry.npmjs.org/bs-source-files/-/bs-source-files-1.2.0.tgz",
           "integrity_shasum": "c0f0f3846a0fdf6844f08e6651fd1b1441ac97ce"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "source", "files" ]
     },
     {
       "name": "bs-spectacle",
@@ -9383,7 +9748,8 @@
             "https://registry.npmjs.org/bs-spectacle/-/bs-spectacle-1.0.2.tgz",
           "integrity_shasum": "69cb6ee84531cb5be559adc68b21ecc66afa49b8"
         }
-      ]
+      ],
+      "keywords": [ "spectacle", "bucklescript", "reason", "reasonml" ]
     },
     {
       "name": "bs-sql-common",
@@ -9563,6 +9929,9 @@
             "https://registry.npmjs.org/bs-sql-common/-/bs-sql-common-6.0.0.tgz",
           "integrity_shasum": "c8354fa44bd0f458be5079e24711c6e985bc65a0"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "reason", "reasonml", "mysql", "databases", "node"
       ]
     },
     {
@@ -9641,6 +10010,9 @@
             "https://registry.npmjs.org/bs-sql-composer/-/bs-sql-composer-3.2.2.tgz",
           "integrity_shasum": "033507acbbec20f33ce6ff903ef4d22ce719e559"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "reason", "reasonml", "sql", "databases", "node"
       ]
     },
     {
@@ -9677,6 +10049,10 @@
             "https://registry.npmjs.org/bs-sqlite/-/bs-sqlite-1.1.0.tgz",
           "integrity_shasum": "15a3f0f0d1381b8f3c9928acd370f206c4c11611"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "reason", "reasonml", "sql", "databases", "node",
+        "sqlite", "sqlite3", "better-sqlite3"
       ]
     },
     {
@@ -9708,7 +10084,8 @@
             "https://registry.npmjs.org/bs-stdlib/-/bs-stdlib-3.4.5.tgz",
           "integrity_shasum": "53b2d80ac6e006dd16d1a565547f208f4fc84846"
         }
-      ]
+      ],
+      "keywords": [ "ocaml", "bucklescript", "stdlib" ]
     },
     {
       "name": "bs-storybook",
@@ -9744,6 +10121,9 @@
             "https://registry.npmjs.org/bs-storybook/-/bs-storybook-0.3.0.tgz",
           "integrity_shasum": "a0f5f2f356bf1a39b0b4fd4a3933cc429c2e3911"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "Storybook.js", "ReasonML", "react", "ui"
       ]
     },
     {
@@ -9768,7 +10148,8 @@
             "https://registry.npmjs.org/bs-string-map/-/bs-string-map-1.0.2.tgz",
           "integrity_shasum": "248c6457580388c8f0f4048bd3ec020f2887f356"
         }
-      ]
+      ],
+      "keywords": [ "ocaml", "bucklescript", "map" ]
     },
     {
       "name": "bs-svgr",
@@ -9781,7 +10162,8 @@
             "https://registry.npmjs.org/bs-svgr/-/bs-svgr-1.0.0.tgz",
           "integrity_shasum": "7c48bb09bfffdbe98e7ab89a1b35d8614eafd874"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "svgr", "webpack", "ReasonML" ]
     },
     {
       "name": "bs-telefonnummer",
@@ -9800,6 +10182,9 @@
             "https://registry.npmjs.org/bs-telefonnummer/-/bs-telefonnummer-1.1.0.tgz",
           "integrity_shasum": "1712c6eaf6eb5f74b9bd845b3df1bce89d598e34"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "ReasonML", "Phone number", "Telefonnummer", "Parser"
       ]
     },
     {
@@ -9909,7 +10294,8 @@
             "https://registry.npmjs.org/bs-telepathic/-/bs-telepathic-2.10.1.tgz",
           "integrity_shasum": "8f44aabbde8f6c119eb719c127566a101a3d66a1"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "reasonml", "slack" ]
     },
     {
       "name": "bs-tfjs",
@@ -9928,6 +10314,10 @@
             "https://registry.npmjs.org/bs-tfjs/-/bs-tfjs-0.2.0.tgz",
           "integrity_shasum": "6e37b0da07c54c1ed870816c0988faec7ef373ca"
         }
+      ],
+      "keywords": [
+        "buckleScript", "deeplearn.js", "tfjs", "reason", "reasonML",
+        "tensorflow.js", "tensorflow"
       ]
     },
     {
@@ -9946,7 +10336,8 @@
             "https://registry.npmjs.org/bs-tinycolor/-/bs-tinycolor-1.0.1.tgz",
           "integrity_shasum": "02b7ad49fd8afba34701dca4faf17c23958c5406"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript" ]
     },
     {
       "name": "bs-typing",
@@ -9970,7 +10361,8 @@
             "https://registry.npmjs.org/bs-typing/-/bs-typing-1.0.2.tgz",
           "integrity_shasum": "c7beeeaea9d061239bcca14542a8ca0e4bee862d"
         }
-      ]
+      ],
+      "keywords": [ "reason", "bucklescript", "typing", "animation" ]
     },
     {
       "name": "bs-uchar",
@@ -9995,6 +10387,9 @@
             "https://registry.npmjs.org/bs-uchar/-/bs-uchar-2.0.0-pre.0.tgz",
           "integrity_shasum": "b65ff160340db2da2dfa453b2b5bc89867233a0b"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "ReasonML", "OCaml", "compat", "compatibility"
       ]
     },
     {
@@ -10019,6 +10414,10 @@
             "https://registry.npmjs.org/bs-validation/-/bs-validation-2.0.0.tgz",
           "integrity_shasum": "bf7398ac0d8b781f55e6ebbe1057dc358be611e9"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "folktale", "fp", "reason", "reasonml", "password",
+        "validation", "node"
       ]
     },
     {
@@ -10085,7 +10484,8 @@
             "https://registry.npmjs.org/bs-virtualdom/-/bs-virtualdom-1.0.5.tgz",
           "integrity_shasum": "435e3ccc19f6d3fe96d9638da39a68860af01ec6"
         }
-      ]
+      ],
+      "keywords": [ "virtual dom", "bucklescript" ]
     },
     {
       "name": "bs-web3",
@@ -10098,6 +10498,9 @@
             "https://registry.npmjs.org/bs-web3/-/bs-web3-1.0.0-alpha.tgz",
           "integrity_shasum": "01709cf7ef4c07abe83e3cb4bd7e6ff17e3fdaaa"
         }
+      ],
+      "keywords": [
+        "reasonml", "bucklescript", "web3", "ethereum", "nodejs"
       ]
     },
     {
@@ -10296,7 +10699,8 @@
             "https://registry.npmjs.org/bs-webapi/-/bs-webapi-0.15.2.tgz",
           "integrity_shasum": "0bf4174cffafde748df19c4ae42f6e8e6c6a22b1"
         }
-      ]
+      ],
+      "keywords": [ "reason", "bucklescript", "web", "dom" ]
     },
     {
       "name": "bs-webapi-extra",
@@ -10321,6 +10725,10 @@
             "https://registry.npmjs.org/bs-webapi-extra/-/bs-webapi-extra-0.4.3.tgz",
           "integrity_shasum": "f78e41d01632eda2c048065b0fb5f8a7cbf722c2"
         }
+      ],
+      "keywords": [
+        "reason", "bucklescript", "web", "webrtc", "webcrypto", "crypto",
+        "websocket", "indexeddb"
       ]
     },
     {
@@ -10363,6 +10771,10 @@
             "https://registry.npmjs.org/bs-websocket/-/bs-websocket-0.1.5.tgz",
           "integrity_shasum": "0fda67c2185e40f3cef38bc1515d7f63501361e4"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "websocket", "websockets", "ws", "bs", "reason",
+        "reasonml"
       ]
     },
     {
@@ -10411,7 +10823,8 @@
             "https://registry.npmjs.org/bs-webworkers/-/bs-webworkers-0.2.4.tgz",
           "integrity_shasum": "3e6d83dc76d93a1c6434ad5b88ef479bcddfccce"
         }
-      ]
+      ],
+      "keywords": [ "reason", "reasonml", "Bucklescript", "webworkers" ]
     },
     {
       "name": "bs-winston",
@@ -10441,6 +10854,9 @@
             "https://registry.npmjs.org/bs-winston/-/bs-winston-0.4.0.tgz",
           "integrity_shasum": "d878ae8040324db37ec06393b1b7a6c3714df7c4"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "ReasonML", "Reason", "Winston", "nodejs"
       ]
     },
     {
@@ -10471,6 +10887,9 @@
             "https://registry.npmjs.org/bs-winston-cloudwatch/-/bs-winston-cloudwatch-0.3.0.tgz",
           "integrity_shasum": "158793d49eb61e90ff21095e77f6163a438f82ae"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "reasonml", "reason", "winston", "cloudwatch", "aws"
       ]
     },
     {
@@ -10543,7 +10962,8 @@
             "https://registry.npmjs.org/bs-ws/-/bs-ws-1.1.1.tgz",
           "integrity_shasum": "b6f0bcef6668b679673ba2b85ebc929e594353b8"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "Node", "WebSocket", "ws" ]
     },
     {
       "name": "bs-yarp",
@@ -10579,7 +10999,8 @@
             "https://registry.npmjs.org/bs-yarp/-/bs-yarp-0.3.1.tgz",
           "integrity_shasum": "e6bbf2a7c370a7447d52163cb68d609ffa86bcc0"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "ReasonML", "Reason", "Promise" ]
     },
     {
       "name": "bs-youtube",
@@ -10591,7 +11012,8 @@
             "https://registry.npmjs.org/bs-youtube/-/bs-youtube-0.0.1.tgz",
           "integrity_shasum": "bc6016228c66de65fd55877db4ca77ff9378c04a"
         }
-      ]
+      ],
+      "keywords": [ "youtube", "bucklescript", "reason", "iframe", "video" ]
     },
     {
       "name": "bs-zarith",
@@ -10610,7 +11032,8 @@
             "https://registry.npmjs.org/bs-zarith/-/bs-zarith-1.0.1.tgz",
           "integrity_shasum": "20b6a51cc1520eafac508a479c4b04cd8ce03879"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript" ]
     },
     {
       "name": "bsb-js",
@@ -10682,7 +11105,8 @@
             "https://registry.npmjs.org/bsb-js/-/bsb-js-1.1.7.tgz",
           "integrity_shasum": "12cc91e974f5896b3a2aa8358419d24e56f552c3"
         }
-      ]
+      ],
+      "keywords": [ "bsb", "bucklescript", "reason", "reasonml" ]
     },
     {
       "name": "bsb-native",
@@ -10724,6 +11148,9 @@
             "https://registry.npmjs.org/bsb-native/-/bsb-native-4.0.1100.tgz",
           "integrity_shasum": "c61e02afc12ec393b63dfb440ba7b309968e107f"
         }
+      ],
+      "keywords": [
+        "ocaml", "bucklescript", "stdlib", "functional programming"
       ]
     },
     {
@@ -10742,7 +11169,8 @@
             "https://registry.npmjs.org/bucklescript-fluture/-/bucklescript-fluture-0.1.1.tgz",
           "integrity_shasum": "5bd3a9662b84382b2d8cf64626895ba3acedd857"
         }
-      ]
+      ],
+      "keywords": [ "fluture", "bucklescript", "reason" ]
     },
     {
       "name": "bucklescript-tea",
@@ -11000,7 +11428,8 @@
             "https://registry.npmjs.org/bucklescript-tea/-/bucklescript-tea-0.11.2.tgz",
           "integrity_shasum": "04b035297092043e946349d6df99aa457673a5b5"
         }
-      ]
+      ],
+      "keywords": [ "TEA", "Bucklescript", "OCaml" ]
     },
     {
       "name": "cardero-x-razzle",
@@ -11019,6 +11448,10 @@
             "https://registry.npmjs.org/cardero-x-razzle/-/cardero-x-razzle-2.6.0.tgz",
           "integrity_shasum": "2c912e13c11202d33f6097b032e0af66b8028c37"
         }
+      ],
+      "keywords": [
+        "razzle", "react", "webpack", "preact", "ssr", "universal",
+        "isomorphic", "inferno", "reason", "reasonml"
       ]
     },
     {
@@ -11097,6 +11530,9 @@
             "https://registry.npmjs.org/clj-collection-apis-reasonml/-/clj-collection-apis-reasonml-1.1.0.tgz",
           "integrity_shasum": "7de17ae2ee4606ddd933bd32638ceb4a065e9505"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "Clojurescript", "Clojure", "Reason", "ReasonML"
       ]
     },
     {
@@ -11139,7 +11575,8 @@
             "https://registry.npmjs.org/color-re/-/color-re-1.1.1.tgz",
           "integrity_shasum": "c212bfb4583f6480b65d737493c5da79ad24a5c7"
         }
-      ]
+      ],
+      "keywords": [ "reason", "bucklescript", "color", "rbg", "hex", "hsl" ]
     },
     {
       "name": "colors.re",
@@ -11169,6 +11606,11 @@
             "https://registry.npmjs.org/colors.re/-/colors.re-0.0.4.tgz",
           "integrity_shasum": "59b3d6a6189eaf1701b67654731c78493e5049d7"
         }
+      ],
+      "keywords": [
+        "buckleScript", "reasonml", "reason", "colours", "colors.re",
+        "Recolor", "terminal", "colors", "color", "chalk", "logging",
+        "logger"
       ]
     },
     {
@@ -11188,6 +11630,10 @@
             "https://registry.npmjs.org/create-dace-app/-/create-dace-app-0.0.2.tgz",
           "integrity_shasum": "3dff7dfd08e4491f5365bb3c4548e85e584b64f8"
         }
+      ],
+      "keywords": [
+        "dace", "react", "webpack", "preact", "ssr", "universal",
+        "isomorphic", "inferno", "reason", "reasonml"
       ]
     },
     {
@@ -11213,6 +11659,10 @@
             "https://registry.npmjs.org/create-ecc-app/-/create-ecc-app-1.2.0.tgz",
           "integrity_shasum": "b24cf417d66581a4e527ea16560ccf1c341c2a21"
         }
+      ],
+      "keywords": [
+        "razzle", "react", "webpack", "preact", "ssr", "universal",
+        "isomorphic", "inferno", "reason", "reasonml"
       ]
     },
     {
@@ -11274,6 +11724,10 @@
             "https://registry.npmjs.org/create-graze-app/-/create-graze-app-1.1.2.tgz",
           "integrity_shasum": "fd07df34cff662fc16435c23d5ea0f72caeebb00"
         }
+      ],
+      "keywords": [
+        "graze", "razzle", "react", "webpack", "preact", "ssr", "universal",
+        "isomorphic", "inferno", "reason", "reasonml"
       ]
     },
     {
@@ -11521,6 +11975,10 @@
             "https://registry.npmjs.org/create-razzle-app/-/create-razzle-app-3.0.0.tgz",
           "integrity_shasum": "7c5a76590477943130cf46914b58d4553b23e315"
         }
+      ],
+      "keywords": [
+        "razzle", "react", "webpack", "preact", "ssr", "universal",
+        "isomorphic", "inferno", "reason", "reasonml"
       ]
     },
     {
@@ -11533,7 +11991,8 @@
             "https://registry.npmjs.org/create-reason/-/create-reason-0.0.1.tgz",
           "integrity_shasum": "1c4186bf6c7b953feaf4a0ea7212afa9a4f7bb9d"
         }
-      ]
+      ],
+      "keywords": [ "reasonml", "ocaml", "esy" ]
     },
     {
       "name": "create-reasonml-app",
@@ -11545,7 +12004,8 @@
             "https://registry.npmjs.org/create-reasonml-app/-/create-reasonml-app-0.0.1.tgz",
           "integrity_shasum": "91fb3c61ca40286b171f110ff6e608f7d2b52cfb"
         }
-      ]
+      ],
+      "keywords": [ "reason", "reasonml" ]
     },
     {
       "name": "create-reprocessing-app",
@@ -11557,7 +12017,8 @@
             "https://registry.npmjs.org/create-reprocessing-app/-/create-reprocessing-app-1.0.0.tgz",
           "integrity_shasum": "ac6846df5b601786d4df32c1ec58194a92d5b7dd"
         }
-      ]
+      ],
+      "keywords": [ "reprocessing", "reasonml", "processing" ]
     },
     {
       "name": "dpdk-razzle",
@@ -11600,6 +12061,10 @@
             "https://registry.npmjs.org/dpdk-razzle/-/dpdk-razzle-0.0.7.tgz",
           "integrity_shasum": "019efce38850209a39f5b3a0f0cb62003d3ac3ca"
         }
+      ],
+      "keywords": [
+        "razzle", "react", "webpack", "preact", "ssr", "universal",
+        "isomorphic", "inferno", "reason", "reasonml"
       ]
     },
     {
@@ -11637,7 +12102,8 @@
             "https://registry.npmjs.org/esy-peasy/-/esy-peasy-0.0.5.tgz",
           "integrity_shasum": "48a6d279dce1465c19a14c7e6f584d057495da4d"
         }
-      ]
+      ],
+      "keywords": [ "esy", "ocaml", "reason", "reasonml" ]
     },
     {
       "name": "esyr",
@@ -11648,7 +12114,8 @@
           "download_url": "https://registry.npmjs.org/esyr/-/esyr-1.0.1.tgz",
           "integrity_shasum": "4141c6157a9bffb0897506533ce8d829f1d0520f"
         }
-      ]
+      ],
+      "keywords": [ "esy", "reasonml", "ocaml" ]
     },
     {
       "name": "eventil-cli",
@@ -11661,6 +12128,13 @@
             "https://registry.npmjs.org/eventil-cli/-/eventil-cli-0.0.1.tgz",
           "integrity_shasum": "6c9b2a56c4e6834e2572d26bdc24906f62dba928"
         }
+      ],
+      "keywords": [
+        "eventil", "eventil-cli", "conference", "event", "meetup",
+        "tech event", "tech conference", "javascript", "ruby", "node.js",
+        "python", "clojure", "rails", "kotlin", "scala", "angular", "react",
+        "vue.js", "rust", "elixir", "android", "lua", "c#", "f#", "ocaml",
+        "reasonml", "perl", "ember", "ios"
       ]
     },
     {
@@ -11679,6 +12153,9 @@
             "https://registry.npmjs.org/fastify-with-reason/-/fastify-with-reason-0.1.4.tgz",
           "integrity_shasum": "4add69eda91865caf87b90fc32c8759c0f9f2d3a"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "ReasonML", "Fastify", "Web", "Node", "Server"
       ]
     },
     {
@@ -11796,6 +12273,9 @@
           "download_url": "https://registry.npmjs.org/flex/-/flex-1.2.2.tgz",
           "integrity_shasum": "6b46058d8c909f9ec1ece18ed21b28ae5e611b3e"
         }
+      ],
+      "keywords": [
+        "css", "flex", "flexbox", "layout", "reason", "reasonml", "ocaml"
       ]
     },
     {
@@ -11862,6 +12342,9 @@
             "https://registry.npmjs.org/fp455/-/fp455-1.0.5.tgz",
           "integrity_shasum": "318609941d03e1cc88466a9ca8688cea9fb40c94"
         }
+      ],
+      "keywords": [
+        "Huami", "Flower Password", "crypto", "ReasonML", "BuckleScript"
       ]
     },
     {
@@ -11880,7 +12363,8 @@
             "https://registry.npmjs.org/galley-recipes/-/galley-recipes-1.0.0-d0.tgz",
           "integrity_shasum": "d6810f43aa8c9ded1e4def3ebf9329fe72086cee"
         }
-      ]
+      ],
+      "keywords": [ "Galley", "ReasonML", "BuckleScript" ]
     },
     {
       "name": "gatsby-link-reason",
@@ -11934,7 +12418,8 @@
             "https://registry.npmjs.org/gatsby-link-reason/-/gatsby-link-reason-2.0.0.tgz",
           "integrity_shasum": "87b9932097f2a1fb6089241a24766624fda4c226"
         }
-      ]
+      ],
+      "keywords": [ "gatsby", "gatsby-link", "reason", "reasonml" ]
     },
     {
       "name": "gatsby-plugin-reason",
@@ -12012,6 +12497,9 @@
             "https://registry.npmjs.org/gatsby-plugin-reason/-/gatsby-plugin-reason-2.0.1.tgz",
           "integrity_shasum": "5ba902da00b4865bbb49a11af3499b11a83e91f4"
         }
+      ],
+      "keywords": [
+        "gatsby", "reason", "reasonml", "plugin", "gatsby-plugin"
       ]
     },
     {
@@ -12025,7 +12513,8 @@
             "https://registry.npmjs.org/gatsby-remark-curlie/-/gatsby-remark-curlie-0.1.0.tgz",
           "integrity_shasum": "5fa6b985617c2628a80e0d8d8ab86cef04fe4bdb"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "reason", "gatsby", "remark" ]
     },
     {
       "name": "graphql-codegen-reason-client",
@@ -12073,6 +12562,10 @@
             "https://registry.npmjs.org/graphql-codegen-reason-client/-/graphql-codegen-reason-client-0.2.1.tgz",
           "integrity_shasum": "46d9d6d851f3dd06c620e491f7c928e1011af582"
         }
+      ],
+      "keywords": [
+        "gql", "generator", "code", "types", "graphql", "codegen", "apollo",
+        "node", "types", "typings", "reasonml"
       ]
     },
     {
@@ -12151,6 +12644,9 @@
             "https://registry.npmjs.org/graphql-to-reason/-/graphql-to-reason-1.0.0-alpha.0.tgz",
           "integrity_shasum": "0dc96a52f433fbd2d4c01ebf98a052d0a8886a6d"
         }
+      ],
+      "keywords": [
+        "graphql", "reason", "generator", "bucklescript", "reasonml"
       ]
     },
     {
@@ -12223,7 +12719,8 @@
             "https://registry.npmjs.org/graphqlx/-/graphqlx-1.2.4.tgz",
           "integrity_shasum": "1ec90dc3e74e6784439139eb6952c79d71acf167"
         }
-      ]
+      ],
+      "keywords": [ "OCaml", "BuckleScript", "GraphQL", "JavaScript" ]
     },
     {
       "name": "hotsite-farm",
@@ -12235,7 +12732,8 @@
             "https://registry.npmjs.org/hotsite-farm/-/hotsite-farm-1.0.0.tgz",
           "integrity_shasum": "2e3c9cae22306f362b8224f224944f57e86405ae"
         }
-      ]
+      ],
+      "keywords": [ "reason", "bucklescript" ]
     },
     {
       "name": "hypatia",
@@ -12284,6 +12782,10 @@
             "https://registry.npmjs.org/hypatia/-/hypatia-0.1.6.tgz",
           "integrity_shasum": "ee0e2a05fc158dcfbf0493883c275dca02b2ae69"
         }
+      ],
+      "keywords": [
+        "jsdoc", "jupyter-notebooks", "jupyter", "ijavascript", "reasonml",
+        "jupyter-notebook", "hypatia", "ijavascript-jupyter-notebooks"
       ]
     },
     {
@@ -12320,7 +12822,8 @@
             "https://registry.npmjs.org/immutable-re/-/immutable-re-0.0.15.tgz",
           "integrity_shasum": "56a99ad76479a5ffd3fccec13ec2b853d1ebce31"
         }
-      ]
+      ],
+      "keywords": [ "reason", "reasonml", "ocaml", "immutable" ]
     },
     {
       "name": "itunescord",
@@ -12339,7 +12842,8 @@
             "https://registry.npmjs.org/itunescord/-/itunescord-0.0.2.tgz",
           "integrity_shasum": "3dfc3f898958a926dd45dee5a061bec5c0ef873d"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "ReasonML", "Discord", "iTunes" ]
     },
     {
       "name": "js_deep_ppx",
@@ -12358,7 +12862,8 @@
             "https://registry.npmjs.org/js_deep_ppx/-/js_deep_ppx-1.0.0-alpha.2.tgz",
           "integrity_shasum": "06ffc3f0e60ceb8ae270c9f64b76929b05eb9240"
         }
-      ]
+      ],
+      "keywords": [ "Reason", "Bucklescript" ]
     },
     {
       "name": "jwt-authorizer",
@@ -12382,7 +12887,8 @@
             "https://registry.npmjs.org/jwt-authorizer/-/jwt-authorizer-0.3.0.tgz",
           "integrity_shasum": "0ee93029f6cc63adedac33bbb6bed55305957ef1"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript" ]
     },
     {
       "name": "let-anything",
@@ -12412,7 +12918,8 @@
             "https://registry.npmjs.org/let-anything/-/let-anything-1.0.3.tgz",
           "integrity_shasum": "0e870607e37ee9ec3793a973e8cd48a59817edf4"
         }
-      ]
+      ],
+      "keywords": [ "Reason", "Async" ]
     },
     {
       "name": "markdown-to-rex",
@@ -12431,6 +12938,10 @@
             "https://registry.npmjs.org/markdown-to-rex/-/markdown-to-rex-0.1.1.tgz",
           "integrity_shasum": "5be8b3111f4d3294dfdecb55e4f8db6e1dc20c36"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "ReasonML", "ReasonReact", "Markdown",
+        "markdown-to-jsx"
       ]
     },
     {
@@ -12444,6 +12955,10 @@
             "https://registry.npmjs.org/melkornms-razzle/-/melkornms-razzle-2.4.1.tgz",
           "integrity_shasum": "837ec425f715f7276a89cea58cc690c01f48285a"
         }
+      ],
+      "keywords": [
+        "razzle", "react", "webpack", "preact", "ssr", "universal",
+        "isomorphic", "inferno", "reason", "reasonml"
       ]
     },
     {
@@ -12606,7 +13121,8 @@
             "https://registry.npmjs.org/mo-display/-/mo-display-0.0.12.tgz",
           "integrity_shasum": "05091f24b9879ca41d66b7bec32d72aab6c346ad"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "reasonml", "reasonreact" ]
     },
     {
       "name": "ocaml-diff",
@@ -12636,6 +13152,10 @@
             "https://registry.npmjs.org/ocaml-diff/-/ocaml-diff-0.1.3.tgz",
           "integrity_shasum": "1eab27617f3a97bc6d06c24c191490fa9fe6b123"
         }
+      ],
+      "keywords": [
+        "reason", "reasonml", "diff", "utilities", "collections",
+        "BuckleScript"
       ]
     },
     {
@@ -12783,7 +13303,8 @@
           "download_url": "https://registry.npmjs.org/pesy/-/pesy-0.4.3.tgz",
           "integrity_shasum": "d3a5e9f5df853d3fd6d35229d939ce923fb6dd8f"
         }
-      ]
+      ],
+      "keywords": [ "esy", "ocaml", "reason", "reasonml" ]
     },
     {
       "name": "pinata-sdk",
@@ -12832,7 +13353,8 @@
             "https://registry.npmjs.org/pinata-sdk/-/pinata-sdk-0.1.7.tgz",
           "integrity_shasum": "26d0b07b622ce0235c48ed31a5c15f1a5bb47d66"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "ReasonML", "Pinata", "IPFS" ]
     },
     {
       "name": "ppx-deriving",
@@ -12851,6 +13373,11 @@
             "https://registry.npmjs.org/ppx-deriving/-/ppx-deriving-42.1.0.tgz",
           "integrity_shasum": "c8f29ce7c51ba039d9d676fb14bdd2b6187059e7"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "ReasonML", "OCaml", "CLI", "bin", "binary", "PPX",
+        "AST", "transpiler", "tool", "codegen", "functional", "types",
+        "static-typing", "wrapper"
       ]
     },
     {
@@ -12912,6 +13439,11 @@
             "https://registry.npmjs.org/ppx-sedlex/-/ppx-sedlex-20.0.0-pre.2.tgz",
           "integrity_shasum": "2fa2d27623eee008e1019a04fc18cfeb90840b86"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "ReasonML", "OCaml", "CLI", "bin", "binary", "ppx",
+        "ast", "codegen", "syntax", "parsing", "parser", "lexing", "tokens",
+        "tokenize", "wrapper"
       ]
     },
     {
@@ -12930,6 +13462,10 @@
             "https://registry.npmjs.org/ppx-tea-jsx/-/ppx-tea-jsx-0.2.1.tgz",
           "integrity_shasum": "b83a02a07d6e3f9892e174337d4baa238d384632"
         }
+      ],
+      "keywords": [
+        "bucklescript", "bucklescript-tea", "elm", "reason", "reasonml",
+        "jsx"
       ]
     },
     {
@@ -13014,6 +13550,9 @@
             "https://registry.npmjs.org/ppx_bsx/-/ppx_bsx-1.0.13.tgz",
           "integrity_shasum": "5f08e4911407dd78c1a44c2ce4fa329ddb05b9a6"
         }
+      ],
+      "keywords": [
+        "reason", "reasonml", "bucklescript", "ocaml", "bsx", "jsx"
       ]
     },
     {
@@ -13027,7 +13566,8 @@
             "https://registry.npmjs.org/prettier-plugin-reasonml/-/prettier-plugin-reasonml-0.1.0.tgz",
           "integrity_shasum": "729ad72fb736e5c47be410f84c52c96bac3fa1cf"
         }
-      ]
+      ],
+      "keywords": [ "reasonml", "refmt", "prettier", "prettier-plugin" ]
     },
     {
       "name": "purposefile",
@@ -13070,7 +13610,8 @@
             "https://registry.npmjs.org/purposefile/-/purposefile-1.2.0.tgz",
           "integrity_shasum": "85d0383eefb5c958a5f6ba439d297dbc4c44827e"
         }
-      ]
+      ],
+      "keywords": [ "purpose", "file", "reason", "lint", "config" ]
     },
     {
       "name": "raisin",
@@ -13083,7 +13624,8 @@
             "https://registry.npmjs.org/raisin/-/raisin-0.0.1.tgz",
           "integrity_shasum": "b6b4c053e928010bbdb554c37836c115bf9c4fae"
         }
-      ]
+      ],
+      "keywords": [ "reason", "reasonml", "ocaml", "build" ]
     },
     {
       "name": "rationale",
@@ -13156,7 +13698,8 @@
             "https://registry.npmjs.org/rationale/-/rationale-0.1.10.tgz",
           "integrity_shasum": "a14567d3eea7facaba0ed35d68ef2127fdd861d7"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "ReasonML", "Ramda", "Lodash", "Monad" ]
     },
     {
       "name": "razzle",
@@ -13685,6 +14228,10 @@
             "https://registry.npmjs.org/razzle/-/razzle-3.0.0.tgz",
           "integrity_shasum": "317954313b63313c13c7015e2ab9de48077b9a98"
         }
+      ],
+      "keywords": [
+        "razzle", "react", "webpack", "preact", "ssr", "universal",
+        "isomorphic", "inferno", "reason", "reasonml"
       ]
     },
     {
@@ -13769,6 +14316,10 @@
             "https://registry.npmjs.org/razzle-babel-7/-/razzle-babel-7-0.9.2.tgz",
           "integrity_shasum": "85c5b5e8eb6807a2510b009314e99063079d7d73"
         }
+      ],
+      "keywords": [
+        "razzle", "react", "webpack", "preact", "ssr", "universal",
+        "isomorphic", "inferno", "reason", "reasonml"
       ]
     },
     {
@@ -13782,6 +14333,10 @@
             "https://registry.npmjs.org/razzle-rn/-/razzle-rn-2.3.0-alpha.1.tgz",
           "integrity_shasum": "0d7a05f591bbf8f4532012f0fa2a6f59170dac14"
         }
+      ],
+      "keywords": [
+        "razzle", "react", "webpack", "preact", "ssr", "universal",
+        "isomorphic", "inferno", "reason", "reasonml"
       ]
     },
     {
@@ -13801,7 +14356,8 @@
             "https://registry.npmjs.org/re-chalk/-/re-chalk-0.1.1.tgz",
           "integrity_shasum": "9b4b19f45add44157625e846e4f13ada56f99a49"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "Reasonml", "chalk" ]
     },
     {
       "name": "re-classnames",
@@ -13861,6 +14417,10 @@
             "https://registry.npmjs.org/re-classnames/-/re-classnames-4.0.0.tgz",
           "integrity_shasum": "11c62c5f3f8696c20689fdc6b70cdbea9e3496ef"
         }
+      ],
+      "keywords": [
+        "react", "reason", "reason-react", "reasonml", "ocaml",
+        "bucklescript", "classnames"
       ]
     },
     {
@@ -13873,7 +14433,8 @@
             "https://registry.npmjs.org/re-cx/-/re-cx-0.1.0.tgz",
           "integrity_shasum": "ae5051786c1dcd0ae6446094c8e493afc8fddd8f"
         }
-      ]
+      ],
+      "keywords": [ "reason", "bucklescript", "classnames" ]
     },
     {
       "name": "re-debouncer",
@@ -13903,6 +14464,10 @@
             "https://registry.npmjs.org/re-debouncer/-/re-debouncer-2.0.0.tgz",
           "integrity_shasum": "598bd7bc45fa38216c4d2652143c46cdc3334aa1"
         }
+      ],
+      "keywords": [
+        "react", "reason", "reason-react", "reasonml", "ocaml",
+        "bucklescript", "debounce", "debouncer"
       ]
     },
     {
@@ -13969,6 +14534,10 @@
             "https://registry.npmjs.org/re-dnd/-/re-dnd-0.6.0.tgz",
           "integrity_shasum": "7e9517018d5d5d475ee300e9fadb92a9a856f6c0"
         }
+      ],
+      "keywords": [
+        "react", "reason", "reason-react", "reasonml", "ocaml",
+        "bucklescript", "ui", "dnd", "drag-n-drop"
       ]
     },
     {
@@ -14006,7 +14575,8 @@
             "https://registry.npmjs.org/re-elm-app/-/re-elm-app-1.1.2.tgz",
           "integrity_shasum": "2782604f25b77ca57fd57ac46f802f48eb6f2e6d"
         }
-      ]
+      ],
+      "keywords": [ "reason", "bucklescript", "elm" ]
     },
     {
       "name": "re-formality",
@@ -14240,6 +14810,10 @@
             "https://registry.npmjs.org/re-formality/-/re-formality-3.0.0.tgz",
           "integrity_shasum": "4e92807b6b55a750381f5af8a94cf629d67a1d0c"
         }
+      ],
+      "keywords": [
+        "react", "reason", "reason-react", "reasonml", "ocaml",
+        "bucklescript", "forms", "validation"
       ]
     },
     {
@@ -14259,7 +14833,8 @@
             "https://registry.npmjs.org/re-localforage/-/re-localforage-1.1.0.tgz",
           "integrity_shasum": "563c79c48ff71098f07c57caf6cf478d35dab0cf"
         }
-      ]
+      ],
+      "keywords": [ "reason", "bucklescript", "localforage" ]
     },
     {
       "name": "re-respect",
@@ -14385,6 +14960,9 @@
             "https://registry.npmjs.org/re-respect/-/re-respect-0.5.5.tgz",
           "integrity_shasum": "41a29d987fea9a2a270ac68db79b2e1df0832516"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "reason", "reasonml", "test", "testing", "tdd", "bdd"
       ]
     },
     {
@@ -14422,6 +15000,11 @@
             "https://registry.npmjs.org/react-from-svg/-/react-from-svg-0.2.0.tgz",
           "integrity_shasum": "e1672ad7e029bcdabf56c719e0bbb87ddc56e8e1"
         }
+      ],
+      "keywords": [
+        "react", "react-native", "reason-react", "bs-react", "svg",
+        "react-native-svg", "react-native-web", "bucklescript",
+        "react-native", "svg-to-react", "svgr"
       ]
     },
     {
@@ -14447,7 +15030,8 @@
             "https://registry.npmjs.org/react-splt/-/react-splt-0.1.2.tgz",
           "integrity_shasum": "2bd29fc02c92e54bbd14a30602dfa18636285b82"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "pane", "react", "reasonml", "split" ]
     },
     {
       "name": "reason",
@@ -14640,6 +15224,10 @@
             "https://registry.npmjs.org/reason/-/reason-3.3.4.tgz",
           "integrity_shasum": "a294ef8aa14fa85c6fd8a7db5dcab053f2382f68"
         }
+      ],
+      "keywords": [
+        "reason", "ocaml", "react", "javascript",
+        "won't you look at all these nice types"
       ]
     },
     {
@@ -15414,7 +16002,8 @@
             "https://registry.npmjs.org/reason-apollo/-/reason-apollo-0.16.4.tgz",
           "integrity_shasum": "c34a136e039ebeb346f41152c931147bf3ba83f9"
         }
-      ]
+      ],
+      "keywords": [ "Reason", "Apollo", "React", "GraphQL" ]
     },
     {
       "name": "reason-biz-charts",
@@ -15426,6 +16015,9 @@
             "https://registry.npmjs.org/reason-biz-charts/-/reason-biz-charts-1.0.0.tgz",
           "integrity_shasum": "993aaffea0f22b524a9b9ed3011c7f738c108d7a"
         }
+      ],
+      "keywords": [
+        "chart", "data-visualization", "reasonml", "bucklescript"
       ]
     },
     {
@@ -15451,6 +16043,10 @@
             "https://registry.npmjs.org/reason-browser-persist/-/reason-browser-persist-1.0.2.tgz",
           "integrity_shasum": "1e4a761c33e3ca5d1a053dfbf97fafb0cf992ebf"
         }
+      ],
+      "keywords": [
+        "reason", "bucklescript", "localforage", "reasonml", "indexeddb",
+        "storage", "localstorage"
       ]
     },
     {
@@ -15511,6 +16107,11 @@
             "https://registry.npmjs.org/reason-css-modules-loader/-/reason-css-modules-loader-1.1.6.tgz",
           "integrity_shasum": "da72d288a7344f666cedca2a1261f80be8b7c005"
         }
+      ],
+      "keywords": [
+        "ReasonML", "ReasonReact", "CSS Modules", "Webpack",
+        "Webpack loader", "Webpack ReasonML CSS Modules loader",
+        "ReasonML CSS Modules"
       ]
     },
     {
@@ -15548,7 +16149,8 @@
             "https://registry.npmjs.org/reason-elm/-/reason-elm-0.0.5.tgz",
           "integrity_shasum": "f9f70828c102cdf8754036dfb787677909bd6c47"
         }
-      ]
+      ],
+      "keywords": [ "reasonml", "bucklescript", "elm" ]
     },
     {
       "name": "reason-expo",
@@ -15776,6 +16378,9 @@
             "https://registry.npmjs.org/reason-expo/-/reason-expo-33.2.0.tgz",
           "integrity_shasum": "7c93ed38d2e0c04614b73449692c2860d0520554"
         }
+      ],
+      "keywords": [
+        "reason", "reasonml", "bucklescript", "react-native", "expo"
       ]
     },
     {
@@ -15795,7 +16400,8 @@
             "https://registry.npmjs.org/reason-expo-vector-icons/-/reason-expo-vector-icons-31.0.1.tgz",
           "integrity_shasum": "f1632e30f5103ec3ed7b1acf99e899682eb74b71"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "Expo", "React Native", "React" ]
     },
     {
       "name": "reason-flip-page",
@@ -15813,7 +16419,8 @@
             "https://registry.npmjs.org/reason-flip-page/-/reason-flip-page-0.2.0.tgz",
           "integrity_shasum": "6162251e4f30374267daa4a6b8ee5b057e5d13c8"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "react-flip-page", "react", "reason" ]
     },
     {
       "name": "reason-form",
@@ -15909,7 +16516,8 @@
             "https://registry.npmjs.org/reason-form/-/reason-form-2.0.2.tgz",
           "integrity_shasum": "33273c6ec8d24824ca63e254e4ab6652493c53f4"
         }
-      ]
+      ],
+      "keywords": []
     },
     {
       "name": "reason-future",
@@ -15975,7 +16583,8 @@
             "https://registry.npmjs.org/reason-future/-/reason-future-2.4.0.tgz",
           "integrity_shasum": "3918945a943a6abbb67bc62e90af6a65a0f079ae"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript" ]
     },
     {
       "name": "reason-graphql",
@@ -16012,7 +16621,8 @@
             "https://registry.npmjs.org/reason-graphql/-/reason-graphql-0.3.2.tgz",
           "integrity_shasum": "4a6fa78c715018217d2ae6bd17057ee177800cbf"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "GraphQL", "Reason", "ReasonML" ]
     },
     {
       "name": "reason-graphql-bs-express",
@@ -16030,6 +16640,9 @@
             "https://registry.npmjs.org/reason-graphql-bs-express/-/reason-graphql-bs-express-0.2.0.tgz",
           "integrity_shasum": "0863f1907e256c8cf5160559b11729267dbcd250"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "GraphQL", "Express", "Reason", "ReasonML"
       ]
     },
     {
@@ -16060,6 +16673,10 @@
             "https://registry.npmjs.org/reason-highlightjs/-/reason-highlightjs-0.2.0.tgz",
           "integrity_shasum": "275583ef73ec79d8bfd1d9940431162094d196c2"
         }
+      ],
+      "keywords": [
+        "reason", "reasonml", "bucklescript", "highlight", "highlightjs",
+        "highlight.js"
       ]
     },
     {
@@ -16090,7 +16707,8 @@
             "https://registry.npmjs.org/reason-hooks-testing-library/-/reason-hooks-testing-library-0.1.3.tgz",
           "integrity_shasum": "2b49fc5229077d230f32a2b9a98753ad6eb62142"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "testing", "hooks" ]
     },
     {
       "name": "reason-language-server",
@@ -16102,7 +16720,8 @@
             "https://registry.npmjs.org/reason-language-server/-/reason-language-server-1.0.0.tgz",
           "integrity_shasum": "afb132a0c8708685dac57398e14c5b88d953e9f8"
         }
-      ]
+      ],
+      "keywords": [ "Reason", "lsp", "IDE" ]
     },
     {
       "name": "reason-loadable",
@@ -16145,6 +16764,10 @@
             "https://registry.npmjs.org/reason-loadable/-/reason-loadable-0.6.1.tgz",
           "integrity_shasum": "0e93fe651f048b45fc8179948aff9d78a8937550"
         }
+      ],
+      "keywords": [
+        "reason", "reasonreact", "dynamic", "module", "import",
+        "code-splitting", "lazy-loading", "chunksplit"
       ]
     },
     {
@@ -16169,6 +16792,10 @@
             "https://registry.npmjs.org/reason-maybe/-/reason-maybe-0.3.0.tgz",
           "integrity_shasum": "43fd496ecfde05d82235a892470f0f73d47e1087"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "maybe", "monad", "reasonml", "library",
+        "functional-programming"
       ]
     },
     {
@@ -16314,6 +16941,11 @@
             "https://registry.npmjs.org/reason-nact/-/reason-nact-5.0.0.tgz",
           "integrity_shasum": "43bf9114f2875f0e685a92d14a9ee963b4705958"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "Reason", "nact", "actors", "actor-model", "akka",
+        "akka.net", "non-blocking", "actor system", "erlang",
+        "event sourcing", "distributed-systems"
       ]
     },
     {
@@ -16374,6 +17006,11 @@
             "https://registry.npmjs.org/reason-nact-postgres/-/reason-nact-postgres-5.0.2.tgz",
           "integrity_shasum": "55305bb42182a788dcf90dd51fc29ef66d9d2f64"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "Reason", "nact", "actors", "actor-model", "akka",
+        "akka.net", "non-blocking", "actor system", "erlang",
+        "event sourcing", "distributed-systems"
       ]
     },
     {
@@ -16512,6 +17149,10 @@
             "https://registry.npmjs.org/reason-nconf/-/reason-nconf-1.3.2.tgz",
           "integrity_shasum": "4c178aa9cb65fff1623563ff9947fb8da873fc3d"
         }
+      ],
+      "keywords": [
+        "configuration", "key value store", "plugabble", "bucklescript",
+        "reasonml"
       ]
     },
     {
@@ -16537,6 +17178,10 @@
             "https://registry.npmjs.org/reason-powerplug/-/reason-powerplug-0.1.2.tgz",
           "integrity_shasum": "57eda8d134203be0066f62420fb1ed8bbb19b704"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "ReasonReact", "ReasonML", "components", "dumb",
+        "state", "RenderProps"
       ]
     },
     {
@@ -16561,6 +17206,10 @@
             "https://registry.npmjs.org/reason-pure-component/-/reason-pure-component-0.0.4.tgz",
           "integrity_shasum": "958a909ba9b5eb815c0ed7033b4fcdeddaf562ed"
         }
+      ],
+      "keywords": [
+        "bucklescript", "reason", "react", "reasonreact", "bsb", "pure",
+        "memo"
       ]
     },
     {
@@ -16729,7 +17378,8 @@
             "https://registry.npmjs.org/reason-react/-/reason-react-0.7.0.tgz",
           "integrity_shasum": "46a975c321e81cd51310d7b1a02418ca7667b0d6"
         }
-      ]
+      ],
+      "keywords": [ "reasonml", "bucklescript", "react" ]
     },
     {
       "name": "reason-react-brunch",
@@ -16748,7 +17398,8 @@
             "https://registry.npmjs.org/reason-react-brunch/-/reason-react-brunch-0.4.4.tgz",
           "integrity_shasum": "52ed89f4ca26ea48bb6f74d3b3e1c74d712ee92d"
         }
-      ]
+      ],
+      "keywords": [ "reasonml", "bucklescript", "react" ]
     },
     {
       "name": "reason-react-context",
@@ -16767,7 +17418,8 @@
             "https://registry.npmjs.org/reason-react-context/-/reason-react-context-0.2.0.tgz",
           "integrity_shasum": "b269530d10e525377e4fdea7dd8c52caac9ff87b"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "react", "reasonml" ]
     },
     {
       "name": "reason-react-document-title",
@@ -16815,6 +17467,10 @@
             "https://registry.npmjs.org/reason-react-document-title/-/reason-react-document-title-2.0.2.tgz",
           "integrity_shasum": "951897ea530ad9f383ff18c3b0e1c6052b988c77"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "Reason", "ReasonReact", "React", "title",
+        "document.title"
       ]
     },
     {
@@ -16828,7 +17484,8 @@
             "https://registry.npmjs.org/reason-react-native/-/reason-react-native-0.60.0.tgz",
           "integrity_shasum": "7adb9837f28d79d9f1e009b5d01ae864aff15d51"
         }
-      ]
+      ],
+      "keywords": [ "reason", "reasonml", "bucklescript", "react-native" ]
     },
     {
       "name": "reason-react-native-maps",
@@ -16847,6 +17504,10 @@
             "https://registry.npmjs.org/reason-react-native-maps/-/reason-react-native-maps-0.24.1.tgz",
           "integrity_shasum": "ad72d2df065a0a161499fec85b6f9682a3f86fc3"
         }
+      ],
+      "keywords": [
+        "reason", "reasonml", "bucklescript", "react-native",
+        "react-native-maps"
       ]
     },
     {
@@ -16865,7 +17526,8 @@
             "https://registry.npmjs.org/reason-react-router/-/reason-react-router-0.1.1.tgz",
           "integrity_shasum": "43ecc311d64f19169280fea2d3f20dde839f37d9"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "reasonml", "react" ]
     },
     {
       "name": "reason-react-waffle",
@@ -16883,7 +17545,8 @@
             "https://registry.npmjs.org/reason-react-waffle/-/reason-react-waffle-0.1.1.tgz",
           "integrity_shasum": "54d8150e30120be73bbf298587914c069daf7759"
         }
-      ]
+      ],
+      "keywords": [ "reasonml", "streams", "react" ]
     },
     {
       "name": "reason-reroute",
@@ -16913,7 +17576,8 @@
             "https://registry.npmjs.org/reason-reroute/-/reason-reroute-0.0.4.tgz",
           "integrity_shasum": "ea480951222da8059c739c645ee9b68860f27738"
         }
-      ]
+      ],
+      "keywords": [ "router", "react", "reason", "reasonml" ]
     },
     {
       "name": "reason-select",
@@ -16938,7 +17602,8 @@
             "https://registry.npmjs.org/reason-select/-/reason-select-1.3.1.tgz",
           "integrity_shasum": "7c8c4bd4dd3b1207edb4ad64f10cd78ea0c100a4"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "select", "reason", "reasonml" ]
     },
     {
       "name": "reason-tags-input",
@@ -16969,6 +17634,9 @@
             "https://registry.npmjs.org/reason-tags-input/-/reason-tags-input-0.1.3.tgz",
           "integrity_shasum": "adefb3567f162919b13048687f2fc69cd2c83afc"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "Reason", "React", "Tags input", "Hashtag input"
       ]
     },
     {
@@ -17017,7 +17685,8 @@
             "https://registry.npmjs.org/reason-transition-group/-/reason-transition-group-2.0.2.tgz",
           "integrity_shasum": "9de9b449697ffc7d7263a9ea876740a1988d6803"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "ReasonReact", "Transition" ]
     },
     {
       "name": "reason-tttoe",
@@ -17035,7 +17704,8 @@
             "https://registry.npmjs.org/reason-tttoe/-/reason-tttoe-1.0.1.tgz",
           "integrity_shasum": "2fc74deeb660b425e79c0d4455e699d736026344"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "tic-tac-toe" ]
     },
     {
       "name": "reason-types-webpack-plugin",
@@ -17047,6 +17717,9 @@
             "https://registry.npmjs.org/reason-types-webpack-plugin/-/reason-types-webpack-plugin-1.0.0.tgz",
           "integrity_shasum": "5098d69c91d1d00b6e36c3321e61f735f9e29e1d"
         }
+      ],
+      "keywords": [
+        "webpack", "get-typed", "reason", "reasonml", "bucklescript"
       ]
     },
     {
@@ -17108,7 +17781,8 @@
             "https://registry.npmjs.org/reason-urql/-/reason-urql-1.0.0-beta.tgz",
           "integrity_shasum": "2873df8c24026ad0b7e7bec1602fe1f422e1a1fe"
         }
-      ]
+      ],
+      "keywords": [ "reason", "reasonml", "bucklescript", "graphql", "urql" ]
     },
     {
       "name": "reason-waffle",
@@ -17120,7 +17794,8 @@
             "https://registry.npmjs.org/reason-waffle/-/reason-waffle-0.1.0.tgz",
           "integrity_shasum": "dfdb1f19248c83ce4ddaf76c5dd032aaa3a521fb"
         }
-      ]
+      ],
+      "keywords": [ "streams", "reasonML" ]
     },
     {
       "name": "reason-webpack-plugin",
@@ -17144,7 +17819,8 @@
             "https://registry.npmjs.org/reason-webpack-plugin/-/reason-webpack-plugin-2.0.1.tgz",
           "integrity_shasum": "f49aceff1b98797db1d65788a4e2ed4fda844668"
         }
-      ]
+      ],
+      "keywords": [ "webpack", "reason", "reasonml", "bucklescript" ]
     },
     {
       "name": "reasonably-typed",
@@ -17336,7 +18012,8 @@
             "https://registry.npmjs.org/reasonably-typed/-/reasonably-typed-2.0.0-beta4.tgz",
           "integrity_shasum": "a90a448650415555328910a30f38ad4687c31b65"
         }
-      ]
+      ],
+      "keywords": [ "Reason", "OCaml", "Bucklescript", "Flow" ]
     },
     {
       "name": "reasonml",
@@ -17348,7 +18025,8 @@
             "https://registry.npmjs.org/reasonml/-/reasonml-1.0.0.tgz",
           "integrity_shasum": "f2d5581adfc31feab64ba536178ec0a436b85b23"
         }
-      ]
+      ],
+      "keywords": [ "reasonml" ]
     },
     {
       "name": "reasonml-in-browser",
@@ -17415,7 +18093,8 @@
             "https://registry.npmjs.org/reasonml-in-browser/-/reasonml-in-browser-1.0.9.tgz",
           "integrity_shasum": "9dee5d1952a495f71574058f9a4c08009bc073f2"
         }
-      ]
+      ],
+      "keywords": [ "reason", "reasonml", "bucklescript" ]
     },
     {
       "name": "reasonz",
@@ -17433,7 +18112,8 @@
             "https://registry.npmjs.org/reasonz/-/reasonz-0.0.1.tgz",
           "integrity_shasum": "b5027c9567a442d20a7451c0e32c5bae3449ca57"
         }
-      ]
+      ],
+      "keywords": [ "reason", "reasonml", "haskell", "typeclasses" ]
     },
     {
       "name": "reazon",
@@ -17445,7 +18125,8 @@
             "https://registry.npmjs.org/reazon/-/reazon-0.0.0.tgz",
           "integrity_shasum": "8e3b40e57ece2ab9174733f4bee5c4c6497d56ff"
         }
-      ]
+      ],
+      "keywords": [ "reason", "reasonml", "haskell" ]
     },
     {
       "name": "rebem-helper",
@@ -17511,7 +18192,8 @@
             "https://registry.npmjs.org/rebem-helper/-/rebem-helper-2.1.0.tgz",
           "integrity_shasum": "0397648860d077e1d50cebef8d5262228e529589"
         }
-      ]
+      ],
+      "keywords": [ "bem", "css", "helper", "reason", "reasonml" ]
     },
     {
       "name": "rebolt",
@@ -17530,6 +18212,9 @@
             "https://registry.npmjs.org/rebolt/-/rebolt-0.2.0.tgz",
           "integrity_shasum": "7bbe0c4242a0d572b878e910bd6e6f376ade10be"
         }
+      ],
+      "keywords": [
+        "reason", "reasonml", "bucklescript", "react-native", "rebolt"
       ]
     },
     {
@@ -17548,7 +18233,8 @@
             "https://registry.npmjs.org/rebolt-navigation/-/rebolt-navigation-0.4.0.tgz",
           "integrity_shasum": "71d1e6c6394f67821cedaf85a2d4ff5c3f84f587"
         }
-      ]
+      ],
+      "keywords": [ "router", "react", "reason", "reasonml", "rebolt" ]
     },
     {
       "name": "reductive",
@@ -17578,6 +18264,9 @@
             "https://registry.npmjs.org/reductive/-/reductive-1.0.0.tgz",
           "integrity_shasum": "e360501df34e00efe51f56ce1915c52f5994e30f"
         }
+      ],
+      "keywords": [
+        "reason", "reasonml", "ocaml", "redux", "state management"
       ]
     },
     {
@@ -17681,6 +18370,10 @@
             "https://registry.npmjs.org/reductive-dev-tools/-/reductive-dev-tools-0.2.6.tgz",
           "integrity_shasum": "cb8244224f317f051c260a03afd6fa9815289163"
         }
+      ],
+      "keywords": [
+        "redux", "dev tools", "reductive", "redux", "reason", "reasonml",
+        "bucklescript"
       ]
     },
     {
@@ -17705,7 +18398,8 @@
             "https://registry.npmjs.org/refmt/-/refmt-1.13.7-1.tgz",
           "integrity_shasum": "c3159bcaf23b20cf2dc86cb161570792f62d1481"
         }
-      ]
+      ],
+      "keywords": [ "reason", "reasonml", "refmt" ]
     },
     {
       "name": "relude",
@@ -17789,6 +18483,9 @@
             "https://registry.npmjs.org/relude/-/relude-0.14.1.tgz",
           "integrity_shasum": "a1ecf489e88b71d0a88ee5600cce49b4bc960fcb"
         }
+      ],
+      "keywords": [
+        "ReasonML", "BuckleScript", "Utility", "Prelude", "Standard Library"
       ]
     },
     {
@@ -17825,7 +18522,8 @@
             "https://registry.npmjs.org/reprocessing/-/reprocessing-0.3.1.tgz",
           "integrity_shasum": "2832f59ca6708941073f7ab63f6026c2146b44d1"
         }
-      ]
+      ],
+      "keywords": [ "reason", "processing", "graphics", "opengl", "webgl" ]
     },
     {
       "name": "reroute-native",
@@ -17837,7 +18535,8 @@
             "https://registry.npmjs.org/reroute-native/-/reroute-native-0.0.5.tgz",
           "integrity_shasum": "f5a68c0dcf0f818f70927dc68192be77d9e6a16e"
         }
-      ]
+      ],
+      "keywords": [ "router", "react", "reason", "reasonml" ]
     },
     {
       "name": "rex-json",
@@ -17891,7 +18590,8 @@
             "https://registry.npmjs.org/rex-json/-/rex-json-1.4.0.tgz",
           "integrity_shasum": "d93796d0a33920ca977a177aec5628950ebeb04a"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "json", "reason" ]
     },
     {
       "name": "rn-razzle",
@@ -17904,6 +18604,10 @@
             "https://registry.npmjs.org/rn-razzle/-/rn-razzle-2.0.0-alpha.8.tgz",
           "integrity_shasum": "b0f548c83ac824af07af1e843e3b233cd4911f71"
         }
+      ],
+      "keywords": [
+        "razzle", "react", "webpack", "preact", "ssr", "universal",
+        "isomorphic", "inferno", "reason", "reasonml"
       ]
     },
     {
@@ -17946,7 +18650,8 @@
             "https://registry.npmjs.org/rollup-plugin-bucklescript/-/rollup-plugin-bucklescript-0.7.0.tgz",
           "integrity_shasum": "2955f9ed21316c0f4e6cc26a251e9e8e90617193"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "rollup", "reason", "reasonML" ]
     },
     {
       "name": "serverless-reasonml",
@@ -17976,7 +18681,8 @@
             "https://registry.npmjs.org/serverless-reasonml/-/serverless-reasonml-1.0.3.tgz",
           "integrity_shasum": "099eae17c4ccb1913020ebd9d814c345ca535e9e"
         }
-      ]
+      ],
+      "keywords": [ "reason", "reasonml", "serverless", "lambda" ]
     },
     {
       "name": "setup-reason-react-native-app",
@@ -18019,7 +18725,8 @@
             "https://registry.npmjs.org/setup-reason-react-native-app/-/setup-reason-react-native-app-0.0.5.tgz",
           "integrity_shasum": "3794ce8b96fe4c3106a8dfda06f3777f441ad358"
         }
-      ]
+      ],
+      "keywords": [ "ReasonML", "React", "Native", "Bucklescript" ]
     },
     {
       "name": "stats.re",
@@ -18098,7 +18805,8 @@
             "https://registry.npmjs.org/stats.re/-/stats.re-2.3.1.tgz",
           "integrity_shasum": "baa8d35f3984993244e1f5f671c32c4f4a14cc72"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "reason", "statistics" ]
     },
     {
       "name": "stature",
@@ -18111,7 +18819,8 @@
             "https://registry.npmjs.org/stature/-/stature-0.1.0.tgz",
           "integrity_shasum": "9ea16de8c6cd68f1d4b34f9538054c4eaef12aa2"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript", "react", "reasonml" ]
     },
     {
       "name": "styled-scss",
@@ -18159,6 +18868,10 @@
             "https://registry.npmjs.org/styled-scss/-/styled-scss-0.1.6.tgz",
           "integrity_shasum": "4f252daf8c5c8df02efac786c16c362f88efcc06"
         }
+      ],
+      "keywords": [
+        "sass", "css", "css-in-js", "react", "reactjs", "react-css",
+        "reason", "reasonml", "bucklescript", "reason-css"
       ]
     },
     {
@@ -18201,7 +18914,8 @@
             "https://registry.npmjs.org/tablecloth-bucklescript/-/tablecloth-bucklescript-0.0.6.tgz",
           "integrity_shasum": "92b27c4e46ceec47008728367eccd7d5016b3914"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript" ]
     },
     {
       "name": "tails-ui",
@@ -18393,6 +19107,10 @@
             "https://registry.npmjs.org/tails-ui/-/tails-ui-0.5.5.tgz",
           "integrity_shasum": "25be132fa7da613c65a5b853d5ffb6a79b9ebaf8"
         }
+      ],
+      "keywords": [
+        "react", "reasonml", "tails-ui", "library", "components",
+        "tailwindcss"
       ]
     },
     {
@@ -18507,6 +19225,9 @@
             "https://registry.npmjs.org/tasks-ml/-/tasks-ml-0.4.8.tgz",
           "integrity_shasum": "894c8fa7369faa065eb8937895cee96c9725062e"
         }
+      ],
+      "keywords": [
+        "BuckleScript", "Reason", "Async", "Functional Programming"
       ]
     },
     {
@@ -18520,7 +19241,8 @@
             "https://registry.npmjs.org/telepathic/-/telepathic-3.0.0.tgz",
           "integrity_shasum": "9725cdf1aea3136c19feaef1219de4baa554114d"
         }
-      ]
+      ],
+      "keywords": [ "bucklescript", "reasonml", "slack" ]
     },
     {
       "name": "typescript-pattern-match",
@@ -18532,6 +19254,10 @@
             "https://registry.npmjs.org/typescript-pattern-match/-/typescript-pattern-match-0.1.0.tgz",
           "integrity_shasum": "c1240058601bc3b04e4246c1c3dced01bf72f0bc"
         }
+      ],
+      "keywords": [
+        "TypeScript", "Pattern Match", "Pattern Matching", "switch", "Elm",
+        "Haskell", "ReasonML"
       ]
     },
     {
@@ -18557,6 +19283,10 @@
             "https://registry.npmjs.org/wcag-color/-/wcag-color-1.1.0.tgz",
           "integrity_shasum": "11f9aee5777279b35c43d1b177b12a99cc2f70f9"
         }
+      ],
+      "keywords": [
+        "WCAG", "Color", "Color contrast", "Accessibility", "BuckleScript",
+        "Reason", "ReasonML"
       ]
     },
     {
@@ -18606,7 +19336,8 @@
             "https://registry.npmjs.org/webpack-stats-explorer/-/webpack-stats-explorer-1.6.0.tgz",
           "integrity_shasum": "68600d43530fbeb92bbd4f203c2dacf6716841d7"
         }
-      ]
+      ],
+      "keywords": [ "BuckleScript" ]
     },
     {
       "name": "wonder-reroute",
@@ -18624,7 +19355,8 @@
             "https://registry.npmjs.org/wonder-reroute/-/wonder-reroute-0.0.2.tgz",
           "integrity_shasum": "44113d62993dcc28b45a1a61adcfde9d8839980c"
         }
-      ]
+      ],
+      "keywords": [ "router", "react", "reason", "reasonml" ]
     },
     {
       "name": "wonder.js",
@@ -20160,6 +20892,10 @@
             "https://registry.npmjs.org/wonder.js/-/wonder.js-1.2.0-alpha.4.tgz",
           "integrity_shasum": "3414342d44d0d0c3a04e25982f663497d5389301"
         }
+      ],
+      "keywords": [
+        "wonder", "webgl", "functional-programming", "high-performance",
+        "3d", "engine", "reasonml", "reason", "bucklescript"
       ]
     },
     {
@@ -20353,6 +21089,10 @@
             "https://registry.npmjs.org/wonka/-/wonka-3.0.0.tgz",
           "integrity_shasum": "4f32a6a30e3229bae5944f002ce32d05b0423ba8"
         }
+      ],
+      "keywords": [
+        "wonka", "reason", "bucklescript", "callbag", "callback",
+        "observable", "iterable", "stream"
       ]
     }
   ]

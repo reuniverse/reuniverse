@@ -7,9 +7,20 @@ var Curry = require("bs-platform/lib/js/curry.js");
 var Infix = require("../../utils/infix.bs.js");
 var React = require("react");
 
+var style = {
+  border: "0",
+  fontFamily: "Helvetica Neue, Helvetica, sans-serif",
+  fontSize: "24px",
+  margin: "0",
+  outline: "0",
+  padding: "20px",
+  width: "100%"
+};
+
 function Components$Search(Props) {
   var onChange = Props.onChange;
   return React.createElement("input", {
+              style: style,
               placeholder: "Package name...",
               onChange: (function (e) {
                   return Curry._1(onChange, e.target.value);
@@ -17,7 +28,35 @@ function Components$Search(Props) {
             });
 }
 
-var Search = /* module */[/* make */Components$Search];
+var Search = /* module */[
+  /* style */style,
+  /* make */Components$Search
+];
+
+var style$1 = {
+  background: "#F9F9F9",
+  listStyle: "none",
+  margin: "10px",
+  padding: "20px",
+  borderRadius: "6px"
+};
+
+function Components$Package(Props) {
+  var pkg = Props.pkg;
+  return React.createElement("li", {
+              style: style$1
+            }, React.createElement("b", undefined, pkg[/* name */0]), React.createElement("br", undefined), Infix.$$Option[/* <|> */0](pkg[/* description */1], "no description"));
+}
+
+var Package = /* module */[
+  /* style */style$1,
+  /* make */Components$Package
+];
+
+var style$2 = {
+  padding: "0",
+  width: "70%"
+};
 
 function Components$Pkg_list(Props) {
   var index = Props.index;
@@ -42,13 +81,21 @@ function Components$Pkg_list(Props) {
             }))(index[/* packages */1]);
   return React.createElement("div", undefined, React.createElement(Components$Search, {
                   onChange: Curry.__1(setFilter)
-                }), React.createElement("ul", undefined, $$Array.of_list(List.map((function (pkg) {
-                            return React.createElement("li", undefined, React.createElement("b", undefined, pkg[/* name */0]), "-", Infix.$$Option[/* <|> */0](pkg[/* description */1], "no description"));
+                }), React.createElement("ul", {
+                  style: style$2
+                }, $$Array.of_list(List.map((function (pkg) {
+                            return React.createElement(Components$Package, {
+                                        pkg: pkg
+                                      });
                           }), pkgs))));
 }
 
-var Pkg_list = /* module */[/* make */Components$Pkg_list];
+var Pkg_list = /* module */[
+  /* style */style$2,
+  /* make */Components$Pkg_list
+];
 
 exports.Search = Search;
+exports.Package = Package;
 exports.Pkg_list = Pkg_list;
 /* react Not a pure module */

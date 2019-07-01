@@ -13,7 +13,6 @@ let package_of_npm_pkg: Npm.Package.t => Model.Package.t =
     {name, description, versions};
   };
 
-
 let scan: list(string) => Model.Index.t =
   keywords => {
     Logs.app(m =>
@@ -59,22 +58,24 @@ let scan: list(string) => Model.Index.t =
     );
 
     let pkgs = {
+      open Lwt.Infix;
       let table = Hashtbl.create(1024);
       pkg_names
       |> Hashtbl.to_seq_keys
       |> Seq.map(Npm.Api.V1.package)
       |> Lwt_stream.of_seq
       |> Lwt_stream.iter_p(pkg_res =>
-           Lwt.Infix.(
-             pkg_res
-             |> Lwt_result.map(pkg => {
-                  Logs.info(m =>
-                    m("Saving package %s", Npm.Package.(pkg.name))
-                  );
-                  Hashtbl.add(table, Npm.Package.(pkg.name), pkg);
-                })
-             >>= (_ => Lwt.return())
-           )
+           pkg_res
+           |> Lwt_result.map(pkg =>
+                switch (pkg) {
+                | Some(pkg) =>
+                  let name = Npm.Package.(pkg.name);
+                  Logs.info(m => m("Saving package %s", name));
+                  Hashtbl.add(table, pkg.name, pkg);
+                | None => ()
+                }
+              )
+           >>= (_ => Lwt.return())
          )
       |> Lwt_main.run;
       table;

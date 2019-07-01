@@ -1,7 +1,7 @@
 let version_of_npm_version: Npm.Package_version.t => Model.Version.t =
   version => {
     version: version.version,
-    download_url: version.dist.tarball,
+    download_url: version.dist.tarball|> Uri.to_string,
     integrity_shasum: version.dist.shasum |> Npm.Sha.to_string,
   };
 

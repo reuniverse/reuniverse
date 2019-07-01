@@ -7,7 +7,9 @@
   "sources": [
     ".",
     "pkg_index",
-    "design_system"
+    "design_system",
+    "../model",
+    "../utils"
   ],
   "package-specs": {
     "module": "commonjs",
@@ -15,7 +17,9 @@
   },
   "suffix": ".bs.js",
   "bs-dependencies": [
-    "reason-react"
+    "reason-react",
+    "bs-fetch",
+    "@aantron/repromise"
   ],
   "bs-dev-dependencies": [],
   "warnings": {

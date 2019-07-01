@@ -4,6 +4,7 @@
 var List = require("bs-platform/lib/js/list.js");
 var $$Array = require("bs-platform/lib/js/array.js");
 var Curry = require("bs-platform/lib/js/curry.js");
+var Infix = require("../../utils/infix.bs.js");
 var React = require("react");
 
 function Components$Search(Props) {
@@ -28,12 +29,21 @@ function Components$Pkg_list(Props) {
   console.log(index);
   var pkgs = filter === "" ? index[/* packages */1] : List.filter((function (pkg) {
               var pattern = new RegExp(filter);
-              return pattern.test(pkg[/* name */0]);
+              if (pattern.test(pkg[/* name */0])) {
+                return true;
+              } else {
+                var match = pkg[/* description */1];
+                if (match !== undefined) {
+                  return pattern.test(match);
+                } else {
+                  return true;
+                }
+              }
             }))(index[/* packages */1]);
   return React.createElement("div", undefined, React.createElement(Components$Search, {
                   onChange: Curry.__1(setFilter)
                 }), React.createElement("ul", undefined, $$Array.of_list(List.map((function (pkg) {
-                            return React.createElement("li", undefined, pkg[/* name */0]);
+                            return React.createElement("li", undefined, React.createElement("b", undefined, pkg[/* name */0]), "-", Infix.$$Option[/* <|> */0](pkg[/* description */1], "no description"));
                           }), pkgs))));
 }
 

@@ -19,15 +19,30 @@ module Pkg_list = {
       | f =>
         Index.(index.packages)
         |> List.filter(pkg => {
-          let pattern = Js.Re.fromString(filter)
-            Js.Re.test_(pattern, Package.(pkg.name));
-        })
+             let pattern = Js.Re.fromString(filter);
+             Js.Re.test_(pattern, Package.(pkg.name))
+             || (
+               switch (Package.(pkg.description)) {
+               | None => true
+               | Some(desc) => Js.Re.test_(pattern, desc)
+               }
+             );
+           })
       };
     <div>
       <Search onChange={text => setFilter(text)} />
       <ul>
         {pkgs
-         |> List.map(pkg => <li> {Package.(pkg.name) |> React.string} </li>)
+         |> List.map(pkg =>
+              <li>
+                <b> {Package.(pkg.name) |> React.string} </b>
+                {"-" |> React.string}
+                {Utils.Infix.Option.(
+                   Package.(pkg.description) <|> "no description"
+                 )
+                 |> React.string}
+              </li>
+            )
          |> Array.of_list
          |> React.array}
       </ul>

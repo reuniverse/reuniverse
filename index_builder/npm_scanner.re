@@ -50,8 +50,8 @@ let scan: list(Npm.Search.Query.param) => Model.Index.t =
                 let pkgs = Npm.Search.(res.results);
                 Logs.app(m => m("Found %d packages", res.total));
                 pkgs
-                |> List.iter(pkg => {
-                     let name = pkg.Npm.Search.package.name;
+                |> List.iter(result => {
+                     let name = Npm.Search.(result.package.name);
                      switch (Hashtbl.find_opt(table, name)) {
                      | None => Hashtbl.add(table, name, name)
                      | _ => ()

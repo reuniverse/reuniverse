@@ -12,5 +12,5 @@ steps:
   - script: "mkdir _release/${{ parameters.folder }}"
     displayName: "Create _release/${{ parameters.folder }}"
 
-  - script: "cp -vr $(Build.StagingDirectory)/${{ parameters.platform }}/* _release/${{ parameters.folder }}"
+  - script: "cp -vr $(Build.StagingDirectory)/${{ parameters.platform }} _release/${{ parameters.folder }}"
     displayName: "cp ${{ parameters.platform }}"

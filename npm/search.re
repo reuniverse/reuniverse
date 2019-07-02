@@ -8,13 +8,19 @@ module Package = {
 };
 
 module Query = {
-  type param = [ | `Keywords(list(string))];
+  type param = [ | `Keywords(list(string)) | `Text(string)];
 
   type t = {params: list(param)};
 
+  let to_string =
+    fun
+    | `Keywords(kws) => "keywords=" ++ String.concat(",", kws)
+    | `Text(txt) => "text=" ++ txt;
+
   let param_to_pair =
     fun
-    | `Keywords(kws) => ("text", ["keywords:" ++ String.concat(",", kws)]);
+    | `Keywords(kws) => ("text", ["keywords:" ++ String.concat(",", kws)])
+    | `Text(txt) => ("text", [txt]);
 
   let to_query_params = t => {
     t.params |> List.map(param_to_pair);
@@ -27,6 +33,8 @@ type t = {
   total: int,
   results: list(search_result),
 };
+
+let empty = { total: 0, results: [] };
 
 let from_json: Yojson.Basic.t => t =
   json => {

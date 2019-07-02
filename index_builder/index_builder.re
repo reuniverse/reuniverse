@@ -1,12 +1,11 @@
 module Npm_scanner = Npm_scanner;
 
 let common_keywords = [
-  "reason",
-  "bucklescript",
-  "reasonml",
-  "ocaml",
-  "BuckleScript",
-  "ReasonML",
+  `Keywords(["reason"]),
+  `Keywords(["bucklescript"]),
+  `Keywords(["reasonml"]),
+  `Keywords(["ocaml"]),
+  `Text("reason-"),
 ];
 
 let build = () => {

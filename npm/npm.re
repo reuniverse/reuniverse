@@ -145,6 +145,9 @@ module Api = {
     let base_url = "https://registry.npmjs.org";
     let base_port = 443;
 
+    let headers = [
+    ("User-Agent", "reason/npm")];
+
     let search:
       (~query: Search.Query.t, ~from: int, ~size: int) =>
       Lwt_result.t(Search.t, _) =
@@ -159,7 +162,7 @@ module Api = {
           ]
           @ (query |> Search.Query.to_query_params);
         let uri = Uri.with_query(search_url, query);
-        let req = Httpkit.Request.create(`GET, uri);
+        let req = Httpkit.Request.create(~headers, `GET, uri);
 
         Logs.app(m => m("%s", uri |> Uri.to_string));
 
@@ -206,7 +209,6 @@ module Api = {
                 });
                 Logs.err(m => m("%s", search_url |> Uri.to_string));
                 Logs.err(m => m("%s", json |> Yojson.Basic.to_string));
-                exit(1) |> ignore;
                 Lwt_result.fail(`Parse_error(e));
               | pkg => Lwt_result.return(Some(pkg))
               }

@@ -7,6 +7,10 @@ steps:
       artifactName: Release
       targetPath: $(Build.StagingDirectory)
 
+  # Remove this if we drop the TLS dependency
+  - script: brew install gmp
+    displayName: install gmp
+
   - bash: npm -g install reuniverse-*.tgz
     displayName: Install the package
     workingDirectory: $(Build.StagingDirectory)

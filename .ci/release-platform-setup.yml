@@ -7,7 +7,7 @@ steps:
     displayName: "Download ${{ parameters.platform }} Artifacts"
     inputs:
       artifactName: ${{ parameters.platform }}
-      targetPath: $(Build.StagingDirectory)
+      targetPath: $(Build.StagingDirectory)/${{ parameters.folder }}
 
   - script: "mkdir _release/${{ parameters.folder }}"
     displayName: "Create _release/${{ parameters.folder }}"

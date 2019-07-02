@@ -47,7 +47,7 @@ let parse: Js.Json.t => Index.t =
 let load: unit => Repromise.rejectable(Model.Index.t, _) =
   () => {
     Fetch.fetch(
-      "https://raw.githubusercontent.com/reuniverse/reuniverse/index/refine/packages/index.json",
+      "https://raw.githubusercontent.com/reuniverse/reuniverse/master/packages/index.json",
     )
     |> Js.Promise.then_(Fetch.Response.json)
     |> Repromise.Rejectable.fromJsPromise

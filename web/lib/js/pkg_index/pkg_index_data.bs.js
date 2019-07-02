@@ -29,7 +29,7 @@ function parse(json) {
 }
 
 function load(param) {
-  return Repromise.Rejectable[/* map */5](parse, Repromise.Rejectable[/* fromJsPromise */10](fetch("https://raw.githubusercontent.com/reuniverse/reuniverse/index/refine/packages/index.json").then((function (prim) {
+  return Repromise.Rejectable[/* map */5](parse, Repromise.Rejectable[/* fromJsPromise */10](fetch("https://raw.githubusercontent.com/reuniverse/reuniverse/master/packages/index.json").then((function (prim) {
                         return prim.json();
                       }))));
 }

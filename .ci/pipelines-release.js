@@ -22,8 +22,8 @@ const packageJson = JSON.stringify(
       "postinstall.js",
       "esyInstallRelease.js",
       "platform-linux/",
-      "platform-darwin/",
-      "platform-windows-x64/"
+      "platform-darwin/"
+      // "platform-windows-x64/"
     ]
   },
   null,

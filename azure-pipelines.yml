@@ -51,26 +51,12 @@ stages:
       steps:
         - template: .ci/cross-release.yml
 
-  - stage: Test_releases
+  - stage: Build_package_index
     dependsOn: [Create_release]
     jobs:
-    - job: TestReleaseLinux
-      displayName: Test Release Linux
-      pool:
-        vmImage: ubuntu-16.04
-      steps:
-        - template: .ci/test-release.yml
-
-    - job: TestReleasOsX
+    - job: BuildPackageIndexOsX
       displayName: Test Release osX
       pool:
         vmImage: macOS-latest
       steps:
-        - template: .ci/test-release.yml
-
-    # - job: TestReleaseWindows
-    #   displayName: Test Release Windows
-    #   pool:
-    #     vmImage: vs2017-win2016
-    #   steps:
-    #     - template: .ci/test-release.yml
+        - template: .ci/build-package-index.yml

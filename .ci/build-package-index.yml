@@ -11,5 +11,11 @@ steps:
     displayName: Install the package
     workingDirectory: $(Build.StagingDirectory)
 
-  - script: reuniverse --help
-    displayName: Test if command installed successfully
+  - script: reuniverse build-index --verbosity=info
+    displayName: Build the index
+
+  - task: PublishBuildArtifacts@1
+    displayName: "Publish Artifact: package-index-json"
+    inputs:
+      PathtoPublish: "./package-index.json"
+      ArtifactName: package-index-json

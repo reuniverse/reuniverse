@@ -55,8 +55,18 @@ stages:
     dependsOn: [Create_release]
     jobs:
     - job: BuildPackageIndexOsX
-      displayName: Test Release osX
+      displayName: Build package-index on osX
       pool:
         vmImage: macOS-latest
       steps:
         - template: .ci/build-package-index.yml
+
+  - stage: Build_web
+    dependsOn: [Build_package_index]
+    jobs:
+      - job: BuildWeb
+        displayName: Build web site
+        pool:
+          vmImage: macOS-latest
+        steps:
+          - template: .ci/build-web.yml

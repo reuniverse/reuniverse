@@ -2,6 +2,16 @@
 # yarn lockfile v1
 
 
+"@aantron/repromise@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@aantron/repromise/-/repromise-0.6.0.tgz#45bea66e593b7e0f968bc0fd03f0b6578003e698"
+  integrity sha512-nxNUWKQQhRJKmsExKi2qyZUryvpEz07H17fEhRaZC3wXkxCtjcdx9j5LMnV0+anbU+EyG/X+UnfATReerBZgMA==
+
+bs-fetch@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/bs-fetch/-/bs-fetch-0.5.0.tgz#6913b1d1ddfa0b0a4b832357854e9763d61d4b28"
+  integrity sha512-cGjwRpyNcIaX+p2ssy/38zs7BM/miKNgmOR3NEhxKFete5mR05JcvjuV4raG89oGCG281SU1b56TTAKmf9VCug==
+
 bs-platform@^6.0.0:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-6.0.2.tgz#eadd6dad96040c8c8aa31983983ab61f5727c2bd"

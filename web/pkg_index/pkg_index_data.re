@@ -28,6 +28,7 @@ let parse: Js.Json.t => Index.t =
              versions: [],
              keywords: [],
              /* what have I done */
+             target: `Unknown
            }
          );
 

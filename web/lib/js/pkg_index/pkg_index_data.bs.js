@@ -15,7 +15,8 @@ function parse(json) {
                   /* name */Belt_Option.getExn(Js_json.decodeString(json_pkg["name"])),
                   /* description */Js_json.decodeString(json_pkg["description"]),
                   /* versions : [] */0,
-                  /* keywords : [] */0
+                  /* keywords : [] */0,
+                  /* target : Unknown */785140586
                 ];
         }), List.map(Belt_Option.getExn, List.map(Js_json.decodeObject, $$Array.to_list(Belt_Option.getExn(Js_json.decodeArray(obj["packages"]))))));
   return /* record */[

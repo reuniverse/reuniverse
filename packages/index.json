@@ -1,5 +1,5 @@
 {
-  "package_count": 409,
+  "package_count": 408,
   "packages": [
     {
       "name": "@ahrefs/bs-atdgen-codec-runtime",
@@ -63,7 +63,8 @@
       "keywords": [
         "atdgen", "json", "atd", "runtime", "bsb", "reason", "reasonml",
         "ocaml", "bs-atdgen-codec-runtime", "bs-platform", "bucklescript"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "@ahrefs/bs-react-dnd",
@@ -115,7 +116,8 @@
       "keywords": [
         "react", "reason-react", "reason", "reasonml", "bucklescript",
         "drag-and-drop", "dnd"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "@ahrefs/bs-reactstrap",
@@ -239,7 +241,8 @@
       "keywords": [
         "reactstrap", "bootstrap", "react", "component", "components",
         "react-component", "ui", "bucklescript", "binding", "reasonml"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "@astrocoders/nautilus",
@@ -288,7 +291,8 @@
           "integrity_shasum": "4befbce06f7e0cbfd5719643c8b6e73bc827a71e"
         }
       ],
-      "keywords": [ "router", "react", "reason", "reasonml", "react-native" ]
+      "keywords": [ "router", "react", "reason", "reasonml", "react-native" ],
+      "target": [ "Web" ]
     },
     {
       "name": "@bkonkle/graft",
@@ -308,7 +312,8 @@
           "integrity_shasum": "cb0253af40a2e879bd0746d999247bae54ec28ff"
         }
       ],
-      "keywords": [ "reasonml", "graphql", "express" ]
+      "keywords": [ "reasonml", "graphql", "express" ],
+      "target": [ "Web" ]
     },
     {
       "name": "@bryanthomaschen/re-url",
@@ -323,7 +328,8 @@
       ],
       "keywords": [
         "url", "binding", "urlsearchparams", "bucklescript", "reason"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "@ctbucha/bs-react-cookie-consent",
@@ -339,7 +345,8 @@
       "keywords": [
         "react-cookie-consent", "bucklescript", "reasonml", "react",
         "cookie", "gdpr", "binding", "component"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "@elliottcable/bs-uchar",
@@ -379,7 +386,8 @@
       ],
       "keywords": [
         "BuckleScript", "ReasonML", "OCaml", "compat", "compatibility"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "@gmmorris/bs-aws-sdk",
@@ -392,7 +400,8 @@
           "integrity_shasum": "bba9adc1066493ec78e80f1237d7405473e0e1af"
         }
       ],
-      "keywords": [ "AWS", "S3", "AWS-SDK", "ReasonML", "BuckleScript" ]
+      "keywords": [ "AWS", "S3", "AWS-SDK", "ReasonML", "BuckleScript" ],
+      "target": [ "Web" ]
     },
     {
       "name": "@gmmorris/bs-rewire",
@@ -432,7 +441,8 @@
       ],
       "keywords": [
         "BuckleScript", "Rewire", "Testing", "OCaml", "ReasonML"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "@godu/bs-ava",
@@ -494,7 +504,8 @@
           "integrity_shasum": "f99cafa604a134e07379ff53760a2daaddfb2b79"
         }
       ],
-      "keywords": [ "bucklescript", "reason", "ava", "test" ]
+      "keywords": [ "bucklescript", "reason", "ava", "test" ],
+      "target": [ "Web" ]
     },
     {
       "name": "@godu/bs-register",
@@ -525,7 +536,8 @@
           "integrity_shasum": "cba49db6b72140b0eff9336f8fdcb94bac328d77"
         }
       ],
-      "keywords": [ "bucklescript", "reason", "require" ]
+      "keywords": [ "bucklescript", "reason", "require" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "@highpoint/bs-js-fetch",
@@ -586,7 +598,8 @@
           "integrity_shasum": "44c3f36325b69a0254a6ab70e8b97b2d3d079a5c"
         }
       ],
-      "keywords": [ "reason", "bucklescript", "highpoint", "fetch" ]
+      "keywords": [ "reason", "bucklescript", "highpoint", "fetch" ],
+      "target": [ "Web" ]
     },
     {
       "name": "@jaredly/reason-language-server",
@@ -623,7 +636,8 @@
           "integrity_shasum": "8399c8059766f36e79782f441873e541b315c17b"
         }
       ],
-      "keywords": [ "Reason", "lsp", "IDE" ]
+      "keywords": [ "Reason", "lsp", "IDE" ],
+      "target": [ "Native" ]
     },
     {
       "name": "@lidcore/bs-express",
@@ -708,7 +722,8 @@
           "integrity_shasum": "70fa1238322c1cbc4c48d48aee683158789ad441"
         }
       ],
-      "keywords": [ "bucklescript", "express" ]
+      "keywords": [ "bucklescript", "express" ],
+      "target": [ "Web" ]
     },
     {
       "name": "@lidcore/bs-node",
@@ -824,7 +839,8 @@
           "integrity_shasum": "334f48e5a4560dc7d6e29de333c10ec5737e63ae"
         }
       ],
-      "keywords": [ "bucklescript", "node" ]
+      "keywords": [ "bucklescript", "node" ],
+      "target": [ "Web" ]
     },
     {
       "name": "@lidcore/draco",
@@ -843,7 +859,8 @@
           "integrity_shasum": "a921fcd71a04bcf842289ce70c9bf9973a4bd93b"
         }
       ],
-      "keywords": [ "bucklescript", "gcloud" ]
+      "keywords": [ "bucklescript", "gcloud" ],
+      "target": [ "Web" ]
     },
     {
       "name": "@minima.app/re-css",
@@ -900,7 +917,8 @@
       ],
       "keywords": [
         "css", "css-in-js", "reason", "reasonml", "ocaml", "bucklescript"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "@mscharley/bs-material-ui-icons",
@@ -1013,7 +1031,8 @@
         "Material", "Design", "Material-UI", "Icons", "React",
         "react-component", "reason", "reason-react", "reasonml",
         "bucklescript"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "@reasonableconsulting/compare",
@@ -1026,7 +1045,8 @@
           "integrity_shasum": "bfeb8300cfa3787dd41788e1ff0c8f89ad95fbc6"
         }
       ],
-      "keywords": [ "BuckleScript", "Reason", "Comparator", "Sort" ]
+      "keywords": [ "BuckleScript", "Reason", "Comparator", "Sort" ],
+      "target": [ "Web" ]
     },
     {
       "name": "@ristostevcev/bs-callbag",
@@ -1045,7 +1065,8 @@
           "integrity_shasum": "589e4b911716c72cc4fa9726222cba51f441f494"
         }
       ],
-      "keywords": [ "callbag", "bucklescript", "reason" ]
+      "keywords": [ "callbag", "bucklescript", "reason" ],
+      "target": [ "Web" ]
     },
     {
       "name": "@ristostevcev/bs-callbag-basics",
@@ -1082,7 +1103,8 @@
           "integrity_shasum": "6245d6db0a7d06a4f80200f1514b101ae02b77a5"
         }
       ],
-      "keywords": [ "BuckleScript", "reason" ]
+      "keywords": [ "BuckleScript", "reason" ],
+      "target": [ "Web" ]
     },
     {
       "name": "@ristostevcev/bs-odoc",
@@ -1113,7 +1135,8 @@
           "integrity_shasum": "32cb3df77f2f7f8c32b378425e9f250a9994b544"
         }
       ],
-      "keywords": [ "bucklescript", "doc", "docs", "odoc", "odocs" ]
+      "keywords": [ "bucklescript", "doc", "docs", "odoc", "odocs" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "@ryb73/bs-react-split-pane",
@@ -1156,7 +1179,8 @@
           "integrity_shasum": "556cb663b41ca900196a434b3cec6964e3d29e1b"
         }
       ],
-      "keywords": [ "bucklescript", "reason", "reasonml", "react" ]
+      "keywords": [ "bucklescript", "reason", "reasonml", "react" ],
+      "target": [ "Web" ]
     },
     {
       "name": "add-reason",
@@ -1233,7 +1257,8 @@
       "keywords": [
         "reasonml", "reason", "ocaml", "add", "interop", "cli", "tool",
         "bucklescript"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "adjective-adjective-animal",
@@ -1295,7 +1320,8 @@
           "integrity_shasum": "e54ed5727969f7a259ffc987c078aa64e4953b9c"
         }
       ],
-      "keywords": [ "random", "id", "animal", "adjective", "name" ]
+      "keywords": [ "random", "id", "animal", "adjective", "name" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "airbnb-style",
@@ -1316,7 +1342,8 @@
       ],
       "keywords": [
         "style guide", "lint", "airbnb", "es6", "es2015", "react", "jsx"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "amd-script",
@@ -1335,7 +1362,8 @@
           "integrity_shasum": "c83d0b45ce0961b36c208780e9d80667a30f2461"
         }
       ],
-      "keywords": [ "amd", "script", "loader" ]
+      "keywords": [ "amd", "script", "loader" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "anonmd",
@@ -1348,7 +1376,8 @@
           "integrity_shasum": "f3f0a7b9918a46b2c0878773589be620662892bd"
         }
       ],
-      "keywords": [ "amd", "script", "loader" ]
+      "keywords": [ "amd", "script", "loader" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "astexplorer-refmt",
@@ -1368,7 +1397,8 @@
           "integrity_shasum": "490875d350a1cf0136404d8d71f940012aa9dc78"
         }
       ],
-      "keywords": [ "reason", "reasonml", "ocaml", "astexplorer", "ast" ]
+      "keywords": [ "reason", "reasonml", "ocaml", "astexplorer", "ast" ],
+      "target": [ "Native" ]
     },
     {
       "name": "attune",
@@ -1384,7 +1414,8 @@
       ],
       "keywords": [
         "micro-framework", "data-driven", "dependency injection"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "aws-elasticsearch-client",
@@ -1437,7 +1468,8 @@
       "keywords": [
         "amazon", "aws", "aws-es", "elasticsearch", "elasticsearch-js",
         "client", "http-aws-es"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "babel-plugin-bucklescript",
@@ -1547,7 +1579,8 @@
           "integrity_shasum": "acf08f70c2215177cf427ad0b674684f5737de3e"
         }
       ],
-      "keywords": [ "bucklescript", "babel", "reasonml", "plugin" ]
+      "keywords": [ "bucklescript", "babel", "reasonml", "plugin" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "babel-plugin-caralho",
@@ -1581,7 +1614,8 @@
       ],
       "keywords": [
         "babel", "css", "babel-plugin", "plugin", "curse", "curseincss"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "babel-preset-reason",
@@ -1594,7 +1628,8 @@
           "integrity_shasum": "bc4cbbbad9266176781605593be499aa864edefb"
         }
       ],
-      "keywords": [ "reasonml" ]
+      "keywords": [ "reasonml" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "babel-preset-reasonml",
@@ -1607,7 +1642,8 @@
           "integrity_shasum": "5061d144a24880ec591ab7703c41f38881587cce"
         }
       ],
-      "keywords": [ "reasonml" ]
+      "keywords": [ "reasonml" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "belt-diff",
@@ -1629,7 +1665,8 @@
       "keywords": [
         "reason", "reasonml", "diff", "belt", "utilities", "collections",
         "BuckleScript"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "breeze",
@@ -1759,7 +1796,8 @@
       "keywords": [
         "flow", "async", "ocaml", "functional", "haskell", "waterfall",
         "try", "catch", "promises", "thennable", "bluebird", "q"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "brewery-cli",
@@ -1808,7 +1846,8 @@
           "integrity_shasum": "e238a4e08d7c59a232a7ac8a2f47012fa0b06cc7"
         }
       ],
-      "keywords": [ "BuckleScript", "brew", "reason" ]
+      "keywords": [ "BuckleScript", "brew", "reason" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bryphe-ocaml",
@@ -1827,7 +1866,8 @@
           "integrity_shasum": "9e828230653ddcef3f27597947f8c878f8d3e6f8"
         }
       ],
-      "keywords": [ "ocaml", "flow", "opam" ]
+      "keywords": [ "ocaml", "flow", "opam" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "bs-abstract",
@@ -1955,7 +1995,8 @@
           "integrity_shasum": "543272bc8c58c01756e113540557b62b510f1664"
         }
       ],
-      "keywords": [ "BuckleScript", "reason" ]
+      "keywords": [ "BuckleScript", "reason" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-aeson",
@@ -1999,7 +2040,8 @@
           "integrity_shasum": "f96c4d1f93a4f1cc0e1842026fd0e1f994f2ce83"
         }
       ],
-      "keywords": [ "bucklescript", "json", "aeson" ]
+      "keywords": [ "bucklescript", "json", "aeson" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-aeson-spec",
@@ -2055,7 +2097,8 @@
           "integrity_shasum": "84853d5d2ddb2b665081155e0c50c9c9b52381d6"
         }
       ],
-      "keywords": [ "bucklescript", "json", "aeson" ]
+      "keywords": [ "bucklescript", "json", "aeson" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-ajv",
@@ -2084,7 +2127,8 @@
         "BuckleScript", "reason", "reasonml", "validator", "validation",
         "JSON", "schema", "jsonschema", "json-schema",
         "json-schema-validator", "json-schema-validation", "node"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-algolia",
@@ -2097,7 +2141,8 @@
           "integrity_shasum": "4e29bd0a5802098e332abe3d2bfdf1aa478f0f8b"
         }
       ],
-      "keywords": [ "reasonml", "bucklescript", "algolia" ]
+      "keywords": [ "reasonml", "bucklescript", "algolia" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-antd",
@@ -2122,7 +2167,8 @@
           "integrity_shasum": "ea3df307ab6f427c236d01afc4a948931c457ea2"
         }
       ],
-      "keywords": [ "antd", "BuckleScript", "Reason" ]
+      "keywords": [ "antd", "BuckleScript", "Reason" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-async-monad",
@@ -2195,7 +2241,8 @@
           "integrity_shasum": "02283e66a0431b9193f774aa5acae49b5fc2e84e"
         }
       ],
-      "keywords": [ "bucklescript", "asynchronous", "callback", "monad" ]
+      "keywords": [ "bucklescript", "asynchronous", "callback", "monad" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-auth0-js",
@@ -2208,7 +2255,8 @@
           "integrity_shasum": "ac33630ad86f00d37072639be62232ed8bc80bfb"
         }
       ],
-      "keywords": [ "reason", "reasonml", "ocaml", "bucklescript", "auth0" ]
+      "keywords": [ "reason", "reasonml", "ocaml", "bucklescript", "auth0" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-auth0-session",
@@ -2246,7 +2294,8 @@
           "integrity_shasum": "e298b9b5e2367c58551dc6759e8e5dc29004a418"
         }
       ],
-      "keywords": [ "reason", "reasonml", "ocaml", "bucklescript", "auth0" ]
+      "keywords": [ "reason", "reasonml", "ocaml", "bucklescript", "auth0" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-automerge",
@@ -2267,7 +2316,8 @@
       ],
       "keywords": [
         "reason", "bucklescript", "crdt", "data structures", "replication"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-axios",
@@ -2523,7 +2573,8 @@
       "keywords": [
         "axios", "bucklescript", "bsb", "reason", "reasonml", "ocaml",
         "bs-axios", "bs-platform"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-batteries",
@@ -2611,7 +2662,8 @@
       "keywords": [
         "batteries-included", "bucklescript", "bsb", "reason", "reasonml",
         "ocaml", "bs-batteries", "bs-platform"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-bcrypt",
@@ -2650,7 +2702,8 @@
       ],
       "keywords": [
         "BuckleScript", "reason", "reasonml", "password", "bcrypt", "node"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-big.js",
@@ -2663,7 +2716,8 @@
           "integrity_shasum": "2f95d0101e66726e4df520c57c5934a69d120ad1"
         }
       ],
-      "keywords": [ "BuckleScript", "Reason", "Reasonml" ]
+      "keywords": [ "BuckleScript", "Reason", "Reasonml" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-black-tea",
@@ -2694,7 +2748,8 @@
           "integrity_shasum": "4cf0bbf0745b03f723bcee3c0f9a08f784d7c100"
         }
       ],
-      "keywords": [ "reason", "bucklescript", "react", "state" ]
+      "keywords": [ "reason", "bucklescript", "react", "state" ],
+      "target": [ "Universal" ]
     },
     {
       "name": "bs-bn.js",
@@ -2713,7 +2768,8 @@
           "integrity_shasum": "e3b19bbc5124ccf049ab1010552c8e8e0687dba8"
         }
       ],
-      "keywords": [ "reason", "reasonml", "bucklescript" ]
+      "keywords": [ "reason", "reasonml", "bucklescript" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-callbag-events",
@@ -2726,7 +2782,8 @@
           "integrity_shasum": "15bf5b6354e6506df401e75cfb3679a0c2eefa99"
         }
       ],
-      "keywords": [ "BuckleScript" ]
+      "keywords": [ "BuckleScript" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-chai",
@@ -2763,7 +2820,8 @@
           "integrity_shasum": "1b83bd8fa1b2f9058881cc2727de112c217b60ad"
         }
       ],
-      "keywords": [ "BuckleScript", "reason" ]
+      "keywords": [ "BuckleScript", "reason" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-chalk",
@@ -2794,7 +2852,8 @@
           "integrity_shasum": "dfd47db944f4ca8b17fcff9b35ad82c81f52d512"
         }
       ],
-      "keywords": [ "bucklescript", "reason", "node", "color", "chalk" ]
+      "keywords": [ "bucklescript", "reason", "node", "color", "chalk" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-circuitbreaker",
@@ -2819,7 +2878,8 @@
           "integrity_shasum": "170373e8a42d44e33c2fd7365d023a2a86edd18f"
         }
       ],
-      "keywords": [ "circuit breaker", "bucklescript", "reason" ]
+      "keywords": [ "circuit breaker", "bucklescript", "reason" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-clean-deep",
@@ -2845,7 +2905,8 @@
           "integrity_shasum": "4854b0916fcf6f67fa303578d15a3def44d0d6f8"
         }
       ],
-      "keywords": [ "BuckleScript" ]
+      "keywords": [ "BuckleScript" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-clearingnummer",
@@ -2867,7 +2928,8 @@
       "keywords": [
         "Clearing", "Number", "Swedish", "Banks", "Bank", "Clearingnummer",
         "Svensk bank", "BuckleScript"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-crud-functors",
@@ -2930,7 +2992,8 @@
       ],
       "keywords": [
         "BuckleScript", "reason", "reasonml", "mysql", "databases", "node"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-css",
@@ -3243,7 +3306,8 @@
           "integrity_shasum": "105733f880bfb2dc1d1dfd3174b60b35c381ee6f"
         }
       ],
-      "keywords": [ "emotion", "bucklescript", "reason", "css" ]
+      "keywords": [ "emotion", "bucklescript", "reason", "css" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-d3",
@@ -3258,7 +3322,8 @@
       ],
       "keywords": [
         "bucklescript", "d3", "d3js", "dataviz", "reason", "reasonml"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-dataloader",
@@ -3320,7 +3385,8 @@
           "integrity_shasum": "7ae85bfea8205e940ddc143840107e4ad731f830"
         }
       ],
-      "keywords": [ "BuckleScript", "dataloader" ]
+      "keywords": [ "BuckleScript", "dataloader" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-date-fns",
@@ -3369,7 +3435,8 @@
           "integrity_shasum": "29983fb072611539e7585d85450759ad366d61f8"
         }
       ],
-      "keywords": [ "reason", "reasonml", "bucklescript", "date-fns" ]
+      "keywords": [ "reason", "reasonml", "bucklescript", "date-fns" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-decode",
@@ -3457,7 +3524,8 @@
       "keywords": [
         "reasonml", "bucklescript", "json", "decode", "validation", "result",
         "applicative"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-dependency-graph",
@@ -3501,7 +3569,8 @@
           "integrity_shasum": "bb52b79d449adda4c7bccccc0413eb16e2b3be84"
         }
       ],
-      "keywords": [ "bucklescript", "dependency", "graph" ]
+      "keywords": [ "bucklescript", "dependency", "graph" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "bs-deriving",
@@ -3524,7 +3593,8 @@
       "keywords": [
         "BuckleScript", "ReasonML", "OCaml", "PPX", "AST", "transpiler",
         "tool", "codegen", "functional", "types", "static-typing"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-director",
@@ -3567,7 +3637,8 @@
           "integrity_shasum": "b09f2243d1963242ee0a3ed7a5d8dd5886b37d6d"
         }
       ],
-      "keywords": [ "bucklescript", "reason", "ocaml" ]
+      "keywords": [ "bucklescript", "reason", "ocaml" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-dom-testing-library",
@@ -3604,7 +3675,8 @@
           "integrity_shasum": "46fd1fea65465edd799f1e7dd1596a633ef44b05"
         }
       ],
-      "keywords": [ "bucklescript", "testing" ]
+      "keywords": [ "bucklescript", "testing" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-downshift",
@@ -3641,7 +3713,8 @@
           "integrity_shasum": "7502316ab0d7fced2ee5a50dd7bd613f9e84a12f"
         }
       ],
-      "keywords": [ "BuckleScript", "Downshift", "React", "Reason" ]
+      "keywords": [ "BuckleScript", "Downshift", "React", "Reason" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-dynamic-import",
@@ -3682,7 +3755,8 @@
       "keywords": [
         "reason", "bucklescript", "dynamic", "module", "import",
         "code-splitting"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-dynogels",
@@ -3711,7 +3785,8 @@
       "keywords": [
         "BuckleScript", "DynamoDB", "Dynogels", "ReasonML", "Reason",
         "Vogels"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-effector",
@@ -3764,7 +3839,8 @@
         "bucklescript", "reason", "bsb", "data", "datastructure",
         "functional", "collection", "state", "store", "reactive", "streams",
         "actions", "effects", "redux"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-effector-react",
@@ -3829,7 +3905,8 @@
         "bucklescript", "reason", "bsb", "data", "datastructure",
         "functional", "collection", "state", "store", "reactive", "streams",
         "actions", "effects", "redux", "react"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-effects",
@@ -3897,7 +3974,8 @@
           "integrity_shasum": "997ed283b1f8cfdd9aa8b97e74b47ccd1290c65e"
         }
       ],
-      "keywords": [ "BuckleScript", "reason" ]
+      "keywords": [ "BuckleScript", "reason" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-electron-updater",
@@ -3928,7 +4006,8 @@
           "integrity_shasum": "faaab79ad7d6bb56a986d51cded670e0e505ebaf"
         }
       ],
-      "keywords": [ "bucklescript", "reason", "reasonml" ]
+      "keywords": [ "bucklescript", "reason", "reasonml" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-elm",
@@ -3972,7 +4051,8 @@
           "integrity_shasum": "8628f5b8712f29d0cad1a3e7d6a1cad98a1b8fbc"
         }
       ],
-      "keywords": [ "reason", "bucklescript", "elm" ]
+      "keywords": [ "reason", "bucklescript", "elm" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-emotion",
@@ -4054,7 +4134,8 @@
       "keywords": [
         "css", "css-in-js", "react", "emotion", "reason", "reasonml",
         "ocaml", "bucklescript"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-emotion-ppx",
@@ -4106,7 +4187,8 @@
       "keywords": [
         "css", "css-in-js", "react", "emotion", "reason", "reasonml",
         "ocaml", "bucklescript"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-enzyme",
@@ -4185,7 +4267,8 @@
           "integrity_shasum": "a25185ded67d90b20126991dff261aa8f103bfb5"
         }
       ],
-      "keywords": [ "bucklescript", "enzyme", "testing" ]
+      "keywords": [ "bucklescript", "enzyme", "testing" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-errors",
@@ -4222,7 +4305,8 @@
           "integrity_shasum": "8e9d907ac4c6dff1b49232428acb4085c63053b8"
         }
       ],
-      "keywords": [ "BuckleScript", "reason" ]
+      "keywords": [ "BuckleScript", "reason" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-eth",
@@ -4253,7 +4337,8 @@
           "integrity_shasum": "7a10ef1e479e287788838efad66bbdf26ce75783"
         }
       ],
-      "keywords": [ "BuckleScript", "ReasonML", "Ethereum", "Web3" ]
+      "keywords": [ "BuckleScript", "ReasonML", "Ethereum", "Web3" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-expo",
@@ -4281,7 +4366,8 @@
       ],
       "keywords": [
         "reason", "reasonml", "bucklescript", "react-native", "expo"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-express",
@@ -4440,7 +4526,8 @@
       ],
       "keywords": [
         "reasonml", "bucklescript", "expressjs", "web", "server", "nodejs"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-faker",
@@ -4525,7 +4612,8 @@
           "integrity_shasum": "a88826dfc791d0bf522a63961ee1ad03e2967efb"
         }
       ],
-      "keywords": [ "BuckleScript", "faker" ]
+      "keywords": [ "BuckleScript", "faker" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-fetch",
@@ -4574,7 +4662,8 @@
           "integrity_shasum": "6913b1d1ddfa0b0a4b832357854e9763d61d4b28"
         }
       ],
-      "keywords": [ "fetch", "browser", "xhr", "bucklescript" ]
+      "keywords": [ "fetch", "browser", "xhr", "bucklescript" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-fluture",
@@ -4637,7 +4726,8 @@
       ],
       "keywords": [
         "bucklescript", "reason", "bsb", "fluture", "promise", "async"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-fontawesome",
@@ -4652,7 +4742,8 @@
       ],
       "keywords": [
         "react", "fontawesome", "reason", "reasonml", "ocaml", "bucklescript"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-free",
@@ -4701,7 +4792,8 @@
           "integrity_shasum": "7b3de1ab38cd09bfb9ca46f0c25bf820aef8719a"
         }
       ],
-      "keywords": [ "BuckleScript", "reason" ]
+      "keywords": [ "BuckleScript", "reason" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-gcloud",
@@ -4714,7 +4806,8 @@
           "integrity_shasum": "2ab884b617015acba19795b6cc4851160f982906"
         }
       ],
-      "keywords": [ "BuckleScript", "OCaml", "Datastore" ]
+      "keywords": [ "BuckleScript", "OCaml", "Datastore" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-gen",
@@ -4736,7 +4829,8 @@
       "keywords": [
         "BuckleScript", "ReasonML", "OCaml", "generator", "tool", "coro",
         "coroutine", "async", "iterator"
-      ]
+      ],
+      "target": [ "Universal" ]
     },
     {
       "name": "bs-gestalt",
@@ -4797,7 +4891,8 @@
           "integrity_shasum": "8a1a229ecb82fa4dd33eb9bdd4af52ee5a3f3aea"
         }
       ],
-      "keywords": [ "BuckleScript", "Gestalt", "ReasonReact", "React" ]
+      "keywords": [ "BuckleScript", "Gestalt", "ReasonReact", "React" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-glamor",
@@ -4834,7 +4929,8 @@
           "integrity_shasum": "f08c0ebed52b24d20b878afc0351ee6b4822e858"
         }
       ],
-      "keywords": [ "glamor", "bucklescript", "reason", "css" ]
+      "keywords": [ "glamor", "bucklescript", "reason", "css" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-glamour",
@@ -4853,7 +4949,8 @@
           "integrity_shasum": "30995293fb95c7378aa67726f5842b2617b9e5d6"
         }
       ],
-      "keywords": [ "glamor", "bucklescript", "reason", "css" ]
+      "keywords": [ "glamor", "bucklescript", "reason", "css" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-graphql-js",
@@ -4951,7 +5048,8 @@
           "integrity_shasum": "a340826bc84f81415ddc2ff704c7da64b718fb0c"
         }
       ],
-      "keywords": [ "BuckleScript", "graphql", "relay", "bindings" ]
+      "keywords": [ "BuckleScript", "graphql", "relay", "bindings" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-graphql-json-parser",
@@ -4966,7 +5064,8 @@
       ],
       "keywords": [
         "Bucklescript", "ReasonML", "Reason", "JSON", "Parser", "Serializer"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "bs-graphql-runner",
@@ -4979,7 +5078,8 @@
           "integrity_shasum": "ee561c9360dc8ce73ecd485dd1b95fe3a6829eba"
         }
       ],
-      "keywords": [ "GraphQL", "Reason", "Bucklescript", "bs", "ReasonML" ]
+      "keywords": [ "GraphQL", "Reason", "Bucklescript", "bs", "ReasonML" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "bs-graphql-scalar",
@@ -5019,7 +5119,8 @@
       ],
       "keywords": [
         "bucklescript", "reason", "node", "graphql", "apollo", "scalar"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-graphql-schema-parser",
@@ -5042,7 +5143,8 @@
       "keywords": [
         "bs", "Bucklescript", "re", "Reason", "ReasonML", "GraphQL",
         "Schema", "Parser", "Serializer"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "bs-guid",
@@ -5055,7 +5157,8 @@
           "integrity_shasum": "82ec5c724f8616399ee5e9ac154c12d4295ed23b"
         }
       ],
-      "keywords": [ "uuid", "guid", "rfc4122", "bucklescript", "reason" ]
+      "keywords": [ "uuid", "guid", "rfc4122", "bucklescript", "reason" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-intl",
@@ -5080,7 +5183,8 @@
           "integrity_shasum": "11960c0b09d018c7238fc890f721069147487dbd"
         }
       ],
-      "keywords": [ "i18n", "reason", "reasonml", "ocaml", "bucklescript" ]
+      "keywords": [ "i18n", "reason", "reasonml", "ocaml", "bucklescript" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-jest-dom",
@@ -5105,7 +5209,8 @@
           "integrity_shasum": "8aabe5a7910db4a4f9e9fb77014b8e33f61e5e13"
         }
       ],
-      "keywords": [ "bucklescript", "testing", "jest", "dom" ]
+      "keywords": [ "bucklescript", "testing", "jest", "dom" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-json-parser",
@@ -5150,7 +5255,8 @@
       ],
       "keywords": [
         "Bucklescript", "ReasonML", "Reason", "JSON", "Parser", "Serializer"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "bs-jsverify",
@@ -5229,7 +5335,8 @@
           "integrity_shasum": "caca0254669fe197599f2bcca074874b5fce1215"
         }
       ],
-      "keywords": [ "BuckleScript", "reason" ]
+      "keywords": [ "BuckleScript", "reason" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-knex",
@@ -5382,7 +5489,8 @@
       ],
       "keywords": [
         "bucklescript", "reason", "node", "database", "sql", "knex"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-legacy",
@@ -5398,7 +5506,8 @@
       ],
       "keywords": [
         "bucklescript", "bsb", "reason", "reasonml", "ocaml", "bs-platform"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-list",
@@ -5419,7 +5528,8 @@
       ],
       "keywords": [
         "BuckleScript", "reason", "immutable list", "funkia/list"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-little-parser",
@@ -5474,7 +5584,8 @@
           "integrity_shasum": "98818f5481daa73914cd31ff08aeb61981215492"
         }
       ],
-      "keywords": [ "BuckleScript", "Reason" ]
+      "keywords": [ "BuckleScript", "Reason" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-loader",
@@ -5789,7 +5900,8 @@
       ],
       "keywords": [
         "bucklescript", "reason", "webpack", "ocaml", "reasonml"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "bs-log",
@@ -5864,7 +5976,8 @@
       ],
       "keywords": [
         "log", "logging", "reason", "reasonml", "ocaml", "bucklescript"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-lottie-react-native",
@@ -5887,7 +6000,8 @@
       "keywords": [
         "lottie", "animation", "reason", "reasonml", "bucklescript",
         "react-native"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-luxon",
@@ -5926,7 +6040,8 @@
       ],
       "keywords": [
         "BuckleScript", "reason", "reasonml", "luxon", "date", "time"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-mocha",
@@ -5993,7 +6108,8 @@
           "integrity_shasum": "38644b34d68c7dc55f4062242372b06fbb09af68"
         }
       ],
-      "keywords": [ "BuckleScript", "reason" ]
+      "keywords": [ "BuckleScript", "reason" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-moment",
@@ -6150,7 +6266,8 @@
           "integrity_shasum": "3d59767e8cd0107393c4f371e15b95bf862ceaac"
         }
       ],
-      "keywords": [ "reason", "bucklescript", "moment", "date", "time" ]
+      "keywords": [ "reason", "bucklescript", "moment", "date", "time" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-moment-duration-format",
@@ -6171,7 +6288,8 @@
       ],
       "keywords": [
         "reason", "bucklescript", "moment", "duration", "format"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-moment-timezone",
@@ -6215,7 +6333,8 @@
           "integrity_shasum": "bc28d41dd54a4dec4cb2238fdd6430528dd2ae6a"
         }
       ],
-      "keywords": [ "reason", "bucklescript", "moment", "date", "time" ]
+      "keywords": [ "reason", "bucklescript", "moment", "date", "time" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-mongodb",
@@ -6246,7 +6365,8 @@
           "integrity_shasum": "1d7a42ad17f65e11ef64313148d3d705b4c3d5d2"
         }
       ],
-      "keywords": [ "bucklescript", "mongodb", "database", "node", "nosql" ]
+      "keywords": [ "bucklescript", "mongodb", "database", "node", "nosql" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-most",
@@ -6281,7 +6401,8 @@
       "keywords": [
         "BuckleScript", "Reason", "OCaml", "reactive", "streams", "promise",
         "functional", "async", "most", "most.js"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-msal",
@@ -6313,7 +6434,8 @@
           "integrity_shasum": "408fe4730cfb331306d15bb7141ef18818d75925"
         }
       ],
-      "keywords": [ "bucklescript", "reasonml", "msal" ]
+      "keywords": [ "bucklescript", "reasonml", "msal" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-mysql",
@@ -6352,7 +6474,8 @@
       ],
       "keywords": [
         "BuckleScript", "reason", "reasonml", "mysql", "databases", "node"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-mysql2",
@@ -6571,7 +6694,8 @@
       ],
       "keywords": [
         "BuckleScript", "reason", "reasonml", "mysql", "databases", "node"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-next",
@@ -6605,7 +6729,8 @@
       "keywords": [
         "next", "next.js", "reasonreact", "reason", "reasonml",
         "bucklescript"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-next-alt",
@@ -6645,7 +6770,8 @@
       "keywords": [
         "next", "next.js", "reasonreact", "reason", "reasonml",
         "bucklescript"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-next-seo",
@@ -6666,7 +6792,8 @@
       ],
       "keywords": [
         "next-seo", "react", "reason", "reasonml", "ocaml", "bucklescript"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-nice",
@@ -6715,7 +6842,8 @@
           "integrity_shasum": "69de4059eeba6fd15252ce76c55be0e0fee4cf2b"
         }
       ],
-      "keywords": [ "reason", "bucklescript", "css" ]
+      "keywords": [ "reason", "bucklescript", "css" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-node-debug",
@@ -6740,7 +6868,8 @@
           "integrity_shasum": "50d2d48819af4d40e0585cc35b56dfdeeda4985a"
         }
       ],
-      "keywords": [ "bucklescript", "reason", "node", "debug" ]
+      "keywords": [ "bucklescript", "reason", "node", "debug" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-node-http",
@@ -6801,7 +6930,8 @@
           "integrity_shasum": "4067e9e9c4cda028206f9c8ff28e71b7f5e14d09"
         }
       ],
-      "keywords": [ "reason", "bucklescript", "node", "http" ]
+      "keywords": [ "reason", "bucklescript", "node", "http" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-node-readline",
@@ -6814,7 +6944,8 @@
           "integrity_shasum": "08358814930697cf858cc21d4db47cb0de303f9b"
         }
       ],
-      "keywords": [ "bucklescript", "readline", "node", "reasonml", "ocaml" ]
+      "keywords": [ "bucklescript", "readline", "node", "reasonml", "ocaml" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-nonempty",
@@ -6858,7 +6989,8 @@
           "integrity_shasum": "a46feecbe85acbcef605b155b690038ff9a38688"
         }
       ],
-      "keywords": [ "reasonml", "bucklescript", "nonempty", "list", "array" ]
+      "keywords": [ "reasonml", "bucklescript", "nonempty", "list", "array" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-nprogress",
@@ -6903,7 +7035,8 @@
       ],
       "keywords": [
         "nprogress", "reason", "reasonml", "ocaml", "bucklescript"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-office-ui-fabric-react",
@@ -6920,7 +7053,8 @@
       "keywords": [
         "reasonml", "bucklescript", "react", "office-ui-fabric-react",
         "microsoft"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-ospec",
@@ -6975,7 +7109,8 @@
           "integrity_shasum": "a2e5bfff08d2d6679e648e21ffb7e367ddb7b431"
         }
       ],
-      "keywords": [ "BuckleScript", "ReasonML", "testing", "binding" ]
+      "keywords": [ "BuckleScript", "ReasonML", "testing", "binding" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-parse-color",
@@ -6997,7 +7132,8 @@
       "keywords": [
         "BuckleScript", "reasonml", "colors", "parsing", "fun", "reason",
         "convert"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-password",
@@ -7024,7 +7160,8 @@
       ],
       "keywords": [
         "BuckleScript", "reason", "reasonml", "password", "bcrypt", "node"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-pg-listen",
@@ -7041,7 +7178,8 @@
       "keywords": [
         "reason", "reasonml", "bucklescript", "pg", "postgres", "postgresql",
         "listen", "notify", "pubsub"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-pimp-my-sql",
@@ -7158,7 +7296,8 @@
       ],
       "keywords": [
         "BuckleScript", "reason", "reasonml", "mysql", "databases", "node"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-pixl-xml",
@@ -7177,7 +7316,8 @@
           "integrity_shasum": "87bab7877fcf11728b9050d5edb8d59852e3d61a"
         }
       ],
-      "keywords": [ "reason", "reasonml", "bucklescript", "pixl-xml" ]
+      "keywords": [ "reason", "reasonml", "bucklescript", "pixl-xml" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-platform",
@@ -7997,7 +8137,8 @@
       ],
       "keywords": [
         "ocaml", "bucklescript", "stdlib", "functional programming"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-pretty-bytes",
@@ -8016,7 +8157,8 @@
           "integrity_shasum": "62f21f41f4281feded6fdb9a4912b6095be55119"
         }
       ],
-      "keywords": [ "reason", "bucklescript", "pretty-bytes" ]
+      "keywords": [ "reason", "bucklescript", "pretty-bytes" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-priority-queue",
@@ -8054,7 +8196,8 @@
           "integrity_shasum": "90062fccb1585d532e75d239da8c03bc74f95780"
         }
       ],
-      "keywords": [ "BuckleScript" ]
+      "keywords": [ "BuckleScript" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-promise",
@@ -8079,7 +8222,8 @@
           "integrity_shasum": "b5c3873721f791f883530771914df9fa25889d17"
         }
       ],
-      "keywords": [ "ocaml", "bucklescript", "promise", "promises" ]
+      "keywords": [ "ocaml", "bucklescript", "promise", "promises" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-promise-monad",
@@ -8188,7 +8332,8 @@
           "integrity_shasum": "14450fbdbb046c88e54c7264640d6222f0f97ef4"
         }
       ],
-      "keywords": [ "BuckleScript", "Promise", "Monad", "ReasonML" ]
+      "keywords": [ "BuckleScript", "Promise", "Monad", "ReasonML" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-promise-router",
@@ -8221,7 +8366,8 @@
       ],
       "keywords": [
         "bucklescript", "reason", "node", "graphql", "apollo", "scalar"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-puppeteer",
@@ -8303,7 +8449,8 @@
       ],
       "keywords": [
         "BuckleScript", "Puppeteer", "headless", "browser", "scraping"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-querystringify",
@@ -8360,7 +8507,8 @@
       ],
       "keywords": [
         "reason", "reasonml", "ocaml", "bucklescript", "querystringify"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-randomcolor",
@@ -8379,7 +8527,8 @@
           "integrity_shasum": "7501138826cadb57b21b9c91238838ce64661650"
         }
       ],
-      "keywords": [ "reason", "bucklescript", "randomColor", "colors" ]
+      "keywords": [ "reason", "bucklescript", "randomColor", "colors" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-react",
@@ -8430,7 +8579,8 @@
       ],
       "keywords": [
         "reasonml", "bucklescript", "react", "hooks", "context", "suspense"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-react-bootstrap",
@@ -8446,7 +8596,8 @@
       "keywords": [
         "Bootstrap", "binding", "BuckleScript", "React", "ReactJS",
         "react-bootstrap", "ReasonML", "UI"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-react-dropdown",
@@ -8483,7 +8634,8 @@
           "integrity_shasum": "5d4f475a9d0f733c912a144cbd56ae272ff8d694"
         }
       ],
-      "keywords": [ "reasonml", "binding", "react-dropdown", "bucklescript" ]
+      "keywords": [ "reasonml", "binding", "react-dropdown", "bucklescript" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-react-dropzone",
@@ -8528,7 +8680,8 @@
       ],
       "keywords": [
         "reason", "bucklescript", "bindings", "react", "dropzone"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-react-head",
@@ -8562,7 +8715,8 @@
       "keywords": [
         "BuckleScript", "Reason", "React", "document", "head", "title",
         "meta", "link", "style", "metatag", "metatags", "opengraph", "seo"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-react-i18next",
@@ -8578,7 +8732,8 @@
       "keywords": [
         "react-i18next", "react", "reason", "reasonml", "ocaml",
         "bucklescript"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-react-iframe",
@@ -8593,7 +8748,8 @@
       ],
       "keywords": [
         "next-iframe", "react", "reason", "reasonml", "ocaml", "bucklescript"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-react-intl",
@@ -8704,7 +8860,8 @@
       ],
       "keywords": [
         "react", "react-intl", "reason", "reasonml", "ocaml", "bucklescript"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-react-intl-extractor-bin",
@@ -8738,7 +8895,8 @@
       "keywords": [
         "cli", "bin", "binary", "extract", "extractor", "reason", "reasonml",
         "react", "intl", "react-intl", "bs-react-intl"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "bs-react-is-visible",
@@ -8767,7 +8925,8 @@
       "keywords": [
         "BuckleScript", "ReasonML", "intersection observer", "visible",
         "invisible", "visibility", "on screen"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-react-native",
@@ -8871,7 +9030,8 @@
           "integrity_shasum": "1e0ec167cc6a73d64106b9165361b9a2e1a796ce"
         }
       ],
-      "keywords": [ "reason", "reasonml", "bucklescript", "react-native" ]
+      "keywords": [ "reason", "reasonml", "bucklescript", "react-native" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-react-native-gifted-chat",
@@ -8890,7 +9050,8 @@
           "integrity_shasum": "8582e5362716c040a0e5fd79cd9c4bb80804129f"
         }
       ],
-      "keywords": [ "BuckleScript", "reason", "reasonml" ]
+      "keywords": [ "BuckleScript", "reason", "reasonml" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "bs-react-native-jsx3-compat",
@@ -8903,7 +9064,8 @@
           "integrity_shasum": "643699594056e14dc61a719d0741b9c94d0c08fe"
         }
       ],
-      "keywords": [ "reason", "reasonml", "bucklescript", "react-native" ]
+      "keywords": [ "reason", "reasonml", "bucklescript", "react-native" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-react-native-navigation",
@@ -8920,7 +9082,8 @@
       "keywords": [
         "reason", "reasonml", "bucklescript", "bindings", "react-native",
         "react-native-navigation"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-react-native-paper",
@@ -9140,7 +9303,8 @@
       "keywords": [
         "bucklescript", "react-native-paper", "reasonml", "reason",
         "react-native", "material design"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-react-native-vector-icons",
@@ -9243,7 +9407,8 @@
           "integrity_shasum": "ba1b13cfda5f15faaa546a641d583effc4e65bcf"
         }
       ],
-      "keywords": [ "bucklescript", "react-native-vector-icons" ]
+      "keywords": [ "bucklescript", "react-native-vector-icons" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-react-navigation",
@@ -9266,7 +9431,8 @@
       "keywords": [
         "router", "react", "reason", "reasonml", "bucklescript",
         "react-native", "react-navigation"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-react-on-rails",
@@ -9294,7 +9460,8 @@
       "keywords": [
         "react", "reason", "reasonml", "reason-react", "rails",
         "react-on-rails", "ocaml", "bucklescript"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-react-pdf",
@@ -9382,7 +9549,8 @@
       "keywords": [
         "bucklescript", "bsb", "reason", "reasonml", "ocaml", "bs-react-pdf",
         "bs-platform", "react-pdf"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-react-simple-maps",
@@ -9401,7 +9569,8 @@
           "integrity_shasum": "78c0fb9711ddc13ec3834006e8796f4ca6059943"
         }
       ],
-      "keywords": [ "bs-react-simple-maps", "BuckleScript", "Reason" ]
+      "keywords": [ "bs-react-simple-maps", "BuckleScript", "Reason" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-react-testing-library",
@@ -9438,7 +9607,8 @@
           "integrity_shasum": "3906666ffc6dfd22ff25ae01bfa8f5ba65c30db0"
         }
       ],
-      "keywords": [ "bucklescript", "react", "testing" ]
+      "keywords": [ "bucklescript", "react", "testing" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-react-transition-group",
@@ -9523,7 +9693,8 @@
           "integrity_shasum": "2224e68cfec94207dd18108b41d7fa79bc5e6b5e"
         }
       ],
-      "keywords": [ "BuckleScript", "React", "Animation", "ReasonML" ]
+      "keywords": [ "BuckleScript", "React", "Animation", "ReasonML" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-react-useragent",
@@ -9539,7 +9710,8 @@
       "keywords": [
         "react-useragent", "react", "reason", "reasonml", "ocaml",
         "bucklescript"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-readline-example",
@@ -9552,7 +9724,8 @@
           "integrity_shasum": "4072b2941c71414980ff80a875715ae8e071cffc"
         }
       ],
-      "keywords": [ "ocaml", "bucklescript", "map" ]
+      "keywords": [ "ocaml", "bucklescript", "map" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "bs-reason-apollo",
@@ -9589,7 +9762,8 @@
           "integrity_shasum": "4ece07bcaf28106a4de04f81421f5d292a4c801b"
         }
       ],
-      "keywords": [ "reason", "bucklescript", "apollo", "graphql", "react" ]
+      "keywords": [ "reason", "bucklescript", "apollo", "graphql", "react" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-reform",
@@ -9980,7 +10154,8 @@
           "integrity_shasum": "06c78e83924c1e34958fc6ac0669bcae8bbc42cf"
         }
       ],
-      "keywords": [ "reason", "bucklescript", "react", "form" ]
+      "keywords": [ "reason", "bucklescript", "react", "form" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-rembrant",
@@ -9993,7 +10168,8 @@
           "integrity_shasum": "9c311807fe9c498e3bae08e430e0c1c8394d4594"
         }
       ],
-      "keywords": [ "BuckleScript", "Reasonml" ]
+      "keywords": [ "BuckleScript", "Reasonml" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-remotedata",
@@ -10025,7 +10201,8 @@
           "integrity_shasum": "6e66b5820ce6bfa9d62b18db732615f5ede86df5"
         }
       ],
-      "keywords": [ "BuckleScript" ]
+      "keywords": [ "BuckleScript" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-restyled",
@@ -10044,7 +10221,8 @@
           "integrity_shasum": "3693a20475af13049bf4f398141bcdb6d70fcafd"
         }
       ],
-      "keywords": [ "reason", "bucklescript", "react", "css", "css-in-js" ]
+      "keywords": [ "reason", "bucklescript", "react", "css", "css-in-js" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-retable",
@@ -10063,7 +10241,8 @@
           "integrity_shasum": "65d298b1f4cc6eb03fd240a56d6ffe3b0fe069ed"
         }
       ],
-      "keywords": [ "reason", "bucklescript", "react", "table" ]
+      "keywords": [ "reason", "bucklescript", "react", "table" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-run",
@@ -10112,21 +10291,8 @@
           "integrity_shasum": "2336040826978c2ab7c6196ed340bdf38ac5fd7a"
         }
       ],
-      "keywords": [ "BuckleScript" ]
-    },
-    {
-      "name": "bs-shortid",
-      "description":
-        "Bucklescript/Reason bindings for [shortId](https://github.com/dylang/shortid)",
-      "versions": [
-        {
-          "version": "0.0.1",
-          "download_url":
-            "https://registry.npmjs.org/bs-shortid/-/bs-shortid-0.0.1.tgz",
-          "integrity_shasum": "3693b7fb4accd59002831a45ae39bb9a43ebfc2b"
-        }
-      ],
-      "keywords": [ "BuckleScript" ]
+      "keywords": [ "BuckleScript" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "bs-simple-maps",
@@ -10147,7 +10313,8 @@
       ],
       "keywords": [
         "react-simple-maps", "bucklescript", "reason", "mapping"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-source-files",
@@ -10173,7 +10340,8 @@
           "integrity_shasum": "c0f0f3846a0fdf6844f08e6651fd1b1441ac97ce"
         }
       ],
-      "keywords": [ "bucklescript", "source", "files" ]
+      "keywords": [ "bucklescript", "source", "files" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "bs-spectacle",
@@ -10216,7 +10384,8 @@
           "integrity_shasum": "69cb6ee84531cb5be559adc68b21ecc66afa49b8"
         }
       ],
-      "keywords": [ "spectacle", "bucklescript", "reason", "reasonml" ]
+      "keywords": [ "spectacle", "bucklescript", "reason", "reasonml" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-sql-common",
@@ -10399,7 +10568,8 @@
       ],
       "keywords": [
         "BuckleScript", "reason", "reasonml", "mysql", "databases", "node"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-sql-composer",
@@ -10480,7 +10650,8 @@
       ],
       "keywords": [
         "BuckleScript", "reason", "reasonml", "sql", "databases", "node"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-sqlite",
@@ -10520,7 +10691,8 @@
       "keywords": [
         "BuckleScript", "reason", "reasonml", "sql", "databases", "node",
         "sqlite", "sqlite3", "better-sqlite3"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-stdlib",
@@ -10552,7 +10724,8 @@
           "integrity_shasum": "53b2d80ac6e006dd16d1a565547f208f4fc84846"
         }
       ],
-      "keywords": [ "ocaml", "bucklescript", "stdlib" ]
+      "keywords": [ "ocaml", "bucklescript", "stdlib" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "bs-storybook",
@@ -10591,7 +10764,8 @@
       ],
       "keywords": [
         "BuckleScript", "Storybook.js", "ReasonML", "react", "ui"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-string",
@@ -10610,7 +10784,8 @@
           "integrity_shasum": "90e597530dfd180f293ae215f829b1b63d27374c"
         }
       ],
-      "keywords": [ "ocaml", "bucklescript", "map" ]
+      "keywords": [ "ocaml", "bucklescript", "map" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "bs-string-map",
@@ -10635,7 +10810,8 @@
           "integrity_shasum": "248c6457580388c8f0f4048bd3ec020f2887f356"
         }
       ],
-      "keywords": [ "ocaml", "bucklescript", "map" ]
+      "keywords": [ "ocaml", "bucklescript", "map" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "bs-svgr",
@@ -10649,7 +10825,8 @@
           "integrity_shasum": "7c48bb09bfffdbe98e7ab89a1b35d8614eafd874"
         }
       ],
-      "keywords": [ "BuckleScript", "svgr", "webpack", "ReasonML" ]
+      "keywords": [ "BuckleScript", "svgr", "webpack", "ReasonML" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-telefonnummer",
@@ -10671,7 +10848,8 @@
       ],
       "keywords": [
         "BuckleScript", "ReasonML", "Phone number", "Telefonnummer", "Parser"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-telepathic",
@@ -10781,7 +10959,8 @@
           "integrity_shasum": "8f44aabbde8f6c119eb719c127566a101a3d66a1"
         }
       ],
-      "keywords": [ "bucklescript", "reasonml", "slack" ]
+      "keywords": [ "bucklescript", "reasonml", "slack" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-tfjs",
@@ -10804,7 +10983,8 @@
       "keywords": [
         "buckleScript", "deeplearn.js", "tfjs", "reason", "reasonML",
         "tensorflow.js", "tensorflow"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-tinycolor",
@@ -10823,7 +11003,8 @@
           "integrity_shasum": "02b7ad49fd8afba34701dca4faf17c23958c5406"
         }
       ],
-      "keywords": [ "BuckleScript" ]
+      "keywords": [ "BuckleScript" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-typing",
@@ -10848,7 +11029,8 @@
           "integrity_shasum": "c7beeeaea9d061239bcca14542a8ca0e4bee862d"
         }
       ],
-      "keywords": [ "reason", "bucklescript", "typing", "animation" ]
+      "keywords": [ "reason", "bucklescript", "typing", "animation" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-uchar",
@@ -10876,7 +11058,8 @@
       ],
       "keywords": [
         "BuckleScript", "ReasonML", "OCaml", "compat", "compatibility"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-validation",
@@ -10904,7 +11087,8 @@
       "keywords": [
         "BuckleScript", "folktale", "fp", "reason", "reasonml", "password",
         "validation", "node"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-virtualdom",
@@ -10971,7 +11155,8 @@
           "integrity_shasum": "435e3ccc19f6d3fe96d9638da39a68860af01ec6"
         }
       ],
-      "keywords": [ "virtual dom", "bucklescript" ]
+      "keywords": [ "virtual dom", "bucklescript" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-web3",
@@ -10987,7 +11172,8 @@
       ],
       "keywords": [
         "reasonml", "bucklescript", "web3", "ethereum", "nodejs"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-webapi",
@@ -11186,7 +11372,8 @@
           "integrity_shasum": "0bf4174cffafde748df19c4ae42f6e8e6c6a22b1"
         }
       ],
-      "keywords": [ "reason", "bucklescript", "web", "dom" ]
+      "keywords": [ "reason", "bucklescript", "web", "dom" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-webapi-extra",
@@ -11215,7 +11402,8 @@
       "keywords": [
         "reason", "bucklescript", "web", "webrtc", "webcrypto", "crypto",
         "websocket", "indexeddb"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-websocket",
@@ -11261,7 +11449,8 @@
       "keywords": [
         "BuckleScript", "websocket", "websockets", "ws", "bs", "reason",
         "reasonml"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-webworkers",
@@ -11310,7 +11499,8 @@
           "integrity_shasum": "3e6d83dc76d93a1c6434ad5b88ef479bcddfccce"
         }
       ],
-      "keywords": [ "reason", "reasonml", "Bucklescript", "webworkers" ]
+      "keywords": [ "reason", "reasonml", "Bucklescript", "webworkers" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-winston",
@@ -11343,7 +11533,8 @@
       ],
       "keywords": [
         "BuckleScript", "ReasonML", "Reason", "Winston", "nodejs"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-winston-cloudwatch",
@@ -11376,7 +11567,8 @@
       ],
       "keywords": [
         "BuckleScript", "reasonml", "reason", "winston", "cloudwatch", "aws"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-ws",
@@ -11449,7 +11641,8 @@
           "integrity_shasum": "b6f0bcef6668b679673ba2b85ebc929e594353b8"
         }
       ],
-      "keywords": [ "BuckleScript", "Node", "WebSocket", "ws" ]
+      "keywords": [ "BuckleScript", "Node", "WebSocket", "ws" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-yarp",
@@ -11486,7 +11679,8 @@
           "integrity_shasum": "e6bbf2a7c370a7447d52163cb68d609ffa86bcc0"
         }
       ],
-      "keywords": [ "BuckleScript", "ReasonML", "Reason", "Promise" ]
+      "keywords": [ "BuckleScript", "ReasonML", "Reason", "Promise" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-youtube",
@@ -11499,7 +11693,8 @@
           "integrity_shasum": "bc6016228c66de65fd55877db4ca77ff9378c04a"
         }
       ],
-      "keywords": [ "youtube", "bucklescript", "reason", "iframe", "video" ]
+      "keywords": [ "youtube", "bucklescript", "reason", "iframe", "video" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bs-zarith",
@@ -11519,7 +11714,8 @@
           "integrity_shasum": "20b6a51cc1520eafac508a479c4b04cd8ce03879"
         }
       ],
-      "keywords": [ "bucklescript" ]
+      "keywords": [ "bucklescript" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bsb-js",
@@ -11592,7 +11788,8 @@
           "integrity_shasum": "12cc91e974f5896b3a2aa8358419d24e56f552c3"
         }
       ],
-      "keywords": [ "bsb", "bucklescript", "reason", "reasonml" ]
+      "keywords": [ "bsb", "bucklescript", "reason", "reasonml" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "bsb-native",
@@ -11637,7 +11834,8 @@
       ],
       "keywords": [
         "ocaml", "bucklescript", "stdlib", "functional programming"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "bucklescript-fluture",
@@ -11656,7 +11854,8 @@
           "integrity_shasum": "5bd3a9662b84382b2d8cf64626895ba3acedd857"
         }
       ],
-      "keywords": [ "fluture", "bucklescript", "reason" ]
+      "keywords": [ "fluture", "bucklescript", "reason" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bucklescript-phx",
@@ -11742,7 +11941,8 @@
           "integrity_shasum": "1a2be925259c4922e96e36a13ee160c903515abd"
         }
       ],
-      "keywords": [ "TEA", "Bucklescript", "OCaml", "Phoenix" ]
+      "keywords": [ "TEA", "Bucklescript", "OCaml", "Phoenix" ],
+      "target": [ "Web" ]
     },
     {
       "name": "bucklescript-tea",
@@ -12001,7 +12201,8 @@
           "integrity_shasum": "04b035297092043e946349d6df99aa457673a5b5"
         }
       ],
-      "keywords": [ "TEA", "Bucklescript", "OCaml" ]
+      "keywords": [ "TEA", "Bucklescript", "OCaml" ],
+      "target": [ "Web" ]
     },
     {
       "name": "cardero-x-razzle",
@@ -12024,7 +12225,8 @@
       "keywords": [
         "razzle", "react", "webpack", "preact", "ssr", "universal",
         "isomorphic", "inferno", "reason", "reasonml"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "cargurus-style",
@@ -12039,7 +12241,8 @@
       ],
       "keywords": [
         "style guide", "lint", "cargurus", "es6", "es2015", "react", "jsx"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "chromafi",
@@ -12293,7 +12496,8 @@
         "typescript", "vala", "vbnet", "vbscript-html", "vbscript",
         "verilog", "vhdl", "vim", "x86asm", "xl", "xml", "xquery", "yaml",
         "zephir"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "clj-collection-apis-reasonml",
@@ -12374,7 +12578,8 @@
       ],
       "keywords": [
         "BuckleScript", "Clojurescript", "Clojure", "Reason", "ReasonML"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "color-re",
@@ -12417,7 +12622,8 @@
           "integrity_shasum": "c212bfb4583f6480b65d737493c5da79ad24a5c7"
         }
       ],
-      "keywords": [ "reason", "bucklescript", "color", "rbg", "hex", "hsl" ]
+      "keywords": [ "reason", "bucklescript", "color", "rbg", "hex", "hsl" ],
+      "target": [ "Web" ]
     },
     {
       "name": "colors.re",
@@ -12452,7 +12658,8 @@
         "buckleScript", "reasonml", "reason", "colours", "colors.re",
         "Recolor", "terminal", "colors", "color", "chalk", "logging",
         "logger"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "create-dace-app",
@@ -12475,7 +12682,8 @@
       "keywords": [
         "dace", "react", "webpack", "preact", "ssr", "universal",
         "isomorphic", "inferno", "reason", "reasonml"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "create-ecc-app",
@@ -12504,7 +12712,8 @@
       "keywords": [
         "razzle", "react", "webpack", "preact", "ssr", "universal",
         "isomorphic", "inferno", "reason", "reasonml"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "create-esy-project",
@@ -12523,7 +12732,8 @@
           "integrity_shasum": "987384dc1a37dba0bde56176291832aec1fc6436"
         }
       ],
-      "keywords": [ "esy", "ocaml", "reason", "starter", "template" ]
+      "keywords": [ "esy", "ocaml", "reason", "starter", "template" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "create-graze-app",
@@ -12588,7 +12798,8 @@
       "keywords": [
         "graze", "razzle", "react", "webpack", "preact", "ssr", "universal",
         "isomorphic", "inferno", "reason", "reasonml"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "create-razzle-app",
@@ -12839,7 +13050,8 @@
       "keywords": [
         "razzle", "react", "webpack", "preact", "ssr", "universal",
         "isomorphic", "inferno", "reason", "reasonml"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "create-reason",
@@ -12852,7 +13064,8 @@
           "integrity_shasum": "1c4186bf6c7b953feaf4a0ea7212afa9a4f7bb9d"
         }
       ],
-      "keywords": [ "reasonml", "ocaml", "esy" ]
+      "keywords": [ "reasonml", "ocaml", "esy" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "create-reason-node-project",
@@ -12873,7 +13086,8 @@
       ],
       "keywords": [
         "esy", "ocaml", "reason", "reason-node", "starter", "template"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "create-reasonml-app",
@@ -12886,7 +13100,8 @@
           "integrity_shasum": "91fb3c61ca40286b171f110ff6e608f7d2b52cfb"
         }
       ],
-      "keywords": [ "reason", "reasonml" ]
+      "keywords": [ "reason", "reasonml" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "create-reprocessing-app",
@@ -12899,7 +13114,8 @@
           "integrity_shasum": "ac6846df5b601786d4df32c1ec58194a92d5b7dd"
         }
       ],
-      "keywords": [ "reprocessing", "reasonml", "processing" ]
+      "keywords": [ "reprocessing", "reasonml", "processing" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "dpdk-razzle",
@@ -12946,7 +13162,8 @@
       "keywords": [
         "razzle", "react", "webpack", "preact", "ssr", "universal",
         "isomorphic", "inferno", "reason", "reasonml"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "esy-peasy",
@@ -12984,7 +13201,8 @@
           "integrity_shasum": "48a6d279dce1465c19a14c7e6f584d057495da4d"
         }
       ],
-      "keywords": [ "esy", "ocaml", "reason", "reasonml" ]
+      "keywords": [ "esy", "ocaml", "reason", "reasonml" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "esyr",
@@ -12996,7 +13214,8 @@
           "integrity_shasum": "4141c6157a9bffb0897506533ce8d829f1d0520f"
         }
       ],
-      "keywords": [ "esy", "reasonml", "ocaml" ]
+      "keywords": [ "esy", "reasonml", "ocaml" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "eth-gas-price-suggestor",
@@ -13022,7 +13241,8 @@
           "integrity_shasum": "e2f2688ab0d8c6f7804cb576ef23d5a592e47116"
         }
       ],
-      "keywords": [ "ethereum", "gas", "price" ]
+      "keywords": [ "ethereum", "gas", "price" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "eventil-cli",
@@ -13042,7 +13262,8 @@
         "python", "clojure", "rails", "kotlin", "scala", "angular", "react",
         "vue.js", "rust", "elixir", "android", "lua", "c#", "f#", "ocaml",
         "reasonml", "perl", "ember", "ios"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "express-res-status",
@@ -13068,7 +13289,8 @@
           "integrity_shasum": "02530659b7596b5b883fd3db86253e94829f3bd2"
         }
       ],
-      "keywords": [ "express", "router", "REST API", "http status codes" ]
+      "keywords": [ "express", "router", "REST API", "http status codes" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "eyeserver",
@@ -13117,7 +13339,8 @@
           "integrity_shasum": "a576ca601d3250a1a861afa7d94ee0da76a80421"
         }
       ],
-      "keywords": [ "eye", "reasoner", "n3" ]
+      "keywords": [ "eye", "reasoner", "n3" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "facilmock",
@@ -13170,7 +13393,8 @@
       "keywords": [
         "e2e", "continuous integration", "testing", "mock", "expressjs",
         "stub"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "fastify-with-reason",
@@ -13191,7 +13415,8 @@
       ],
       "keywords": [
         "BuckleScript", "ReasonML", "Fastify", "Web", "Node", "Server"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "fb-bs-platform",
@@ -13333,7 +13558,8 @@
       ],
       "keywords": [
         "ocaml", "bucklescript", "stdlib", "functional programming"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "flex",
@@ -13453,7 +13679,8 @@
       ],
       "keywords": [
         "css", "flex", "flexbox", "layout", "reason", "reasonml", "ocaml"
-      ]
+      ],
+      "target": [ "Native" ]
     },
     {
       "name": "fp455",
@@ -13522,7 +13749,8 @@
       ],
       "keywords": [
         "Huami", "Flower Password", "crypto", "ReasonML", "BuckleScript"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "galley-recipes",
@@ -13541,7 +13769,8 @@
           "integrity_shasum": "d6810f43aa8c9ded1e4def3ebf9329fe72086cee"
         }
       ],
-      "keywords": [ "Galley", "ReasonML", "BuckleScript" ]
+      "keywords": [ "Galley", "ReasonML", "BuckleScript" ],
+      "target": [ "Web" ]
     },
     {
       "name": "gatsby-link-reason",
@@ -13596,7 +13825,8 @@
           "integrity_shasum": "87b9932097f2a1fb6089241a24766624fda4c226"
         }
       ],
-      "keywords": [ "gatsby", "gatsby-link", "reason", "reasonml" ]
+      "keywords": [ "gatsby", "gatsby-link", "reason", "reasonml" ],
+      "target": [ "Web" ]
     },
     {
       "name": "gatsby-plugin-reason",
@@ -13677,7 +13907,8 @@
       ],
       "keywords": [
         "gatsby", "reason", "reasonml", "plugin", "gatsby-plugin"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "gatsby-remark-curlie",
@@ -13691,7 +13922,8 @@
           "integrity_shasum": "5fa6b985617c2628a80e0d8d8ab86cef04fe4bdb"
         }
       ],
-      "keywords": [ "bucklescript", "reason", "gatsby", "remark" ]
+      "keywords": [ "bucklescript", "reason", "gatsby", "remark" ],
+      "target": [ "Web" ]
     },
     {
       "name": "generator-angular-opium",
@@ -13755,7 +13987,8 @@
       "keywords": [
         "yeoman-generator", "OCaml", "Opium", "Mirage ORM", "AngularJS",
         "Bootstrap"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "generator-ocaml",
@@ -13770,7 +14003,8 @@
       ],
       "keywords": [
         "yeoman-generator", "OCaml", "package", "module", "OPAM", "OASIS"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "generator-ocaml-bucklescript-webpack",
@@ -13792,7 +14026,8 @@
       ],
       "keywords": [
         "yeoman-generator", "bucklescript", "ocaml", "webpack", "bs-loader"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "generator-reason-react-class",
@@ -13811,7 +14046,8 @@
           "integrity_shasum": "aa53e6b28e92627f6295730931a688bfa58e4a4e"
         }
       ],
-      "keywords": [ "yeoman-generator" ]
+      "keywords": [ "yeoman-generator" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "geo-wifi",
@@ -13840,7 +14076,8 @@
       "keywords": [
         "wifi", "geolocation", "range", "maps", "venue", "rogue",
         "accesspoint"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "graphql-codegen-reason-client",
@@ -13892,7 +14129,8 @@
       "keywords": [
         "gql", "generator", "code", "types", "graphql", "codegen", "apollo",
         "node", "types", "typings", "reasonml"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "graphql-to-reason",
@@ -13973,7 +14211,8 @@
       ],
       "keywords": [
         "graphql", "reason", "generator", "bucklescript", "reasonml"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "graphqlx",
@@ -14046,7 +14285,8 @@
           "integrity_shasum": "1ec90dc3e74e6784439139eb6952c79d71acf167"
         }
       ],
-      "keywords": [ "OCaml", "BuckleScript", "GraphQL", "JavaScript" ]
+      "keywords": [ "OCaml", "BuckleScript", "GraphQL", "JavaScript" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "grunt-bucklescript",
@@ -14059,7 +14299,8 @@
           "integrity_shasum": "8e3bbf4434fa79d35856fb82f3905e1595f8334c"
         }
       ],
-      "keywords": [ "ocaml" ]
+      "keywords": [ "ocaml" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "grunt-ocamlbuild",
@@ -14072,7 +14313,8 @@
           "integrity_shasum": "85e334d2e2203d0ef890ac19a692829f2eda570a"
         }
       ],
-      "keywords": [ "gruntplugin", "ocaml", "ocamlbuild" ]
+      "keywords": [ "gruntplugin", "ocaml", "ocamlbuild" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "grunt-of-ocamlbuild",
@@ -14086,7 +14328,8 @@
           "integrity_shasum": "877949ebda6bfcc096c93c3783cb484ea17f7cff"
         }
       ],
-      "keywords": [ "gruntplugin", "ocaml", "js-of-ocaml" ]
+      "keywords": [ "gruntplugin", "ocaml", "js-of-ocaml" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "h-eye",
@@ -14285,7 +14528,8 @@
           "integrity_shasum": "404d765fe084f7c328b4db8c7635013623784aa5"
         }
       ],
-      "keywords": [ "eye", "reasoner", "n3", "blackboards" ]
+      "keywords": [ "eye", "reasoner", "n3", "blackboards" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "hes-agent",
@@ -14298,7 +14542,8 @@
           "integrity_shasum": "62a32f8b95c2e3540898f3aa5a42e43920f109e9"
         }
       ],
-      "keywords": [ "eye", "reasoner", "n3", "agent", "blackboards" ]
+      "keywords": [ "eye", "reasoner", "n3", "agent", "blackboards" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "hotsite-farm",
@@ -14311,7 +14556,8 @@
           "integrity_shasum": "2e3c9cae22306f362b8224f224944f57e86405ae"
         }
       ],
-      "keywords": [ "reason", "bucklescript" ]
+      "keywords": [ "reason", "bucklescript" ],
+      "target": [ "Web" ]
     },
     {
       "name": "httpsnippet",
@@ -14587,7 +14833,8 @@
         "java", "javascript", "jquery", "objc", "objective-c", "ocaml",
         "php", "python", "request", "requests", "ruby", "shell", "snippet",
         "swift", "swift", "unirest", "xhr", "xmlhttprequest"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "httpsnippet-fe",
@@ -14629,7 +14876,8 @@
         "java", "javascript", "jquery", "objc", "objective-c", "ocaml",
         "php", "python", "request", "requests", "ruby", "shell", "snippet",
         "swift", "swift", "unirest", "xhr", "xmlhttprequest"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "httpsnippet-fsless",
@@ -14774,7 +15022,8 @@
         "javascript", "jquery", "objc", "objective-c", "ocaml", "php",
         "python", "request", "requests", "ruby", "shell", "snippet", "swift",
         "swift", "unirest", "xhr", "xmlhttprequest"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "hulken",
@@ -14968,7 +15217,8 @@
           "integrity_shasum": "85f715c205c4b490d08c59011331b8ae966169a6"
         }
       ],
-      "keywords": [ "stress test", "load test", "stress", "test" ]
+      "keywords": [ "stress test", "load test", "stress", "test" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "hylar",
@@ -15404,7 +15654,8 @@
       "keywords": [
         "reasoning", "owl", "incremental", "semantic web",
         "incremental reasoning", "rdf", "owl reasoner"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "hypatia",
@@ -15457,7 +15708,8 @@
       "keywords": [
         "jsdoc", "jupyter-notebooks", "jupyter", "ijavascript", "reasonml",
         "jupyter-notebook", "hypatia", "ijavascript-jupyter-notebooks"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "if-empty",
@@ -15471,7 +15723,8 @@
           "integrity_shasum": "166edafe30325a27f0b6f67f713de4276da260de"
         }
       ],
-      "keywords": [ "yeoman" ]
+      "keywords": [ "yeoman" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "immutable-re",
@@ -15508,7 +15761,8 @@
           "integrity_shasum": "56a99ad76479a5ffd3fccec13ec2b853d1ebce31"
         }
       ],
-      "keywords": [ "reason", "reasonml", "ocaml", "immutable" ]
+      "keywords": [ "reason", "reasonml", "ocaml", "immutable" ],
+      "target": [ "Web" ]
     },
     {
       "name": "insomnia-httpsnippet",
@@ -15622,7 +15876,8 @@
         "javascript", "jquery", "objc", "objective-c", "ocaml", "php",
         "python", "request", "requests", "ruby", "shell", "snippet", "swift",
         "swift", "unirest", "xhr", "xmlhttprequest"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "install_ocaml",
@@ -15641,7 +15896,8 @@
           "integrity_shasum": "5d57c25f2b80abc667dcf5b2e8cfa840c71d1469"
         }
       ],
-      "keywords": [ "ocaml", "js_of_ocaml", "opam" ]
+      "keywords": [ "ocaml", "js_of_ocaml", "opam" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "itunescord",
@@ -15661,7 +15917,8 @@
           "integrity_shasum": "3dfc3f898958a926dd45dee5a061bec5c0ef873d"
         }
       ],
-      "keywords": [ "BuckleScript", "ReasonML", "Discord", "iTunes" ]
+      "keywords": [ "BuckleScript", "ReasonML", "Discord", "iTunes" ],
+      "target": [ "Web" ]
     },
     {
       "name": "js-ocaml-evaluator",
@@ -15686,7 +15943,8 @@
           "integrity_shasum": "2d469116056d60ad7580c7be25d2526141169a94"
         }
       ],
-      "keywords": [ "ocaml", "js_of_ocaml" ]
+      "keywords": [ "ocaml", "js_of_ocaml" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "js_deep_ppx",
@@ -15706,7 +15964,8 @@
           "integrity_shasum": "06ffc3f0e60ceb8ae270c9f64b76929b05eb9240"
         }
       ],
-      "keywords": [ "Reason", "Bucklescript" ]
+      "keywords": [ "Reason", "Bucklescript" ],
+      "target": [ "Web" ]
     },
     {
       "name": "jsoo-bin",
@@ -15755,7 +16014,8 @@
           "integrity_shasum": "a8a4a415bc17c998612f45993ac3f9c696e71ec1"
         }
       ],
-      "keywords": [ "ocaml", "js_of_ocaml" ]
+      "keywords": [ "ocaml", "js_of_ocaml" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "jwt-authorizer",
@@ -15780,7 +16040,8 @@
           "integrity_shasum": "0ee93029f6cc63adedac33bbb6bed55305957ef1"
         }
       ],
-      "keywords": [ "BuckleScript" ]
+      "keywords": [ "BuckleScript" ],
+      "target": [ "Web" ]
     },
     {
       "name": "klipse",
@@ -16031,7 +16292,8 @@
       "keywords": [
         "clojure", "repl", "snippets", "javascript", "ruby", "python",
         "reagent", "jsx"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "let-anything",
@@ -16062,7 +16324,8 @@
           "integrity_shasum": "0e870607e37ee9ec3793a973e8cd48a59817edf4"
         }
       ],
-      "keywords": [ "Reason", "Async" ]
+      "keywords": [ "Reason", "Async" ],
+      "target": [ "Web" ]
     },
     {
       "name": "markdown-to-rex",
@@ -16085,7 +16348,8 @@
       "keywords": [
         "BuckleScript", "ReasonML", "ReasonReact", "Markdown",
         "markdown-to-jsx"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "melkornms-razzle",
@@ -16102,7 +16366,8 @@
       "keywords": [
         "razzle", "react", "webpack", "preact", "ssr", "universal",
         "isomorphic", "inferno", "reason", "reasonml"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "mldoc_org",
@@ -16127,7 +16392,8 @@
           "integrity_shasum": "2a913aafeb3e5f699ddd01978d56c651c412c075"
         }
       ],
-      "keywords": [ "Org", "mode", "parser", "OCaml", "Js_of_ocaml" ]
+      "keywords": [ "Org", "mode", "parser", "OCaml", "Js_of_ocaml" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "mo-display",
@@ -16290,7 +16556,8 @@
           "integrity_shasum": "05091f24b9879ca41d66b7bec32d72aab6c346ad"
         }
       ],
-      "keywords": [ "bucklescript", "reasonml", "reasonreact" ]
+      "keywords": [ "bucklescript", "reasonml", "reasonreact" ],
+      "target": [ "Web" ]
     },
     {
       "name": "node-keepass-http",
@@ -16339,7 +16606,8 @@
           "integrity_shasum": "332e4d451b5e7940c811dbb46dd18cf48e7d90a8"
         }
       ],
-      "keywords": [ "keepass", "ocaml" ]
+      "keywords": [ "keepass", "ocaml" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "ocaml",
@@ -16550,7 +16818,8 @@
           "integrity_shasum": "4a84b039d079500ae3b690e197a2d30c9e9a2b63"
         }
       ],
-      "keywords": [ "ocaml", "flow", "opam" ]
+      "keywords": [ "ocaml", "flow", "opam" ],
+      "target": [ "Native" ]
     },
     {
       "name": "ocaml-diff",
@@ -16584,7 +16853,8 @@
       "keywords": [
         "reason", "reasonml", "diff", "utilities", "collections",
         "BuckleScript"
-      ]
+      ],
+      "target": [ "Universal" ]
     },
     {
       "name": "ocaml-reason-wsl",
@@ -16604,7 +16874,8 @@
           "integrity_shasum": "7856cdd1874b5f3457eea59fcecef99d74cbb992"
         }
       ],
-      "keywords": [ "ocaml", "reason", "windows" ]
+      "keywords": [ "ocaml", "reason", "windows" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "p-reflect",
@@ -16634,7 +16905,8 @@
         "promise", "reflect", "inspect", "debug", "fulfill", "reject",
         "fulfilled", "rejected", "error", "async", "await", "promises",
         "bluebird"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "p-settle",
@@ -16683,7 +16955,8 @@
         "reject", "fulfilled", "rejected", "reflect", "inspect", "error",
         "async", "await", "promises", "concurrently", "concurrency",
         "parallel", "bluebird"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "passwoid",
@@ -16768,7 +17041,8 @@
           "integrity_shasum": "046536d55151fa079fe83d1690e44b1b6a639cda"
         }
       ],
-      "keywords": [ "random", "password" ]
+      "keywords": [ "random", "password" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "pesy",
@@ -16916,7 +17190,8 @@
           "integrity_shasum": "d3a5e9f5df853d3fd6d35229d939ce923fb6dd8f"
         }
       ],
-      "keywords": [ "esy", "ocaml", "reason", "reasonml" ]
+      "keywords": [ "esy", "ocaml", "reason", "reasonml" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "pinata-sdk",
@@ -16966,7 +17241,8 @@
           "integrity_shasum": "26d0b07b622ce0235c48ed31a5c15f1a5bb47d66"
         }
       ],
-      "keywords": [ "BuckleScript", "ReasonML", "Pinata", "IPFS" ]
+      "keywords": [ "BuckleScript", "ReasonML", "Pinata", "IPFS" ],
+      "target": [ "Web" ]
     },
     {
       "name": "postcss-caralho",
@@ -17037,7 +17313,8 @@
       "keywords": [
         "postcss", "css", "postcss-plugin", "portuguese", "portugues",
         "curse", "curseincss", "konkani", "hindi"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "ppx-deriving",
@@ -17061,7 +17338,8 @@
         "BuckleScript", "ReasonML", "OCaml", "CLI", "bin", "binary", "PPX",
         "AST", "transpiler", "tool", "codegen", "functional", "types",
         "static-typing", "wrapper"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "ppx-sedlex",
@@ -17127,7 +17405,8 @@
         "BuckleScript", "ReasonML", "OCaml", "CLI", "bin", "binary", "ppx",
         "ast", "codegen", "syntax", "parsing", "parser", "lexing", "tokens",
         "tokenize", "wrapper"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "ppx-tea-jsx",
@@ -17149,7 +17428,8 @@
       "keywords": [
         "bucklescript", "bucklescript-tea", "elm", "reason", "reasonml",
         "jsx"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "ppx_bsx",
@@ -17236,7 +17516,8 @@
       ],
       "keywords": [
         "reason", "reasonml", "bucklescript", "ocaml", "bsx", "jsx"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "prettier-plugin-reasonml",
@@ -17250,7 +17531,8 @@
           "integrity_shasum": "729ad72fb736e5c47be410f84c52c96bac3fa1cf"
         }
       ],
-      "keywords": [ "reasonml", "refmt", "prettier", "prettier-plugin" ]
+      "keywords": [ "reasonml", "refmt", "prettier", "prettier-plugin" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "promise-with-status",
@@ -17263,7 +17545,8 @@
           "integrity_shasum": "e12d7914ffda8eec2f9bb4b6e81573a2d62847ed"
         }
       ],
-      "keywords": [ "promise", "status", "value", "internal", "export" ]
+      "keywords": [ "promise", "status", "value", "internal", "export" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "purposefile",
@@ -17307,7 +17590,8 @@
           "integrity_shasum": "85d0383eefb5c958a5f6ba439d297dbc4c44827e"
         }
       ],
-      "keywords": [ "purpose", "file", "reason", "lint", "config" ]
+      "keywords": [ "purpose", "file", "reason", "lint", "config" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "raisin",
@@ -17321,7 +17605,8 @@
           "integrity_shasum": "b6b4c053e928010bbdb554c37836c115bf9c4fae"
         }
       ],
-      "keywords": [ "reason", "reasonml", "ocaml", "build" ]
+      "keywords": [ "reason", "reasonml", "ocaml", "build" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "rationale",
@@ -17395,7 +17680,8 @@
           "integrity_shasum": "a14567d3eea7facaba0ed35d68ef2127fdd861d7"
         }
       ],
-      "keywords": [ "BuckleScript", "ReasonML", "Ramda", "Lodash", "Monad" ]
+      "keywords": [ "BuckleScript", "ReasonML", "Ramda", "Lodash", "Monad" ],
+      "target": [ "Web" ]
     },
     {
       "name": "razzle",
@@ -17928,7 +18214,8 @@
       "keywords": [
         "razzle", "react", "webpack", "preact", "ssr", "universal",
         "isomorphic", "inferno", "reason", "reasonml"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "razzle-babel-7",
@@ -18016,7 +18303,8 @@
       "keywords": [
         "razzle", "react", "webpack", "preact", "ssr", "universal",
         "isomorphic", "inferno", "reason", "reasonml"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "razzle-rn",
@@ -18033,7 +18321,8 @@
       "keywords": [
         "razzle", "react", "webpack", "preact", "ssr", "universal",
         "isomorphic", "inferno", "reason", "reasonml"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "re-chalk",
@@ -18053,7 +18342,8 @@
           "integrity_shasum": "9b4b19f45add44157625e846e4f13ada56f99a49"
         }
       ],
-      "keywords": [ "BuckleScript", "Reasonml", "chalk" ]
+      "keywords": [ "BuckleScript", "Reasonml", "chalk" ],
+      "target": [ "Web" ]
     },
     {
       "name": "re-classnames",
@@ -18117,7 +18407,8 @@
       "keywords": [
         "react", "reason", "reason-react", "reasonml", "ocaml",
         "bucklescript", "classnames"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "re-cx",
@@ -18130,7 +18421,8 @@
           "integrity_shasum": "ae5051786c1dcd0ae6446094c8e493afc8fddd8f"
         }
       ],
-      "keywords": [ "reason", "bucklescript", "classnames" ]
+      "keywords": [ "reason", "bucklescript", "classnames" ],
+      "target": [ "Web" ]
     },
     {
       "name": "re-debouncer",
@@ -18164,7 +18456,8 @@
       "keywords": [
         "react", "reason", "reason-react", "reasonml", "ocaml",
         "bucklescript", "debounce", "debouncer"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "re-dnd",
@@ -18234,7 +18527,8 @@
       "keywords": [
         "react", "reason", "reason-react", "reasonml", "ocaml",
         "bucklescript", "ui", "dnd", "drag-n-drop"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "re-elm-app",
@@ -18272,7 +18566,8 @@
           "integrity_shasum": "2782604f25b77ca57fd57ac46f802f48eb6f2e6d"
         }
       ],
-      "keywords": [ "reason", "bucklescript", "elm" ]
+      "keywords": [ "reason", "bucklescript", "elm" ],
+      "target": [ "Web" ]
     },
     {
       "name": "re-formality",
@@ -18510,7 +18805,8 @@
       "keywords": [
         "react", "reason", "reason-react", "reasonml", "ocaml",
         "bucklescript", "forms", "validation"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "re-localforage",
@@ -18530,7 +18826,8 @@
           "integrity_shasum": "563c79c48ff71098f07c57caf6cf478d35dab0cf"
         }
       ],
-      "keywords": [ "reason", "bucklescript", "localforage" ]
+      "keywords": [ "reason", "bucklescript", "localforage" ],
+      "target": [ "Web" ]
     },
     {
       "name": "re-respect",
@@ -18659,7 +18956,8 @@
       ],
       "keywords": [
         "BuckleScript", "reason", "reasonml", "test", "testing", "tdd", "bdd"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "react-from-svg",
@@ -18701,7 +18999,8 @@
         "react", "react-native", "reason-react", "bs-react", "svg",
         "react-native-svg", "react-native-web", "bucklescript",
         "react-native", "svg-to-react", "svgr"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "react-splt",
@@ -18727,7 +19026,8 @@
           "integrity_shasum": "2bd29fc02c92e54bbd14a30602dfa18636285b82"
         }
       ],
-      "keywords": [ "bucklescript", "pane", "react", "reasonml", "split" ]
+      "keywords": [ "bucklescript", "pane", "react", "reasonml", "split" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "reason",
@@ -18924,7 +19224,8 @@
       "keywords": [
         "reason", "ocaml", "react", "javascript",
         "won't you look at all these nice types"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "reason-apollo",
@@ -19699,7 +20000,8 @@
           "integrity_shasum": "c34a136e039ebeb346f41152c931147bf3ba83f9"
         }
       ],
-      "keywords": [ "Reason", "Apollo", "React", "GraphQL" ]
+      "keywords": [ "Reason", "Apollo", "React", "GraphQL" ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-biz-charts",
@@ -19714,7 +20016,8 @@
       ],
       "keywords": [
         "chart", "data-visualization", "reasonml", "bucklescript"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-browser-persist",
@@ -19743,7 +20046,8 @@
       "keywords": [
         "reason", "bucklescript", "localforage", "reasonml", "indexeddb",
         "storage", "localstorage"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-chess",
@@ -19798,7 +20102,8 @@
           "integrity_shasum": "119e04771378196d9d3b2046693b1e14af959d6d"
         }
       ],
-      "keywords": [ "chess", "game", "minimax" ]
+      "keywords": [ "chess", "game", "minimax" ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-cli-tools",
@@ -19835,7 +20140,8 @@
           "integrity_shasum": "a4efdaf38e383ce531460c6cd31428bc7a3c4144"
         }
       ],
-      "keywords": [ "BuckleScript", "OCaml", "Reason" ]
+      "keywords": [ "BuckleScript", "OCaml", "Reason" ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-css-modules-loader",
@@ -19900,7 +20206,8 @@
         "ReasonML", "ReasonReact", "CSS Modules", "Webpack",
         "Webpack loader", "Webpack ReasonML CSS Modules loader",
         "ReasonML CSS Modules"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "reason-elm",
@@ -19938,7 +20245,8 @@
           "integrity_shasum": "f9f70828c102cdf8754036dfb787677909bd6c47"
         }
       ],
-      "keywords": [ "reasonml", "bucklescript", "elm" ]
+      "keywords": [ "reasonml", "bucklescript", "elm" ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-expo",
@@ -20169,7 +20477,8 @@
       ],
       "keywords": [
         "reason", "reasonml", "bucklescript", "react-native", "expo"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-expo-vector-icons",
@@ -20189,7 +20498,8 @@
           "integrity_shasum": "f1632e30f5103ec3ed7b1acf99e899682eb74b71"
         }
       ],
-      "keywords": [ "BuckleScript", "Expo", "React Native", "React" ]
+      "keywords": [ "BuckleScript", "Expo", "React Native", "React" ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-flip-page",
@@ -20208,7 +20518,8 @@
           "integrity_shasum": "6162251e4f30374267daa4a6b8ee5b057e5d13c8"
         }
       ],
-      "keywords": [ "BuckleScript", "react-flip-page", "react", "reason" ]
+      "keywords": [ "BuckleScript", "react-flip-page", "react", "reason" ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-form",
@@ -20305,7 +20616,8 @@
           "integrity_shasum": "33273c6ec8d24824ca63e254e4ab6652493c53f4"
         }
       ],
-      "keywords": []
+      "keywords": [],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-future",
@@ -20372,7 +20684,8 @@
           "integrity_shasum": "3918945a943a6abbb67bc62e90af6a65a0f079ae"
         }
       ],
-      "keywords": [ "BuckleScript" ]
+      "keywords": [ "BuckleScript" ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-graphql",
@@ -20410,7 +20723,8 @@
           "integrity_shasum": "4a6fa78c715018217d2ae6bd17057ee177800cbf"
         }
       ],
-      "keywords": [ "BuckleScript", "GraphQL", "Reason", "ReasonML" ]
+      "keywords": [ "BuckleScript", "GraphQL", "Reason", "ReasonML" ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-graphql-bs-express",
@@ -20431,7 +20745,8 @@
       ],
       "keywords": [
         "BuckleScript", "GraphQL", "Express", "Reason", "ReasonML"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-highlightjs",
@@ -20465,7 +20780,8 @@
       "keywords": [
         "reason", "reasonml", "bucklescript", "highlight", "highlightjs",
         "highlight.js"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "reason-hooks-testing-library",
@@ -20496,7 +20812,8 @@
           "integrity_shasum": "2b49fc5229077d230f32a2b9a98753ad6eb62142"
         }
       ],
-      "keywords": [ "BuckleScript", "testing", "hooks" ]
+      "keywords": [ "BuckleScript", "testing", "hooks" ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-language-server",
@@ -20509,7 +20826,8 @@
           "integrity_shasum": "afb132a0c8708685dac57398e14c5b88d953e9f8"
         }
       ],
-      "keywords": [ "Reason", "lsp", "IDE" ]
+      "keywords": [ "Reason", "lsp", "IDE" ],
+      "target": [ "Native" ]
     },
     {
       "name": "reason-loadable",
@@ -20556,7 +20874,8 @@
       "keywords": [
         "reason", "reasonreact", "dynamic", "module", "import",
         "code-splitting", "lazy-loading", "chunksplit"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-maybe",
@@ -20584,7 +20903,8 @@
       "keywords": [
         "BuckleScript", "maybe", "monad", "reasonml", "library",
         "functional-programming"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-nact",
@@ -20734,7 +21054,8 @@
         "BuckleScript", "Reason", "nact", "actors", "actor-model", "akka",
         "akka.net", "non-blocking", "actor system", "erlang",
         "event sourcing", "distributed-systems"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-nact-postgres",
@@ -20799,7 +21120,8 @@
         "BuckleScript", "Reason", "nact", "actors", "actor-model", "akka",
         "akka.net", "non-blocking", "actor system", "erlang",
         "event sourcing", "distributed-systems"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-nconf",
@@ -20941,7 +21263,8 @@
       "keywords": [
         "configuration", "key value store", "plugabble", "bucklescript",
         "reasonml"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-powerplug",
@@ -20970,7 +21293,8 @@
       "keywords": [
         "BuckleScript", "ReasonReact", "ReasonML", "components", "dumb",
         "state", "RenderProps"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-pure-component",
@@ -20998,7 +21322,8 @@
       "keywords": [
         "bucklescript", "reason", "react", "reasonreact", "bsb", "pure",
         "memo"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-react",
@@ -21167,7 +21492,8 @@
           "integrity_shasum": "46a975c321e81cd51310d7b1a02418ca7667b0d6"
         }
       ],
-      "keywords": [ "reasonml", "bucklescript", "react" ]
+      "keywords": [ "reasonml", "bucklescript", "react" ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-react-brunch",
@@ -21187,7 +21513,8 @@
           "integrity_shasum": "52ed89f4ca26ea48bb6f74d3b3e1c74d712ee92d"
         }
       ],
-      "keywords": [ "reasonml", "bucklescript", "react" ]
+      "keywords": [ "reasonml", "bucklescript", "react" ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-react-compat",
@@ -21224,7 +21551,8 @@
           "integrity_shasum": "9c6705f9bd67e7ff7219355f3a95fd67442b578d"
         }
       ],
-      "keywords": [ "reason-react" ]
+      "keywords": [ "reason-react" ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-react-context",
@@ -21244,7 +21572,8 @@
           "integrity_shasum": "b269530d10e525377e4fdea7dd8c52caac9ff87b"
         }
       ],
-      "keywords": [ "BuckleScript", "react", "reasonml" ]
+      "keywords": [ "BuckleScript", "react", "reasonml" ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-react-document-title",
@@ -21296,7 +21625,8 @@
       "keywords": [
         "BuckleScript", "Reason", "ReasonReact", "React", "title",
         "document.title"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-react-native",
@@ -21310,7 +21640,8 @@
           "integrity_shasum": "7adb9837f28d79d9f1e009b5d01ae864aff15d51"
         }
       ],
-      "keywords": [ "reason", "reasonml", "bucklescript", "react-native" ]
+      "keywords": [ "reason", "reasonml", "bucklescript", "react-native" ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-react-native-maps",
@@ -21333,7 +21664,8 @@
       "keywords": [
         "reason", "reasonml", "bucklescript", "react-native",
         "react-native-maps"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-react-router",
@@ -21352,7 +21684,8 @@
           "integrity_shasum": "43ecc311d64f19169280fea2d3f20dde839f37d9"
         }
       ],
-      "keywords": [ "bucklescript", "reasonml", "react" ]
+      "keywords": [ "bucklescript", "reasonml", "react" ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-react-update",
@@ -21371,7 +21704,8 @@
           "integrity_shasum": "ea51c2e24fef7a061bb419496c0941f19f773924"
         }
       ],
-      "keywords": [ "reason-react" ]
+      "keywords": [ "reason-react" ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-react-waffle",
@@ -21390,7 +21724,8 @@
           "integrity_shasum": "54d8150e30120be73bbf298587914c069daf7759"
         }
       ],
-      "keywords": [ "reasonml", "streams", "react" ]
+      "keywords": [ "reasonml", "streams", "react" ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-reroute",
@@ -21421,7 +21756,8 @@
           "integrity_shasum": "ea480951222da8059c739c645ee9b68860f27738"
         }
       ],
-      "keywords": [ "router", "react", "reason", "reasonml" ]
+      "keywords": [ "router", "react", "reason", "reasonml" ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-select",
@@ -21447,7 +21783,8 @@
           "integrity_shasum": "7c8c4bd4dd3b1207edb4ad64f10cd78ea0c100a4"
         }
       ],
-      "keywords": [ "bucklescript", "select", "reason", "reasonml" ]
+      "keywords": [ "bucklescript", "select", "reason", "reasonml" ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-simple-server",
@@ -21497,7 +21834,8 @@
           "integrity_shasum": "a02844e6f329a8b5986a6d48042cebd70bf5dba7"
         }
       ],
-      "keywords": [ "bucklescript", "ocaml", "reason", "server" ]
+      "keywords": [ "bucklescript", "ocaml", "reason", "server" ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-tags-input",
@@ -21531,7 +21869,8 @@
       ],
       "keywords": [
         "BuckleScript", "Reason", "React", "Tags input", "Hashtag input"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-transition-group",
@@ -21580,7 +21919,8 @@
           "integrity_shasum": "9de9b449697ffc7d7263a9ea876740a1988d6803"
         }
       ],
-      "keywords": [ "BuckleScript", "ReasonReact", "Transition" ]
+      "keywords": [ "BuckleScript", "ReasonReact", "Transition" ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-tttoe",
@@ -21599,7 +21939,8 @@
           "integrity_shasum": "2fc74deeb660b425e79c0d4455e699d736026344"
         }
       ],
-      "keywords": [ "BuckleScript", "tic-tac-toe" ]
+      "keywords": [ "BuckleScript", "tic-tac-toe" ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-types-webpack-plugin",
@@ -21614,7 +21955,8 @@
       ],
       "keywords": [
         "webpack", "get-typed", "reason", "reasonml", "bucklescript"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "reason-urql",
@@ -21676,7 +22018,8 @@
           "integrity_shasum": "2873df8c24026ad0b7e7bec1602fe1f422e1a1fe"
         }
       ],
-      "keywords": [ "reason", "reasonml", "bucklescript", "graphql", "urql" ]
+      "keywords": [ "reason", "reasonml", "bucklescript", "graphql", "urql" ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-waffle",
@@ -21689,7 +22032,8 @@
           "integrity_shasum": "dfdb1f19248c83ce4ddaf76c5dd032aaa3a521fb"
         }
       ],
-      "keywords": [ "streams", "reasonML" ]
+      "keywords": [ "streams", "reasonML" ],
+      "target": [ "Web" ]
     },
     {
       "name": "reason-webpack-plugin",
@@ -21714,7 +22058,8 @@
           "integrity_shasum": "f49aceff1b98797db1d65788a4e2ed4fda844668"
         }
       ],
-      "keywords": [ "webpack", "reason", "reasonml", "bucklescript" ]
+      "keywords": [ "webpack", "reason", "reasonml", "bucklescript" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "reasonable-router",
@@ -21853,7 +22198,8 @@
           "integrity_shasum": "90478ab206e06335d4b30001a423c3b0b2845491"
         }
       ],
-      "keywords": [ "react", "router", "routing", "route", "routes" ]
+      "keywords": [ "react", "router", "routing", "route", "routes" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "reasonably-typed",
@@ -22046,7 +22392,8 @@
           "integrity_shasum": "a90a448650415555328910a30f38ad4687c31b65"
         }
       ],
-      "keywords": [ "Reason", "OCaml", "Bucklescript", "Flow" ]
+      "keywords": [ "Reason", "OCaml", "Bucklescript", "Flow" ],
+      "target": [ "Web" ]
     },
     {
       "name": "reasonml",
@@ -22059,7 +22406,8 @@
           "integrity_shasum": "f2d5581adfc31feab64ba536178ec0a436b85b23"
         }
       ],
-      "keywords": [ "reasonml" ]
+      "keywords": [ "reasonml" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "reasonml-in-browser",
@@ -22127,7 +22475,8 @@
           "integrity_shasum": "9dee5d1952a495f71574058f9a4c08009bc073f2"
         }
       ],
-      "keywords": [ "reason", "reasonml", "bucklescript" ]
+      "keywords": [ "reason", "reasonml", "bucklescript" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "reasonz",
@@ -22146,7 +22495,8 @@
           "integrity_shasum": "b5027c9567a442d20a7451c0e32c5bae3449ca57"
         }
       ],
-      "keywords": [ "reason", "reasonml", "haskell", "typeclasses" ]
+      "keywords": [ "reason", "reasonml", "haskell", "typeclasses" ],
+      "target": [ "Web" ]
     },
     {
       "name": "reazon",
@@ -22159,7 +22509,8 @@
           "integrity_shasum": "8e3b40e57ece2ab9174733f4bee5c4c6497d56ff"
         }
       ],
-      "keywords": [ "reason", "reasonml", "haskell" ]
+      "keywords": [ "reason", "reasonml", "haskell" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "rebem-helper",
@@ -22226,7 +22577,8 @@
           "integrity_shasum": "0397648860d077e1d50cebef8d5262228e529589"
         }
       ],
-      "keywords": [ "bem", "css", "helper", "reason", "reasonml" ]
+      "keywords": [ "bem", "css", "helper", "reason", "reasonml" ],
+      "target": [ "Web" ]
     },
     {
       "name": "rebolt",
@@ -22248,7 +22600,8 @@
       ],
       "keywords": [
         "reason", "reasonml", "bucklescript", "react-native", "rebolt"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "rebolt-navigation",
@@ -22267,7 +22620,8 @@
           "integrity_shasum": "71d1e6c6394f67821cedaf85a2d4ff5c3f84f587"
         }
       ],
-      "keywords": [ "router", "react", "reason", "reasonml", "rebolt" ]
+      "keywords": [ "router", "react", "reason", "reasonml", "rebolt" ],
+      "target": [ "Web" ]
     },
     {
       "name": "reductive",
@@ -22300,7 +22654,8 @@
       ],
       "keywords": [
         "reason", "reasonml", "ocaml", "redux", "state management"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "reductive-dev-tools",
@@ -22407,7 +22762,8 @@
       "keywords": [
         "redux", "dev tools", "reductive", "redux", "reason", "reasonml",
         "bucklescript"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "refmt",
@@ -22432,7 +22788,8 @@
           "integrity_shasum": "c3159bcaf23b20cf2dc86cb161570792f62d1481"
         }
       ],
-      "keywords": [ "reason", "reasonml", "refmt" ]
+      "keywords": [ "reason", "reasonml", "refmt" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "relude",
@@ -22519,7 +22876,8 @@
       ],
       "keywords": [
         "ReasonML", "BuckleScript", "Utility", "Prelude", "Standard Library"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "reprocessing",
@@ -22556,7 +22914,8 @@
           "integrity_shasum": "2832f59ca6708941073f7ab63f6026c2146b44d1"
         }
       ],
-      "keywords": [ "reason", "processing", "graphics", "opengl", "webgl" ]
+      "keywords": [ "reason", "processing", "graphics", "opengl", "webgl" ],
+      "target": [ "Web" ]
     },
     {
       "name": "reroute-native",
@@ -22569,7 +22928,8 @@
           "integrity_shasum": "f5a68c0dcf0f818f70927dc68192be77d9e6a16e"
         }
       ],
-      "keywords": [ "router", "react", "reason", "reasonml" ]
+      "keywords": [ "router", "react", "reason", "reasonml" ],
+      "target": [ "Web" ]
     },
     {
       "name": "rex-json",
@@ -22624,7 +22984,8 @@
           "integrity_shasum": "d93796d0a33920ca977a177aec5628950ebeb04a"
         }
       ],
-      "keywords": [ "BuckleScript", "json", "reason" ]
+      "keywords": [ "BuckleScript", "json", "reason" ],
+      "target": [ "Web" ]
     },
     {
       "name": "rn-razzle",
@@ -22641,7 +23002,8 @@
       "keywords": [
         "razzle", "react", "webpack", "preact", "ssr", "universal",
         "isomorphic", "inferno", "reason", "reasonml"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "rof",
@@ -22659,7 +23021,8 @@
           "integrity_shasum": "00ad54a0fe34448cd3bce4659a90e00f832ad2e8"
         }
       ],
-      "keywords": []
+      "keywords": [],
+      "target": [ "Unknown" ]
     },
     {
       "name": "rollup-plugin-bucklescript",
@@ -22702,7 +23065,8 @@
           "integrity_shasum": "2955f9ed21316c0f4e6cc26a251e9e8e90617193"
         }
       ],
-      "keywords": [ "bucklescript", "rollup", "reason", "reasonML" ]
+      "keywords": [ "bucklescript", "rollup", "reason", "reasonML" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "sconcomm",
@@ -22734,7 +23098,8 @@
           "integrity_shasum": "285e817e5f0b9b75f9ada7c6ca827eae95989262"
         }
       ],
-      "keywords": [ "scon", "file", "format" ]
+      "keywords": [ "scon", "file", "format" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "serverless-reasonml",
@@ -22765,7 +23130,8 @@
           "integrity_shasum": "099eae17c4ccb1913020ebd9d814c345ca535e9e"
         }
       ],
-      "keywords": [ "reason", "reasonml", "serverless", "lambda" ]
+      "keywords": [ "reason", "reasonml", "serverless", "lambda" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "setup-reason-react-native-app",
@@ -22809,7 +23175,8 @@
           "integrity_shasum": "3794ce8b96fe4c3106a8dfda06f3777f441ad358"
         }
       ],
-      "keywords": [ "ReasonML", "React", "Native", "Bucklescript" ]
+      "keywords": [ "ReasonML", "React", "Native", "Bucklescript" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "smart-bind",
@@ -22844,7 +23211,8 @@
       "keywords": [
         "app", "apply", "bind", "bound", "context", "ctx", "fn", "function",
         "smart", "smart-bind", "util", "utility", "utils"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "stats.re",
@@ -22924,7 +23292,8 @@
           "integrity_shasum": "baa8d35f3984993244e1f5f671c32c4f4a14cc72"
         }
       ],
-      "keywords": [ "bucklescript", "reason", "statistics" ]
+      "keywords": [ "bucklescript", "reason", "statistics" ],
+      "target": [ "Web" ]
     },
     {
       "name": "stature",
@@ -22938,7 +23307,8 @@
           "integrity_shasum": "9ea16de8c6cd68f1d4b34f9538054c4eaef12aa2"
         }
       ],
-      "keywords": [ "BuckleScript", "react", "reasonml" ]
+      "keywords": [ "BuckleScript", "react", "reasonml" ],
+      "target": [ "Web" ]
     },
     {
       "name": "styled-scss",
@@ -22990,7 +23360,8 @@
       "keywords": [
         "sass", "css", "css-in-js", "react", "reactjs", "react-css",
         "reason", "reasonml", "bucklescript", "reason-css"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "stylelint-config-growcss",
@@ -23012,7 +23383,8 @@
       "keywords": [
         "css", "growcss", "lint", "styleguide", "stylelint",
         "styled-components"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "stylelint-config-itgalaxy",
@@ -23376,7 +23748,8 @@
       "keywords": [
         "style guide", "styleguide", "lint", "itgalaxy", "css", "scss",
         "stylelint", "stylelint-config"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "tablecloth-bucklescript",
@@ -23419,7 +23792,8 @@
           "integrity_shasum": "92b27c4e46ceec47008728367eccd7d5016b3914"
         }
       ],
-      "keywords": [ "BuckleScript" ]
+      "keywords": [ "BuckleScript" ],
+      "target": [ "Web" ]
     },
     {
       "name": "tails-ui",
@@ -23615,7 +23989,8 @@
       "keywords": [
         "react", "reasonml", "tails-ui", "library", "components",
         "tailwindcss"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "tasks-ml",
@@ -23732,7 +24107,8 @@
       ],
       "keywords": [
         "BuckleScript", "Reason", "Async", "Functional Programming"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "telepathic",
@@ -23746,7 +24122,8 @@
           "integrity_shasum": "9725cdf1aea3136c19feaef1219de4baa554114d"
         }
       ],
-      "keywords": [ "bucklescript", "reasonml", "slack" ]
+      "keywords": [ "bucklescript", "reasonml", "slack" ],
+      "target": [ "Web" ]
     },
     {
       "name": "text-metadata-parser",
@@ -23814,7 +24191,8 @@
           "integrity_shasum": "0845c2402bb963e8d896ac532fe6ae24d86b90a5"
         }
       ],
-      "keywords": [ "metadata", "string", "file" ]
+      "keywords": [ "metadata", "string", "file" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "timeofday-parser",
@@ -23864,7 +24242,8 @@
           "integrity_shasum": "66a5566d9f8354dfaf98f64a131df2c02bb247c4"
         }
       ],
-      "keywords": []
+      "keywords": [],
+      "target": [ "Unknown" ]
     },
     {
       "name": "tree-sitter-dune",
@@ -23889,7 +24268,8 @@
           "integrity_shasum": "6774231e92b841c195f7d7dc7d30e36178cd26a3"
         }
       ],
-      "keywords": [ "tree-sitter", "parser", "ocaml", "dune" ]
+      "keywords": [ "tree-sitter", "parser", "ocaml", "dune" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "tree-sitter-menhir",
@@ -23914,7 +24294,8 @@
           "integrity_shasum": "1e76c7ad3a8ff2e93f0d5d965eaf11d40f438a37"
         }
       ],
-      "keywords": [ "parser", "ocaml", "menhir" ]
+      "keywords": [ "parser", "ocaml", "menhir" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "tree-sitter-ocaml",
@@ -23975,7 +24356,8 @@
           "integrity_shasum": "8d54df224e885bf8d575c8c1418459cf59ce1554"
         }
       ],
-      "keywords": [ "parser", "ocaml" ]
+      "keywords": [ "parser", "ocaml" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "tree-sitter-ocamllex",
@@ -24012,7 +24394,8 @@
           "integrity_shasum": "3cc5f088ed3603bc08a62a95534b920531893ba5"
         }
       ],
-      "keywords": [ "tree-sitter", "parser", "ocaml", "ocamllex" ]
+      "keywords": [ "tree-sitter", "parser", "ocaml", "ocamllex" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "type-name",
@@ -24073,7 +24456,8 @@
           "integrity_shasum": "efe7d4123d8ac52afff7f40c7e4dec5266008fb4"
         }
       ],
-      "keywords": [ "type", "typeof" ]
+      "keywords": [ "type", "typeof" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "typescript-pattern-match",
@@ -24089,7 +24473,8 @@
       "keywords": [
         "TypeScript", "Pattern Match", "Pattern Matching", "switch", "Elm",
         "Haskell", "ReasonML"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "validity_checks",
@@ -24109,7 +24494,8 @@
           "integrity_shasum": "d5f598ea363b9c17abdda7e33f9c0b6f6ebc2730"
         }
       ],
-      "keywords": [ "validity", "checks" ]
+      "keywords": [ "validity", "checks" ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "wcag-color",
@@ -24138,7 +24524,8 @@
       "keywords": [
         "WCAG", "Color", "Color contrast", "Accessibility", "BuckleScript",
         "Reason", "ReasonML"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "webpack-stats-explorer",
@@ -24188,7 +24575,8 @@
           "integrity_shasum": "68600d43530fbeb92bbd4f203c2dacf6716841d7"
         }
       ],
-      "keywords": [ "BuckleScript" ]
+      "keywords": [ "BuckleScript" ],
+      "target": [ "Web" ]
     },
     {
       "name": "webpack-translations-plugin",
@@ -24223,7 +24611,8 @@
       "keywords": [
         "webpack", "plugin", "translations", "messages", "i18n",
         "transferwise", "0cjs"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "wmathconcepts",
@@ -25145,7 +25534,8 @@
       ],
       "keywords": [
         "wTools", "math", "vector", "dot product", "convolution"
-      ]
+      ],
+      "target": [ "Unknown" ]
     },
     {
       "name": "wonder-reroute",
@@ -25164,7 +25554,8 @@
           "integrity_shasum": "44113d62993dcc28b45a1a61adcfde9d8839980c"
         }
       ],
-      "keywords": [ "router", "react", "reason", "reasonml" ]
+      "keywords": [ "router", "react", "reason", "reasonml" ],
+      "target": [ "Web" ]
     },
     {
       "name": "wonder.js",
@@ -26704,7 +27095,8 @@
       "keywords": [
         "wonder", "webgl", "functional-programming", "high-performance",
         "3d", "engine", "reasonml", "reason", "bucklescript"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "wonka",
@@ -26901,7 +27293,8 @@
       "keywords": [
         "wonka", "reason", "bucklescript", "callbag", "callback",
         "observable", "iterable", "stream"
-      ]
+      ],
+      "target": [ "Web" ]
     },
     {
       "name": "ys7-style",
@@ -26916,7 +27309,8 @@
       ],
       "keywords": [
         "style guide", "lint", "ys7", "es6", "es2015", "react", "jsx"
-      ]
+      ],
+      "target": [ "Unknown" ]
     }
   ]
 }

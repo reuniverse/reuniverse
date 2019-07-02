@@ -5,7 +5,10 @@
   "license": "MIT",
   "esy": {
     "build": "refmterr dune build",
-    "release": { "bin": ["reuniverse"] }
+    "release": {
+      "bin": ["reuniverse"],
+      "includePackages": ["root", "esy-gmp", "@opam/nocrypto"]
+    }
   },
   "scripts": {
     "start": "dune build @all --watch",

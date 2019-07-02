@@ -8,6 +8,19 @@ var Format = require("bs-platform/lib/js/format.js");
 var $$String = require("bs-platform/lib/js/string.js");
 var Version = require("./version.bs.js");
 
+function of_string(param) {
+  switch (param) {
+    case "native" : 
+        return /* Native */-693027401;
+    case "universal" : 
+        return /* Universal */-848711317;
+    case "web" : 
+        return /* Web */4349044;
+    default:
+      return /* Unknown */785140586;
+  }
+}
+
 function to_string(param) {
   if (param >= 4349044) {
     if (param >= 785140586) {
@@ -22,7 +35,10 @@ function to_string(param) {
   }
 }
 
-var Target = /* module */[/* to_string */to_string];
+var Target = /* module */[
+  /* of_string */of_string,
+  /* to_string */to_string
+];
 
 function pp(fmt, pkg) {
   var name = pkg[/* name */0];

@@ -1,6 +1,14 @@
 module Target = {
   [@deriving yojson]
   type t = [ | `Universal | `Web | `Native | `Unknown];
+
+  let of_string =
+    fun
+    | "universal" => `Universal
+    | "web" => `Web
+    | "native" => `Native
+    | _ => `Unknown;
+
   let to_string =
     fun
     | `Universal => "universal"

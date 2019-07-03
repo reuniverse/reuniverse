@@ -1,7 +1,6 @@
 # re:universe
 
-[![Build Status](https://dev.azure.com/reuniverse/reuniverse/_apis/build/status/reuniverse.hello-reason?branchName=master)](https://dev.azure.com/reuniverse/reuniverse/_build/latest?definitionId=1?branchName=master)
-[![Board Status](https://dev.azure.com/reuniverse/ad9592cf-fadf-4ddc-ab19-a378af5f488b/cae4c130-c38d-447c-8ab1-d96c8b80ec3b/_apis/work/boardbadge/7046e256-f990-423a-b90f-19d89081aa44)](https://dev.azure.com/reuniverse/ad9592cf-fadf-4ddc-ab19-a378af5f488b/_boards/board/t/cae4c130-c38d-447c-8ab1-d96c8b80ec3b/Microsoft.RequirementCategory)
+[![Build Status](https://dev.azure.com/reuniverse/reuniverse/_apis/build/status/reuniverse.reuniverse?branchName=master)](https://dev.azure.com/reuniverse/reuniverse/_build/latest?definitionId=1?branchName=master)
 
 ## Contributing 
 

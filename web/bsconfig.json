@@ -6,7 +6,7 @@
   },
   "sources": [
     ".",
-    "pkg_index",
+    "search",
     "design_system",
     "model",
     "utils"

@@ -6,7 +6,7 @@
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world && rm -rf _bundle",
     "test": "bsb -make-world && jest",
-    "refmt": "bsrefmt --in-place ./**/*.re*"
+    "refmt": "bsrefmt --in-place webapp.re ./**/*.re*"
   },
   "keywords": [
     "BuckleScript",

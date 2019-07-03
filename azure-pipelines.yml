@@ -71,6 +71,26 @@ stages:
         steps:
           - template: .ci/build-web.yml
 
+  - stage: Publish_npm
+    dependsOn: [Create_release]
+    jobs:
+      - deployment:
+        pool:
+          vmImage: macOS-latest
+        environment: npm-registry
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+              - task: DownloadPipelineArtifact@0
+                displayName: "Download Release Artifacts"
+                inputs:
+                  artifactName: Release
+                  targetPath: $(Build.StagingDirectory)
+              
+              - script: echo 'TODO - Implement release to npm on new tag'
+                displayName: "Publish to NPM registry"
+
   - stage: Deploy_web
     dependsOn: [Build_package_index, Build_web]
     jobs:

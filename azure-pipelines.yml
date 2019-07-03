@@ -102,6 +102,11 @@ stages:
         runOnce:
           deploy:
             steps:
+            - script: |
+                git clone git@github.com:reuniverse/reuniverse.github.io.git
+              workingDirectory: $(Build.StagingDirectory)
+              displayName: "Clone GitHub pages repo"
+
             - task: DownloadPipelineArtifact@0
               displayName: "Download website"
               inputs:
@@ -123,8 +128,6 @@ stages:
               displayName: "Install ghpages CLI"
 
             - script: |
-                git init
-                git remote add origin git@github.com:reuniverse/reuniverse.github.io.git
                 ghpages -r reuniverse/reuniverse.github.io
               workingDirectory: $(Build.StagingDirectory)
               displayName: "Publish to GitHub pages"

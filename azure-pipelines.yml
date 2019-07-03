@@ -72,7 +72,7 @@ stages:
           - template: .ci/build-web.yml
 
   - stage: Publish_npm
-    dependsOn: [Create_release]
+    dependsOn: [Create_release, Build_package_index]
     jobs:
       - deployment:
         pool:

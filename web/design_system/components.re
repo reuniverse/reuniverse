@@ -1,13 +1,28 @@
+module Label = {
+  let style =
+    ReactDOMRe.Style.make(
+      ~padding="5px",
+      ~borderRadius="5px",
+      ~fontSize="12px",
+      ~fontFamily="Helvetica Neue, Helvetica, sans-serif",
+      (),
+    );
+
+  [@react.component]
+  let make = (~children) => <span style> children </span>;
+};
+
 module Search = {
-  let style = ReactDOMRe.Style.make(
-    ~width="100%",
-    ~margin="0",
-    ~padding="20px",
-    ~border="0",
-    ~outline="0",
-    ~fontSize="24px",
-    ~fontFamily="Helvetica Neue, Helvetica, sans-serif",
-    ()
+  let style =
+    ReactDOMRe.Style.make(
+      ~width="100%",
+      ~margin="0",
+      ~padding="20px",
+      ~border="0",
+      ~outline="0",
+      ~fontSize="24px",
+      ~fontFamily="Helvetica Neue, Helvetica, sans-serif",
+      (),
     );
 
   [@react.component]
@@ -35,6 +50,7 @@ module Package = {
   let make = (~pkg) => {
     <li style>
       <b> {Package.(pkg.name) |> React.string} </b>
+      <Label> Package.(pkg.target |> Target.to_string |> React.string) </Label>
       <br />
       {Utils.Infix.Option.(Package.(pkg.description) <|> "no description")
        |> React.string}
@@ -43,12 +59,7 @@ module Package = {
 };
 
 module Pkg_list = {
-  let style =
-    ReactDOMRe.Style.make(
-      ~padding="0",
-      ~width="70%",
-      (),
-    );
+  let style = ReactDOMRe.Style.make(~padding="0", ~width="70%", ());
   [@react.component]
   let make = (~index) => {
     let (filter, setFilter) = React.useState(() => "");
@@ -66,7 +77,11 @@ module Pkg_list = {
                | None => true
                | Some(desc) => Js.Re.test_(pattern, desc)
                }
-             );
+             )
+             || Js.Re.test_(
+                  pattern,
+                  Model.Package.(pkg.target |> Target.to_string),
+                );
            })
       };
     <div>

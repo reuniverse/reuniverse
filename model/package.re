@@ -1,9 +1,29 @@
+module Target = {
+  [@deriving yojson]
+  type t = [ | `Universal | `Web | `Native | `Unknown];
+
+  let of_string =
+    fun
+    | "universal" => `Universal
+    | "web" => `Web
+    | "native" => `Native
+    | _ => `Unknown;
+
+  let to_string =
+    fun
+    | `Universal => "universal"
+    | `Web => "web"
+    | `Native => "native"
+    | `Unknown => "unknown";
+};
+
 [@deriving yojson]
 type t = {
   name: string,
   description: option(string),
   versions: list(Version.t),
   keywords: list(string),
+  target: Target.t,
 };
 
 let pp = (fmt, pkg) => {
@@ -14,7 +34,7 @@ let pp = (fmt, pkg) => {
     "@[(name %S) (description %S) (keywords %S) (versions ",
     name,
     desc,
-    pkg.keywords |> String.concat(", ")
+    pkg.keywords |> String.concat(", "),
   );
   Format.pp_print_list(Version.pp, fmt, pkg.versions);
   Format.fprintf(fmt, ")@]");

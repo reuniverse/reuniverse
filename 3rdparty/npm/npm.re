@@ -146,7 +146,10 @@ module Api = {
     let base_port = 443;
 
     let headers = [
-    ("User-Agent", "reason/npm")];
+      ("accept", "application/json"),
+      ("content-type", "application/json"),
+      ("user-agent", "reason/npm"),
+    ];
 
     let search:
       (~query: Search.Query.t, ~from: int, ~size: int) =>
@@ -178,15 +181,7 @@ module Api = {
 
         let search_url = base_url ++ "/" ++ name |> Uri.of_string;
 
-        let req =
-          Httpkit.Request.create(
-            ~headers=[
-              ("accept", "application/json"),
-              ("content-type", "application/json"),
-            ],
-            `GET,
-            search_url,
-          );
+        let req = Httpkit.Request.create(~headers, `GET, search_url);
 
         Logs.debug(m => m("Requesting: %s", search_url |> Uri.to_string));
 

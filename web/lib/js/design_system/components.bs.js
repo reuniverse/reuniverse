@@ -6,8 +6,28 @@ var $$Array = require("bs-platform/lib/js/array.js");
 var Curry = require("bs-platform/lib/js/curry.js");
 var Infix = require("../../utils/infix.bs.js");
 var React = require("react");
+var Package = require("../../model/package.bs.js");
 
 var style = {
+  fontFamily: "Helvetica Neue, Helvetica, sans-serif",
+  fontSize: "12px",
+  padding: "5px",
+  borderRadius: "5px"
+};
+
+function Components$Label(Props) {
+  var children = Props.children;
+  return React.createElement("span", {
+              style: style
+            }, children);
+}
+
+var Label = /* module */[
+  /* style */style,
+  /* make */Components$Label
+];
+
+var style$1 = {
   border: "0",
   fontFamily: "Helvetica Neue, Helvetica, sans-serif",
   fontSize: "24px",
@@ -20,7 +40,7 @@ var style = {
 function Components$Search(Props) {
   var onChange = Props.onChange;
   return React.createElement("input", {
-              style: style,
+              style: style$1,
               placeholder: "Package name...",
               onChange: (function (e) {
                   return Curry._1(onChange, e.target.value);
@@ -29,11 +49,11 @@ function Components$Search(Props) {
 }
 
 var Search = /* module */[
-  /* style */style,
+  /* style */style$1,
   /* make */Components$Search
 ];
 
-var style$1 = {
+var style$2 = {
   background: "#F9F9F9",
   listStyle: "none",
   margin: "10px",
@@ -44,16 +64,18 @@ var style$1 = {
 function Components$Package(Props) {
   var pkg = Props.pkg;
   return React.createElement("li", {
-              style: style$1
-            }, React.createElement("b", undefined, pkg[/* name */0]), React.createElement("br", undefined), Infix.$$Option[/* <|> */0](pkg[/* description */1], "no description"));
+              style: style$2
+            }, React.createElement("b", undefined, pkg[/* name */0]), React.createElement(Components$Label, {
+                  children: Package.Target[/* to_string */1](pkg[/* target */4])
+                }), React.createElement("br", undefined), Infix.$$Option[/* <|> */0](pkg[/* description */1], "no description"));
 }
 
-var Package = /* module */[
-  /* style */style$1,
+var Package$1 = /* module */[
+  /* style */style$2,
   /* make */Components$Package
 ];
 
-var style$2 = {
+var style$3 = {
   padding: "0",
   width: "70%"
 };
@@ -72,17 +94,17 @@ function Components$Pkg_list(Props) {
                 return true;
               } else {
                 var match = pkg[/* description */1];
-                if (match !== undefined) {
-                  return pattern.test(match);
-                } else {
+                if (match !== undefined ? pattern.test(match) : true) {
                   return true;
+                } else {
+                  return pattern.test(Package.Target[/* to_string */1](pkg[/* target */4]));
                 }
               }
             }))(index[/* packages */1]);
   return React.createElement("div", undefined, React.createElement(Components$Search, {
                   onChange: Curry.__1(setFilter)
                 }), React.createElement("ul", {
-                  style: style$2
+                  style: style$3
                 }, $$Array.of_list(List.map((function (pkg) {
                             return React.createElement(Components$Package, {
                                         pkg: pkg
@@ -91,11 +113,12 @@ function Components$Pkg_list(Props) {
 }
 
 var Pkg_list = /* module */[
-  /* style */style$2,
+  /* style */style$3,
   /* make */Components$Pkg_list
 ];
 
+exports.Label = Label;
 exports.Search = Search;
-exports.Package = Package;
+exports.Package = Package$1;
 exports.Pkg_list = Pkg_list;
 /* react Not a pure module */

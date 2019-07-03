@@ -1,5 +1,5 @@
 {
-  "checksum": "963104cbaac536a48a17b50dcae8c4d2",
+  "checksum": "d0b40967a92215d14f4c3ec77f6b9285",
   "root": "reuniverse@link-dev:./esy.json",
   "node": {
     "yarn-pkg-config@github:esy-ocaml/yarn-pkg-config#cca65f99674ed2d954d28788edeb8c57fada5ed0@d41d8cd9": {
@@ -27,7 +27,7 @@
       "dependencies": [
         "refmterr@3.1.10@d41d8cd9", "ocaml@4.7.1004@d41d8cd9",
         "@opam/yojson@opam:1.7.0@2d92307e", "@opam/utop@opam:2.3.0@cbe87d0c",
-        "@opam/uri@opam:2.2.1@6bd26f86",
+        "@opam/uri@opam:2.2.1@6bd26f86", "@opam/semver2@opam:1.0.0@6ab3250f",
         "@opam/ppx_deriving_yojson@opam:3.4@73152ee9",
         "@opam/lwt@opam:4.2.1@c1888ec9", "@opam/logs@opam:0.6.3@80c08d15",
         "@opam/httpkit-lwt-unix-httpaf@github:ostera/httpkit:httpkit-lwt-unix-httpaf.opam#36b24c2@d41d8cd9",
@@ -531,6 +531,32 @@
         "ocaml@4.7.1004@d41d8cd9", "@esy-ocaml/substs@0.0.1@d41d8cd9"
       ],
       "devDependencies": [ "ocaml@4.7.1004@d41d8cd9" ]
+    },
+    "@opam/semver2@opam:1.0.0@6ab3250f": {
+      "id": "@opam/semver2@opam:1.0.0@6ab3250f",
+      "name": "@opam/semver2",
+      "version": "opam:1.0.0",
+      "source": {
+        "type": "install",
+        "source": [
+          "archive:https://opam.ocaml.org/cache/md5/07/073f37551997f6c0f8f858a0012fdcde#md5:073f37551997f6c0f8f858a0012fdcde",
+          "archive:https://github.com/dividat/ocaml-semver/archive/1.0.0.tar.gz#md5:073f37551997f6c0f8f858a0012fdcde"
+        ],
+        "opam": {
+          "name": "semver2",
+          "version": "1.0.0",
+          "path": "esy.lock/opam/semver2.1.0.0"
+        }
+      },
+      "overrides": [],
+      "dependencies": [
+        "ocaml@4.7.1004@d41d8cd9", "@opam/dune@opam:1.10.0@b15ce221",
+        "@opam/angstrom@opam:0.11.2@2e02b026",
+        "@esy-ocaml/substs@0.0.1@d41d8cd9"
+      ],
+      "devDependencies": [
+        "ocaml@4.7.1004@d41d8cd9", "@opam/angstrom@opam:0.11.2@2e02b026"
+      ]
     },
     "@opam/rresult@opam:0.6.0@4b185e72": {
       "id": "@opam/rresult@opam:0.6.0@4b185e72",

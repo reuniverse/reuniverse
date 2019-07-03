@@ -28,6 +28,16 @@ let parse: Js.Json.t => Index.t =
              versions: [],
              keywords: [],
              /* what have I done */
+             target:
+               (
+                 Js.Dict.unsafeGet(json_pkg, "target")
+                 |> Js.Json.decodeArray
+                 |> unwrap
+               )[0]
+               |> Js.Json.decodeString
+               |> (x => Belt.Option.getWithDefault(x, "unknown"))
+               |> Js.String.toLowerCase
+               |> Package.Target.of_string,
            }
          );
 
@@ -37,7 +47,7 @@ let parse: Js.Json.t => Index.t =
 let load: unit => Repromise.rejectable(Model.Index.t, _) =
   () => {
     Fetch.fetch(
-      "https://raw.githubusercontent.com/reuniverse/reuniverse/npm/parser-tweaks/packages/index.json",
+      "https://raw.githubusercontent.com/reuniverse/reuniverse/master/packages/index.json",
     )
     |> Js.Promise.then_(Fetch.Response.json)
     |> Repromise.Rejectable.fromJsPromise

@@ -8,6 +8,38 @@ var Format = require("bs-platform/lib/js/format.js");
 var $$String = require("bs-platform/lib/js/string.js");
 var Version = require("./version.bs.js");
 
+function of_string(param) {
+  switch (param) {
+    case "native" : 
+        return /* Native */-693027401;
+    case "universal" : 
+        return /* Universal */-848711317;
+    case "web" : 
+        return /* Web */4349044;
+    default:
+      return /* Unknown */785140586;
+  }
+}
+
+function to_string(param) {
+  if (param >= 4349044) {
+    if (param >= 785140586) {
+      return "unknown";
+    } else {
+      return "web";
+    }
+  } else if (param >= -693027401) {
+    return "native";
+  } else {
+    return "universal";
+  }
+}
+
+var Target = /* module */[
+  /* of_string */of_string,
+  /* to_string */to_string
+];
+
 function pp(fmt, pkg) {
   var name = pkg[/* name */0];
   var desc = Infix.$$Option[/* <|> */0](pkg[/* description */1], "No description.");
@@ -55,5 +87,6 @@ function pp(fmt, pkg) {
             ]);
 }
 
+exports.Target = Target;
 exports.pp = pp;
 /* Format Not a pure module */

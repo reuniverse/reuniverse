@@ -8,8 +8,8 @@
     ".",
     "pkg_index",
     "design_system",
-    "../model",
-    "../utils"
+    "model",
+    "utils"
   ],
   "package-specs": {
     "module": "commonjs",

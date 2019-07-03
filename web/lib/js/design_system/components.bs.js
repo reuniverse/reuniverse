@@ -4,9 +4,9 @@
 var List = require("bs-platform/lib/js/list.js");
 var $$Array = require("bs-platform/lib/js/array.js");
 var Curry = require("bs-platform/lib/js/curry.js");
-var Infix = require("../../utils/infix.bs.js");
+var Infix = require("../utils/infix.bs.js");
 var React = require("react");
-var Package = require("../../model/package.bs.js");
+var Package = require("../model/package.bs.js");
 
 var style = {
   fontFamily: "Helvetica Neue, Helvetica, sans-serif",

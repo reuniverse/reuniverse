@@ -2,9 +2,9 @@
 
 reuniverse is:
 
-* an index of Reason packages
-* docs for all packages
-* docs for the lang and compiler
+- an index of Reason packages
+- docs for all packages
+- docs for the lang and compiler
 
 ## Package Index
 

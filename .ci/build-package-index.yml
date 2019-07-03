@@ -18,8 +18,8 @@ steps:
   - script: reuniverse build-index --verbosity=info
     displayName: Build the index
 
-  - task: PublishBuildArtifacts@1
+  - task: PublishPipelineArtifact@0
     displayName: "Publish Artifact: package-index-json"
     inputs:
-      PathtoPublish: "./packages/index.json"
-      ArtifactName: package-index-json
+      targetPath: "./packages/index.json"
+      artifactName: package-index-json

@@ -27,8 +27,8 @@ steps:
         web/_bundle/*
       TargetFolder: '$(Build.ArtifactStagingDirectory)'
 
-  - task: PublishBuildArtifacts@1
+  - task: PublishPipelineArtifact@0
     displayName: "Publish Artifact: website"
     inputs:
-      PathtoPublish: "$(Build.ArtifactStagingDirectory)"
-      ArtifactName: website
+      targetPath: "$(Build.ArtifactStagingDirectory)"
+      artifactName: website

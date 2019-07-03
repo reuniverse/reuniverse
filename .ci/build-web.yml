@@ -1,12 +1,6 @@
 steps:
   - template: utils/use-node.yml
 
-  - task: DownloadPipelineArtifact@0
-    displayName: "Download package-index-json"
-    inputs:
-      artifactName: package-index-json
-      targetPath: $(Build.StagingDirectory)
-
   - script: yarn install
     workingDirectory: web
     displayName: Install dependencies

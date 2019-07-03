@@ -62,7 +62,7 @@ stages:
         - template: .ci/build-package-index.yml
 
   - stage: Build_web
-    dependsOn: [Build_package_index]
+    dependsOn: []
     jobs:
       - job: BuildWeb
         displayName: Build web site
@@ -72,7 +72,7 @@ stages:
           - template: .ci/build-web.yml
 
   - stage: Deploy_web
-    dependsOn: [Build_web]
+    dependsOn: [Build_package_index, Build_web]
     jobs:
     - deployment: DeployWeb
       pool:
@@ -82,16 +82,25 @@ stages:
         runOnce:
           deploy:
             steps:
-            - template: utils/use-node.yml
-
-            - script: npm -g install ghpages
-              displayName: "Install ghpages CLI"
-
             - task: DownloadPipelineArtifact@0
               displayName: "Download website"
               inputs:
                 artifactName: website
                 targetPath: $(Build.StagingDirectory)
+
+            - task: DownloadPipelineArtifact@0
+              displayName: "Download package-index-json"
+              inputs:
+                artifactName: package-index-json
+                targetPath: $(Build.StagingDirectory)
+
+            - task: NodeTool@0
+              displayName: "Use Node 8.x"
+              inputs:
+                versionSpec: 8.x
+
+            - script: npm -g install ghpages
+              displayName: "Install ghpages CLI"
 
             - script: ghpages -r reuniverse/reunicerse.github.io -p $(Build.StagingDirectory)
               displayName: "Publish to GitHub pages"

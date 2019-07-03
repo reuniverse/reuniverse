@@ -93,6 +93,7 @@ stages:
 
   - stage: Deploy_web
     dependsOn: [Build_package_index, Build_web]
+    # condition: and(succeeded(), ne(variables['Build.Reason'], 'PullRequest'))
     jobs:
     - deployment: DeployWeb
       pool:
@@ -120,15 +121,11 @@ stages:
                 artifactName: package-index-json
                 targetPath: $(Build.StagingDirectory)
 
-            - task: NodeTool@0
-              displayName: "Use Node 8.x"
-              inputs:
-                versionSpec: 8.x
-
-            - script: npm -g install ghpages
-              displayName: "Install ghpages CLI"
-
             - script: |
-                ghpages -r reuniverse/reuniverse.github.io
+                git add --all
+                git commit --message "Autodeploy: $(Build.BuildNumber)\n
+
+                Pipeline Run: https://dev.azure.com/reuniverse/reuniverse/_build/results?buildId=$(Build.BuildNumber)"
+                git push origin master
               workingDirectory: $(Build.StagingDirectory)
               displayName: "Publish to GitHub pages"

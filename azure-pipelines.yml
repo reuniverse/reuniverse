@@ -122,5 +122,7 @@ stages:
             - script: npm -g install ghpages
               displayName: "Install ghpages CLI"
 
-            - script: ghpages -r reuniverse/reunicerse.github.io -p $(Build.StagingDirectory)
+            - script: |
+                git remote add origin git@github.com:reuniverse/reuniverse.github.io.git
+                ghpages -r reuniverse/reuniverse.github.io -p $(Build.StagingDirectory)
               displayName: "Publish to GitHub pages"

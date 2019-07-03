@@ -103,7 +103,8 @@ stages:
           deploy:
             steps:
             - script: |
-                git clone git@github.com:reuniverse/reuniverse.github.io.git
+                git config user.name "SRC"
+                git clone https://$(github_pat)@github.com/reuniverse/reuniverse.github.io.git
               workingDirectory: $(Build.StagingDirectory)
               displayName: "Clone GitHub pages repo"
 

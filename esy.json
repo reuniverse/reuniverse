@@ -4,8 +4,11 @@
   "description": "Reason Documentation Universe",
   "license": "MIT",
   "esy": {
-    "build": "refmterr dune build @all",
-    "release": { "bin": [ "reuniverse" ] }
+    "build": "refmterr dune build",
+    "release": {
+      "bin": ["reuniverse"],
+      "includePackages": ["root", "esy-gmp", "@opam/nocrypto"]
+    }
   },
   "scripts": {
     "start": "dune build @all --watch",
@@ -32,12 +35,9 @@
   },
   "resolutions": {
     "@opam/httpkit": "ostera/httpkit:httpkit.opam#36b24c2",
-    "@opam/httpkit-lwt-unix-httpaf":
-      "ostera/httpkit:httpkit-lwt-unix-httpaf.opam#36b24c2",
-    "@opam/httpaf":
-      "anmonteiro/httpaf:httpaf.opam#6d2c80e3a16ecf85d74df76005ab68136457e111",
-    "@opam/httpaf-lwt-unix":
-      "anmonteiro/httpaf:httpaf-lwt-unix.opam#6d2c80e3a16ecf85d74df76005ab68136457e111"
+    "@opam/httpkit-lwt-unix-httpaf": "ostera/httpkit:httpkit-lwt-unix-httpaf.opam#36b24c2",
+    "@opam/httpaf": "anmonteiro/httpaf:httpaf.opam#6d2c80e3a16ecf85d74df76005ab68136457e111",
+    "@opam/httpaf-lwt-unix": "anmonteiro/httpaf:httpaf-lwt-unix.opam#6d2c80e3a16ecf85d74df76005ab68136457e111"
   },
   "devDependencies": { "@opam/merlin": "*" }
 }

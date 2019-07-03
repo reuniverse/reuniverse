@@ -1,0 +1,25 @@
+steps:
+  - template: utils/use-node.yml
+
+  - task: DownloadPipelineArtifact@0
+    displayName: "Download Release Artifacts"
+    inputs:
+      artifactName: Release
+      targetPath: $(Build.StagingDirectory)
+
+  # Remove this if we drop the TLS dependency
+  - script: brew install gmp
+    displayName: install gmp
+
+  - bash: npm -g install reuniverse-*.tgz
+    displayName: Install the package
+    workingDirectory: $(Build.StagingDirectory)
+
+  - script: reuniverse build-index --verbosity=info
+    displayName: Build the index
+
+  - task: PublishPipelineArtifact@0
+    displayName: "Publish Artifact: package-index-json"
+    inputs:
+      targetPath: "./packages/index.json"
+      artifactName: package-index-json

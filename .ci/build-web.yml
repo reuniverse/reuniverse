@@ -18,7 +18,7 @@ steps:
       SourceFolder: '$(System.DefaultWorkingDirectory)/web'
       Contents: |
         index.html
-        _bundle/*
+        dist/*
         assets/*
       TargetFolder: '$(Build.ArtifactStagingDirectory)'
 

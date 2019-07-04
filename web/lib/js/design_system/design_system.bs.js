@@ -7,14 +7,30 @@ var Curry = require("bs-platform/lib/js/curry.js");
 var Infix = require("../utils/infix.bs.js");
 var React = require("react");
 var Package = require("../model/package.bs.js");
+var ReactDOMRe = require("reason-react/lib/js/src/ReactDOMRe.js");
 
-var global_style = {
+var font_style = {
   color: "white",
   fontFamily: "Montserrat, Helvetica Neue, Helvetica, sans-serif",
   fontSize: "1rem"
 };
 
-var style = {
+var style = ReactDOMRe.Style[/* combine */0](font_style, { });
+
+function Design_system$Global(Props) {
+  var children = Props.children;
+  return React.createElement("section", {
+              style: style
+            }, children);
+}
+
+var Global = /* module */[
+  /* font_style */font_style,
+  /* style */style,
+  /* make */Design_system$Global
+];
+
+var style$1 = {
   margin: "0",
   padding: "1rem"
 };
@@ -22,16 +38,16 @@ var style = {
 function Design_system$Container(Props) {
   var children = Props.children;
   return React.createElement("section", {
-              style: style
+              style: style$1
             }, children);
 }
 
 var Container = /* module */[
-  /* style */style,
+  /* style */style$1,
   /* make */Design_system$Container
 ];
 
-var style$1 = {
+var style$2 = {
   background: "radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%)",
   bottom: "0",
   height: "100%",
@@ -46,16 +62,16 @@ var style$1 = {
 
 function Design_system$Background(Props) {
   return React.createElement("div", {
-              style: style$1
+              style: style$2
             });
 }
 
 var Background = /* module */[
-  /* style */style$1,
+  /* style */style$2,
   /* make */Design_system$Background
 ];
 
-var style$2 = {
+var style$3 = {
   margin: "2rem auto",
   textAlign: "center",
   width: "200px"
@@ -63,12 +79,12 @@ var style$2 = {
 
 function Design_system$Loading(Props) {
   return React.createElement("div", {
-              style: style$2
+              style: style$3
             }, "Loading...");
 }
 
 var Loading = /* module */[
-  /* style */style$2,
+  /* style */style$3,
   /* make */Design_system$Loading
 ];
 
@@ -79,7 +95,7 @@ function Design_system$Nav(Props) {
 
 var Nav = /* module */[/* make */Design_system$Nav];
 
-var style$3 = {
+var style$4 = {
   display: "inline-block",
   maxWidth: "80px",
   padding: "1rem"
@@ -87,53 +103,55 @@ var style$3 = {
 
 function Design_system$Logo(Props) {
   return React.createElement("img", {
-              style: style$3,
+              style: style$4,
               src: "./assets/logo.svg"
             });
 }
 
 var Logo = /* module */[
-  /* style */style$3,
+  /* style */style$4,
   /* make */Design_system$Logo
 ];
 
-var style$4 = {
+var style$5 = {
+  backgroundColor: "#232323",
+  color: "white",
   fontFamily: "Helvetica Neue, Helvetica, sans-serif",
-  fontSize: "8px",
+  fontSize: "1em",
+  fontWeight: "500",
   minWidth: "50px",
   padding: "5px",
+  textTransform: "uppercase",
   borderRadius: "5px"
 };
 
 function Design_system$Label(Props) {
   var children = Props.children;
   return React.createElement("span", {
-              style: style$4
+              style: style$5
             }, children);
 }
 
 var Label = /* module */[
-  /* style */style$4,
+  /* style */style$5,
   /* make */Design_system$Label
 ];
 
-var style$5 = {
-  background: "none",
-  border: "0",
-  color: "white",
-  float: "right",
-  fontSize: "1rem",
-  margin: "0",
-  outline: "0",
-  padding: "1rem",
-  width: "200px"
-};
+var style$6 = ReactDOMRe.Style[/* combine */0](font_style, {
+      background: "none",
+      border: "0",
+      float: "right",
+      margin: "0",
+      outline: "0",
+      padding: "1rem",
+      width: "200px"
+    });
 
 function Design_system$Search_input(Props) {
   var onChange = Props.onChange;
   var placeholder = Props.placeholder;
   return React.createElement("input", {
-              style: style$5,
+              style: style$6,
               placeholder: placeholder,
               onChange: (function (e) {
                   return Curry._1(onChange, e.target.value);
@@ -142,74 +160,84 @@ function Design_system$Search_input(Props) {
 }
 
 var Search_input = /* module */[
-  /* style */style$5,
+  /* style */style$6,
   /* make */Design_system$Search_input
 ];
 
-function Design_system$Subtitle(Props) {
+var style$7 = {
+  margin: "0",
+  padding: "0"
+};
+
+function Design_system$Tiny_title(Props) {
   var children = Props.children;
-  return React.createElement("h4", undefined, children);
+  return React.createElement("h5", {
+              style: style$7
+            }, children);
 }
 
-var Subtitle = /* module */[/* make */Design_system$Subtitle];
+var Tiny_title = /* module */[
+  /* style */style$7,
+  /* make */Design_system$Tiny_title
+];
 
-var style$6 = {
+var style$8 = {
   background: "#F9F9F9",
   color: "black",
   fontSize: "10px",
   listStyle: "none",
-  padding: "0.2rem 0.5rem"
+  padding: "0.5rem"
 };
 
 var name_style = {
   color: "black",
   display: "inline-block",
-  fontSize: "10px",
   fontWeight: "500",
+  margin: "0 1em",
   overflow: "hidden",
   whiteSpace: "nowrap",
-  width: "150px",
+  width: "25%",
   textOverflow: "ellipsis"
 };
 
 var desc_style = {
   color: "black",
   display: "inline-block",
-  fontSize: "10px",
+  margin: "0 1em",
   overflow: "hidden",
   whiteSpace: "nowrap",
-  width: "300px",
+  width: "60%",
   textOverflow: "ellipsis"
 };
 
 function Design_system$Package_card(Props) {
   var pkg = Props.pkg;
   return React.createElement("li", {
-              style: style$6
-            }, React.createElement(Design_system$Label, {
-                  children: Package.Target[/* to_string */1](pkg[/* target */4])
-                }), React.createElement("span", {
+              style: style$8
+            }, React.createElement("span", {
                   style: name_style
                 }, pkg[/* name */0]), React.createElement("span", {
                   style: desc_style
-                }, Infix.$$Option[/* <|> */0](pkg[/* description */1], "no description")));
+                }, Infix.$$Option[/* <|> */0](pkg[/* description */1], "no description")), React.createElement(Design_system$Label, {
+                  children: Package.Target[/* to_string */1](pkg[/* target */4])
+                }));
 }
 
 var Package_card = /* module */[
-  /* style */style$6,
+  /* style */style$8,
   /* name_style */name_style,
   /* desc_style */desc_style,
   /* make */Design_system$Package_card
 ];
 
-var style$7 = {
+var style$9 = {
   padding: "0"
 };
 
 function Design_system$Package_list(Props) {
   var packages = Props.packages;
   return React.createElement("ul", {
-              style: style$7
+              style: style$9
             }, $$Array.of_list(List.map((function (pkg) {
                         return React.createElement(Design_system$Package_card, {
                                     pkg: pkg
@@ -218,11 +246,14 @@ function Design_system$Package_list(Props) {
 }
 
 var Package_list = /* module */[
-  /* style */style$7,
+  /* style */style$9,
   /* make */Design_system$Package_list
 ];
 
-exports.global_style = global_style;
+var S = 0;
+
+exports.S = S;
+exports.Global = Global;
 exports.Container = Container;
 exports.Background = Background;
 exports.Loading = Loading;
@@ -230,7 +261,7 @@ exports.Nav = Nav;
 exports.Logo = Logo;
 exports.Label = Label;
 exports.Search_input = Search_input;
-exports.Subtitle = Subtitle;
+exports.Tiny_title = Tiny_title;
 exports.Package_card = Package_card;
 exports.Package_list = Package_list;
-/* react Not a pure module */
+/* style Not a pure module */

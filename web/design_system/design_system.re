@@ -1,13 +1,22 @@
-let global_style =
-  ReactDOMRe.Style.make(
-    ~fontSize="1rem",
-    ~fontFamily="Montserrat, Helvetica Neue, Helvetica, sans-serif",
-    ~color="white",
-    (),
-  );
+module S = ReactDOMRe.Style;
+
+module Global = {
+  let font_style =
+    S.make(
+      ~fontSize="1rem",
+      ~fontFamily="Montserrat, Helvetica Neue, Helvetica, sans-serif",
+      ~color="white",
+      (),
+    );
+  let style = S.combine(font_style, S.make());
+  [@react.component]
+  let make = (~children) => {
+    <section style> children </section>;
+  };
+};
 
 module Container = {
-  let style = ReactDOMRe.Style.make(~margin="0", ~padding="1rem", ());
+  let style = S.make(~margin="0", ~padding="1rem", ());
   [@react.component]
   let make = (~children) => {
     <section style> children </section>;
@@ -16,7 +25,7 @@ module Container = {
 
 module Background = {
   let style =
-    ReactDOMRe.Style.make(
+    S.make(
       ~position="fixed",
       ~top="0",
       ~left="0",
@@ -38,12 +47,7 @@ module Background = {
 
 module Loading = {
   let style =
-    ReactDOMRe.Style.make(
-      ~margin="2rem auto",
-      ~width="200px",
-      ~textAlign="center",
-      (),
-    );
+    S.make(~margin="2rem auto", ~width="200px", ~textAlign="center", ());
   [@react.component]
   let make = () => {
     <div style> {React.string("Loading...")} </div>;
@@ -59,12 +63,7 @@ module Nav = {
 
 module Logo = {
   let style =
-    ReactDOMRe.Style.make(
-      ~maxWidth="80px",
-      ~padding="1rem",
-      ~display="inline-block",
-      (),
-    );
+    S.make(~maxWidth="80px", ~padding="1rem", ~display="inline-block", ());
 
   [@react.component]
   let make = () => {
@@ -74,11 +73,15 @@ module Logo = {
 
 module Label = {
   let style =
-    ReactDOMRe.Style.make(
+    S.make(
       ~padding="5px",
+      ~backgroundColor="#232323",
       ~borderRadius="5px",
       ~minWidth="50px",
-      ~fontSize="8px",
+      ~textTransform="uppercase",
+      ~color="white",
+      ~fontSize="1em",
+      ~fontWeight="500",
       ~fontFamily="Helvetica Neue, Helvetica, sans-serif",
       (),
     );
@@ -89,17 +92,18 @@ module Label = {
 
 module Search_input = {
   let style =
-    ReactDOMRe.Style.make(
-      ~fontSize="1rem",
-      ~width="200px",
-      ~margin="0",
-      ~padding="1rem",
-      ~border="0",
-      ~outline="0",
-      ~float="right",
-      ~color="white",
-      ~background="none",
-      (),
+    S.combine(
+      Global.font_style,
+      S.make(
+        ~width="200px",
+        ~margin="0",
+        ~padding="1rem",
+        ~border="0",
+        ~outline="0",
+        ~float="right",
+        ~background="none",
+        (),
+      ),
     );
 
   [@react.component]
@@ -112,16 +116,17 @@ module Search_input = {
   };
 };
 
-module Subtitle = {
+module Tiny_title = {
+  let style = S.make(~padding="0", ~margin="0", ());
   [@react.component]
-  let make = (~children) => <h4> children </h4>;
+  let make = (~children) => <h5 style> children </h5>;
 };
 
 module Package_card = {
   let style =
-    ReactDOMRe.Style.make(
+    S.make(
       ~background="#F9F9F9",
-      ~padding="0.2rem 0.5rem",
+      ~padding="0.5rem",
       ~fontSize="10px",
       ~listStyle="none",
       ~color="black",
@@ -129,44 +134,45 @@ module Package_card = {
     );
 
   let name_style =
-    ReactDOMRe.Style.make(
+    S.make(
       ~display="inline-block",
-      ~width="150px",
-      ~fontSize="10px",
+      ~width="25%",
       ~fontWeight="500",
       ~color="black",
       ~whiteSpace="nowrap",
       ~overflow="hidden",
       ~textOverflow="ellipsis",
+      ~margin="0 1em",
       (),
     );
 
   let desc_style =
-    ReactDOMRe.Style.make(
+    S.make(
       ~display="inline-block",
-      ~width="300px",
-      ~fontSize="10px",
+      ~width="60%",
       ~color="black",
       ~whiteSpace="nowrap",
       ~overflow="hidden",
       ~textOverflow="ellipsis",
+      ~margin="0 1em",
       (),
     );
 
   [@react.component]
   let make = (~pkg) => {
     <li style>
-      <Label> Package.(pkg.target |> Target.to_string |> React.string) </Label>
       <span style=name_style> {Package.(pkg.name) |> React.string} </span>
-      <span style=desc_style> {Utils.Infix.Option.(Package.(pkg.description) <|> "no description")
-       |> React.string}
-       </span>
+      <span style=desc_style>
+        {Utils.Infix.Option.(Package.(pkg.description) <|> "no description")
+         |> React.string}
+      </span>
+      <Label> Package.(pkg.target |> Target.to_string |> React.string) </Label>
     </li>;
   };
 };
 
 module Package_list = {
-  let style = ReactDOMRe.Style.make(~padding="0", ());
+  let style = S.make(~padding="0", ());
   [@react.component]
   let make = (~packages) => {
     <ul style>

@@ -3,14 +3,14 @@ module Main = {
   let make = () => {
     let (filter, setFilter) = React.useState(() => "");
     Design_system.(
-      <section style=Design_system.global_style>
+      <Global>
         <Background />
         <Nav>
           <Logo />
           <Search_input onChange=setFilter placeholder="Search..." />
         </Nav>
         <Search.App filter />
-      </section>
+      </Global>
     );
   };
 };

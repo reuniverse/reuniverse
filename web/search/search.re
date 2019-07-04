@@ -50,13 +50,22 @@ let handle_results = (~filter, index) => {
     | _ => find_pkgs(~filter, pkgs)
     };
 
+  let pkg_count = pkgs |> List.length |> string_of_int;
+
   let heading =
     switch (filter) {
-    | "" => React.null
+    | "" =>
+      <Design_system.Tiny_title>
+        {pkg_count ++ " packages in the ecosystem." |> React.string}
+      </Design_system.Tiny_title>
     | _ =>
-      <Design_system.Subtitle>
-        {"Search results for \"" ++ filter ++ "\"" |> React.string}
-      </Design_system.Subtitle>
+      <Design_system.Tiny_title>
+        {pkg_count
+         ++ " search results for \""
+         ++ filter
+         ++ "\""
+         |> React.string}
+      </Design_system.Tiny_title>
     };
 
   Design_system.(

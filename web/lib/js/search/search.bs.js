@@ -69,8 +69,11 @@ function find_pkgs(filter) {
 function handle_results(filter, index) {
   var pkgs = index[/* packages */1];
   var pkgs$1 = filter === "" ? pkgs : find_pkgs(filter)(pkgs);
-  var heading = filter === "" ? null : React.createElement(Design_system.Subtitle[/* make */0], {
-          children: "Search results for \"" + (filter + "\"")
+  var pkg_count = String(List.length(pkgs$1));
+  var heading = filter === "" ? React.createElement(Design_system.Tiny_title[/* make */1], {
+          children: pkg_count + " packages in the ecosystem."
+        }) : React.createElement(Design_system.Tiny_title[/* make */1], {
+          children: pkg_count + (" search results for \"" + (filter + "\""))
         });
   return React.createElement(Design_system.Container[/* make */1], {
               children: null

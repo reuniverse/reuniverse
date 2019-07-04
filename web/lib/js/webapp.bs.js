@@ -10,8 +10,8 @@ function Webapp$Main(Props) {
   var match = React.useState((function () {
           return "";
         }));
-  return React.createElement("section", {
-              style: Design_system.global_style
+  return React.createElement(Design_system.Global[/* make */2], {
+              children: null
             }, React.createElement(Design_system.Background[/* make */1], { }), React.createElement(Design_system.Nav[/* make */0], {
                   children: null
                 }, React.createElement(Design_system.Logo[/* make */1], { }), React.createElement(Design_system.Search_input[/* make */1], {

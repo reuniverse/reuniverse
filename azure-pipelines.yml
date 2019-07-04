@@ -130,7 +130,7 @@ stages:
             - script: |
                 git config user.name "SRC Bot"
                 git add --all
-                git commit --message "Autodeploy: $(Build.BuildNumber)\n
+                git commit --message "Autodeploy: $(Build.BuildNumber)
 
                 Pipeline Run: https://dev.azure.com/reuniverse/reuniverse/_build/results?buildId=$(Build.BuildNumber)"
                 git push origin master

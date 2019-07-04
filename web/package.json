@@ -2,9 +2,9 @@
   "name": "reuniverse-web",
   "version": "0.1.0",
   "scripts": {
-    "build": "bsb -make-world && fpack build ./lib/js/webapp.bs.js --development --output=_bundle",
+    "build": "bsb -make-world && fpack build ./lib/js/webapp.bs.js --development --output=dist",
     "start": "bsb -make-world -w",
-    "clean": "bsb -clean-world && rm -rf _bundle",
+    "clean": "bsb -clean-world && rm -rf dist",
     "test": "bsb -make-world && jest",
     "refmt": "bsrefmt --in-place webapp.re ./**/*.re*"
   },

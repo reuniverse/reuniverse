@@ -12,7 +12,7 @@ pr:
       - master
 
 schedules:
-- cron: "0 */1 * * *"
+- cron: "0 */2 * * *"
   displayName: Hourly build
   branches:
     include:

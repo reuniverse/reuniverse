@@ -19,6 +19,7 @@ steps:
       Contents: |
         index.html
         _bundle/*
+        assets/*
       TargetFolder: '$(Build.ArtifactStagingDirectory)'
 
   - task: PublishPipelineArtifact@0

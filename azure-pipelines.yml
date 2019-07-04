@@ -13,10 +13,11 @@ pr:
 
 schedules:
 - cron: "0 */2 * * *"
-  displayName: Hourly build
+  displayName: Bi-hourly build
   branches:
     include:
     - master
+  always: true
 
 stages:
   - stage: Build_platforms

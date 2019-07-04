@@ -57,10 +57,12 @@ module Footer = {
   [@react.component]
   let make = () => {
     let built_with = {j|Built with ☕️ and ❤️ at|j};
+    let metadata = "Index built on " ++ Metadata.build_time;
     <Container style>
       {built_with |> React.string}
       <Link href="https://src.technology"> {"SRC" |> React.string} </Link>
       <br />
+      {metadata |> React.string}
     </Container>;
   };
 };

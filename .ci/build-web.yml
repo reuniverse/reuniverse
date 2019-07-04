@@ -1,6 +1,12 @@
 steps:
   - template: utils/use-node.yml
 
+  - script: |
+      BUILD_TIME=$(date -R) eval echo $(cat ./metadata.re) > metadata
+      mv metadata metadata.re
+    workingDirectory: web
+    displayName: Templating metadata
+
   - script: yarn install
     workingDirectory: web
     displayName: Install dependencies

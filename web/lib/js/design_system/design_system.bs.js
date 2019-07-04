@@ -7,6 +7,7 @@ var Curry = require("bs-platform/lib/js/curry.js");
 var Infix = require("../utils/infix.bs.js");
 var React = require("react");
 var Package = require("../model/package.bs.js");
+var Metadata = require("../metadata.bs.js");
 var ReactDOMRe = require("reason-react/lib/js/src/ReactDOMRe.js");
 var Caml_option = require("bs-platform/lib/js/caml_option.js");
 
@@ -101,13 +102,14 @@ var style$3 = {
 };
 
 function Design_system$Footer(Props) {
+  var metadata = "Index built on " + Metadata.build_time;
   return React.createElement(Design_system$Container, {
               style: style$3,
               children: null
             }, "Built with ☕️ and ❤️ at", React.createElement(Design_system$Link, {
                   href: "https://src.technology",
                   children: "SRC"
-                }), React.createElement("br", undefined));
+                }), React.createElement("br", undefined), metadata);
 }
 
 var Footer = /* module */[

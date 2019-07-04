@@ -28,7 +28,7 @@ let match_name = (pattern, pkg) =>
   Js.Re.test_(pattern, Model.Package.(pkg.name));
 let match_desc = (pattern, pkg) =>
   switch (Model.Package.(pkg.description)) {
-  | None => true
+  | None => false
   | Some(desc) => Js.Re.test_(pattern, desc)
   };
 let match_target = (pattern, pkg) =>

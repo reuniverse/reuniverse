@@ -47,7 +47,7 @@ function match_desc(pattern, pkg) {
   if (match !== undefined) {
     return pattern.test(match);
   } else {
-    return true;
+    return false;
   }
 }
 

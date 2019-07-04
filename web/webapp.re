@@ -10,6 +10,7 @@ module Main = {
           <Search_input onChange=setFilter placeholder="Search..." />
         </Nav>
         <Search.App filter />
+        <Footer />
       </Global>
     );
   };

@@ -103,9 +103,7 @@ stages:
         runOnce:
           deploy:
             steps:
-            - script: |
-                git config user.name "SRC"
-                git clone https://$(github_pat)@github.com/reuniverse/reuniverse.github.io.git
+            - script: git clone https://$(github_pat)@github.com/reuniverse/reuniverse.github.io.git
               workingDirectory: $(Build.StagingDirectory)
               displayName: "Clone GitHub pages repo"
 
@@ -122,6 +120,7 @@ stages:
                 targetPath: $(Build.StagingDirectory)
 
             - script: |
+                git config user.name "SRC Bot"
                 git add --all
                 git commit --message "Autodeploy: $(Build.BuildNumber)\n
 

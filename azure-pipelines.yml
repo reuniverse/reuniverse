@@ -103,7 +103,7 @@ stages:
         runOnce:
           deploy:
             steps:
-            - script: git clone https://$(github_pat)@github.com/reuniverse/reuniverse.github.io.git
+            - script: git clone https://$(github_pat)@github.com/reuniverse/reuniverse.github.io.git .
               workingDirectory: $(Build.StagingDirectory)
               displayName: "Clone GitHub pages repo"
 

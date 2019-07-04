@@ -2,7 +2,9 @@ steps:
   - template: utils/use-node.yml
 
   - script: |
-      BUILD_TIME=$(date -R) eval echo $(cat ./metadata.re) > metadata
+      GIT_COMMIT=$(git rev-parse --short HEAD) \
+      BUILD_TIME=$(date -R) \
+       eval echo $(cat ./metadata.re) > metadata
       mv metadata metadata.re
     workingDirectory: web
     displayName: Templating metadata

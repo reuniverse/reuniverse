@@ -19,7 +19,7 @@ module Container = {
   let default_style = S.make(~margin="0", ~padding="1rem", ());
   [@react.component]
   let make = (~style=S.make(), ~children) => {
-    <section style=S.combine(default_style, style)> children </section>;
+    <section style={S.combine(default_style, style)}> children </section>;
   };
 };
 
@@ -42,12 +42,11 @@ module Label = {
   let make = (~children) => <span style> children </span>;
 };
 
-
 module Link = {
   let style = S.make(~color="white", ~textDecoration="none", ());
   [@react.component]
   let make = (~href, ~children) => {
-    <Label> <a style href> children </a> </Label>
+    <Label> <a style href> children </a> </Label>;
   };
 };
 
@@ -57,12 +56,19 @@ module Footer = {
   [@react.component]
   let make = () => {
     let built_with = {j|Built with ☕️ and ❤️ at|j};
-    let metadata = "Index built on " ++ Metadata.build_time;
     <Container style>
       {built_with |> React.string}
       <Link href="https://src.technology"> {"SRC" |> React.string} </Link>
       <br />
-      {metadata |> React.string}
+      {"Index built from " |> React.string}
+      <Link
+        href={
+          "https://github.com/reuniverse/reuniverse/tree/"
+          ++ Metadata.git_commit
+        }>
+        {Metadata.git_commit |> React.string}
+      </Link>
+      {" at " ++ Metadata.build_time |> React.string}
     </Container>;
   };
 };

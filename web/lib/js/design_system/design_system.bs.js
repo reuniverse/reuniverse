@@ -102,14 +102,16 @@ var style$3 = {
 };
 
 function Design_system$Footer(Props) {
-  var metadata = "Index built on " + Metadata.build_time;
   return React.createElement(Design_system$Container, {
               style: style$3,
               children: null
             }, "Built with ☕️ and ❤️ at", React.createElement(Design_system$Link, {
                   href: "https://src.technology",
                   children: "SRC"
-                }), React.createElement("br", undefined), metadata);
+                }), React.createElement("br", undefined), "Index built from ", React.createElement(Design_system$Link, {
+                  href: "https://github.com/reuniverse/reuniverse/tree/" + Metadata.git_commit,
+                  children: Metadata.git_commit
+                }), " at " + Metadata.build_time);
 }
 
 var Footer = /* module */[

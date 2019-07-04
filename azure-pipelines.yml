@@ -62,7 +62,7 @@ stages:
         - template: .ci/build-package-index.yml
 
   - stage: Build_web
-    dependsOn: [Build_package_index]
+    dependsOn: []
     jobs:
       - job: BuildWeb
         displayName: Build web site
@@ -70,3 +70,61 @@ stages:
           vmImage: macOS-latest
         steps:
           - template: .ci/build-web.yml
+
+  - stage: Publish_npm
+    dependsOn: [Create_release, Build_package_index]
+    jobs:
+      - deployment:
+        pool:
+          vmImage: macOS-latest
+        environment: npm-registry
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+              - task: DownloadPipelineArtifact@0
+                displayName: "Download Release Artifacts"
+                inputs:
+                  artifactName: Release
+                  targetPath: $(Build.StagingDirectory)
+              
+              - script: echo 'TODO - Implement release to npm on new tag'
+                displayName: "Publish to NPM registry"
+
+  - stage: Deploy_web
+    dependsOn: [Build_package_index, Build_web]
+    # condition: and(succeeded(), ne(variables['Build.Reason'], 'PullRequest'))
+    jobs:
+    - deployment: DeployWeb
+      pool:
+        vmImage: macOS-latest
+      environment: github-pages
+      strategy:
+        runOnce:
+          deploy:
+            steps:
+            - script: git clone https://$(github_pat)@github.com/reuniverse/reuniverse.github.io.git .
+              workingDirectory: $(Build.StagingDirectory)
+              displayName: "Clone GitHub pages repo"
+
+            - task: DownloadPipelineArtifact@0
+              displayName: "Download website"
+              inputs:
+                artifactName: website
+                targetPath: $(Build.StagingDirectory)
+
+            - task: DownloadPipelineArtifact@0
+              displayName: "Download package-index-json"
+              inputs:
+                artifactName: package-index-json
+                targetPath: $(Build.StagingDirectory)/packages
+
+            - script: |
+                git config user.name "SRC Bot"
+                git add --all
+                git commit --message "Autodeploy: $(Build.BuildNumber)\n
+
+                Pipeline Run: https://dev.azure.com/reuniverse/reuniverse/_build/results?buildId=$(Build.BuildNumber)"
+                git push origin master
+              workingDirectory: $(Build.StagingDirectory)
+              displayName: "Publish to GitHub pages"

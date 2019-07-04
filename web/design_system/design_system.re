@@ -16,10 +16,60 @@ module Global = {
 };
 
 module Container = {
-  let style = S.make(~margin="0", ~padding="1rem", ());
+  let default_style = S.make(~margin="0", ~padding="1rem", ());
   [@react.component]
-  let make = (~children) => {
-    <section style> children </section>;
+  let make = (~style=S.make(), ~children) => {
+    <section style={S.combine(default_style, style)}> children </section>;
+  };
+};
+
+module Label = {
+  let style =
+    S.make(
+      ~padding="5px",
+      ~backgroundColor="#232323",
+      ~borderRadius="5px",
+      ~minWidth="50px",
+      ~textTransform="uppercase",
+      ~color="white",
+      ~fontSize="1em",
+      ~fontWeight="500",
+      ~fontFamily="Helvetica Neue, Helvetica, sans-serif",
+      (),
+    );
+
+  [@react.component]
+  let make = (~children) => <span style> children </span>;
+};
+
+module Link = {
+  let style = S.make(~color="white", ~textDecoration="none", ());
+  [@react.component]
+  let make = (~href, ~children) => {
+    <Label> <a style href> children </a> </Label>;
+  };
+};
+
+module Footer = {
+  let style = S.make(~textAlign="center", ~height="50px", ());
+
+  [@react.component]
+  let make = () => {
+    let built_with = {j|Built with ☕️ and ❤️ at|j};
+    <Container style>
+      {built_with |> React.string}
+      <Link href="https://src.technology"> {"SRC" |> React.string} </Link>
+      <br />
+      {"Index built from " |> React.string}
+      <Link
+        href={
+          "https://github.com/reuniverse/reuniverse/tree/"
+          ++ Metadata.git_commit
+        }>
+        {Metadata.git_commit |> React.string}
+      </Link>
+      {" at " ++ Metadata.build_time |> React.string}
+    </Container>;
   };
 };
 
@@ -69,25 +119,6 @@ module Logo = {
   let make = () => {
     <img style src="./assets/logo.svg" />;
   };
-};
-
-module Label = {
-  let style =
-    S.make(
-      ~padding="5px",
-      ~backgroundColor="#232323",
-      ~borderRadius="5px",
-      ~minWidth="50px",
-      ~textTransform="uppercase",
-      ~color="white",
-      ~fontSize="1em",
-      ~fontWeight="500",
-      ~fontFamily="Helvetica Neue, Helvetica, sans-serif",
-      (),
-    );
-
-  [@react.component]
-  let make = (~children) => <span style> children </span>;
 };
 
 module Search_input = {

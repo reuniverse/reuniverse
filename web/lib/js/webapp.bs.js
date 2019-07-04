@@ -19,7 +19,7 @@ function Webapp$Main(Props) {
                       placeholder: "Search..."
                     })), React.createElement(Search.App[/* make */0], {
                   filter: match[0]
-                }));
+                }), React.createElement(Design_system.Footer[/* make */1], { }));
 }
 
 var Main = /* module */[/* make */Webapp$Main];

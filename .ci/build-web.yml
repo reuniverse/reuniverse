@@ -1,6 +1,14 @@
 steps:
   - template: utils/use-node.yml
 
+  - script: |
+     sed "s/%%GIT_COMMIT%%/$(git rev-parse --short HEAD)/g;
+          s/%%BUILD_TIME%%/$(date -R)/g" \
+          ./metadata.re > metadata
+      mv metadata metadata.re
+    workingDirectory: web
+    displayName: Templating metadata
+
   - script: yarn install
     workingDirectory: web
     displayName: Install dependencies

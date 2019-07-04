@@ -15,10 +15,10 @@ steps:
 
   - task: CopyFiles@2
     inputs:
-      SourceFolder: '$(System.DefaultWorkingDirectory)'
+      SourceFolder: '$(System.DefaultWorkingDirectory)/web'
       Contents: |
-        web/index.html
-        web/_bundle/*
+        index.html
+        _bundle/*
       TargetFolder: '$(Build.ArtifactStagingDirectory)'
 
   - task: PublishPipelineArtifact@0

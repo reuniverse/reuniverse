@@ -117,7 +117,7 @@ stages:
               displayName: "Download package-index-json"
               inputs:
                 artifactName: package-index-json
-                targetPath: $(Build.StagingDirectory)
+                targetPath: $(Build.StagingDirectory)/packages
 
             - script: |
                 git config user.name "SRC Bot"

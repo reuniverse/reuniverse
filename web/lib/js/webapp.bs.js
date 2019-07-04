@@ -2,16 +2,29 @@
 'use strict';
 
 var React = require("react");
-var Repromise = require("@aantron/repromise/lib/js/src/js/repromise.js");
-var Components = require("./design_system/components.bs.js");
+var Search = require("./search/search.bs.js");
 var ReactDOMRe = require("reason-react/lib/js/src/ReactDOMRe.js");
-var Pkg_index_data = require("./pkg_index/pkg_index_data.bs.js");
+var Design_system = require("./design_system/design_system.bs.js");
 
-Repromise.Rejectable[/* map */5]((function (index) {
-        ReactDOMRe.renderToElementWithId(React.createElement(Components.Pkg_list[/* make */1], {
-                  index: index
-                }), "app");
-        return Repromise.Rejectable[/* resolved */2](/* () */0);
-      }), Pkg_index_data.load(/* () */0));
+function Webapp$Main(Props) {
+  var match = React.useState((function () {
+          return "";
+        }));
+  return React.createElement(Design_system.Global[/* make */2], {
+              children: null
+            }, React.createElement(Design_system.Background[/* make */1], { }), React.createElement(Design_system.Nav[/* make */0], {
+                  children: null
+                }, React.createElement(Design_system.Logo[/* make */1], { }), React.createElement(Design_system.Search_input[/* make */1], {
+                      onChange: match[1],
+                      placeholder: "Search..."
+                    })), React.createElement(Search.App[/* make */0], {
+                  filter: match[0]
+                }));
+}
 
+var Main = /* module */[/* make */Webapp$Main];
+
+ReactDOMRe.renderToElementWithId(React.createElement(Webapp$Main, { }), "app");
+
+exports.Main = Main;
 /*  Not a pure module */

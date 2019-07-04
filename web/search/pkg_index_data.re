@@ -1,6 +1,6 @@
 let unwrap = Belt.Option.getExn;
 
-let parse: Js.Json.t => Index.t =
+let parse: Js.Json.t => Model.Index.t =
   json => {
     let obj = Js.Json.decodeObject(json) |> unwrap;
     let package_count =

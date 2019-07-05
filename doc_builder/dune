@@ -1,0 +1,3 @@
+(library
+  (name doc_builder)
+  (libraries model lwt logs fmt utils bos))

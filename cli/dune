@@ -1,4 +1,4 @@
 (executable
  (name reuniverse)
  (public_name reuniverse)
- (libraries index_builder cmdliner fmt fmt.tty logs logs.fmt logs.cli))
+ (libraries doc_builder index_builder cmdliner fmt fmt.tty logs logs.fmt logs.cli))

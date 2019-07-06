@@ -213,7 +213,8 @@ change a lot over time, but at the moment are:
    ties up closely with work being done by @thangngoc89 on Sketch.sh, and is a
    point where we should collaborate.
 
-6. And many others such as Getting Started guides and 
+6. And many others such as Getting Started guides, bringing into it the Reason
+   Weekly newsletter, and other soft documentation like common design patterns.
 
 All of these we can work on separately and over time.
 

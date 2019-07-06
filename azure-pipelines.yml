@@ -1,16 +1,19 @@
 name: $(Build.BuildId)
 
+# Trigger on pushes to master and tags
 trigger:
   branches:
     include:
       - master
       - refs/tags/*
 
+# Trigger on PRs against master
 pr:
   branches:
     include:
       - master
 
+# Trigger every 2 hours
 schedules:
 - cron: "0 */2 * * *"
   displayName: Bi-hourly build

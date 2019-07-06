@@ -86,7 +86,7 @@ public.
 
 Within the next hour, your package will be indexed by Reuniverse. After
 indexing, the `HEAD` and every tagged version (`v0.1.0`, etc) will be built,
-and documented.
+and documentation for every version will be generated and published.
 
 If you published your package to npm, or the Github package registry,
 Reuniverse will make note of that and use that as a source of information as

@@ -2,9 +2,9 @@
 'use strict';
 
 
-var git_commit = "\"${GIT_COMMIT}\"";
+var git_commit = "%%GIT_COMMIT%%";
 
-var build_time = "\"${BUILD_TIME}\"";
+var build_time = "%%BUILD_TIME%%";
 
 exports.git_commit = git_commit;
 exports.build_time = build_time;

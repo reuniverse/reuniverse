@@ -6,8 +6,11 @@ var Curry = require("bs-platform/lib/js/curry.js");
 var React = require("react");
 var Package = require("../model/package.bs.js");
 var Repromise = require("@aantron/repromise/lib/js/src/js/repromise.js");
-var Design_system = require("../design_system/design_system.bs.js");
+var Ds_loading = require("../design_system/ds_loading.bs.js");
+var Ds_container = require("../design_system/ds_container.bs.js");
+var Ds_tiny_title = require("../design_system/ds_tiny_title.bs.js");
 var Pkg_index_data = require("./pkg_index_data.bs.js");
+var Ds_package_list = require("../design_system/ds_package_list.bs.js");
 
 function make(index) {
   return /* record */[/* index */index];
@@ -70,14 +73,14 @@ function handle_results(filter, index) {
   var pkgs = index[/* packages */1];
   var pkgs$1 = filter === "" ? pkgs : find_pkgs(filter)(pkgs);
   var pkg_count = String(List.length(pkgs$1));
-  var heading = filter === "" ? React.createElement(Design_system.Tiny_title[/* make */1], {
+  var heading = filter === "" ? React.createElement(Ds_tiny_title.make, {
           children: pkg_count + " packages in the ecosystem."
-        }) : React.createElement(Design_system.Tiny_title[/* make */1], {
+        }) : React.createElement(Ds_tiny_title.make, {
           children: pkg_count + (" search results for \"" + (filter + "\""))
         });
-  return React.createElement(Design_system.Container[/* make */1], {
+  return React.createElement(Ds_container.make, {
               children: null
-            }, heading, React.createElement(Design_system.Package_list[/* make */1], {
+            }, heading, React.createElement(Ds_package_list.make, {
                   packages: pkgs$1
                 }));
 }
@@ -93,7 +96,7 @@ function Search$App(Props) {
   if (match$1 !== undefined) {
     return handle_results(filter, match$1);
   } else {
-    return React.createElement(Design_system.Loading[/* make */1], { });
+    return React.createElement(Ds_loading.make, { });
   }
 }
 

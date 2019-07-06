@@ -153,14 +153,101 @@ In its current form it works on stages:
      a Github repository: github.com/reuniverse/reuniverse.github.io, for public
      usage.
 
+Going forward, Reuniverse can be split into 3 core concerns: data, features,
+and infrastructure. And I'd like us to keep them as tightly coupled as they
+need to be, but not any more than that, to allow for a diverse group of people
+to collaborate from their area of expertise into making features that touch all
+concerns in a smooth fashion.
+
+## Data Concerns
+
+1. **Building a package index**, by scanning sources such as the npm inc.
+   registry, the github package registry, github repositories, and other
+   sources of information (such as manually submitted packages), we will build
+   an index of reason packages.
+
+2. **Refining the package index**, by using other sources such as unpkg.com to
+   quickly verify assumptions on the packages. For example, we have tagged each
+   package with a _target platform_ (`Native | Web | Universal | Unknown`) by
+   quickly looking into unpkg.com for specific files.
+
+3. **Creating index projections**, for different features. This is important
+   because the main index, with all the package metadata, can grow quite big,
+   quite fast. Different features require different transformations of that
+   index, and we should allow for arbitrary steps to be run to generate
+   projections of data for search purposes, for visualization, for detail
+   pages, and more.
+
+All of these would run periodically, updating the index and projections with
+fresh data for the features to use. It is paramount to get the _infrastructure_
+right for this to work.
+
+## Features
+
+The _features_ are the _value_ that reuniverse gives developers. They will
+change a lot over time, but at the moment are:
+
+0. **Package Index** - reuniverse should provide an authoritative index of
+   packages included annotated metadata from different sources, that can be
+   used to power all the following features, and any other tooling around it.
+   This means that if there is a use-case that requires more information for
+   packages in the index, the index should be extended to include it.
+
+1. **Package Search** — reuniverse should be equipped with is a fast package
+   search for the whole of the ecosystem. This has [already been
+   done](https://redex.github.io), and lessons can be learned from it.
+
+2. **Package Documentation** — handling the generation of docs for all the
+   packages in the index, for all the versions that we are aware of, and
+   cross-linking whenever possible.
+
+3. **Type-level Search** — reuniverse should allow you to write a type-signature
+   and find the symbols that are related to it, across packages,  and provide
+   access to the documentation of those symbols. 
+
+4. **Documentation Search** — reuniverse should allow you to search across all
+   the docs for all the packages.
+
+5. **Playground** — reuniverse should provide a playground where you can mesh up
+   libraries and try them out, provided they are runnable as web projects. This
+   ties up closely with work being done by @thangngoc89 on Sketch.sh, and is a
+   point where we should collaborate.
+
+6. And many others such as Getting Started guides and 
+
+All of these we can work on separately and over time.
+
+## Infrastructure
+
+Last but absolutely not least, we have our _infrastructure_ concerns:
+
+1. Design System — defining a cohesive visual experience across the entire
+   website, including future hand-crafted user-flows for onboarding users into
+   the platform.
+
+2. CI pipelines — at the very bottom of our work there is the foundational
+   pipelining keeps Reuniverse alive. It runs data jobs periodically, builds
+   the feature projects, tests shared libraries, and publishes the indexes and
+   the website.
+
+---
+
+With this said. It is my hope that we can align as a community to make
+Reuniverse a reality beyond the efforts that [SRC](https://src.technology) is
+pouring into it.
+
 # Drawbacks
 [drawbacks]: #drawbacks
 
 Some of the problems this has are:
 
-* Package scanning is _hard_. If we don't standardize on how to tag packages to 
-ease the discovery, we will risk missing packages that were not picked up on
-the broad querying to the package registries. 
+* Package scanning is _hard_. If we don't standardize on how to tag packages to
+  ease the discovery, we will risk missing packages that were not picked up on
+  the broad querying to the package registries. 
+
+* Infrastructure isn't free. Right now we are running Azure DevOps Pipelines,
+  but the allocated times to run these jobs will diminish as the jobs grow
+  longer, and dedicated infrastructure to execute reuniverse may be required.
 
 # Rationale and alternatives
 [alternatives]: #alternatives

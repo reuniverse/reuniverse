@@ -20,7 +20,7 @@ schedules:
   branches:
     include:
     - master
-  always: true
+  always: 'true'
 
 stages:
   - stage: Build_platforms

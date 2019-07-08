@@ -86,7 +86,7 @@ module Build_docs = {
     (
       Term.(const(run) $ Verbosity.arg),
       Term.info(
-        "build-index",
+        "build-docs",
         ~doc,
         ~sdocs=Manpage.s_common_options,
         ~exits,
@@ -106,6 +106,6 @@ let default_cmd = {
   );
 };
 
-let cmds = [Build_index.cmd];
+let cmds = [Build_index.cmd, Build_docs.cmd];
 
 Term.(exit @@ eval_choice(default_cmd, cmds));

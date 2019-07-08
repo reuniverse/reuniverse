@@ -19,7 +19,7 @@ schedules:
   displayName: Bi-hourly build
   branches:
     include:
-    - master
+      - master
   always: 'true'
 
 stages:

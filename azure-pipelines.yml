@@ -16,10 +16,16 @@ pr:
 # Trigger every 2 hours
 schedules:
 - cron: '0 */2 * * *'
-  displayName: Bi-hourly build
+  displayName: Even-hourly build
   branches:
     include:
-    - master
+      - master
+  always: 'true'
+- cron: '20 1-23/2 * * *'
+  displayName: Odd-hourly build
+  branches:
+    include:
+      - master
   always: 'true'
 
 stages:

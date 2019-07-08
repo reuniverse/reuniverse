@@ -15,7 +15,7 @@ pr:
 
 # Trigger every 2 hours
 schedules:
-- cron: "0 */2 * * *"
+- cron: '0 */2 * * *'
   displayName: Bi-hourly build
   branches:
     include:

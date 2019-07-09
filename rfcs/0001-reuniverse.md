@@ -6,7 +6,7 @@
 # Summary
 [summary]: #summary
 
-Reuniverse will _generate documentation for the entire Reason ecosystem_, by
+Reuniverse is a _universal documentation hub for the entire Reason ecosystem_,
 becoming the one place to find packages, and read package documentation and
 guides.
 
@@ -15,8 +15,8 @@ It intends to address the problems of:
 * Package discovery
 * Documentation discovery and publishing
 
-And as a by product, build a platform on top of which to centralize the Reason
-ecosystem.
+And as a by product, build a platform that we can hand over to the community,
+on top of which to centralize the Reason ecosystem.
 
 # Motivation
 [motivation]: #motivation

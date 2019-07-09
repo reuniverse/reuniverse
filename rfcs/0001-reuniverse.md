@@ -184,8 +184,8 @@ right for this to work.
 
 ## Features
 
-The _features_ are the _value_ that reuniverse gives developers. They will
-change a lot over time, but at the moment are:
+The _features_ are the _value_ that reuniverse gives developers. The initial
+set of features we would like to deliver are:
 
 0. **Package Index** - reuniverse should provide an authoritative index of
    packages included annotated metadata from different sources, that can be
@@ -197,9 +197,11 @@ change a lot over time, but at the moment are:
    search for the whole of the ecosystem. This has [already been
    done](https://redex.github.io), and lessons can be learned from it.
 
-2. **Package Documentation** — handling the generation of docs for all the
-   packages in the index, for all the versions that we are aware of, and
-   cross-linking whenever possible.
+2. **Package Documentation** — reuniverese should handle the generation of
+   docs for all the packages in the index, for all the versions that we are
+   aware of, and cross-linking whenever possible.
+   
+Additional features we want to have are:
 
 3. **Type-level Search** — reuniverse should allow you to write a type-signature
    and find the symbols that are related to it, across packages,  and provide
@@ -213,8 +215,8 @@ change a lot over time, but at the moment are:
    ties up closely with work being done by @thangngoc89 on Sketch.sh, and is a
    point where we should collaborate.
 
-6. And many others such as Getting Started guides, bringing into it the Reason
-   Weekly newsletter, and other soft documentation like common design patterns.
+And many others such as Getting Started guides, bringing into it the Reason
+Weekly newsletter, and other soft documentation like common design patterns.
 
 All of these we can work on separately and over time.
 

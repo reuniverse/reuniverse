@@ -197,7 +197,7 @@ set of features we would like to deliver are:
    search for the whole of the ecosystem. This has [already been
    done](https://redex.github.io), and lessons can be learned from it.
 
-2. **Package Documentation** — reuniverese should handle the generation of
+2. **Package Documentation** — reuniverse should handle the generation of
    docs for all the packages in the index, for all the versions that we are
    aware of, and cross-linking whenever possible.
    

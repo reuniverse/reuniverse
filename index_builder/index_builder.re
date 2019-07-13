@@ -20,10 +20,11 @@ let save = (~path, index) => {
   Logs.info(m => m("Serializing index..."));
   let index_json =
     index |> Model.Index.to_yojson |> Yojson.Safe.pretty_to_string;
-  Logs.app(m =>
-    m("Saving index.json file at %s", path |> Fpath.to_string)
+  Logs.app(m => m("Saving index.json file at %s", path |> Fpath.to_string));
+  Rresult.(
+    Bos.OS.Dir.create(~path=true, Fpath.v("./packages"))
+    >>= (_ => Bos.OS.File.write(path, index_json))
   );
-  Bos.OS.File.write(path, index_json);
 };
 
 let load = (~path) => {

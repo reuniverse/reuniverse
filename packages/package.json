@@ -1,9 +1,0 @@
-{
-  "name": "reuniverse-packages",
-  "version": "0.0.0",
-  "private": true,
-  "dependencies": {
-    "bs-platform": "6",
-    "bsdoc": "6.0.2-alpha"
-  }
-}

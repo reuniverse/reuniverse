@@ -1,6 +1,32 @@
 {
-  "package_count": 408,
+  "package_count": 407,
   "packages": [
+    {
+      "name": "@aantron/repromise",
+      "description": "Type-safe JS promises for ReasonML",
+      "versions": [
+        {
+          "version": "0.5.0",
+          "download_url":
+            "https://registry.npmjs.org/@aantron/repromise/-/repromise-0.5.0.tgz",
+          "integrity_shasum": "8faa460dc5148c452ffd80a2aed71c15889c7297"
+        },
+        {
+          "version": "0.6.0",
+          "download_url":
+            "https://registry.npmjs.org/@aantron/repromise/-/repromise-0.6.0.tgz",
+          "integrity_shasum": "45bea66e593b7e0f968bc0fd03f0b6578003e698"
+        },
+        {
+          "version": "0.6.1",
+          "download_url":
+            "https://registry.npmjs.org/@aantron/repromise/-/repromise-0.6.1.tgz",
+          "integrity_shasum": "5ad99cba57f5a4a88783b833ef2a3d2d9dfdba2f"
+        }
+      ],
+      "keywords": [ "BuckleScript", "reason", "promise", "async" ],
+      "target": [ "Web" ]
+    },
     {
       "name": "@ahrefs/bs-atdgen-codec-runtime",
       "description": "bucklescript runtime for atdgen",
@@ -58,6 +84,12 @@
           "download_url":
             "https://registry.npmjs.org/@ahrefs/bs-atdgen-codec-runtime/-/bs-atdgen-codec-runtime-1.2.0.tgz",
           "integrity_shasum": "195c1f436590da22da3551662db1c123d05b6982"
+        },
+        {
+          "version": "1.3.0",
+          "download_url":
+            "https://registry.npmjs.org/@ahrefs/bs-atdgen-codec-runtime/-/bs-atdgen-codec-runtime-1.3.0.tgz",
+          "integrity_shasum": "200c74fc764f5dce0b261f3fbd9d36ce3dea4c4a"
         }
       ],
       "keywords": [
@@ -506,38 +538,6 @@
       ],
       "keywords": [ "bucklescript", "reason", "ava", "test" ],
       "target": [ "Web" ]
-    },
-    {
-      "name": "@godu/bs-register",
-      "description": "BuckleScript module loader for NodeJS",
-      "versions": [
-        {
-          "version": "0.1.0",
-          "download_url":
-            "https://registry.npmjs.org/@godu/bs-register/-/bs-register-0.1.0.tgz",
-          "integrity_shasum": "57afc46834a91e748afef6b57a9c825b4d233a1c"
-        },
-        {
-          "version": "0.1.1",
-          "download_url":
-            "https://registry.npmjs.org/@godu/bs-register/-/bs-register-0.1.1.tgz",
-          "integrity_shasum": "4437477df3c17532599f6e1993dfa5d15ffcc0d9"
-        },
-        {
-          "version": "0.1.2",
-          "download_url":
-            "https://registry.npmjs.org/@godu/bs-register/-/bs-register-0.1.2.tgz",
-          "integrity_shasum": "8e9f4c724320d600992a0aede9eaafaac644dc0d"
-        },
-        {
-          "version": "0.1.3",
-          "download_url":
-            "https://registry.npmjs.org/@godu/bs-register/-/bs-register-0.1.3.tgz",
-          "integrity_shasum": "cba49db6b72140b0eff9336f8fdcb94bac328d77"
-        }
-      ],
-      "keywords": [ "bucklescript", "reason", "require" ],
-      "target": [ "Unknown" ]
     },
     {
       "name": "@highpoint/bs-js-fetch",
@@ -1139,6 +1139,20 @@
       "target": [ "Unknown" ]
     },
     {
+      "name": "@rpominov/reason-next",
+      "description": "ReasonMl wrappers for NextJs",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "download_url":
+            "https://registry.npmjs.org/@rpominov/reason-next/-/reason-next-0.1.0.tgz",
+          "integrity_shasum": "b944caacbd498ce54ca57f2537bbe353f7a344d5"
+        }
+      ],
+      "keywords": [ "BuckleScript", "reason", "next", "nextjs" ],
+      "target": [ "Web" ]
+    },
+    {
       "name": "@ryb73/bs-react-split-pane",
       "description": "Bucklescript bindings for react-split-pane",
       "versions": [
@@ -1321,28 +1335,6 @@
         }
       ],
       "keywords": [ "random", "id", "animal", "adjective", "name" ],
-      "target": [ "Unknown" ]
-    },
-    {
-      "name": "airbnb-style",
-      "description": "A mostly reasonable approach to JavaScript.",
-      "versions": [
-        {
-          "version": "1.0.0",
-          "download_url":
-            "https://registry.npmjs.org/airbnb-style/-/airbnb-style-1.0.0.tgz",
-          "integrity_shasum": "91ff338cb5c71b8e25c1b32bf19bab5cf22c5d8e"
-        },
-        {
-          "version": "2.0.0",
-          "download_url":
-            "https://registry.npmjs.org/airbnb-style/-/airbnb-style-2.0.0.tgz",
-          "integrity_shasum": "aea1b7d45042726fb59fa72c33aa03cfebdad17b"
-        }
-      ],
-      "keywords": [
-        "style guide", "lint", "airbnb", "es6", "es2015", "react", "jsx"
-      ],
       "target": [ "Unknown" ]
     },
     {
@@ -1626,20 +1618,6 @@
           "download_url":
             "https://registry.npmjs.org/babel-preset-reason/-/babel-preset-reason-1.0.0.tgz",
           "integrity_shasum": "bc4cbbbad9266176781605593be499aa864edefb"
-        }
-      ],
-      "keywords": [ "reasonml" ],
-      "target": [ "Unknown" ]
-    },
-    {
-      "name": "babel-preset-reasonml",
-      "description": "Babel preset for @reasonml",
-      "versions": [
-        {
-          "version": "1.0.0",
-          "download_url":
-            "https://registry.npmjs.org/babel-preset-reasonml/-/babel-preset-reasonml-1.0.0.tgz",
-          "integrity_shasum": "5061d144a24880ec591ab7703c41f38881587cce"
         }
       ],
       "keywords": [ "reasonml" ],
@@ -2142,32 +2120,6 @@
         }
       ],
       "keywords": [ "reasonml", "bucklescript", "algolia" ],
-      "target": [ "Web" ]
-    },
-    {
-      "name": "bs-antd",
-      "description": "BuckleScript bindings for ant design.",
-      "versions": [
-        {
-          "version": "0.0.1",
-          "download_url":
-            "https://registry.npmjs.org/bs-antd/-/bs-antd-0.0.1.tgz",
-          "integrity_shasum": "168ffc590211b99c5b2af8b50019ba6060f99c55"
-        },
-        {
-          "version": "0.0.2",
-          "download_url":
-            "https://registry.npmjs.org/bs-antd/-/bs-antd-0.0.2.tgz",
-          "integrity_shasum": "21e7fa21dcb71bedf9646d7a33398aa0c566fd62"
-        },
-        {
-          "version": "0.0.3",
-          "download_url":
-            "https://registry.npmjs.org/bs-antd/-/bs-antd-0.0.3.tgz",
-          "integrity_shasum": "ea3df307ab6f427c236d01afc4a948931c457ea2"
-        }
-      ],
-      "keywords": [ "antd", "BuckleScript", "Reason" ],
       "target": [ "Web" ]
     },
     {
@@ -2706,6 +2658,54 @@
       "target": [ "Web" ]
     },
     {
+      "name": "bs-bem-cl",
+      "description":
+        "Simple reimplementation of BEM class name generator in ReasonML",
+      "versions": [
+        {
+          "version": "0.2.0",
+          "download_url":
+            "https://registry.npmjs.org/bs-bem-cl/-/bs-bem-cl-0.2.0.tgz",
+          "integrity_shasum": "906d8a8e30a70b26822f64b450340602e990e1be"
+        },
+        {
+          "version": "0.3.0",
+          "download_url":
+            "https://registry.npmjs.org/bs-bem-cl/-/bs-bem-cl-0.3.0.tgz",
+          "integrity_shasum": "7e609cb5e8d495b366ef87a09246aa8c8988d1b8"
+        },
+        {
+          "version": "0.4.0",
+          "download_url":
+            "https://registry.npmjs.org/bs-bem-cl/-/bs-bem-cl-0.4.0.tgz",
+          "integrity_shasum": "15ff53bea9e784195d12c38a5096cebcd4b10a0f"
+        },
+        {
+          "version": "0.5.0",
+          "download_url":
+            "https://registry.npmjs.org/bs-bem-cl/-/bs-bem-cl-0.5.0.tgz",
+          "integrity_shasum": "976b27d402c454033b13eb349b4b21f173d8877c"
+        },
+        {
+          "version": "1.0.0",
+          "download_url":
+            "https://registry.npmjs.org/bs-bem-cl/-/bs-bem-cl-1.0.0.tgz",
+          "integrity_shasum": "dcdbce15be0d652d5a6b14b5e3e3a74218d47162"
+        },
+        {
+          "version": "1.1.0",
+          "download_url":
+            "https://registry.npmjs.org/bs-bem-cl/-/bs-bem-cl-1.1.0.tgz",
+          "integrity_shasum": "7cb60eaacecf81b90b3767e02cdffd77da07f6ec"
+        }
+      ],
+      "keywords": [
+        "reason", "reasonml", "ocaml", "bucklescript", "bem", "class",
+        "className"
+      ],
+      "target": [ "Web" ]
+    },
+    {
       "name": "bs-big.js",
       "description": "Bucklescript bindings to big.js.",
       "versions": [
@@ -2783,44 +2783,6 @@
         }
       ],
       "keywords": [ "BuckleScript" ],
-      "target": [ "Web" ]
-    },
-    {
-      "name": "bs-chai",
-      "description": "Bucklescript bindings to chai",
-      "versions": [
-        {
-          "version": "0.1.0",
-          "download_url":
-            "https://registry.npmjs.org/bs-chai/-/bs-chai-0.1.0.tgz",
-          "integrity_shasum": "b722c5e953044ac05a76bff536a8020652eba950"
-        },
-        {
-          "version": "0.2.0",
-          "download_url":
-            "https://registry.npmjs.org/bs-chai/-/bs-chai-0.2.0.tgz",
-          "integrity_shasum": "e5db06883f6a75b38be53b4b241bb1eb2cbb3e33"
-        },
-        {
-          "version": "0.3.0",
-          "download_url":
-            "https://registry.npmjs.org/bs-chai/-/bs-chai-0.3.0.tgz",
-          "integrity_shasum": "b824e5302a2cbfc6ec8400f1025def695177ae9e"
-        },
-        {
-          "version": "0.4.0",
-          "download_url":
-            "https://registry.npmjs.org/bs-chai/-/bs-chai-0.4.0.tgz",
-          "integrity_shasum": "3f1b334c135e613a884160cbb57044c42f0b0a0e"
-        },
-        {
-          "version": "0.5.0",
-          "download_url":
-            "https://registry.npmjs.org/bs-chai/-/bs-chai-0.5.0.tgz",
-          "integrity_shasum": "1b83bd8fa1b2f9058881cc2727de112c217b60ad"
-        }
-      ],
-      "keywords": [ "BuckleScript", "reason" ],
       "target": [ "Web" ]
     },
     {
@@ -3519,6 +3481,18 @@
           "download_url":
             "https://registry.npmjs.org/bs-decode/-/bs-decode-0.7.0.tgz",
           "integrity_shasum": "f98710f4b6f1f05ba2e62b02022a04b573d19df8"
+        },
+        {
+          "version": "0.8.0",
+          "download_url":
+            "https://registry.npmjs.org/bs-decode/-/bs-decode-0.8.0.tgz",
+          "integrity_shasum": "e4d501c36b2dcb370995724405140d899fb174d0"
+        },
+        {
+          "version": "0.8.1",
+          "download_url":
+            "https://registry.npmjs.org/bs-decode/-/bs-decode-0.8.1.tgz",
+          "integrity_shasum": "581cb9c6a879445cf001224b8cf2458480eb8056"
         }
       ],
       "keywords": [
@@ -3593,6 +3567,30 @@
       "keywords": [
         "BuckleScript", "ReasonML", "OCaml", "PPX", "AST", "transpiler",
         "tool", "codegen", "functional", "types", "static-typing"
+      ],
+      "target": [ "Web" ]
+    },
+    {
+      "name": "bs-diffie-hellman",
+      "description":
+        "Bindings of https://www.npmjs.com/package/diffie-hellman for ReasonML",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "download_url":
+            "https://registry.npmjs.org/bs-diffie-hellman/-/bs-diffie-hellman-0.1.0.tgz",
+          "integrity_shasum": "bdaa4ea1b090811e290838bdaef583ac728e01ef"
+        },
+        {
+          "version": "0.1.1",
+          "download_url":
+            "https://registry.npmjs.org/bs-diffie-hellman/-/bs-diffie-hellman-0.1.1.tgz",
+          "integrity_shasum": "1b57bf76fa2fe0a40eceb2aec4960c2c68a5574b"
+        }
+      ],
+      "keywords": [
+        "BuckleScript", "ReasonML", "diffie-hellman", "diffie", "hellman",
+        "crypto"
       ],
       "target": [ "Web" ]
     },
@@ -3833,6 +3831,12 @@
           "download_url":
             "https://registry.npmjs.org/bs-effector/-/bs-effector-19.0.0.tgz",
           "integrity_shasum": "67e8d1946119eacb5b1680f7b2960591a937a693"
+        },
+        {
+          "version": "20.0.0",
+          "download_url":
+            "https://registry.npmjs.org/bs-effector/-/bs-effector-20.0.0.tgz",
+          "integrity_shasum": "4c01b7df910ad65ce3fe41a9b5ddf5980118e0ec"
         }
       ],
       "keywords": [
@@ -3899,6 +3903,12 @@
           "download_url":
             "https://registry.npmjs.org/bs-effector-react/-/bs-effector-react-19.0.0.tgz",
           "integrity_shasum": "faaaf71683bc8e1653d6af6e801e8cdd385d2172"
+        },
+        {
+          "version": "20.0.0",
+          "download_url":
+            "https://registry.npmjs.org/bs-effector-react/-/bs-effector-react-20.0.0.tgz",
+          "integrity_shasum": "b81b9c91d70eb4fccf9bb889f301210c2f6bdcd9"
         }
       ],
       "keywords": [
@@ -5082,47 +5092,6 @@
       "target": [ "Unknown" ]
     },
     {
-      "name": "bs-graphql-scalar",
-      "description":
-        "BuckleScript interface to create GraphQL Custom Scalar types",
-      "versions": [
-        {
-          "version": "0.1.0",
-          "download_url":
-            "https://registry.npmjs.org/bs-graphql-scalar/-/bs-graphql-scalar-0.1.0.tgz",
-          "integrity_shasum": "0437e9ee8cc99655369472bdb8398a417940f2b7"
-        },
-        {
-          "version": "0.1.1",
-          "download_url":
-            "https://registry.npmjs.org/bs-graphql-scalar/-/bs-graphql-scalar-0.1.1.tgz",
-          "integrity_shasum": "62fefbe730631f20fc717d10a2d40e95b2bc5ac2"
-        },
-        {
-          "version": "0.2.0",
-          "download_url":
-            "https://registry.npmjs.org/bs-graphql-scalar/-/bs-graphql-scalar-0.2.0.tgz",
-          "integrity_shasum": "b6aae07a01b0c87f442fe29b2f8812e29493ad73"
-        },
-        {
-          "version": "0.2.1",
-          "download_url":
-            "https://registry.npmjs.org/bs-graphql-scalar/-/bs-graphql-scalar-0.2.1.tgz",
-          "integrity_shasum": "02407913ee77ec4321c0fd42307e920d6daa1e5c"
-        },
-        {
-          "version": "0.2.2",
-          "download_url":
-            "https://registry.npmjs.org/bs-graphql-scalar/-/bs-graphql-scalar-0.2.2.tgz",
-          "integrity_shasum": "4d41d53ab751d40ec5f0c820f9969b8bea1d9abf"
-        }
-      ],
-      "keywords": [
-        "bucklescript", "reason", "node", "graphql", "apollo", "scalar"
-      ],
-      "target": [ "Web" ]
-    },
-    {
       "name": "bs-graphql-schema-parser",
       "description":
         "Bucklescript and ReasonML GraphQL Schema Parser / Serializer",
@@ -5155,6 +5124,12 @@
           "download_url":
             "https://registry.npmjs.org/bs-guid/-/bs-guid-1.0.0.tgz",
           "integrity_shasum": "82ec5c724f8616399ee5e9ac154c12d4295ed23b"
+        },
+        {
+          "version": "1.0.1",
+          "download_url":
+            "https://registry.npmjs.org/bs-guid/-/bs-guid-1.0.1.tgz",
+          "integrity_shasum": "d605a2fa054f7216b3265d20fbaf2af9fbee3d7d"
         }
       ],
       "keywords": [ "uuid", "guid", "rfc4122", "bucklescript", "reason" ],
@@ -5184,6 +5159,27 @@
         }
       ],
       "keywords": [ "i18n", "reason", "reasonml", "ocaml", "bucklescript" ],
+      "target": [ "Web" ]
+    },
+    {
+      "name": "bs-jest-date-mock",
+      "description":
+        "Mock Js.Date when run unit test cases with Jest. Make tests of Js.Date easier.",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "download_url":
+            "https://registry.npmjs.org/bs-jest-date-mock/-/bs-jest-date-mock-1.0.0.tgz",
+          "integrity_shasum": "37d252f62da9e4b215d554f75a9b145149cd39ab"
+        },
+        {
+          "version": "1.0.1",
+          "download_url":
+            "https://registry.npmjs.org/bs-jest-date-mock/-/bs-jest-date-mock-1.0.1.tgz",
+          "integrity_shasum": "7a3579a2b9810e910ef0e739c9e79f09b6c91238"
+        }
+      ],
+      "keywords": [ "BuckleScript", "Date", "Jest" ],
       "target": [ "Web" ]
     },
     {
@@ -8133,6 +8129,18 @@
           "download_url":
             "https://registry.npmjs.org/bs-platform/-/bs-platform-6.0.3.tgz",
           "integrity_shasum": "cb401aa4dadbf063dd4a183921195ef3c16d7b11"
+        },
+        {
+          "version": "5.0.7",
+          "download_url":
+            "https://registry.npmjs.org/bs-platform/-/bs-platform-5.0.7.tgz",
+          "integrity_shasum": "2d0eb8bb9fa01a338c8a10db63835039f6a7164e"
+        },
+        {
+          "version": "5.1.0-dev.1",
+          "download_url":
+            "https://registry.npmjs.org/bs-platform/-/bs-platform-5.1.0-dev.1.tgz",
+          "integrity_shasum": "23ba012a11026f849deca4e0b6ae74de4be7773d"
         }
       ],
       "keywords": [
@@ -8158,45 +8166,6 @@
         }
       ],
       "keywords": [ "reason", "bucklescript", "pretty-bytes" ],
-      "target": [ "Web" ]
-    },
-    {
-      "name": "bs-priority-queue",
-      "description":
-        "BuckleScript/ReasonML bindings for [tinyqueue](https://github.com/mourner/tinyqueue), a priority queue/heap implementation.",
-      "versions": [
-        {
-          "version": "0.1.0",
-          "download_url":
-            "https://registry.npmjs.org/bs-priority-queue/-/bs-priority-queue-0.1.0.tgz",
-          "integrity_shasum": "8abb91bf164341931e110b95fec0da61b26383e9"
-        },
-        {
-          "version": "0.1.1",
-          "download_url":
-            "https://registry.npmjs.org/bs-priority-queue/-/bs-priority-queue-0.1.1.tgz",
-          "integrity_shasum": "3c73a8560d9a21405bf08dfa87daeebd5e3a4566"
-        },
-        {
-          "version": "0.1.2",
-          "download_url":
-            "https://registry.npmjs.org/bs-priority-queue/-/bs-priority-queue-0.1.2.tgz",
-          "integrity_shasum": "47439bb5b60d34835e39d37dc068daeb1954ae44"
-        },
-        {
-          "version": "0.1.3",
-          "download_url":
-            "https://registry.npmjs.org/bs-priority-queue/-/bs-priority-queue-0.1.3.tgz",
-          "integrity_shasum": "10498d597eaac32400e7bfece92dc877fc2e2b60"
-        },
-        {
-          "version": "0.1.4",
-          "download_url":
-            "https://registry.npmjs.org/bs-priority-queue/-/bs-priority-queue-0.1.4.tgz",
-          "integrity_shasum": "90062fccb1585d532e75d239da8c03bc74f95780"
-        }
-      ],
-      "keywords": [ "BuckleScript" ],
       "target": [ "Web" ]
     },
     {
@@ -8330,6 +8299,12 @@
           "download_url":
             "https://registry.npmjs.org/bs-promise-monad/-/bs-promise-monad-0.3.3.tgz",
           "integrity_shasum": "14450fbdbb046c88e54c7264640d6222f0f97ef4"
+        },
+        {
+          "version": "0.4.0",
+          "download_url":
+            "https://registry.npmjs.org/bs-promise-monad/-/bs-promise-monad-0.4.0.tgz",
+          "integrity_shasum": "070ef6970edcf07c4f20b9e6414a036d51846da3"
         }
       ],
       "keywords": [ "BuckleScript", "Promise", "Monad", "ReasonML" ],
@@ -9697,6 +9672,26 @@
       "target": [ "Web" ]
     },
     {
+      "name": "bs-react-trello",
+      "description": "Bucklescript bindings for react-trello",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "download_url":
+            "https://registry.npmjs.org/bs-react-trello/-/bs-react-trello-0.1.0.tgz",
+          "integrity_shasum": "ac27f1f2bcd6391d40a4f349b4938c71e1f3291b"
+        },
+        {
+          "version": "0.1.1",
+          "download_url":
+            "https://registry.npmjs.org/bs-react-trello/-/bs-react-trello-0.1.1.tgz",
+          "integrity_shasum": "ed65a41c2a37424e3f5d9180474a3452afbac17e"
+        }
+      ],
+      "keywords": [ "BuckleScript", "ReasonReact", "Trello" ],
+      "target": [ "Web" ]
+    },
+    {
       "name": "bs-react-useragent",
       "description": "Bucklescript bindings for react-useragent",
       "versions": [
@@ -9726,44 +9721,6 @@
       ],
       "keywords": [ "ocaml", "bucklescript", "map" ],
       "target": [ "Unknown" ]
-    },
-    {
-      "name": "bs-reason-apollo",
-      "description": "React Apollo bindings for BS",
-      "versions": [
-        {
-          "version": "1.0.0-beta",
-          "download_url":
-            "https://registry.npmjs.org/bs-reason-apollo/-/bs-reason-apollo-1.0.0-beta.tgz",
-          "integrity_shasum": "ef299c588a2db14afcf42bf720ccf40bc5e9a646"
-        },
-        {
-          "version": "1.0.0-beta.1",
-          "download_url":
-            "https://registry.npmjs.org/bs-reason-apollo/-/bs-reason-apollo-1.0.0-beta.1.tgz",
-          "integrity_shasum": "47a27691968da486e3ade8760358130fe1d2ca18"
-        },
-        {
-          "version": "1.0.0-beta.2",
-          "download_url":
-            "https://registry.npmjs.org/bs-reason-apollo/-/bs-reason-apollo-1.0.0-beta.2.tgz",
-          "integrity_shasum": "119a3b1dd5cd90e3897f62e3f8ba72bccfebdb33"
-        },
-        {
-          "version": "1.0.0-beta.3",
-          "download_url":
-            "https://registry.npmjs.org/bs-reason-apollo/-/bs-reason-apollo-1.0.0-beta.3.tgz",
-          "integrity_shasum": "2d1f173097827f4b0f7f38e09318f7311525ee54"
-        },
-        {
-          "version": "1.0.0-beta.4",
-          "download_url":
-            "https://registry.npmjs.org/bs-reason-apollo/-/bs-reason-apollo-1.0.0-beta.4.tgz",
-          "integrity_shasum": "4ece07bcaf28106a4de04f81421f5d292a4c801b"
-        }
-      ],
-      "keywords": [ "reason", "bucklescript", "apollo", "graphql", "react" ],
-      "target": [ "Web" ]
     },
     {
       "name": "bs-reform",
@@ -10984,26 +10941,6 @@
         "buckleScript", "deeplearn.js", "tfjs", "reason", "reasonML",
         "tensorflow.js", "tensorflow"
       ],
-      "target": [ "Web" ]
-    },
-    {
-      "name": "bs-tinycolor",
-      "description": "Fast, small color manipulation and conversion",
-      "versions": [
-        {
-          "version": "1.0.0",
-          "download_url":
-            "https://registry.npmjs.org/bs-tinycolor/-/bs-tinycolor-1.0.0.tgz",
-          "integrity_shasum": "2c5468ce3755174d2674e69dda2c37ecc9b1be1a"
-        },
-        {
-          "version": "1.0.1",
-          "download_url":
-            "https://registry.npmjs.org/bs-tinycolor/-/bs-tinycolor-1.0.1.tgz",
-          "integrity_shasum": "02b7ad49fd8afba34701dca4faf17c23958c5406"
-        }
-      ],
-      "keywords": [ "BuckleScript" ],
       "target": [ "Web" ]
     },
     {
@@ -12681,36 +12618,6 @@
       ],
       "keywords": [
         "dace", "react", "webpack", "preact", "ssr", "universal",
-        "isomorphic", "inferno", "reason", "reasonml"
-      ],
-      "target": [ "Unknown" ]
-    },
-    {
-      "name": "create-ecc-app",
-      "description":
-        "CLI tool to bootstrap Razzle applications with no configuration",
-      "versions": [
-        {
-          "version": "1.0.0",
-          "download_url":
-            "https://registry.npmjs.org/create-ecc-app/-/create-ecc-app-1.0.0.tgz",
-          "integrity_shasum": "ac328768487ddae9a7af0fd22914c2e83020487b"
-        },
-        {
-          "version": "1.1.0",
-          "download_url":
-            "https://registry.npmjs.org/create-ecc-app/-/create-ecc-app-1.1.0.tgz",
-          "integrity_shasum": "1876f5a766a81318e3e88bfa66fae8a58462fcdf"
-        },
-        {
-          "version": "1.2.0",
-          "download_url":
-            "https://registry.npmjs.org/create-ecc-app/-/create-ecc-app-1.2.0.tgz",
-          "integrity_shasum": "b24cf417d66581a4e527ea16560ccf1c341c2a21"
-        }
-      ],
-      "keywords": [
-        "razzle", "react", "webpack", "preact", "ssr", "universal",
         "isomorphic", "inferno", "reason", "reasonml"
       ],
       "target": [ "Unknown" ]
@@ -17317,6 +17224,30 @@
       "target": [ "Unknown" ]
     },
     {
+      "name": "posthtml-alt-always",
+      "description":
+        "Always add alt attribute for images that don't have it (accessibility reasons)",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "download_url":
+            "https://registry.npmjs.org/posthtml-alt-always/-/posthtml-alt-always-1.0.0.tgz",
+          "integrity_shasum": "9eb164c42cec98a06b5ac0c3c9442107d9c070e2"
+        },
+        {
+          "version": "1.0.1",
+          "download_url":
+            "https://registry.npmjs.org/posthtml-alt-always/-/posthtml-alt-always-1.0.1.tgz",
+          "integrity_shasum": "21c886b6b58a8159c53a17177e9b6f5eda9b2012"
+        }
+      ],
+      "keywords": [
+        "posthtml", "html", "posthtml-plugin", "alt", "images",
+        "accessibility", "alternative text"
+      ],
+      "target": [ "Unknown" ]
+    },
+    {
       "name": "ppx-deriving",
       "description":
         "Binary wrapper for bs-deriving - Type-driven code generation for OCaml and BuckleScript.",
@@ -19003,6 +18934,153 @@
       "target": [ "Web" ]
     },
     {
+      "name": "react-native-link-preview",
+      "description":
+        "# I'm kinda done maintaining this project, looking for somebody to take over the repo and the npm package, message me if you are interested: ospfranco@protonmail.com # MY ADVICE: CORS is there for a reason, it is a bad idea to directly fetch the response ",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "download_url":
+            "https://registry.npmjs.org/react-native-link-preview/-/react-native-link-preview-1.0.0.tgz",
+          "integrity_shasum": "f0f7876c5931b070e30192dd9a60207775979770"
+        },
+        {
+          "version": "1.0.1",
+          "download_url":
+            "https://registry.npmjs.org/react-native-link-preview/-/react-native-link-preview-1.0.1.tgz",
+          "integrity_shasum": "930900245668c248afa15e2034d3bc7272111028"
+        },
+        {
+          "version": "1.0.2",
+          "download_url":
+            "https://registry.npmjs.org/react-native-link-preview/-/react-native-link-preview-1.0.2.tgz",
+          "integrity_shasum": "d9d878265c3c8f0faa8e588505d31b77308d0d2e"
+        },
+        {
+          "version": "1.0.3",
+          "download_url":
+            "https://registry.npmjs.org/react-native-link-preview/-/react-native-link-preview-1.0.3.tgz",
+          "integrity_shasum": "51e4b70983c265352e69c2d269c3105d7fb74460"
+        },
+        {
+          "version": "1.0.4",
+          "download_url":
+            "https://registry.npmjs.org/react-native-link-preview/-/react-native-link-preview-1.0.4.tgz",
+          "integrity_shasum": "0ac67eab1976b38ed81fb058cdcee3dea41de616"
+        },
+        {
+          "version": "1.0.5",
+          "download_url":
+            "https://registry.npmjs.org/react-native-link-preview/-/react-native-link-preview-1.0.5.tgz",
+          "integrity_shasum": "f13de5f01f11f6046923f2f4b85199532f2155f2"
+        },
+        {
+          "version": "1.0.7",
+          "download_url":
+            "https://registry.npmjs.org/react-native-link-preview/-/react-native-link-preview-1.0.7.tgz",
+          "integrity_shasum": "c5ae1b8046181845763614b63544129ed27828ff"
+        },
+        {
+          "version": "1.1.0",
+          "download_url":
+            "https://registry.npmjs.org/react-native-link-preview/-/react-native-link-preview-1.1.0.tgz",
+          "integrity_shasum": "9a3b66771ccb93cd3b76a0185433b1e231e17c64"
+        },
+        {
+          "version": "1.1.2",
+          "download_url":
+            "https://registry.npmjs.org/react-native-link-preview/-/react-native-link-preview-1.1.2.tgz",
+          "integrity_shasum": "ca3d0b57984d8103441032e84fa5785137810187"
+        },
+        {
+          "version": "1.2.0",
+          "download_url":
+            "https://registry.npmjs.org/react-native-link-preview/-/react-native-link-preview-1.2.0.tgz",
+          "integrity_shasum": "97f482047ee867c31091e0581430f9c98697f744"
+        },
+        {
+          "version": "1.2.1",
+          "download_url":
+            "https://registry.npmjs.org/react-native-link-preview/-/react-native-link-preview-1.2.1.tgz",
+          "integrity_shasum": "dd29635ece1a530848dd2e06f00a358923b70a1a"
+        },
+        {
+          "version": "1.2.2",
+          "download_url":
+            "https://registry.npmjs.org/react-native-link-preview/-/react-native-link-preview-1.2.2.tgz",
+          "integrity_shasum": "9df9f17d370e7f9898c0bdabf3387940775eb52d"
+        },
+        {
+          "version": "1.3.0",
+          "download_url":
+            "https://registry.npmjs.org/react-native-link-preview/-/react-native-link-preview-1.3.0.tgz",
+          "integrity_shasum": "6bbe7e3a60a859da913a749ad8c8fa320164c9a5"
+        },
+        {
+          "version": "1.3.1",
+          "download_url":
+            "https://registry.npmjs.org/react-native-link-preview/-/react-native-link-preview-1.3.1.tgz",
+          "integrity_shasum": "11eff80f9a60b118c1ed17b50d5f8502c7e0368a"
+        },
+        {
+          "version": "1.3.2",
+          "download_url":
+            "https://registry.npmjs.org/react-native-link-preview/-/react-native-link-preview-1.3.2.tgz",
+          "integrity_shasum": "2512793793398443dbcf6a7d6c7a59a9f43b010b"
+        },
+        {
+          "version": "1.3.3",
+          "download_url":
+            "https://registry.npmjs.org/react-native-link-preview/-/react-native-link-preview-1.3.3.tgz",
+          "integrity_shasum": "c0129d9d333751b3c946c3dd085d913d9a55626d"
+        },
+        {
+          "version": "1.3.4",
+          "download_url":
+            "https://registry.npmjs.org/react-native-link-preview/-/react-native-link-preview-1.3.4.tgz",
+          "integrity_shasum": "29d979531839f2f46b5ba9c1cc49ec1f84eafae8"
+        },
+        {
+          "version": "1.3.5",
+          "download_url":
+            "https://registry.npmjs.org/react-native-link-preview/-/react-native-link-preview-1.3.5.tgz",
+          "integrity_shasum": "5e69e7a1057a77ad1bdcabca861ebd12cea89b65"
+        },
+        {
+          "version": "1.3.6",
+          "download_url":
+            "https://registry.npmjs.org/react-native-link-preview/-/react-native-link-preview-1.3.6.tgz",
+          "integrity_shasum": "fca6930d7dba4f9f97a9acf2ba62047c2171d40a"
+        },
+        {
+          "version": "1.3.7",
+          "download_url":
+            "https://registry.npmjs.org/react-native-link-preview/-/react-native-link-preview-1.3.7.tgz",
+          "integrity_shasum": "9dd0727a080223a94bf02b95c40feb97651cccd2"
+        },
+        {
+          "version": "1.4.0",
+          "download_url":
+            "https://registry.npmjs.org/react-native-link-preview/-/react-native-link-preview-1.4.0.tgz",
+          "integrity_shasum": "cbf0e3e4d6ad5f5b770974356ffb22b55358428b"
+        },
+        {
+          "version": "1.4.1",
+          "download_url":
+            "https://registry.npmjs.org/react-native-link-preview/-/react-native-link-preview-1.4.1.tgz",
+          "integrity_shasum": "be24a9f888910efd9e02d1075a096b8a1e420a98"
+        },
+        {
+          "version": "1.4.2",
+          "download_url":
+            "https://registry.npmjs.org/react-native-link-preview/-/react-native-link-preview-1.4.2.tgz",
+          "integrity_shasum": "de6839095f3c6df0e7902b330d28579713672da7"
+        }
+      ],
+      "keywords": [ "react-native", "javascript", "link", "url" ],
+      "target": [ "Unknown" ]
+    },
+    {
       "name": "react-splt",
       "description":
         "A tiny (1kb) React component for split panes (written in ReasonML).",
@@ -20473,6 +20551,12 @@
           "download_url":
             "https://registry.npmjs.org/reason-expo/-/reason-expo-33.2.0.tgz",
           "integrity_shasum": "7c93ed38d2e0c04614b73449692c2860d0520554"
+        },
+        {
+          "version": "33.3.0",
+          "download_url":
+            "https://registry.npmjs.org/reason-expo/-/reason-expo-33.3.0.tgz",
+          "integrity_shasum": "1cbad599ce1ee7942da07c72c90eb023c5ef555f"
         }
       ],
       "keywords": [
@@ -20749,6 +20833,52 @@
       "target": [ "Web" ]
     },
     {
+      "name": "reason-graphql-hooks",
+      "description": "Reason bindings for graphql-hooks",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "download_url":
+            "https://registry.npmjs.org/reason-graphql-hooks/-/reason-graphql-hooks-0.1.0.tgz",
+          "integrity_shasum": "b49f7b9ca505979d45928499f9bcd102bbf484a0"
+        },
+        {
+          "version": "0.1.1",
+          "download_url":
+            "https://registry.npmjs.org/reason-graphql-hooks/-/reason-graphql-hooks-0.1.1.tgz",
+          "integrity_shasum": "bb3dcd1e6310c7aff97308e016dd1276dfd2b2ec"
+        },
+        {
+          "version": "0.2.0",
+          "download_url":
+            "https://registry.npmjs.org/reason-graphql-hooks/-/reason-graphql-hooks-0.2.0.tgz",
+          "integrity_shasum": "68d29fca74e6c825102c252ca1595bc9768cd713"
+        },
+        {
+          "version": "0.1.2",
+          "download_url":
+            "https://registry.npmjs.org/reason-graphql-hooks/-/reason-graphql-hooks-0.1.2.tgz",
+          "integrity_shasum": "687e098be2da38828ec3dc20c656e6f986399515"
+        },
+        {
+          "version": "0.2.1",
+          "download_url":
+            "https://registry.npmjs.org/reason-graphql-hooks/-/reason-graphql-hooks-0.2.1.tgz",
+          "integrity_shasum": "652fc7c50d08e3c00f0d37a42f0c9fe7c89faa97"
+        },
+        {
+          "version": "0.2.2",
+          "download_url":
+            "https://registry.npmjs.org/reason-graphql-hooks/-/reason-graphql-hooks-0.2.2.tgz",
+          "integrity_shasum": "61a6b25b69c7a359e690f66d580562e6c4746e64"
+        }
+      ],
+      "keywords": [
+        "reason", "reasonml", "ocaml", "graphql", "graphql-hooks"
+      ],
+      "target": [ "Web" ]
+    },
+    {
       "name": "reason-highlightjs",
       "description": "Reason syntax highlighting for Highlight.js",
       "versions": [
@@ -20810,6 +20940,12 @@
           "download_url":
             "https://registry.npmjs.org/reason-hooks-testing-library/-/reason-hooks-testing-library-0.1.3.tgz",
           "integrity_shasum": "2b49fc5229077d230f32a2b9a98753ad6eb62142"
+        },
+        {
+          "version": "0.2.0",
+          "download_url":
+            "https://registry.npmjs.org/reason-hooks-testing-library/-/reason-hooks-testing-library-0.2.0.tgz",
+          "integrity_shasum": "6d6c2cd5e8725ab74ebe8c6f25f484afd34b65f6"
         }
       ],
       "keywords": [ "BuckleScript", "testing", "hooks" ],
@@ -21496,24 +21632,20 @@
       "target": [ "Web" ]
     },
     {
-      "name": "reason-react-brunch",
+      "name": "reason-react-boilerplate",
       "description":
-        "React bindings for Reason, modified to work with brunch and bucklescript",
+        "ready-to-use webpack configuration for developing reason-react applications",
       "versions": [
         {
-          "version": "0.4.2",
+          "version": "1.0.0",
           "download_url":
-            "https://registry.npmjs.org/reason-react-brunch/-/reason-react-brunch-0.4.2.tgz",
-          "integrity_shasum": "4802fb72b4a4596cfd410b2666853358632e1066"
-        },
-        {
-          "version": "0.4.4",
-          "download_url":
-            "https://registry.npmjs.org/reason-react-brunch/-/reason-react-brunch-0.4.4.tgz",
-          "integrity_shasum": "52ed89f4ca26ea48bb6f74d3b3e1c74d712ee92d"
+            "https://registry.npmjs.org/reason-react-boilerplate/-/reason-react-boilerplate-1.0.0.tgz",
+          "integrity_shasum": "194254e6528e731f5070c11c98663721bb312e9b"
         }
       ],
-      "keywords": [ "reasonml", "bucklescript", "react" ],
+      "keywords": [
+        "reason-react", "reason", "react", "webpack", "boilerplate"
+      ],
       "target": [ "Web" ]
     },
     {
@@ -21664,6 +21796,54 @@
       "keywords": [
         "reason", "reasonml", "bucklescript", "react-native",
         "react-native-maps"
+      ],
+      "target": [ "Web" ]
+    },
+    {
+      "name": "reason-react-native-netinfo",
+      "description":
+        "These are BuckleScript bindings to [`React Native NetInfo`](https://github.com/react-native-community/react-native-netinfo), in Reason syntax. `NetInfo` has been removed in RN 0.60, but as that release has breaking changes, this package is intended to wor",
+      "versions": [
+        {
+          "version": "3.2.0",
+          "download_url":
+            "https://registry.npmjs.org/reason-react-native-netinfo/-/reason-react-native-netinfo-3.2.0.tgz",
+          "integrity_shasum": "7565180ff196aeea9ebf4f476a17ca39e790c3c6"
+        },
+        {
+          "version": "3.2.1",
+          "download_url":
+            "https://registry.npmjs.org/reason-react-native-netinfo/-/reason-react-native-netinfo-3.2.1.tgz",
+          "integrity_shasum": "2ea3846da45dd978abe627a3df4d1cfdd60f2cbc"
+        },
+        {
+          "version": "3.2.2",
+          "download_url":
+            "https://registry.npmjs.org/reason-react-native-netinfo/-/reason-react-native-netinfo-3.2.2.tgz",
+          "integrity_shasum": "91f3e3f416998580efc061955591a985657c34fc"
+        },
+        {
+          "version": "3.2.3",
+          "download_url":
+            "https://registry.npmjs.org/reason-react-native-netinfo/-/reason-react-native-netinfo-3.2.3.tgz",
+          "integrity_shasum": "dd842b7d482d3b6a6591af78223c8ea437c7cdde"
+        },
+        {
+          "version": "3.2.4",
+          "download_url":
+            "https://registry.npmjs.org/reason-react-native-netinfo/-/reason-react-native-netinfo-3.2.4.tgz",
+          "integrity_shasum": "63b772cd56a2a341a2b4fc342248ee578b905a13"
+        },
+        {
+          "version": "4.0.0-beta.0",
+          "download_url":
+            "https://registry.npmjs.org/reason-react-native-netinfo/-/reason-react-native-netinfo-4.0.0-beta.0.tgz",
+          "integrity_shasum": "389067dfe4f32a21f578a40216501e942c167e7b"
+        }
+      ],
+      "keywords": [
+        "reason", "reasonml", "bucklescript", "react-native",
+        "react-native-netinfo"
       ],
       "target": [ "Web" ]
     },
@@ -21961,7 +22141,7 @@
     {
       "name": "reason-urql",
       "description":
-        "![npm](https://img.shields.io/npm/v/reason-urql.svg) [![All Contributors](https://img.shields.io/badge/all_contributors-5-blue.svg)](#contributors) [![Maintenance Status][maintenance-image]](#maintenance-status)",
+        "[![npm](https://img.shields.io/npm/v/reason-urql.svg)](https://www.npmjs.com/package/reason-urql) [![All Contributors](https://img.shields.io/badge/all_contributors-8-blue.svg)](#contributors) [![Maintenance Status][maintenance-image]](#maintenance-status",
       "versions": [
         {
           "version": "0.1.0-alpha",
@@ -22016,6 +22196,12 @@
           "download_url":
             "https://registry.npmjs.org/reason-urql/-/reason-urql-1.0.0-beta.tgz",
           "integrity_shasum": "2873df8c24026ad0b7e7bec1602fe1f422e1a1fe"
+        },
+        {
+          "version": "1.0.0-beta.1",
+          "download_url":
+            "https://registry.npmjs.org/reason-urql/-/reason-urql-1.0.0-beta.1.tgz",
+          "integrity_shasum": "08135a58a4bee367872f2d7d514858442128a874"
         }
       ],
       "keywords": [ "reason", "reasonml", "bucklescript", "graphql", "urql" ],
@@ -22581,29 +22767,6 @@
       "target": [ "Web" ]
     },
     {
-      "name": "rebolt",
-      "description":
-        "[![CircleCI](https://circleci.com/gh/callstackincubator/rebolt.svg?style=svg)](https://circleci.com/gh/callstackincubator/rebolt)",
-      "versions": [
-        {
-          "version": "0.1.0",
-          "download_url":
-            "https://registry.npmjs.org/rebolt/-/rebolt-0.1.0.tgz",
-          "integrity_shasum": "002fd14ccce22feccd57eb7ea995372662898f71"
-        },
-        {
-          "version": "0.2.0",
-          "download_url":
-            "https://registry.npmjs.org/rebolt/-/rebolt-0.2.0.tgz",
-          "integrity_shasum": "7bbe0c4242a0d572b878e910bd6e6f376ade10be"
-        }
-      ],
-      "keywords": [
-        "reason", "reasonml", "bucklescript", "react-native", "rebolt"
-      ],
-      "target": [ "Web" ]
-    },
-    {
       "name": "rebolt-navigation",
       "description": "Rebolt Navigation",
       "versions": [
@@ -22872,10 +23035,62 @@
           "download_url":
             "https://registry.npmjs.org/relude/-/relude-0.14.1.tgz",
           "integrity_shasum": "a1ecf489e88b71d0a88ee5600cce49b4bc960fcb"
+        },
+        {
+          "version": "0.15.0",
+          "download_url":
+            "https://registry.npmjs.org/relude/-/relude-0.15.0.tgz",
+          "integrity_shasum": "227879eab2fb541aff0e7357e08346fa00f5bb78"
+        },
+        {
+          "version": "0.16.0",
+          "download_url":
+            "https://registry.npmjs.org/relude/-/relude-0.16.0.tgz",
+          "integrity_shasum": "11129ad85ede83e2f6a38aa13d1e50a0c2a0f0f5"
+        },
+        {
+          "version": "0.17.0",
+          "download_url":
+            "https://registry.npmjs.org/relude/-/relude-0.17.0.tgz",
+          "integrity_shasum": "9a89083981ef07701bccb3d2b65cf5cd121bf36d"
+        },
+        {
+          "version": "0.18.0",
+          "download_url":
+            "https://registry.npmjs.org/relude/-/relude-0.18.0.tgz",
+          "integrity_shasum": "bb950c48fb8b448f48415ac0e9928f665ed61f4b"
         }
       ],
       "keywords": [
         "ReasonML", "BuckleScript", "Utility", "Prelude", "Standard Library"
+      ],
+      "target": [ "Web" ]
+    },
+    {
+      "name": "relude-reason-react",
+      "description": "Relude-based utilities for ReasonReact",
+      "versions": [
+        {
+          "version": "0.2.0",
+          "download_url":
+            "https://registry.npmjs.org/relude-reason-react/-/relude-reason-react-0.2.0.tgz",
+          "integrity_shasum": "8402c1c11f11294490f60b0c0ce736696f7af4e1"
+        },
+        {
+          "version": "0.3.0",
+          "download_url":
+            "https://registry.npmjs.org/relude-reason-react/-/relude-reason-react-0.3.0.tgz",
+          "integrity_shasum": "e9009e34f3e8a1cd61c7ea9a2cd4e2e41a7eec23"
+        },
+        {
+          "version": "0.4.0",
+          "download_url":
+            "https://registry.npmjs.org/relude-reason-react/-/relude-reason-react-0.4.0.tgz",
+          "integrity_shasum": "e49352121f89bf4657cf0da7a537569ac06dc01c"
+        }
+      ],
+      "keywords": [
+        "BuckleScript", "ReasonML", "Relude", "React", "ReasonReact"
       ],
       "target": [ "Web" ]
     },
@@ -24615,929 +24830,6 @@
       "target": [ "Unknown" ]
     },
     {
-      "name": "wmathconcepts",
-      "description":
-        "Collection of functions to operate such geometrical concepts as Sphere, Box, Plane, Frustum, Ray, Axis and Angle, Euler's Angles, Quaternion and other. Why MathConcepts? Three reasons. All functions of the module are purely functional. MathConcepts heavil",
-      "versions": [
-        {
-          "version": "0.3.1",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.1.tgz",
-          "integrity_shasum": "ee7de870fa909a1e7b470e0826587698ba43f921"
-        },
-        {
-          "version": "0.3.2",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.2.tgz",
-          "integrity_shasum": "9fe5a0cdea4e890beadc8d046b3a252122f88bad"
-        },
-        {
-          "version": "0.3.3",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.3.tgz",
-          "integrity_shasum": "0585aa99c2b478d300fef022bcdcf88a72354881"
-        },
-        {
-          "version": "0.3.4",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.4.tgz",
-          "integrity_shasum": "8bbf33a5b794b546723fe2963e20d46b0cf48ee0"
-        },
-        {
-          "version": "0.3.5",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.5.tgz",
-          "integrity_shasum": "98ee795634afddcdd62d6da085ad5ba2f4ccba03"
-        },
-        {
-          "version": "0.3.6",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.6.tgz",
-          "integrity_shasum": "a5a35077ef38731eb41153c61036ed403e193b0d"
-        },
-        {
-          "version": "0.3.7",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.7.tgz",
-          "integrity_shasum": "6eb1b388079bfc9ac544c39be4a75fd573de405d"
-        },
-        {
-          "version": "0.3.8",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.8.tgz",
-          "integrity_shasum": "40991021412e547b1d3400a315eb6ecf6f57db14"
-        },
-        {
-          "version": "0.3.9",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.9.tgz",
-          "integrity_shasum": "0b4baad10f20aea9bacb3fb5f141d6406e68f6c0"
-        },
-        {
-          "version": "0.3.10",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.10.tgz",
-          "integrity_shasum": "dd9b9bf2319862ec1564a86df48b703c1bb5cf20"
-        },
-        {
-          "version": "0.3.11",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.11.tgz",
-          "integrity_shasum": "99b3bc8b969c52cfe82f0820ab118c5d79544031"
-        },
-        {
-          "version": "0.3.12",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.12.tgz",
-          "integrity_shasum": "bf833b631604a784b3ef991f0a8cb59e64c0a31c"
-        },
-        {
-          "version": "0.3.13",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.13.tgz",
-          "integrity_shasum": "0bb35e185647569e884e23806e54f0a7de8acdc7"
-        },
-        {
-          "version": "0.3.14",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.14.tgz",
-          "integrity_shasum": "2fe64d20f55506553d8e27e3eca4ef93af93e482"
-        },
-        {
-          "version": "0.3.15",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.15.tgz",
-          "integrity_shasum": "436100fb42e844c5771b288e8ed8615b01b9de33"
-        },
-        {
-          "version": "0.3.16",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.16.tgz",
-          "integrity_shasum": "e74d64d1a05628a1b95b11c9f0449d7883c53219"
-        },
-        {
-          "version": "0.3.17",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.17.tgz",
-          "integrity_shasum": "60f83a36b47db6cc7660228d7abad9fec912f8ad"
-        },
-        {
-          "version": "0.3.18",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.18.tgz",
-          "integrity_shasum": "8598061df1ae19047649de098482d818a5ce7491"
-        },
-        {
-          "version": "0.3.19",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.19.tgz",
-          "integrity_shasum": "03b2e06c826af97e787b06cd0c4e9b534fcbb7c3"
-        },
-        {
-          "version": "0.3.20",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.20.tgz",
-          "integrity_shasum": "e93f80962739a2438846dbfc9e735f6d38040a75"
-        },
-        {
-          "version": "0.3.21",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.21.tgz",
-          "integrity_shasum": "aa3de01b06ee874972e214c68d08147c02f95bf9"
-        },
-        {
-          "version": "0.3.22",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.22.tgz",
-          "integrity_shasum": "7da98333b6416f6e8d4f78ecb599aa15befeb3c8"
-        },
-        {
-          "version": "0.3.23",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.23.tgz",
-          "integrity_shasum": "ca20d70b86d9028959178cbe219f5e03516674cd"
-        },
-        {
-          "version": "0.3.24",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.24.tgz",
-          "integrity_shasum": "731880098c5b5a9d718bab58de35dfefa1e57abd"
-        },
-        {
-          "version": "0.3.25",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.25.tgz",
-          "integrity_shasum": "672fe54e4a4febc55dec73ecf2236b3da695edb4"
-        },
-        {
-          "version": "0.3.26",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.26.tgz",
-          "integrity_shasum": "fe1bdb54fae623fc74e6e3d54e5ad1c67c94fdba"
-        },
-        {
-          "version": "0.3.27",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.27.tgz",
-          "integrity_shasum": "b5a63259cee726ca3c45135063526e1d85527b92"
-        },
-        {
-          "version": "0.3.28",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.28.tgz",
-          "integrity_shasum": "33ec871839ad5d7ff52c1e3c896146b3c2a0d9a3"
-        },
-        {
-          "version": "0.3.29",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.29.tgz",
-          "integrity_shasum": "b04c305e6a979e35e56e3fcf6c91a6cdac83d6f8"
-        },
-        {
-          "version": "0.3.30",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.30.tgz",
-          "integrity_shasum": "520fdf0a173029ec91b8c1d5cf5390e8600f5b6f"
-        },
-        {
-          "version": "0.3.31",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.31.tgz",
-          "integrity_shasum": "9e14108d7f69db6ad74b9beaddbae8ca29299a32"
-        },
-        {
-          "version": "0.3.32",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.32.tgz",
-          "integrity_shasum": "b29b02a36fb2d5082ff7cedcdd5262bcf81691b4"
-        },
-        {
-          "version": "0.3.33",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.33.tgz",
-          "integrity_shasum": "2383f32c64c812f7a15d8b4224298c8e335b655a"
-        },
-        {
-          "version": "0.3.34",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.34.tgz",
-          "integrity_shasum": "541c2d171fbd4b208707a103b9b0544f1ea0c289"
-        },
-        {
-          "version": "0.3.35",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.35.tgz",
-          "integrity_shasum": "62e2863401ea6027d1b22925f7e605e6de069166"
-        },
-        {
-          "version": "0.3.36",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.36.tgz",
-          "integrity_shasum": "3fb171dabf0613c910f6d6d22cde3335d8814b43"
-        },
-        {
-          "version": "0.3.37",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.37.tgz",
-          "integrity_shasum": "2300b2f6dbea81f726236527506302d97319abf7"
-        },
-        {
-          "version": "0.3.38",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.38.tgz",
-          "integrity_shasum": "6642bbf6d8856a3290f87b7f91fae3438662163b"
-        },
-        {
-          "version": "0.3.39",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.39.tgz",
-          "integrity_shasum": "46df3e1c8dc1d65261312bf8bfe93699c3cd39b0"
-        },
-        {
-          "version": "0.3.40",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.40.tgz",
-          "integrity_shasum": "deda08bcb04b42c366a2eda6847a7ba0c25a2f80"
-        },
-        {
-          "version": "0.3.41",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.41.tgz",
-          "integrity_shasum": "51190b5355cbfc210ad99754f87bcc8e7d299380"
-        },
-        {
-          "version": "0.3.42",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.42.tgz",
-          "integrity_shasum": "fc1f45151f95e1f4292774725c9282e925702676"
-        },
-        {
-          "version": "0.3.43",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.43.tgz",
-          "integrity_shasum": "26cde1ec55700d503f0565647db1cbfbd8cc5c6a"
-        },
-        {
-          "version": "0.3.44",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.44.tgz",
-          "integrity_shasum": "bb1412b82a530269cdc81e69213d416f7232f1ec"
-        },
-        {
-          "version": "0.3.45",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.45.tgz",
-          "integrity_shasum": "1d529eba0b578f4153b74a12943d55b4dc6685c6"
-        },
-        {
-          "version": "0.3.46",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.46.tgz",
-          "integrity_shasum": "2ae2ee7315bafeeaaeae2feb7427e5618a0ba835"
-        },
-        {
-          "version": "0.3.47",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.47.tgz",
-          "integrity_shasum": "d8a30c22132ce5d15ecb335cbbf1d9d0bbf57a1e"
-        },
-        {
-          "version": "0.3.48",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.48.tgz",
-          "integrity_shasum": "44cdd8fce6a89a68db85d70d9a0d971ed0f6a70c"
-        },
-        {
-          "version": "0.3.49",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.49.tgz",
-          "integrity_shasum": "d23c3dd1153d7c21dac36e64193dd76fcde78676"
-        },
-        {
-          "version": "0.3.50",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.50.tgz",
-          "integrity_shasum": "8d09dede7f465ec53f2fb6f238086a5583f9497e"
-        },
-        {
-          "version": "0.3.51",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.51.tgz",
-          "integrity_shasum": "c4058a5277458e383aa1de7012d566da38a59299"
-        },
-        {
-          "version": "0.3.53",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.53.tgz",
-          "integrity_shasum": "0903f4ac14940ffb28d8d268870ac94770836b44"
-        },
-        {
-          "version": "0.3.54",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.54.tgz",
-          "integrity_shasum": "f7200866aaf5cc6333c7e092bdb5965d6c0b8966"
-        },
-        {
-          "version": "0.3.55",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.55.tgz",
-          "integrity_shasum": "8bab1225fac194acb7c3ee3ed77c6efa8bcc66e2"
-        },
-        {
-          "version": "0.3.56",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.56.tgz",
-          "integrity_shasum": "3aac3d43e1514aa022974bf4e194ee20d0985027"
-        },
-        {
-          "version": "0.3.57",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.57.tgz",
-          "integrity_shasum": "6f40edf9a6c73c9e0e3e433502e25cfda69de921"
-        },
-        {
-          "version": "0.3.58",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.58.tgz",
-          "integrity_shasum": "5c3a29b402dbe925c30347a3031a254403959117"
-        },
-        {
-          "version": "0.3.59",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.59.tgz",
-          "integrity_shasum": "4e052098a01ace17ae6e5431c09b93565f544d96"
-        },
-        {
-          "version": "0.3.60",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.60.tgz",
-          "integrity_shasum": "6620662a0732044f72e51b106feefe4c24475cdb"
-        },
-        {
-          "version": "0.3.61",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.61.tgz",
-          "integrity_shasum": "72f2adcacf3073925729e921551ddba56e156f0e"
-        },
-        {
-          "version": "0.3.62",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.62.tgz",
-          "integrity_shasum": "f8528a285e777badb1d735b503caf21cace8116d"
-        },
-        {
-          "version": "0.3.63",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.63.tgz",
-          "integrity_shasum": "6f670191696026a012423442be0ff4ab5086fe93"
-        },
-        {
-          "version": "0.3.64",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.64.tgz",
-          "integrity_shasum": "d161506b23a395911213cdb0a3f75e81d2f9fcfd"
-        },
-        {
-          "version": "0.3.65",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.65.tgz",
-          "integrity_shasum": "7ccf4fe9cfd5ec3df7d6790cb5b7d8a5aad72abf"
-        },
-        {
-          "version": "0.3.66",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.66.tgz",
-          "integrity_shasum": "2529cce1e9c9953de83b7d060bee3a9f0e9e6b4b"
-        },
-        {
-          "version": "0.3.67",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.67.tgz",
-          "integrity_shasum": "085c30f7ef4d3ab5f12898667eaea6bd392f22ed"
-        },
-        {
-          "version": "0.3.68",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.68.tgz",
-          "integrity_shasum": "235d73ac1a3831fe71585ad85feffe14f8aaaca0"
-        },
-        {
-          "version": "0.3.69",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.69.tgz",
-          "integrity_shasum": "f338a688f2b52ea2eec646c64b4d9e875753a208"
-        },
-        {
-          "version": "0.3.70",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.70.tgz",
-          "integrity_shasum": "3131c5a922485c424f4bebf35ec878e76e1d29db"
-        },
-        {
-          "version": "0.3.71",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.71.tgz",
-          "integrity_shasum": "098bf53fca2df8ef42a5ca9d31ab0e3310fd7f27"
-        },
-        {
-          "version": "0.3.72",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.72.tgz",
-          "integrity_shasum": "f9efe6f4bc31605d0f11b159663a854bf43d6c44"
-        },
-        {
-          "version": "0.3.73",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.73.tgz",
-          "integrity_shasum": "35feb1b9afacb99c4b12ea72a86838518bea2e42"
-        },
-        {
-          "version": "0.3.74",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.74.tgz",
-          "integrity_shasum": "ecee2e355737772c4a791e9007167b1b1594da8c"
-        },
-        {
-          "version": "0.3.75",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.75.tgz",
-          "integrity_shasum": "7e1a96d5410449d57bb31f0d0fbea49b6b43ea6b"
-        },
-        {
-          "version": "0.3.76",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.76.tgz",
-          "integrity_shasum": "52277c501b4296a2545ec2550584210a0e8c65f3"
-        },
-        {
-          "version": "0.3.78",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.78.tgz",
-          "integrity_shasum": "5bf7ce49e03032f32ffcb7ae9e6b328cbc45d6db"
-        },
-        {
-          "version": "0.3.79",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.79.tgz",
-          "integrity_shasum": "53f4e6f3e0102f286004b0dc574f89c05c7cb94c"
-        },
-        {
-          "version": "0.3.80",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.80.tgz",
-          "integrity_shasum": "2705700c3ca41199268ae1f6f1d97c64e13fa75c"
-        },
-        {
-          "version": "0.3.81",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.81.tgz",
-          "integrity_shasum": "f2caeee31e1eed3f243af3bf9e6157e7a99b28b2"
-        },
-        {
-          "version": "0.3.82",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.82.tgz",
-          "integrity_shasum": "2aaf5d7f5e03fecf353b091af94a9cdd61808f2b"
-        },
-        {
-          "version": "0.3.83",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.83.tgz",
-          "integrity_shasum": "8f8d31eeef3c149831a7e4cdbe97fe2994d629a9"
-        },
-        {
-          "version": "0.3.84",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.84.tgz",
-          "integrity_shasum": "7c58bc55e45c819bdb49ce67993f03d288080397"
-        },
-        {
-          "version": "0.3.85",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.85.tgz",
-          "integrity_shasum": "4c6981c8f6a0694df6a55a344225103f64b0479b"
-        },
-        {
-          "version": "0.3.86",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.86.tgz",
-          "integrity_shasum": "05c75daf39b0f97c264d4a66993acbe2c1ce1c83"
-        },
-        {
-          "version": "0.3.87",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.87.tgz",
-          "integrity_shasum": "363938a645342f688492e2c8e6f31e0a2f966620"
-        },
-        {
-          "version": "0.3.88",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.88.tgz",
-          "integrity_shasum": "2c305730c51b5dc004fbf2851dea8ad8cdcb8696"
-        },
-        {
-          "version": "0.3.89",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.89.tgz",
-          "integrity_shasum": "943b72002e0f1d8a09a155916a836f7a6a10a451"
-        },
-        {
-          "version": "0.3.90",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.90.tgz",
-          "integrity_shasum": "bebae56962be865a6dc6c75abd86e3d0a855d397"
-        },
-        {
-          "version": "0.3.91",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.91.tgz",
-          "integrity_shasum": "3634f3d00da54dcbd37ed6b021d28f1971505418"
-        },
-        {
-          "version": "0.3.92",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.92.tgz",
-          "integrity_shasum": "6c6d6d203d3cb6748ae6c18ccfc7aa65bcaf130c"
-        },
-        {
-          "version": "0.3.93",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.93.tgz",
-          "integrity_shasum": "8667ec5ac00ce31b080d1a4711885bc3372c3964"
-        },
-        {
-          "version": "0.3.94",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.94.tgz",
-          "integrity_shasum": "b0523994693ca1c62eb3af8553f8fd4bb32268bc"
-        },
-        {
-          "version": "0.3.95",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.95.tgz",
-          "integrity_shasum": "55d4e6b99d81a3f50c5690e031e629823dc5bbc9"
-        },
-        {
-          "version": "0.3.96",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.96.tgz",
-          "integrity_shasum": "d8ee340e1e90bda8a9bb0b329fd9b6700ba3171b"
-        },
-        {
-          "version": "0.3.97",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.97.tgz",
-          "integrity_shasum": "66d30d529280c4d4a265253bec13396bd02df594"
-        },
-        {
-          "version": "0.3.98",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.98.tgz",
-          "integrity_shasum": "e9324e5e77a116d00b1ef18c91ed834a079c114b"
-        },
-        {
-          "version": "0.3.99",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.99.tgz",
-          "integrity_shasum": "30337e9ac745c22f8e173eb65d6a3a6abc4b19ba"
-        },
-        {
-          "version": "0.3.100",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.100.tgz",
-          "integrity_shasum": "0a53c393259167b6ae958604488d97af4e4568ef"
-        },
-        {
-          "version": "0.3.101",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.101.tgz",
-          "integrity_shasum": "c432f2b06e1606242cb1d6ccd8812d1e5fb1a3ae"
-        },
-        {
-          "version": "0.3.102",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.102.tgz",
-          "integrity_shasum": "0029ff59edbca6c5dc71d20ae40e7f4fd753a5b8"
-        },
-        {
-          "version": "0.3.103",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.103.tgz",
-          "integrity_shasum": "7d651f98436eae3698c107dcb4ee1d4f47cdbc45"
-        },
-        {
-          "version": "0.3.104",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.104.tgz",
-          "integrity_shasum": "f3167a4c40ba7e1e512cfd4244a9b6198aad225e"
-        },
-        {
-          "version": "0.3.105",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.105.tgz",
-          "integrity_shasum": "4bdc7887517f97745a9d2cd476e040ef2dfa2216"
-        },
-        {
-          "version": "0.3.106",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.106.tgz",
-          "integrity_shasum": "d1ecc48be6e19f274349dc13772f7b9d95d600ad"
-        },
-        {
-          "version": "0.3.107",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.107.tgz",
-          "integrity_shasum": "6ada3a6323e1afe13b37ed12f06df31f40713004"
-        },
-        {
-          "version": "0.3.108",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.108.tgz",
-          "integrity_shasum": "c450c079423d7cc1e94915b255f6dc1d7c173d38"
-        },
-        {
-          "version": "0.3.109",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.109.tgz",
-          "integrity_shasum": "2f133e001403ebec92ab9fa0feab1511d25d6f89"
-        },
-        {
-          "version": "0.3.110",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.110.tgz",
-          "integrity_shasum": "1a35857953fc3871095c38c24b6455ff17376139"
-        },
-        {
-          "version": "0.3.111",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.111.tgz",
-          "integrity_shasum": "f586d5ab7f498e5e9212c1f21839f96d291efe2e"
-        },
-        {
-          "version": "0.3.112",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.112.tgz",
-          "integrity_shasum": "587be4dc79ad2bde1f48fe3637cfe37d218cfab2"
-        },
-        {
-          "version": "0.3.113",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.113.tgz",
-          "integrity_shasum": "0932ddb357a6f8a84eaf9743ed5e161e8b5c23b3"
-        },
-        {
-          "version": "0.3.114",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.114.tgz",
-          "integrity_shasum": "4198c160a12f2d09d21e71a4318e834b6b31d694"
-        },
-        {
-          "version": "0.3.115",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.115.tgz",
-          "integrity_shasum": "b884cb45273cfa0f9ee1e5e75e0cd038e6db8875"
-        },
-        {
-          "version": "0.3.116",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.116.tgz",
-          "integrity_shasum": "d78c611e5e802ca197a4d4a4100adb3b9aeee909"
-        },
-        {
-          "version": "0.3.117",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.3.117.tgz",
-          "integrity_shasum": "24abd30bff5f00526e96e57e823faba65f65cefa"
-        },
-        {
-          "version": "0.4.1",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.1.tgz",
-          "integrity_shasum": "d13ac08b90f2b974a8996717bb2681fe8aacc984"
-        },
-        {
-          "version": "0.4.2",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.2.tgz",
-          "integrity_shasum": "4cee9e34cdea010b988446588b8e04c6a1b13d0c"
-        },
-        {
-          "version": "0.4.3",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.3.tgz",
-          "integrity_shasum": "8d9e4117b6df85d4334aedbc6a0cb03423f14d63"
-        },
-        {
-          "version": "0.4.4",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.4.tgz",
-          "integrity_shasum": "0f6d06cb5feba28f71933d52c04770865d112f40"
-        },
-        {
-          "version": "0.4.5",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.5.tgz",
-          "integrity_shasum": "da132238d02cd4295b68a2cad7a3fe96d1794385"
-        },
-        {
-          "version": "0.4.6",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.6.tgz",
-          "integrity_shasum": "8d6adadec2ded14fb79a0cbf873dfc044349ce03"
-        },
-        {
-          "version": "0.4.7",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.7.tgz",
-          "integrity_shasum": "0b396a6b94682a9f32f420a5216bbfd075f2e198"
-        },
-        {
-          "version": "0.4.8",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.8.tgz",
-          "integrity_shasum": "8ece33c3f7bd6feffbeacea42aade99256085063"
-        },
-        {
-          "version": "0.4.9",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.9.tgz",
-          "integrity_shasum": "3b1f1c6a88976bcdf215468fcddd4b006f6c7fc6"
-        },
-        {
-          "version": "0.4.10",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.10.tgz",
-          "integrity_shasum": "fbc3c29316d5c47209aa599eff4b743c00a5e7a9"
-        },
-        {
-          "version": "0.4.11",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.11.tgz",
-          "integrity_shasum": "085713d31e4f4cd151c05da500adce6656b2e956"
-        },
-        {
-          "version": "0.4.12",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.12.tgz",
-          "integrity_shasum": "421632eaa237d05de90ba3a5896d0acb813debd3"
-        },
-        {
-          "version": "0.4.13",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.13.tgz",
-          "integrity_shasum": "6e59bf85ef35b30d66e43d29bbacd9c3f3ad3b96"
-        },
-        {
-          "version": "0.4.14",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.14.tgz",
-          "integrity_shasum": "a9b49b456f0bb656a86ec672de6802f51f68c160"
-        },
-        {
-          "version": "0.4.15",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.15.tgz",
-          "integrity_shasum": "d88e26003c7c9219bcde0e05e534a7977a6318a3"
-        },
-        {
-          "version": "0.4.16",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.16.tgz",
-          "integrity_shasum": "a4c40bf29e5f177052f2b1831a07260c2bb262df"
-        },
-        {
-          "version": "0.4.17",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.17.tgz",
-          "integrity_shasum": "4dc22e7108edabb41ca33b1923723247b89fa507"
-        },
-        {
-          "version": "0.4.18",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.18.tgz",
-          "integrity_shasum": "b5e7f7c3d42ae83c99905cafc7ec40a70c8b7481"
-        },
-        {
-          "version": "0.4.19",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.19.tgz",
-          "integrity_shasum": "114238bd5271bf60a08fa3e22c31ceef879fbe6e"
-        },
-        {
-          "version": "0.4.20",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.20.tgz",
-          "integrity_shasum": "2bf6bd5a90908bc938eba1ac6da442668756f7e0"
-        },
-        {
-          "version": "0.4.21",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.21.tgz",
-          "integrity_shasum": "20b270a73ff5247f2fd29f08670c7a3178c94c13"
-        },
-        {
-          "version": "0.4.22",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.22.tgz",
-          "integrity_shasum": "f286d4af1df8e16a8525f5ae57a1b0b22ff96e5b"
-        },
-        {
-          "version": "0.4.23",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.23.tgz",
-          "integrity_shasum": "1c790a9dbe95da38aa057324e0de059d5503cacd"
-        },
-        {
-          "version": "0.4.24",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.24.tgz",
-          "integrity_shasum": "7e7bc384ffa985a3192298ca628f06ba13d0e178"
-        },
-        {
-          "version": "0.4.25",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.25.tgz",
-          "integrity_shasum": "41afb52f56c29aa10d04e443ac6b45501ded2b0a"
-        },
-        {
-          "version": "0.4.26",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.26.tgz",
-          "integrity_shasum": "31b8b4dae6d15629e6404b64d8531d7ad8b87410"
-        },
-        {
-          "version": "0.4.27",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.27.tgz",
-          "integrity_shasum": "4cc436220cd79192f2b7378a74bdfce37dbb00ae"
-        },
-        {
-          "version": "0.4.28",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.28.tgz",
-          "integrity_shasum": "49545f8ea1c7c16c4b87b4cbad1a7ce1fe31e642"
-        },
-        {
-          "version": "0.4.29",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.29.tgz",
-          "integrity_shasum": "b411cfe44985ab4cffa968177644325476360790"
-        },
-        {
-          "version": "0.4.30",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.30.tgz",
-          "integrity_shasum": "2bb1fbb79fb24da8382eb179b368afb877475b26"
-        },
-        {
-          "version": "0.4.31",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.31.tgz",
-          "integrity_shasum": "ca23e1afbec6b7c2b4b1c447343310096c2de9bb"
-        },
-        {
-          "version": "0.4.32",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.32.tgz",
-          "integrity_shasum": "d6222c0b6e505f6fbb06cea2462b6bafe31923e0"
-        },
-        {
-          "version": "0.4.33",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.33.tgz",
-          "integrity_shasum": "1797eb420b2a5e77eadd4411f3ea8d10916a508b"
-        },
-        {
-          "version": "0.4.34",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.34.tgz",
-          "integrity_shasum": "aa0bf8a0357eb18ea768dc47590324230c7dc05f"
-        },
-        {
-          "version": "0.4.35",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.35.tgz",
-          "integrity_shasum": "a578b3b5a6ef5ebb078e6cc23e497990682236fe"
-        },
-        {
-          "version": "0.4.36",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.36.tgz",
-          "integrity_shasum": "b7667662edd36c5a319c0b7baf60f66d48ada7a7"
-        },
-        {
-          "version": "0.4.37",
-          "download_url":
-            "https://registry.npmjs.org/wmathconcepts/-/wmathconcepts-0.4.37.tgz",
-          "integrity_shasum": "39decd09165f7585e301d82d37414e1f9f22ac08"
-        }
-      ],
-      "keywords": [
-        "wTools", "math", "vector", "dot product", "convolution"
-      ],
-      "target": [ "Unknown" ]
-    },
-    {
       "name": "wonder-reroute",
       "description": "Tiny wrapper around ReasonReact.Router ",
       "versions": [
@@ -27090,6 +26382,48 @@
           "download_url":
             "https://registry.npmjs.org/wonder.js/-/wonder.js-1.2.0-alpha.4.tgz",
           "integrity_shasum": "3414342d44d0d0c3a04e25982f663497d5389301"
+        },
+        {
+          "version": "1.2.0-alpha.5",
+          "download_url":
+            "https://registry.npmjs.org/wonder.js/-/wonder.js-1.2.0-alpha.5.tgz",
+          "integrity_shasum": "495b8db48d6c61b64968f7d012c1c1b80fd02bac"
+        },
+        {
+          "version": "1.2.0-alpha.6",
+          "download_url":
+            "https://registry.npmjs.org/wonder.js/-/wonder.js-1.2.0-alpha.6.tgz",
+          "integrity_shasum": "38ccd34fe693222834468a7743afc028e90ccb5a"
+        },
+        {
+          "version": "1.2.0-alpha.7",
+          "download_url":
+            "https://registry.npmjs.org/wonder.js/-/wonder.js-1.2.0-alpha.7.tgz",
+          "integrity_shasum": "e80093c68ec4d95f74d3e878a54e6633d888bb7a"
+        },
+        {
+          "version": "1.2.0-alpha.8",
+          "download_url":
+            "https://registry.npmjs.org/wonder.js/-/wonder.js-1.2.0-alpha.8.tgz",
+          "integrity_shasum": "41f73e25b0334c42a9a037ba8cc2422cf8e86fc1"
+        },
+        {
+          "version": "1.2.0-alpha.9",
+          "download_url":
+            "https://registry.npmjs.org/wonder.js/-/wonder.js-1.2.0-alpha.9.tgz",
+          "integrity_shasum": "a959d36c9c0aac1e060e0629b5aefddce575b4cf"
+        },
+        {
+          "version": "1.2.0-alpha.10",
+          "download_url":
+            "https://registry.npmjs.org/wonder.js/-/wonder.js-1.2.0-alpha.10.tgz",
+          "integrity_shasum": "129cb526567acde01e940934feb1c482060a8374"
+        },
+        {
+          "version": "1.2.0-alpha.11",
+          "download_url":
+            "https://registry.npmjs.org/wonder.js/-/wonder.js-1.2.0-alpha.11.tgz",
+          "integrity_shasum": "9c1209e3d6e58f2eb5c09e5d8897fcfd157c5d6c"
         }
       ],
       "keywords": [

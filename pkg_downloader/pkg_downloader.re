@@ -149,7 +149,7 @@ let download_all_packages = index => {
   );
 };
 
-let build_from_index: Model.Index.t => _ =
+let download_from_index: Model.Index.t => _ =
   index => {
     Ok(index |> download_all_packages |> Lwt_main.run);
   };

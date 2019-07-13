@@ -59,12 +59,12 @@ module Build_index = {
   };
 };
 
-module Build_docs = {
+module Pkg_download = {
   let run = () => {
     open Rresult;
     let res =
       Index_builder.load(~path=Index_builder.default_index_path)
-      >>= Doc_builder.build_from_index;
+      >>= Pkg_downloader.download_from_index;
     Cmd_timer.print_duration();
     switch (res) {
     | Ok () => 0
@@ -73,20 +73,22 @@ module Build_docs = {
   };
 
   let cmd = {
-    let doc = "Build documentation for packages in the Reason Package Index";
+    let doc = "Download package sources";
     let exits = Term.default_exits;
     let man = [
       `S(Manpage.s_description),
       `P(
-        {j|Reuniverse will scan package sources, such as npm, to build a package
-           index. This index will be written down to \$ROOT/packages/index.json.  |j},
+        {j|Reuniverse will read the index file generated with build-index and 
+           will attempt to download package sources for all the major versions
+           of all the packages in the index.
+           |j},
       ),
     ];
 
     (
       Term.(const(run) $ Verbosity.arg),
       Term.info(
-        "build-docs",
+        "pkg-download",
         ~doc,
         ~sdocs=Manpage.s_common_options,
         ~exits,
@@ -106,6 +108,6 @@ let default_cmd = {
   );
 };
 
-let cmds = [Build_index.cmd, Build_docs.cmd];
+let cmds = [Build_index.cmd, Pkg_download.cmd];
 
 Term.(exit @@ eval_choice(default_cmd, cmds));

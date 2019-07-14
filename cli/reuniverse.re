@@ -25,8 +25,9 @@ module Verbosity = {
 
 module Build_index = {
   let run = () => {
-    let index = Index_builder.build();
-    let res = Index_builder.save(index);
+    let res =
+      Index_builder.build()
+      |> Index_builder.save(~path=Index_builder.default_index_path);
     Cmd_timer.print_duration();
     switch (res) {
     | Ok () => 0
@@ -58,6 +59,45 @@ module Build_index = {
   };
 };
 
+module Pkg_download = {
+  let run = () => {
+    open Rresult;
+    let res =
+      Index_builder.load(~path=Index_builder.default_index_path)
+      >>= Pkg_downloader.download_from_index;
+    Cmd_timer.print_duration();
+    switch (res) {
+    | Ok () => 0
+    | _ => 1
+    };
+  };
+
+  let cmd = {
+    let doc = "Download package sources";
+    let exits = Term.default_exits;
+    let man = [
+      `S(Manpage.s_description),
+      `P(
+        {j|Reuniverse will read the index file generated with build-index and 
+           will attempt to download package sources for all the major versions
+           of all the packages in the index.
+           |j},
+      ),
+    ];
+
+    (
+      Term.(const(run) $ Verbosity.arg),
+      Term.info(
+        "pkg-download",
+        ~doc,
+        ~sdocs=Manpage.s_common_options,
+        ~exits,
+        ~man,
+      ),
+    );
+  };
+};
+
 let default_cmd = {
   let doc = "A Composable Static Site Generator";
   let sdocs = Manpage.s_common_options;
@@ -68,6 +108,6 @@ let default_cmd = {
   );
 };
 
-let cmds = [Build_index.cmd];
+let cmds = [Build_index.cmd, Pkg_download.cmd];
 
 Term.(exit @@ eval_choice(default_cmd, cmds));

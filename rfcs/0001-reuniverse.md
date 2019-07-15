@@ -166,8 +166,8 @@ concerns in a smooth fashion.
    sources of information (such as manually submitted packages), we will build
    an index of reason packages.
 
-   In the future, additional package sources could be included, such as Opam,
-   NixPkgs, or Entropy.
+   In the future, additional package sources could be included, such as [Opam](https://github.com/ocaml/opam-repository),
+   [Nixpkgs](https://github.com/NixOS/nixpkgs), or [Entropic](https://github.com/entropic-dev/entropic).
 
 2. **Refining the package index**, by using other sources such as unpkg.com to
    quickly verify assumptions on the packages. For example, we have tagged each

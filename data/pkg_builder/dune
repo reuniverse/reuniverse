@@ -1,0 +1,5 @@
+(library
+ (name pkg_builder)
+ (preprocess
+  (pps ppx_deriving_yojson))
+ (libraries data_utils model checkseum.c decompress tar tar-unix lwt logs fmt utils bos))

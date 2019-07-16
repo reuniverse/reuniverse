@@ -26,6 +26,12 @@ type t = {
   target: Target.t,
 };
 
+let name = t => t.name;
+let description = t => t.description;
+let versions = t => t.versions;
+let keywords = t => t.keywords;
+let target = t => t.target;
+
 let pp = (fmt, pkg) => {
   let name = pkg.name;
   let desc = Utils.Infix.Option.(pkg.description <|> "No description.");

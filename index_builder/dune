@@ -1,3 +1,0 @@
-(library
-  (name index_builder)
-  (libraries model semver2 npm unpkg httpkit lwt logs fmt utils bos))

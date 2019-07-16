@@ -47,6 +47,29 @@ module Package_distribution = {
     };
 };
 
+module Version_repository = {
+  type repo_type = [ | `Git | `Unknown];
+
+  let repo_type_of_string =
+    fun
+    | "git" => `Git
+    | _ => `Unknown;
+
+  type t = {
+    type_: repo_type,
+    url: Uri.t,
+  };
+
+  let from_json: Yojson.Basic.t => t =
+    json => {
+      open Yojson.Basic;
+      let type_ =
+        Util.(json |> member("type") |> to_string |> repo_type_of_string);
+      let url = Util.(json |> member("url") |> to_string |> Uri.of_string);
+      {type_, url};
+    };
+};
+
 module Package_version = {
   type t = {
     _id: string,
@@ -55,6 +78,7 @@ module Package_version = {
     git_head: option(Sha.t),
     dist: Package_distribution.t,
     author: option(Author.t),
+    repository: Version_repository.t,
   };
 
   let from_json: Yojson.Basic.t => t =
@@ -82,7 +106,10 @@ module Package_version = {
       let author =
         Util.(json |> member("author") |> to_option(Author.from_json));
 
-      {_id, name, version, git_head, dist, author};
+      let repository =
+        Util.(json |> member("repository") |> Version_repository.from_json);
+
+      {_id, name, version, git_head, dist, author, repository};
     };
 };
 

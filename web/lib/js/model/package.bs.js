@@ -40,6 +40,26 @@ var Target = /* module */[
   /* to_string */to_string
 ];
 
+function name(t) {
+  return t[/* name */0];
+}
+
+function description(t) {
+  return t[/* description */1];
+}
+
+function versions(t) {
+  return t[/* versions */2];
+}
+
+function keywords(t) {
+  return t[/* keywords */3];
+}
+
+function target(t) {
+  return t[/* target */4];
+}
+
 function pp(fmt, pkg) {
   var name = pkg[/* name */0];
   var desc = Infix.$$Option[/* <|> */0](pkg[/* description */1], "No description.");
@@ -88,5 +108,10 @@ function pp(fmt, pkg) {
 }
 
 exports.Target = Target;
+exports.name = name;
+exports.description = description;
+exports.versions = versions;
+exports.keywords = keywords;
+exports.target = target;
 exports.pp = pp;
 /* Format Not a pure module */

@@ -1,0 +1,3 @@
+(library
+ (name source_extractor)
+ (libraries data_utils model checkseum.c decompress tar tar-unix lwt logs fmt utils bos))

@@ -1,3 +1,0 @@
-(library
-  (name pkg_downloader)
-  (libraries model semver2 uri httpkit httpkit-lwt-unix-httpaf lwt logs fmt utils bos))

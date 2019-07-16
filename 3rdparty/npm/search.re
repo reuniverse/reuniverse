@@ -34,7 +34,7 @@ type t = {
   results: list(search_result),
 };
 
-let empty = { total: 0, results: [] };
+let empty = {total: 0, results: []};
 
 let from_json: Yojson.Basic.t => t =
   json => {

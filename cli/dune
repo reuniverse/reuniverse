@@ -1,4 +1,5 @@
 (executable
  (name reuniverse)
  (public_name reuniverse)
- (libraries pkg_downloader index_builder cmdliner fmt fmt.tty logs logs.fmt logs.cli))
+ (libraries pkg_builder source_extractor pkg_downloader index_builder
+   doc_generator cmdliner fmt fmt.tty logs logs.fmt logs.cli))

@@ -166,6 +166,9 @@ concerns in a smooth fashion.
    sources of information (such as manually submitted packages), we will build
    an index of reason packages.
 
+   In the future, additional package sources could be included, such as [opam](https://github.com/ocaml/opam-repository),
+   [Nixpkgs](https://github.com/NixOS/nixpkgs), or [Entropic](https://github.com/entropic-dev/entropic).
+
 2. **Refining the package index**, by using other sources such as unpkg.com to
    quickly verify assumptions on the packages. For example, we have tagged each
    package with a _target platform_ (`Native | Web | Universal | Unknown`) by
@@ -193,8 +196,8 @@ set of features we would like to deliver are:
    This means that if there is a use-case that requires more information for
    packages in the index, the index should be extended to include it.
 
-1. **Package Search** — reuniverse should be equipped with is a fast package
-   search for the whole of the ecosystem. This has [already been
+1. **Package Search** — reuniverse should be equipped with a fast package
+   search for the whole ecosystem. This has [already been
    done](https://redex.github.io), and lessons can be learned from it.
 
 2. **Package Documentation** — reuniverse should handle the generation of
@@ -229,7 +232,7 @@ Last but absolutely not least, we have our _infrastructure_ concerns:
    the platform.
 
 2. CI pipelines — at the very bottom of our work there is the foundational
-   pipelining keeps Reuniverse alive. It runs data jobs periodically, builds
+   pipelining that keeps Reuniverse alive. It runs data jobs periodically, builds
    the feature projects, tests shared libraries, and publishes the indexes and
    the website.
 

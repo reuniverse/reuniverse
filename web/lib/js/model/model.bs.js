@@ -8,7 +8,10 @@ var Package = 0;
 
 var Version = 0;
 
+var Repository = 0;
+
 exports.Index = Index;
 exports.Package = Package;
 exports.Version = Version;
+exports.Repository = Repository;
 /* No side effect */

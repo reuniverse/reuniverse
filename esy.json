@@ -3,21 +3,46 @@
   "version": "0.1.0",
   "description": "Reason Documentation Universe",
   "license": "MIT",
+  "authors": [
+    {
+      "name": "Leandro Ostera",
+      "email": "leandro@src.technology"
+    },
+    {
+      "name": "Ulrik Strid",
+      "email": "ulrik.strid@outlook.com"
+    },
+    {
+      "name": "Pontus Nagy",
+      "email": "pontusnagy@gmail"
+    }
+  ],
   "esy": {
     "build": "refmterr dune build",
     "release": {
-      "bin": ["reuniverse"],
-      "includePackages": ["root", "esy-gmp", "@opam/nocrypto"]
+      "bin": [
+        "reuniverse"
+      ],
+      "includePackages": [
+        "root",
+        "ocaml",
+        "@esy-ocaml/reason",
+        "esy-gmp",
+        "@opam/nocrypto"
+      ]
     }
   },
   "scripts": {
+    "fmt": "dune build @fmt --auto-promote",
     "start": "dune build @all --watch",
-    "run": "dune exec ./cli/reuniverse.exe"
+    "run": "dune exec ./cli/reuniverse.exe",
+    "debug": "./3rdparty/red/red.py ./_esy/default/build/default/cli/reuniverse.bc"
   },
   "dependencies": {
     "@esy-ocaml/reason": ">= 3.4.0 < 3.5.0",
     "@opam/bos": "0.2.0",
     "@opam/cmdliner": "1.0.4",
+    "@opam/decompress": "0.9.0",
     "@opam/dune": "*",
     "@opam/fmt": "0.8.6",
     "@opam/httpaf": "*",
@@ -28,6 +53,9 @@
     "@opam/lwt": "4.2.1",
     "@opam/ppx_deriving_yojson": "3.4",
     "@opam/semver2": "1.0.0",
+    "@opam/ssl": "0.5.7",
+    "@opam/tar": "1.1.0",
+    "@opam/tar-unix": "1.1.0",
     "@opam/uri": "2.2.1",
     "@opam/utop": "2.3.0",
     "@opam/yojson": "1.7.0",
@@ -40,5 +68,7 @@
     "@opam/httpaf": "anmonteiro/httpaf:httpaf.opam#6d2c80e3a16ecf85d74df76005ab68136457e111",
     "@opam/httpaf-lwt-unix": "anmonteiro/httpaf:httpaf-lwt-unix.opam#6d2c80e3a16ecf85d74df76005ab68136457e111"
   },
-  "devDependencies": { "@opam/merlin": "*" }
+  "devDependencies": {
+    "@opam/merlin": "*"
+  }
 }

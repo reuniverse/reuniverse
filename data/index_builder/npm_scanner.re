@@ -1,8 +1,39 @@
+let pick_kind: Npm.Package_version.t => Model.Repository.kind =
+  version => {
+    let github = Str.regexp("github.com");
+    let gitlab = Str.regexp("gitlab.com");
+
+    let url = version.repository.url |> Uri.host_with_default;
+
+    let is_github = Str.string_match(github, url, 0);
+    let is_gitlab = Str.string_match(gitlab, url, 0);
+
+    switch (is_github, is_gitlab) {
+    | (true, _) => `GitHub
+    | (_, true) => `GitLab
+    | _ => `GitHub
+    };
+  };
+
+let repo_of_npm_repo: Npm.Package_version.t => Model.Repository.t =
+  version => {
+    /* TODO(@ostera): use version.repository.type_ here instead */
+    let kind = pick_kind(version);
+    let url = version.repository.url |> Uri.to_string;
+    let ref =
+      switch (version.git_head) {
+      | Some(hash) => Npm.Sha.to_string(hash)
+      | None => "HEAD"
+      };
+    Model.Repository.make(~kind, ~ref, url);
+  };
+
 let version_of_npm_version: Npm.Package_version.t => Model.Version.t =
   version => {
     version: version.version,
     download_url: version.dist.tarball |> Uri.to_string,
     integrity_shasum: version.dist.shasum |> Npm.Sha.to_string,
+    repository: repo_of_npm_repo(version),
   };
 
 let package_of_npm_pkg:
@@ -121,7 +152,7 @@ let scan: list(Npm.Search.Query.param) => Model.Index.t =
       |> Hashtbl.to_seq_keys
       |> Seq.map(Npm.Api.V1.package)
       |> Lwt_stream.of_seq
-      |> Lwt_stream.iter_p(pkg_res =>
+      |> Lwt_stream.iter_n(~max_concurrency=50, pkg_res =>
            pkg_res
            |> Lwt_result.map(pkg =>
                 switch (pkg) {
@@ -192,7 +223,7 @@ let scan: list(Npm.Search.Query.param) => Model.Index.t =
               });
          })
       |> Lwt_stream.of_seq
-      |> Lwt_stream.iter_p(res =>
+      |> Lwt_stream.iter_n(~max_concurrency=50, res =>
            res
            |> Lwt_result.map(((pkg, target)) => {
                 let pkg = package_of_npm_pkg(pkg, target);

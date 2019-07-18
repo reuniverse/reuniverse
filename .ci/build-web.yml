@@ -1,6 +1,14 @@
 steps:
   - template: utils/use-node.yml
 
+  - task: CacheBeta@0
+    inputs:
+      key: |
+        yarn
+        $(Agent.OS)
+        $(Build.SourcesDirectory)/web/yarn.lock
+      path: $(Pipeline.Workspace)/.yarn
+
   - script: |
      sed "s/%%GIT_COMMIT%%/$(git rev-parse --short HEAD)/g;
           s/%%BUILD_TIME%%/$(date -R)/g" \

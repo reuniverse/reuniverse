@@ -74,6 +74,8 @@ stages:
     jobs:
       - job: BuildWeb
         displayName: Build web site
+        variables:
+          YARN_CACHE_FOLDER: $(Pipeline.Workspace)/.yarn
         pool:
           vmImage: macOS-latest
         steps:

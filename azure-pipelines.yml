@@ -35,19 +35,21 @@ stages:
         parameters:
           platform: Linux
           vmImage: ubuntu-16.04
-          ESY__CACHE_INSTALL_PATH: /home/vsts/.esy/3_____________________________________________________________________/i
+          ESY__PREFIX_PATH: $(Pipeline.Workspace)/.esy
+          ESY__CACHE_INSTALL_PATH: $(Pipeline.Workspace)/.esy/3_____________________________________________________________________/i
 
       - template: .ci/build-platform.yml
         parameters:
           platform: macOS
           vmImage: macOS-latest
-          ESY__CACHE_INSTALL_PATH: /Users/vsts/.esy/3____________________________________________________________________/i
+          ESY__PREFIX_PATH: $(Pipeline.Workspace)/.esy
+          ESY__CACHE_INSTALL_PATH: $(Pipeline.Workspace)/.esy/3____________________________________________________________________/i
 
       # - template: .ci/build-platform.yml
       #   parameters:
       #     platform: Windows
       #     vmImage: vs2017-win2016
-      #     ESY__CACHE_INSTALL_PATH: /C/Users/VssAdministrator/.esy/3_/i
+      #     ESY__CACHE_INSTALL_PATH: $(Pipeline.Workspace)/.esy/3_/i
 
   - stage: Create_release
     dependsOn: [Build_platforms]

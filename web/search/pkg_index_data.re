@@ -44,12 +44,12 @@ let parse: Js.Json.t => Model.Index.t =
     {package_count, packages};
   };
 
-let load: unit => Repromise.rejectable(Model.Index.t, _) =
+let load: unit => Promise.Js.t(Model.Index.t, _) =
   () => {
-    Fetch.fetch(
+    (Fetch.fetch(
       "https://raw.githubusercontent.com/reuniverse/reuniverse/master/packages/index.json",
     )
-    |> Js.Promise.then_(Fetch.Response.json)
-    |> Repromise.Rejectable.fromJsPromise
-    |> Repromise.Rejectable.map(parse);
+    |> Js.Promise.then_(Fetch.Response.json))
+    ->Promise.Js.fromBsPromise
+    ->Promise.Js.map(parse);
   };

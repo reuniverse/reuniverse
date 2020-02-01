@@ -2,11 +2,6 @@
 # yarn lockfile v1
 
 
-"@aantron/repromise@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@aantron/repromise/-/repromise-0.6.0.tgz#45bea66e593b7e0f968bc0fd03f0b6578003e698"
-  integrity sha512-nxNUWKQQhRJKmsExKi2qyZUryvpEz07H17fEhRaZC3wXkxCtjcdx9j5LMnV0+anbU+EyG/X+UnfATReerBZgMA==
-
 bs-fetch@^0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/bs-fetch/-/bs-fetch-0.5.0.tgz#6913b1d1ddfa0b0a4b832357854e9763d61d4b28"
@@ -79,6 +74,11 @@ react@>=16.8.1:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
     scheduler "^0.13.6"
+
+reason-promise@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/reason-promise/-/reason-promise-1.0.2.tgz#22b9bb4097ce511190182b948aef11427d5b8b86"
+  integrity sha512-j8DWV+71wNEKQmyW6zBOowIZq1Qec5CDWyLI37BvgOmAZgRFGFQ1MaJnbhqDe3JsYmaGyqdNMmpCJLl9EDbDAg==
 
 reason-react@^0.7.0:
   version "0.7.0"

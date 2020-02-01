@@ -19,7 +19,7 @@
   "bs-dependencies": [
     "reason-react",
     "bs-fetch",
-    "@aantron/repromise"
+    "reason-promise"
   ],
   "bs-dev-dependencies": [],
   "warnings": {

@@ -5,7 +5,7 @@ var List = require("bs-platform/lib/js/list.js");
 var Curry = require("bs-platform/lib/js/curry.js");
 var React = require("react");
 var Package = require("../model/package.bs.js");
-var Repromise = require("@aantron/repromise/lib/js/src/js/repromise.js");
+var $$Promise = require("reason-promise/lib/js/src/js/promise.js");
 var Ds_loading = require("../design_system/ds_loading.bs.js");
 var Ds_container = require("../design_system/ds_container.bs.js");
 var Ds_tiny_title = require("../design_system/ds_tiny_title.bs.js");
@@ -27,12 +27,12 @@ function load_index(state, setState) {
   React.useEffect((function () {
           var match = state[/* index */0];
           if (match === undefined) {
-            Repromise.Rejectable[/* map */5]((function (index) {
+            $$Promise.Js[/* map */5](Pkg_index_data.load(/* () */0), (function (index) {
                     Curry._1(setState, (function (param) {
                             return /* record */[/* index */index];
                           }));
-                    return Repromise.Rejectable[/* resolved */2](/* () */0);
-                  }), Pkg_index_data.load(/* () */0));
+                    return $$Promise.Js[/* resolved */1](/* () */0);
+                  }));
           }
           return undefined;
         }));

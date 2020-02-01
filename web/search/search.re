@@ -12,9 +12,9 @@ module Effects = {
       switch (State.(state.index)) {
       | None =>
         Pkg_index_data.load()
-        |> Repromise.Rejectable.map(index => {
+        ->Promise.Js.map(index => {
              setState(_ => State.make(~index));
-             Repromise.Rejectable.resolved();
+             Promise.Js.resolved();
            })
         |> ignore
       | Some(_) => ()

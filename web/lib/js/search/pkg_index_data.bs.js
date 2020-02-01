@@ -5,7 +5,7 @@ var List = require("bs-platform/lib/js/list.js");
 var $$Array = require("bs-platform/lib/js/array.js");
 var Js_json = require("bs-platform/lib/js/js_json.js");
 var Package = require("../model/package.bs.js");
-var Repromise = require("@aantron/repromise/lib/js/src/js/repromise.js");
+var $$Promise = require("reason-promise/lib/js/src/js/promise.js");
 var Caml_array = require("bs-platform/lib/js/caml_array.js");
 var Belt_Option = require("bs-platform/lib/js/belt_Option.js");
 
@@ -29,9 +29,9 @@ function parse(json) {
 }
 
 function load(param) {
-  return Repromise.Rejectable[/* map */5](parse, Repromise.Rejectable[/* fromJsPromise */10](fetch("https://raw.githubusercontent.com/reuniverse/reuniverse/master/packages/index.json").then((function (prim) {
+  return $$Promise.Js[/* map */5]($$Promise.Js[/* fromBsPromise */13](fetch("https://raw.githubusercontent.com/reuniverse/reuniverse/master/packages/index.json").then((function (prim) {
                         return prim.json();
-                      }))));
+                      }))), parse);
 }
 
 var unwrap = Belt_Option.getExn;
